@@ -1,0 +1,219 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: easy_en_super
+  name: EasyEnglish英漢字典
+  version: "202211"
+  author:
+    - 洋蔥
+  description:
+    Easy English Super
+
+
+style:
+  candidate_font: FSung-2.ttf
+  layout: #懸浮窗口設置
+    position: fixed #位置：left|right|left_up|right_up|fixed|bottom_left|bottom_right|top_left|top_right(left、right需要>=Android5.0)
+    min_length: 1 #最小詞長
+    max_length: 10 #超過字數則換行
+    sticky_lines: 0 #固頂行數
+    sticky_lines_land: 0 #横屏模式下的固顶行数
+    max_entries: 1 #最大詞條數
+    min_check: 3 #只要前n个候选词有长度大于等于min_length的词，就会把长度符合以及之前的词全部加到悬浮窗内。
+    all_phrases: false #所有滿足條件的詞語都顯示在窗口
+    border: 2 #邊框寬度
+    max_width: 230 #最大寬度，超過則自動換行
+    max_height: 400 #最大高度
+    min_width: 40 #最小寬度
+    min_height: 0 #最小高度
+    margin_x: 5 #水平邊距 NOTE: margin_{x, y, bottom} 实际为 padding
+    margin_y: 5 #豎直邊距
+    margin_bottom: 0 #底部边距 （用于适配特定背景图）
+    line_spacing: 0 #候选詞的行間距(px)
+    line_spacing_multiplier: 1.2 #候选詞的行間距(倍數)
+    real_margin: 3 #屏幕左右边缘和悬浮窗之间的距离 TODO: 在 4.0 时给 real_margin 与 spacing 换一个更适合的名字
+    spacing: 1 #屏幕上下边缘或预编辑上下边缘和悬浮窗之间的距离
+    round_corner: 8 #窗口圓角
+    alpha: 0xdd #透明度(0-255)
+    elevation: 5 #陰影(>=Android5.0)
+    movable: once #是否可移動窗口，或僅移動一次 true|false|once
+  window: #懸浮窗口組件
+    - {start: "", move: 'ㄓ ', end: ""}
+    - {start: "", composition: "%s", end: "", letter_spacing: 0} #letter_spacing需要>=Android5.0。TODO: 不爲0時，會導致不換行的問題
+    - {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
+
+switches:
+  - name: ascii_mode
+    reset: 0
+    states: [ On, Off ]
+  - name: en_sort
+    reset: 0
+    states: [ 個排, 序排 ]
+
+engine:
+  processors:
+    - ascii_composer
+    - key_binder
+    - speller
+    - recognizer
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - matcher
+    - ascii_segmentor
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+#    - echo_translator #不要用，會把分號和/上屏
+    - table_translator
+    - script_translator@easy_en_script
+    - punct_translator
+  filters:
+    - lua_filter@en_sort_filter
+    - reverse_lookup_filter@e_reverse_lookup
+    - uniquifier
+
+speller:
+  alphabet: "zyxwvutsrqponmlkjihgfedcba-.;/'"
+  # initials: "zyxwvutsrqponmlkjihgfedcba-./'"
+  delimiter: " "
+  algebra:
+    - derive/^\|$/ /
+    - xform/⌗.*$//
+    # - derive/(.)[;']$/$1/
+    # - derive/^(.+)([;'])$/$2$1/
+
+translator:
+  dictionary: easy_en_super
+  enable_encoder: false
+  encode_commit_history: false
+  enable_completion: true
+  # sentence_over_completion: true
+  enable_sentence: false
+  enable_user_dict: false
+  # strict_spelling: false
+  # spelling_hints: 2
+  # initial_quality: 1000
+  comment_format:
+    - xform/.+//  #刪除尚未輸入完整碼之提示 ~abc
+  #   # - xform/⌗$//
+  #   # - xform|[~a-z;/.'-]+||
+  #   - xform/^.+⌗//
+  #   - xform|^[ a-z;/.'-]+||
+  #   - xform/@@/\n          /
+  #   - xform/@/ /
+
+easy_en_script:
+  __include: /translator
+  # enable_encoder: true
+  enable_completion: false
+  enable_sentence: false
+  enable_user_dict: false
+  # spelling_hints: 1
+  # initial_quality: 0
+  # comment_format: []
+
+e_reverse_lookup:
+  tags: [ abc ]
+  overwrite_comment: true
+  dictionary: easy_en_super
+  comment_format:
+    - xform/^.+⌗//
+    - xform|^[ a-z;/.'-]+||
+    - xform/@@/\n          /
+    - xform/@/ /
+
+key_binder:
+  import_preset: default
+  bindings:
+    - {accept: comma, send: comma, when: has_menu}
+    - {accept: comma, send: comma, when: paging}
+    - {accept: period, send: period, when: has_menu}
+    - {accept: period, send: period, when: paging}
+    - {accept: minus, send: minus, when: has_menu}
+    - {accept: minus, send: minus, when: paging}
+    - {accept: equal, send: equal, when: has_menu}
+    - {accept: equal, send: equal, when: paging}
+### 選字翻頁 ###
+    - {accept: Left, send: Page_Up, when: paging} #直式選單用 #has_menu
+    - {accept: Right, send: Page_Down, when: paging} #直式選單用 #has_menu
+### 快捷鍵轉換排序 ###
+    - {accept: Control+bracketright, toggle: en_sort, when: always} #「easy」選單排序是否照英漢字典順序
+
+punctuator:
+  # import_preset: default
+  full_shape:
+    " " : { commit: "　" }
+    ',' : { commit: "，" }
+    # '.' : { commit: "．" }
+    '<' : { commit: "＜" }
+    '>' : { commit: "＞" }
+    '?' : { commit: "？" }
+    # '/' : { commit: "／" }
+    ':' : { commit: "：" }
+    ';' : { commit: "；" }
+    # "'" : { commit: "＇" }
+    '"' : { commit: '＂' }
+    '\\' : { commit: "＼" }
+    '|' : { commit: "｜" }
+    '`' : { commit: "｀" }
+    '~' : { commit: '～' }
+    '!' : { commit: '！' }
+    '@' : { commit: '＠' }
+    '#' : { commit: '＃' }
+    '%' : { commit: '％' }
+    '$' : { commit: '＄' }
+    '^' : { commit: '＾' }
+    '&' : { commit: '＆' }
+    '*' : { commit: '＊' }
+    '(' : { commit: '（' }
+    ')' : { commit: '）' }
+    '_' : { commit: '＿' }
+    # '-' : { commit: '－' }
+    '+' : { commit: '＋' }
+    '=' : { commit: '＝' }
+    '[' : { commit: '［' }
+    ']' : { commit: '］' }
+    '{' : { commit: '｛' }
+    '}' : { commit: '｝' }
+  half_shape:
+    # ' ' : { commit: ' ' }
+    ',' : { commit: "," }
+    # '.' : { commit: "." }
+    '<' : { commit: "<" }
+    '>' : { commit: ">" }
+    '?' : { commit: "?" }
+    # '/' : { commit: "/" }
+    ':' : { commit: ":" }
+    ';' : { commit: ";" }
+    # "'" : { commit: "'" }
+    '"' : { commit: '"' }
+    '\\' : { commit: "\\" }
+    '|' : { commit: "|" }
+    '`' : { commit: "`" }
+    '~' : { commit: '~' }
+    '!' : { commit: '!' }
+    '@' : { commit: '@' }
+    '#' : { commit: '#' }
+    '%' : { commit: '%' }
+    '$' : { commit: '$' }
+    '^' : { commit: '^' }
+    '&' : { commit: '&' }
+    '*' : { commit: '*' }
+    '(' : { commit: '(' }
+    ')' : { commit: ')' }
+    '_' : { commit: '_' }
+    # '-' : { commit: '-' }
+    '+' : { commit: '+' }
+    '=' : { commit: '=' }
+    '[' : { commit: '[' }
+    ']' : { commit: ']' }
+    '{' : { commit: '{' }
+    '}' : { commit: '}' }
+
+recognizer:
+  import_preset: default
