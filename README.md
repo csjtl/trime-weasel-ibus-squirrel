@@ -97,15 +97,15 @@ trime.yaml
 1. `TGboard.trime.yaml`: 自用主题, 可直接编辑文件. 仿 Google Gboard 输入法的主题及配色
    TGboard样式图:
     - 新世纪五笔
-    ![New-Century-Wubi](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/New-Century-Wubi.webp)
+    ![New-Century-Wubi](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/4305adfa-4dc7-4b01-ba00-2d2c25c251cf)
     - 操作键
-    ![操作键](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Operation-keys.webp)
+    ![操作键](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/eda076fd-8abf-470f-a992-2dcdbaf73f82)
     - 数字键
-    ![数字键](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/number-key.webp)
+    ![数字键](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/4c69b42f-c190-404f-93e4-d16a95f5778a)
     - 符号键
-    ![符号](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/symbol.webp)
+    ![符号](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/0def91dc-749d-4c13-bb91-4897efd7a340)
     - 颜文字
-    ![颜文字](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Kaomoji.webp)
+    ![颜文字](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/62627ce4-37e4-48d2-be73-c1b3f87f4418)
 
 2. TGboard.trime.yaml 初装快速布局调整
 
@@ -139,24 +139,24 @@ trime.yaml
 
 1. `weasel.custom.yaml`: 自用主题配色
     - Weasel-NordLight配色
-    ![Weasel](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Weasel-NordLight.webp)
+    ![Weasel](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/bd0f4c5f-0d41-4088-89a8-14a13a12aa10)
 
 #### xxx.schema.yaml 方案文件
 
 ##### 同文-Trime
 
 - 增广 - 常用
-![增广](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Augmented.webp)
-![常用](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Commonly-used.webp)
+![增广](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/01b9abbe-441a-4ff7-9c5b-5a1cb9358073)
+![常用](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/433117fa-9766-404b-915f-d9933c6dee25)
 - 繁体
-![繁体](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Traditional-Chinese.webp)
+![繁体](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/11c34d1f-1ffe-44aa-ae8a-cdaa73653dd0)
 - unicode区间显示
-![unicode区间显示](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/Unicode-area-display.webp)
+![unicode区间显示](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/187b84ae-f2f0-41e5-ad3c-31b18cf75cf7)
 
 ##### 小狼毫-Weasel
 
 - 新世纪五笔等其它方案
-    ![Weasel](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/scheme.webp)
+    ![Weasel](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/17d308ed-6b4d-4b61-9986-f7f875759b94)
 
 #### xxx.dict.yaml 词典文件
 
