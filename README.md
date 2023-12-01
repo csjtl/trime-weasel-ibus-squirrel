@@ -97,15 +97,15 @@ trime.yaml
 1. `TGboard.trime.yaml`: 自用主题, 可直接编辑文件. 仿 Google Gboard 输入法的主题及配色
    TGboard样式图:
     - 新世纪五笔
-    ![New-Century-Wubi](../assets/rime-scheme-configuration/New-Century-Wubi.webp)
+    ![New-Century-Wubi](../assets/New-Century-Wubi.webp)
     - 操作键
-    ![操作键](../assets/rime-scheme-configuration/Operation-keys.webp)
+    ![操作键](../assets/Operation-keys.webp)
     - 数字键
-    ![数字键](../assets/rime-scheme-configuration/number-key.webp)
+    ![数字键](../assets/number-key.webp)
     - 符号键
-    ![符号](../assets/rime-scheme-configuration/symbol.webp)
+    ![符号](../assets/symbol.webp)
     - 颜文字
-    ![颜文字](../assets/rime-scheme-configuration/Kaomoji.webp)
+    ![颜文字](../assets/Kaomoji.webp)
 
 2. TGboard.trime.yaml 初装快速布局调整
 
@@ -139,24 +139,24 @@ trime.yaml
 
 1. `weasel.custom.yaml`: 自用主题配色
     - Weasel-NordLight配色
-    ![Weasel](../assets/rime-scheme-configuration/Weasel-NordLight.webp)
+    ![Weasel](../assets/Weasel-NordLight.webp)
 
 #### xxx.schema.yaml 方案文件
 
 ##### 同文-Trime
 
 - 增广 - 常用
-![增广](../assets/rime-scheme-configuration/Augmented.webp)
-![常用](../assets/rime-scheme-configuration/Commonly-used.webp)
+![增广](../assets/Augmented.webp)
+![常用](../assets/Commonly-used.webp)
 - 繁体
-![繁体](../assets/rime-scheme-configuration/Traditional-Chinese.webp)
+![繁体](../assets/Traditional-Chinese.webp)
 - unicode区间显示
-![unicode区间显示](../assets/rime-scheme-configuration/Unicode-area-display.webp)
+![unicode区间显示](../assets/Unicode-area-display.webp)
 
 ##### 小狼毫-Weasel
 
 - 新世纪五笔等其它方案
-    ![Weasel](../assets/rime-scheme-configuration/scheme.webp)
+    ![Weasel](../assets/scheme.webp)
 
 #### xxx.dict.yaml 词典文件
 
