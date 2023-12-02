@@ -150,7 +150,7 @@ trime.yaml
 - 增广 - 常用
 ![增广](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/01b9abbe-441a-4ff7-9c5b-5a1cb9358073)
 ![常用](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/433117fa-9766-404b-915f-d9933c6dee25)
-- 繁体
+- 简体 - 繁体
 ![繁体](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/11c34d1f-1ffe-44aa-ae8a-cdaa73653dd0)
 - unicode区间显示
 ![unicode区间显示](https://github.com/csjtl/rime-NewCenturyWubi-rimerc/assets/55336802/187b84ae-f2f0-41e5-ad3c-31b18cf75cf7)
