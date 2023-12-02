@@ -1,5 +1,7 @@
 # rime-NewCenturyWubi-rimerc
 
+[https://tl8517.com/trime-scheme-configuration/](https://tl8517.com/trime-scheme-configuration/)
+
 功能:
     - 超大字符集专为输入“生僻字”(增广)
     - 简入繁出
@@ -14,7 +16,7 @@
     - [同文-Trime](https://github.com/osfans/trime/releases)
     - [小狼毫-Weasel](https://rime.im/download/)
 2. 配置文件:
-    - [同文-Trime / 小狼毫-Weasel](https://github.com/csjtl/rime-NewCenturyWubi-rimerc)
+    - [https://github.com/csjtl/rime-NewCenturyWubi-rimerc](https://github.com/csjtl/rime-NewCenturyWubi-rimerc)
 
 ### 安装
 
