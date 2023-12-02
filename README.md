@@ -166,5 +166,6 @@ trime.yaml
 
 超大字符集专为输入“生僻字”
 含 Unicode 15.1.0 已定义 CJK/CJK-A/CJK-B/CJK-C/CJK-D/CJK-E/CJK-F/CJK-G/CJK-H/CJK-I
-我在 https://github.com/CNMan/UnicodeCJK-WuBi06 的基础上添加了最新的 CJK-I
-问题可反馈至 https://github.com/CNMan/UnicodeCJK-WuBi06 或 https://github.com/csjtl/UnicodeCJK-WuBi06
+我在 [https://github.com/CNMan/UnicodeCJK-WuBi06](https://github.com/CNMan/UnicodeCJK-WuBi06) 的基础上添加了最新的 CJK-I
+问题可反馈至 [https://github.com/CNMan/UnicodeCJK-WuBi06](https://github.com/CNMan/UnicodeCJK-WuBi06) 或
+[https://github.com/csjtl/UnicodeCJK-WuBi06](https://github.com/csjtl/UnicodeCJK-WuBi06)
