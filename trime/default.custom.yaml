@@ -2,7 +2,7 @@ customization:
   distribution_code_name: trime
   distribution_version: "v3.2.15-20231101"
   generator: "Rime::SwitcherSettings"
-  modified_time: "Sun Nov 26 14:42:32 2023"
+  modified_time: "Sun Dec  3 15:23:43 2023"
   rime_version: 1.9.0
 patch:
   "menu/page_size": 117
