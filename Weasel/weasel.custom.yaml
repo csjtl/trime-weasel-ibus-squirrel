@@ -2,41 +2,10 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Wed Nov 22 21:32:23 2023"
+  modified_time: "Thu Dec  7 00:22:16 2023"
   rime_version: 1.8.5
 patch:
-  preset_color_schemes:
-    NordLight: {back_color: 0xECEFF4, border_color: 0xECEFF4, candidate_back_color: 0xECEFF4, candidate_text_color: 0x2E3440, color_format: rgba, comment_text_color: 0xD08770, hilited_back_color: 0xEBCB8B, hilited_candidate_back_color: 0x8FBCBB, hilited_candidate_text_color: 0x2E3440, hilited_comment_text_color: 0xBF616A, hilited_label_color: 0x2E3440c8, hilited_mark_color: 0xBF616A, hilited_text_color: 0x000000, label_color: 0x2E3440b4, name: "Nord 浅色/ Nord light", shadow_color: 0x20000000, text_color: 0x2E3440}
-    apathy: {back_color: 0xFFFFFF, comment_text_color: 0x999999, hilited_candidate_back_color: 0xFFF0E4, hilited_candidate_text_color: 0xEE6E00, name: "冷漠／Apathy", text_color: 0x424242}
-    ayaya: {back_color: 0xF9F9F9, border_color: 0xE7E7E7, candidate_text_color: 0x121212, comment_text_color: 0x8E8E8E, hilited_candidate_back_color: 0xECE4FC, hilited_candidate_label_color: 0xB18FF4, hilited_candidate_text_color: 0x7A40EC, hilited_label_color: 0xA483EC, hilited_mark_color: 0x7A40EC, label_color: 0x888785, name: "文文／Ayaya", text_color: 0x8100EB}
-    macos12_dark: {back_color: 0x1E1F24, border_color: 0x1E1F24, candidate_text_color: 0xE8E8E8, comment_text_color: 0x3F000000, hilited_candidate_back_color: 0xDA6203, hilited_candidate_label_color: 0xFFE7D6, hilited_candidate_text_color: 0xFFFFFF, hilited_comment_text_color: 0x808080, hilited_text_color: 0xD8000000, label_color: 0x7C7C7C, name: macos12_dark, text_color: 0x3F000000}
-    macos12_light: {back_color: 0xFFFFFF, border_color: 0xFFFFFF, candidate_text_color: 0xD8000000, comment_text_color: 0x3F000000, hilited_candidate_back_color: 0xD05925, hilited_candidate_label_color: 0xFFFFFF, hilited_candidate_text_color: 0xFFFFFF, hilited_comment_text_color: 0x808080, hilited_text_color: 0xD8000000, label_color: 0x7F7F7F, name: macos12_light, text_color: 0x3F000000}
-    macos_dark: {back_color: 0x252a2e, border_color: 0x050505, candidate_text_color: 0xe9e9ea, comment_text_color: 0x999999, hilited_back_color: 0xD75A00, hilited_candidate_label_color: 0xFFFFFF, hilited_candidate_text_color: 0xFFFFFF, hilited_comment_text_color: 0x999999, hilited_text_color: 0x999999, label_color: 0x999999, name: macos_dark, text_color: 0x424242}
-    macos_light: {back_color: 0xFFFFFF, border_color: 0xFFFFFF, candidate_text_color: 0x3c3c3c, comment_text_color: 0x999999, hilited_back_color: 0xD75A00, hilited_candidate_label_color: 0xFFFFFF, hilited_candidate_text_color: 0xFFFFFF, hilited_comment_text_color: 0x999999, hilited_text_color: 0x999999, label_color: 0x999999, name: macos_light, text_color: 0x424242}
-    win10: {back_color: 0xffffff, candidate_text_color: 0x000000, comment_text_color: 0x888888, hilited_back_color: 0xffffff, hilited_candidate_back_color: 0xcc8f29, hilited_candidate_text_color: 0xffffff, hilited_comment_text_color: 0xffffff, hilited_label_color: 0xffffff, hilited_text_color: 0x000000, label_color: 0x888888, name: win10, text_color: 0x000000}
-    win10_weasel: {back_color: 0xF3F3F3, border_color: 0xDBDCDC, candidate_text_color: 0x000000, hilited_candidate_back_color: 0xFFD8A6, hilited_label_color: 0x6F6F6F, hilited_mark_color: 0x00000000, label_color: 0x6F6F6F, name: win10_weasel, shadow_color: 0x20000000, text_color: 0x000000}
-    win11_weasel: {back_color: 0xF9F9F9, border_color: 0xE7E7E7, candidate_text_color: 0x000000, hilited_candidate_back_color: 0xF0F0F0, hilited_label_color: 0x727272, hilited_mark_color: 0xFFD8A6, label_color: 0x727272, name: win11_weasel, shadow_color: 0x20000000, text_color: 0x000000}
-  style:
-    antialias_mode: default
-    ascii_tip_follow_cursor: false
-    color_scheme: NordLight
-    comment_font_face: "Microsoft YaHei"
-    comment_font_point: 14
-    display_tray_icon: false
-    enhanced_position: false
-    font_face: "Segoe UI Emoji:30:39, Noto Color Emoji, Plangothic P1, Plangothic P2, Noto Sans SC"
-    font_point: 20
-    fullscreen: false
-    horizontal: true
-    label_font_face: "Microsoft YaHei"
-    label_font_point: 14
-    layout: {align_type: top, border_width: 1, candidate_spacing: 15, corner_radius: 12, hilite_padding: 5, hilite_padding_x: 7, hilite_padding_y: 6, hilite_spacing: 5, margin_x: 10, margin_y: 10, max_height: 0, max_width: 0, min_height: 0, min_width: 160, round_corner: 10, shadow_offset_x: 6, shadow_offset_y: 6, shadow_radius: 13, spacing: 18}
-    mark_text: ""
-    mouse_hover_ms: 0
-    paging_on_scroll: false
-    preedit_type: composition
-    vertical_auto_reverse: false
-    vertical_text: false
-    vertical_text_left_to_right: false
-    vertical_text_with_wrap: false
-  "style/color_scheme": NordLight
+  "preset_color_schemes/+":
+    __include: "weasel_style:/preset_color_schemes"
+  "style/+":
+    __include: "weasel_style:/style"
