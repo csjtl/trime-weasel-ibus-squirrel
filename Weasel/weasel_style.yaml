@@ -4,10 +4,10 @@
 
  #在用户使用「输入法设定」调整设置时，小狼毫会格式化 weasel.custom.yaml，删除所有注释。
  #目前建议的自定义方法：复制此本文件并修改，之后在 weasel.custom.yaml 用 `__include` 引入。示例 weasel.custom.yaml 如下：
- #patch:
- #  "preset_color_schemes/+":
+ #patch: #  "/+"追加,"/="替换
+ #  "preset_color_schemes/=":
  #    __include: "weasel_style_copy:/preset_color_schemes"
- #  "style/+":
+ #  "style/=":
  #    __include: "weasel_style_copy:/style"
 
  #全部 style 选项
@@ -15,7 +15,6 @@
  #Update at：2023.08.20
  #Weasel 版本：15.0, CI #137 <https://github.com/rime/weasel/actions/runs/5912109600>
  #Commit: db79168
-
 style:
   color_scheme: NordLight # 配色方案
   #color_scheme_dark: purity_of_form_custom
@@ -72,10 +71,8 @@ style:
 
 # 全部 color_schemes 选项，点击小狼毫「输入法设定」可以预览皮肤效果
  #在小狼毫用户目录新建 preview 文件夹，将自定义皮肤的截图重命名为 color_scheme_<name>.png 放入此文件夹，可以在「输入法设定」中看到自定义皮肤效果
-
  #小狼毫配色在线设计：
  #[RIME 西米](https://fxliang.github.io/RimeSeeMe/)
-
 preset_color_schemes:
   NordLight: # 需要在 `style/color_schema` 指定的值
     name: "Nord 浅色/ Nord light" # 方案设置中显示的配色名称
@@ -170,10 +167,12 @@ preset_color_schemes:
       shadow_color: 0x20000000
       text_color: 0x000000
 
-#使用方法：在 weasel.custom.yaml 中添加如下两行：
- #"app_options/+":
- #  __include: "weasel_style:/app_options"
-app_options: # 为特定的应用单独设定选项
+# 为特定的应用单独设定选项
+ #使用方法：在 weasel.custom.yaml 中添加如下两行：
+ #patch: #  "/+"追加,"/="替换
+ #  "app_options/=":
+ #    __include: "weasel_style:/app_options"
+app_options:
   appname.exe: # 带 .exe 的进程名，全小写
     ascii_mode: true # 英文模式
     inline_preedit: true # 行内显示预编辑区。当前版本小狼毫将 inline_preedit 设定为 false 时，会在输入时预插入一个空格，这在 Firefox 等应用中会引发问题，需要在此处为这些应用单独指定 inline_preedit。refer <https://github.com/rime/weasel/issues/946>
@@ -182,10 +181,11 @@ app_options: # 为特定的应用单独设定选项
 
 # 以下是一个示例方案
  #使用方法：在 weasel.custom.yaml 中添加如下两行：
- #"style/+":
- #  __include: "weasel_style:/style_purity"
- #"preset_color_schemes/+":
- #  __include: "weasel_style:/schemes_purity"
+ #patch: #  "/+"追加,"/="替换
+ #  "style/+":
+ #    __include: "weasel_style:/style_purity"
+ #  "preset_color_schemes/+":
+ #    __include: "weasel_style:/schemes_purity"
 style_purity:
   color_scheme: purity # 配色方案
   name: "純粹的形式／Purity of Form Custom"
