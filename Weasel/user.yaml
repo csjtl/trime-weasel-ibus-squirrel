@@ -1,7 +1,8 @@
 var:
-  last_build_time: 1701918558
-  previously_selected_schema: wubi06_cjk
+  last_build_time: 1702135490
+  previously_selected_schema: easy_en
   schema_access_time:
+    easy_en: 1702135376
     easy_en_super: 1701179902
     pinyin_simp: 1699760885
     wubi06_cjk: 1701432282

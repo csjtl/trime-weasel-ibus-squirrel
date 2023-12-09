@@ -1,11 +1,12 @@
 var:
-  last_build_time: 1701718561
+  last_build_time: 1702139699
   option:
     ascii_punct: true
     extended_charset: false
-    full_shape: true
+    full_shape: false
   previously_selected_schema: wubi06_cjk
   schema_access_time:
-    easy_en_super: 1701049709
-    pinyin_simp: 1701308141
-    wubi06_cjk: 1701310248
+    easy_en: 1702116344
+    easy_en_super: 1702116503
+    pinyin_simp: 1702115264
+    wubi06_cjk: 1702135974

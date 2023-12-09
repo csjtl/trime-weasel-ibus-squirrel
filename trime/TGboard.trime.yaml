@@ -75,7 +75,7 @@ style:
   candidate_use_cursor: false #高亮候选项
   comment_on_top: true #编码提示在上方或右侧
   horizontal: true #水平模式
-  keyboards: [.default, letter, number, numberb, mini, us_intl, punctuation_more, punctuation_mark, punctuation_mark1, punctuation_mark2, punctuation_mark3, punctuation_mark4, punctuation_mark5, en_punctuation_mark, en_punctuation_mark1, en_punctuation_mark2, money_mark, math_mark, math_mark1, math_mark2, math_mark3, math_mark4, math_mark5, math_mark6, latin_mark, latin_mark1, latin_mark2, latin_mark3, latin_mark4, latin_mark5, geometry_mark, geometry_mark1, geometry_mark2, geometry_mark3, other_mark, other_mark1, other_mark2, other_mark3, emoji_more, emoji_symbols, emoji_face, emoji_face1, emoji_face2, emoji_face3, emoji_face4, emoji_gesture, emoji_people, emoji_people1, emoji_people2, emoji_people3, emoji_people4, emoji_goods, emoji_goods1, emoji_goods2, emoji_goods3, emoji_goods4, emoji_goods5, emoji_goods6, emoji_food, emoji_food1, emoji_food2, emoji_car, emoji_car1, emoji_car2, emoji_car3, emoji_mark, emoji_mark1, emoji_mark2, kaomoji_more, kaomoji_happy, kaomoji_like, kaomoji_sad, kaomoji_angry, kaomoji_surprise, kaomoji_impotent] #键盘配置：自动键盘、字母、数字、符号、精简（供插入实体键盘使用）
+  keyboards: [.default, qwerty, letter, number, numberb, mini, us_intl, punctuation_more, punctuation_mark, punctuation_mark1, punctuation_mark2, punctuation_mark3, punctuation_mark4, punctuation_mark5, en_punctuation_mark, en_punctuation_mark1, en_punctuation_mark2, money_mark, math_mark, math_mark1, math_mark2, math_mark3, math_mark4, math_mark5, math_mark6, latin_mark, latin_mark1, latin_mark2, latin_mark3, latin_mark4, latin_mark5, geometry_mark, geometry_mark1, geometry_mark2, geometry_mark3, other_mark, other_mark1, other_mark2, other_mark3, emoji_more, emoji_symbols, emoji_face, emoji_face1, emoji_face2, emoji_face3, emoji_face4, emoji_gesture, emoji_people, emoji_people1, emoji_people2, emoji_people3, emoji_people4, emoji_goods, emoji_goods1, emoji_goods2, emoji_goods3, emoji_goods4, emoji_goods5, emoji_goods6, emoji_food, emoji_food1, emoji_food2, emoji_car, emoji_car1, emoji_car2, emoji_car3, emoji_mark, emoji_mark1, emoji_mark2, kaomoji_more, kaomoji_happy, kaomoji_like, kaomoji_sad, kaomoji_angry, kaomoji_surprise, kaomoji_impotent] #键盘配置：自动键盘、字母、数字、符号、精简（供插入实体键盘使用）
   proximity_correction: true #按键纠错
   #background_folder: #背景图保存在background目录下的哪个子目录
   reset_ascii_mode: false #显示键盘时重置为中文状态
@@ -563,6 +563,55 @@ liquid_keyboard:
 preset_keyboards:
  #键盘布局
   default:
+    name: 預設40鍵
+    author: "osfans <waxaca@163.com>"
+    ascii_mode: 0
+    width: 10
+    height: 44
+    lock: true #切換程序時記憶鍵盤
+    keys:
+      - {click: q, long_click: 1, key_back_color: bh1, key_text_color: th1}
+      - {click: w, long_click: 2, key_back_color: bh1, key_text_color: th1}
+      - {click: e, long_click: 3, key_back_color: bh1, key_text_color: th1}
+      - {click: r, long_click: 4, key_back_color: bh1, key_text_color: th1}
+      - {click: t, long_click: 5, key_back_color: bh1, key_text_color: th1}
+      - {click: y, long_click: 6, key_back_color: bh1, key_text_color: th1}
+      - {click: u, long_click: 7, key_back_color: bh1, key_text_color: th1}
+      - {click: i, long_click: 8, key_back_color: bh1, key_text_color: th1}
+      - {click: o, long_click: 9, key_back_color: bh1, key_text_color: th1}
+      - {click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
+      - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
+      - {click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '$', key_back_color: key_fj_back_color, key_text_color: th2}
+      - {click: g, long_click: '%', swipe_down: "Time", key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '&', swipe_down: "-", key_back_color: key_fj_back_color, key_text_color: th2}
+      - {click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
+      - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: bh2, key_text_color: th2}
+
+      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
+      - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
+      - {click: v, long_click: paste_clip, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: ";", swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+
+      - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, long_click: Theme_settings, width: 12.5, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
+      - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
+      - {label: '______', click: space, long_click: space_R2, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
+      - {click: '.', label: '。', long_click: Keyboard_kaomoji_mark, key_back_color: bh4, key_text_color: th4}
+      - {click: space_R2, long_click: liquid_keyboard_switch, key_text_size: "18", key_back_color: bh4, key_text_color: th4}
+      - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_back_color: benter, key_text_color: tenter}
+
+  qwerty:
     author: "csjtl"
     name: 预设45键
     width: 10
@@ -623,54 +672,13 @@ preset_keyboards:
       - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
 
   letter:
-    author: "暖暖"
+    __include: /preset_keyboards/default
     name: 26键默认布局2
     width: 10
     #height: 48
     ascii_mode: 1
-    #reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
-    #lock: false
-    keys:
-      - {click: q, long_click: 1, key_back_color: bh1, key_text_color: th1}
-      - {click: w, long_click: 2, key_back_color: bh1, key_text_color: th1}
-      - {click: e, long_click: 3, key_back_color: bh1, key_text_color: th1}
-      - {click: r, long_click: 4, key_back_color: bh1, key_text_color: th1}
-      - {click: t, long_click: 5, key_back_color: bh1, key_text_color: th1}
-      - {click: y, long_click: 6, key_back_color: bh1, key_text_color: th1}
-      - {click: u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: i, long_click: 8, key_back_color: bh1, key_text_color: th1}
-      - {click: o, long_click: 9, key_back_color: bh1, key_text_color: th1}
-      - {click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
-
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
-      - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
-      - {click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '$', key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: g, long_click: '%', swipe_down: "Time", key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '&', swipe_down: "-", key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-
-      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: paste_clip, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: ";", swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
-      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
-
-      - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: Theme_settings, width: 12.5, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
-      - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
-      - {label: '______', click: space, long_click: space_R2, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', label: '。', long_click: Keyboard_kaomoji_mark, key_back_color: bh4, key_text_color: th4}
-      - {click: space_R2, long_click: liquid_keyboard_switch, key_text_size: "18", key_back_color: bh4, key_text_color: th4}
-      - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_back_color: benter, key_text_color: tenter}
+    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
+    lock: false
 
   number:
     author: "暖暖"
