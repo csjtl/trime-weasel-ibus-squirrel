@@ -13,7 +13,7 @@ schema_list:
   - schema: stroke
   - schema: terra_pinyin
   - schema: pinyin_simp
-  - schema: wubi06_gbk
+  - schema: wubi06_cjk
 
 switcher:
   caption: 〔方案選單〕

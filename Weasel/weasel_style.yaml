@@ -16,7 +16,7 @@
  #Weasel 版本：15.0, CI #137 <https://github.com/rime/weasel/actions/runs/5912109600>
  #Commit: db79168
 style:
-  color_scheme: NordLight # 配色方案
+  color_scheme: red # 配色方案
   #color_scheme_dark: purity_of_form_custom
   # 字体设定  # 字体1[:起始码位:结束码位:字重:字形][,字体2 ...]，详情请参考 <https://github.com/rime/weasel/wiki/字體設定>  # 字体会依次 fallback
   font_face: "Segoe UI Emoji:30:39, Noto Color Emoji, Plangothic P1, Plangothic P2, Noto Sans SC" # 全局字体。为了让部分复合型 emoji 正常显示，可以将 emoji 字体放在首位，并指定起始码位防止影响其他字符。refer <https://github.com/rime/weasel/issues/932> 例如：# "Segoe UI Emoji:20:39:bold:italic, Noto Color Emoji SVG:80, Arial:600:6ff, Segoe UI Emoji:80, LXGW Wenkai Narrow"
@@ -31,7 +31,7 @@ style:
 
   # 布局设定，同样可以在 layout 的 type 下指定
   fullscreen: false # 全屏排列：true；false
-  horizontal: true # 横向排列：true；false
+  horizontal: false # 横向排列：true；false
   vertical_text: false # 竖排：true；false
   vertical_text_left_to_right: false # 竖排下从左到右：true；false
   vertical_text_with_wrap: false # 竖排下，自动换行：true；false
@@ -53,7 +53,7 @@ style:
     max_width: 0 # 候选框最大宽度，超过会折叠
     min_height: 0 # 最小高度
     min_width: 160
-    type: horizontal # horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
+    #type: vertical # horizontal（横向）；vertical（竖向） ; vertical_text（竖排文本） ; vertical+fullscreen（全屏） ; horizontal+fullscreen（横向全屏）
     border_width: 1 # 边框宽度，又名 border
     margin_x: 10 # 元素偏离候选边框 X 轴距离；为负值时，不显示候选框
     margin_y: 10 # 元素偏离候选边框 Y 轴距离；为负值时，不显示候选框
@@ -74,37 +74,37 @@ style:
  #小狼毫配色在线设计：
  #[RIME 西米](https://fxliang.github.io/RimeSeeMe/)
 preset_color_schemes:
-  NordLight: # 需要在 `style/color_schema` 指定的值
-    name: "Nord 浅色/ Nord light" # 方案设置中显示的配色名称
-    author: # 配色作者名称
-    color_format: rgba # 颜色格式：argb；rgba；abgr
-    # 默认
-    back_color: 0xECEFF4 # 背景
-    border_color: 0xECEFF4 # 边框
-    comment_text_color: 0xD08770 # 注释
-    label_color: 0x2E3440b4 # 标签
-    shadow_color: 0x20000000 # 阴影
-    text_color: 0x2E3440 # 文字
+  red: # 需要在 `style/color_schema` 指定的值
+    name: "Red/ Gboard" # 方案设置中显示的配色名称
+    author: csjtl # 配色作者名称
+    color_format: argb # 颜色格式：argb；rgba；abgr
+    # 整区
+    back_color: 0xffc62828 # 背景
+    text_color: 0xffffffff # 文字
+    border_color: 0xffc62828 # 边框
+    shadow_color: # 阴影
+    # 编码区
+    hilited_back_color: 0xffd04e4e # 背景
+    hilited_text_color: 0xffffffff # 文字
+    hilited_shadow_color: # 阴影
+    # 选中的候选词区
+    hilited_candidate_back_color: 0xfff44336 # 背景
+    hilited_candidate_text_color: 0xffffffff # 文字
+    hilited_mark_color: #激活標識
+    hilited_label_color: 0xffffffff # 标签序号
+    hilited_comment_text_color: 0xffffffff # 注释/编码提示
+    hilited_candidate_border_color: # 边框
+    hilited_candidate_shadow_color: # 阴影
     # 候选区域
-    candidate_back_color: 0xECEFF4
-    candidate_border_color:
-    candidate_shadow_color:
-    candidate_text_color: 0x2E3440
-    # 高亮区域
-    hilited_back_color: 0xEBCB8B
-    hilited_comment_text_color: 0xBF616A
-    hilited_label_color: 0x2E3440c8
-    hilited_mark_color: 0xBF616A
-    hilited_shadow_color:
-    hilited_text_color: 0x000000
-    # 高亮的候选区域
-    hilited_candidate_back_color: 0x8FBCBB
-    hilited_candidate_border_color:
-    hilited_candidate_shadow_color:
-    hilited_candidate_text_color: 0x2E3440
+    candidate_back_color: 0xffd04e4e # 背景
+    candidate_text_color: 0xffE7B4B4 # 文字
+    label_color: 0xffE7B4B4 # 标签序号
+    comment_text_color: 0xffE7B4B4 # 注释/编码提示
+    candidate_border_color: # 边框
+    candidate_shadow_color: # 阴影
     # 翻页
-    nextpage_color:
-    prevpage_color:
+    prevpage_color: 0xff161616
+    nextpage_color: 0xff161616
   macos12_dark:
       back_color: 0x1E1F24
       border_color: 0x1E1F24
@@ -168,16 +168,18 @@ preset_color_schemes:
       text_color: 0x000000
 
 # 为特定的应用单独设定选项
- #使用方法：在 weasel.custom.yaml 中添加如下两行：
+ #使用方法：在 weasel.custom.yaml 的 patch: 中添加如下两行：
  #patch: #  "/+"追加,"/="替换
  #  "app_options/=":
  #    __include: "weasel_style:/app_options"
 app_options:
-  appname.exe: # 带 .exe 的进程名，全小写
-    ascii_mode: true # 英文模式
-    inline_preedit: true # 行内显示预编辑区。当前版本小狼毫将 inline_preedit 设定为 false 时，会在输入时预插入一个空格，这在 Firefox 等应用中会引发问题，需要在此处为这些应用单独指定 inline_preedit。refer <https://github.com/rime/weasel/issues/946>
-  appname2.exe:
-    ascii_mode: false # 非英文模式
+  windowsterminal.exe: # 带 .exe 的进程名，全小写
+    ascii_mode: true # true 英文模式 / false 非英文模式
+    #inline_preedit: true # 行内显示预编辑区。当前版本小狼毫将 inline_preedit 设定为 false 时，会在输入时预插入一个空格，这在 Firefox 等应用中会引发问题，需要在此处为这些应用单独指定 inline_preedit。refer <https://github.com/rime/weasel/issues/946>
+  code.exe:
+    ascii_mode: true
+  conhost.exe:
+    ascii_mode: true
 
 # 以下是一个示例方案
  #使用方法：在 weasel.custom.yaml 中添加如下两行：

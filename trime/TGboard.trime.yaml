@@ -55,7 +55,7 @@ var_colors:
   2_10: &dark_c10 0x7B7B7B
  #ubuntu颜色
   3_1: &ubuntu_o 0xffe95420 #橙色
-  3_2: &ubuntu_w 0xffFFFFFF #白色
+  3_2: &ubuntu_w 0xffffffff #白色
   3_3: &ubuntu_b 0xff000000 #黑色
  #Gboard red方案
   4_1: &red_tab 0xffe2e4e5 #Typing area background
@@ -663,7 +663,7 @@ preset_keyboards:
       - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_numberb, long_click: Keyboard_number, width: 12.5, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_numberb, long_click: Keyboard_number, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}

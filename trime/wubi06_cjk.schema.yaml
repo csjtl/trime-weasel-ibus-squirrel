@@ -33,10 +33,10 @@ switches:
     states: [ 简体 , 繁体 ]
   - name: charset_comment_filter  #Unicode 区段提示，1开，0关
     reset: 0
-    states: [ U关 , U开 ]
+    states: [ 区关 , 区显 ]
   - name: ascii_punct
     reset: 1
-    states: [ 。，, ．， ]
+    states: [ Unicode , ASCII ]
   - name: emoji_suggestion
     reset: 0
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
