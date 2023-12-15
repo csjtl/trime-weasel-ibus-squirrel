@@ -1,4 +1,5 @@
 {
     "#editor.fontFamily": "全宋体-2, 全宋体-3, 全宋体-1, 'Courier New', monospace, 'Courier New', monospace",
-    "editor.fontFamily": "Microsoft YaHei, Plangothic P1, Plangothic P2, Noto Sans SC, 'Courier New', monospace"
+    "##editor.fontFamily": "Microsoft YaHei, Plangothic P1, Plangothic P2, Noto Sans SC, 'Courier New', monospace",
+    "editor.fontFamily": "Consolas, 'Courier New', monospace"
 }
