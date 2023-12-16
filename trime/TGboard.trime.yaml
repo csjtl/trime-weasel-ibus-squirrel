@@ -23,8 +23,9 @@ var_key: #var_value
   2_9: &kaobottom 120 #颜文字键盘底部按键高度kaomoji_bottom
  #符号位置
   3_1: &ksox_e 17 #字母上方为标点左移距离
-  3_2: &ksoy_c -5 #字母上方为中文-上移距离
+  3_2: &ksoy_c 0 #字母上方为中文-上移距离
   3_3: &sts_c 11 #字母上方为中文-字体大小
+  3_4: &ktox_enter -7 #特殊符号enter-右移距离
  #键盘圆角
   4_1: &round1 20 #按键圆角半径
   4_2: &round2 0 #候选窗口圆角
@@ -89,15 +90,15 @@ style:
   comment_text_size: 12 #编码提示字号
   label_font: label.ttf #编标签字体
   key_long_text_size: 16 #长标签字号
-  symbol_font: PlangothicP2.ttf #符号字体
+  symbol_font: seguisym.ttf #符号字体(特殊符号enter, 删除, tab键)
   symbol_text_size: 13 #按键上方符号字号
   candidate_font: PlangothicP2.ttf #候选字体
   candidate_text_size: 22  #候选字号（状态栏/候选栏）
   hanb_font: PlangothicP1.ttf #候选字后备字体生僻字
   latin_font: latin.ttf #西文本体
-  key_font: PlangothicP2.ttf #键盘字体
+  key_font: seguisym.ttf #键盘字体(特殊符号enter, 删除, tab键)
   key_text_size: 35 #按键字母字号
-  preview_font: PlangothicP2.ttf #按键提示字体
+  preview_font: seguisym.ttf #按键提示字体(特殊符号enter, 删除, tab键)
   preview_text_size: 30 #按键提示字号
   long_text_font: comment.ttf #剪贴板等可能包含大段文本使用的字体
  #界面风格++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -669,7 +670,7 @@ preset_keyboards:
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
 
   letter:
     __include: /preset_keyboards/default
