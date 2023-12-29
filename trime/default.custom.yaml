@@ -2,11 +2,12 @@ customization:
   distribution_code_name: trime
   distribution_version: "v3.2.15-20231104"
   generator: "Rime::SwitcherSettings"
-  modified_time: "Sat Dec  9 23:33:03 2023"
+  modified_time: "Sun Dec 17 22:54:01 2023"
   rime_version: 1.9.0
 patch:
   "menu/page_size": 117
   schema_list:
     - {schema: easy_en}
+    - {schema: pinyin_simp}
     - {schema: easy_en_super}
     - {schema: wubi06_cjk}

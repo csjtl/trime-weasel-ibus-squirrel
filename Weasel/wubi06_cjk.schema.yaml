@@ -36,7 +36,7 @@ switches:
     states: [ 区关 , 区显 ]
   - name: ascii_punct
     reset: 1
-    states: [ Unicode , ASCII ]
+    states: [ ，。 , ，． ]
   - name: emoji_suggestion
     reset: 0
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
