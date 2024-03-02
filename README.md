@@ -2,6 +2,7 @@
 
 [https://tl8517.com/trime-scheme-configuration/](https://tl8517.com/trime-scheme-configuration/)
 
+新世纪五笔配置文件
 功能:
     - 超大字符集专为输入“生僻字”(增广)
     - 简入繁出
