@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1703848623
+  last_build_time: 1709376409
   option:
     ascii_punct: true
     extended_charset: false
@@ -8,5 +8,5 @@ var:
   schema_access_time:
     easy_en: 1702116344
     easy_en_super: 1702116503
-    pinyin_simp: 1703580299
-    wubi06_cjk: 1703828073
+    pinyin_simp: 1709374135
+    wubi06_cjk: 1709374287

@@ -17,7 +17,7 @@ switches:
     reset: 0
     states: [ 中文, 西文 ]
   - name: full_shape
-    reset: 1
+    reset: 0
     states: [ 半角, 全角 ]
   - name: ascii_punct
     reset: 0

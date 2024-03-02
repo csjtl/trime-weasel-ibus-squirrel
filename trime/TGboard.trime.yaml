@@ -44,16 +44,16 @@ var_colors:
   1_9: &dark_c9 0x062D6D
   1_10: &dark_c10 0x7B7B7B
  #浅色方案
-  2_1: &dark_c1 0xC62828
-  2_2: &dark_c2 0xE3E3E3
-  2_3: &dark_c3 0x38393D
-  2_4: &dark_c4 0x1F1F1F
-  2_5: &dark_c5 0x444746
-  2_6: &dark_c6 0xff131313
-  2_7: &dark_c7 0xA8C7FA
-  2_8: &dark_c8 0xff838383
-  2_9: &dark_c9 0x062D6D
-  2_10: &dark_c10 0x7B7B7B
+  2_1: &light_c1 0xC62828
+  2_2: &light_c2 0xE3E3E3
+  2_3: &light_c3 0x38393D
+  2_4: &light_c4 0x1F1F1F
+  2_5: &light_c5 0x444746
+  2_6: &light_c6 0xff131313
+  2_7: &light_c7 0xA8C7FA
+  2_8: &light_c8 0xff838383
+  2_9: &light_c9 0x062D6D
+  2_10: &light_c10 0x7B7B7B
  #ubuntu颜色
   3_1: &ubuntu_o 0xffe95420 #橙色
   3_2: &ubuntu_w 0xffffffff #白色
@@ -92,9 +92,11 @@ style:
   key_long_text_size: 16 #长标签字号
   symbol_font: seguisym.ttf #符号字体(特殊符号enter, 删除, tab键)
   symbol_text_size: 13 #按键上方符号字号
-  candidate_font: PlangothicP2.ttf #候选字体
+  candidate_font: #候选字体  # List
+    - PlangothicP2.ttf
+    - PlangothicP1.ttf
   candidate_text_size: 22  #候选字号（状态栏/候选栏）
-  hanb_font: PlangothicP1.ttf #候选字后备字体生僻字
+  #hanb_font: PlangothicP1.ttf #候选字后备字体生僻字
   latin_font: latin.ttf #西文本体
   key_font: seguisym.ttf #键盘字体(特殊符号enter, 删除, tab键)
   key_text_size: 35 #按键字母字号
@@ -214,9 +216,9 @@ fallback_colors:
 
 preset_color_schemes: #配色方案
   default:
-    name: "深色/default"  #方案名称
+    name: 深色  #方案名称
     author: csjtl #作者信息
-    light_scheme: light
+    #light_scheme: light
     back_color: *dark_c4 #状态栏(候选区)/打字区光标（符号^）的背景
     border_color: 0xffe95420 #边框
     candidate_separator_color: *dark_c5 #候选区文字间分割线
@@ -273,7 +275,7 @@ preset_color_schemes: #配色方案
 
 #--------配色开始----------------#
   light: #0xffe95420
-    name: 明亮/default #方案名称
+    name: 明亮 #方案名称
     author: csjtl #作者资讯
     back_color: 0xffEFF4FA #候选区背景
     border_color: 0xffff0000 #边框
@@ -564,53 +566,64 @@ liquid_keyboard:
 preset_keyboards:
  #键盘布局
   default:
-    name: 預設40鍵
-    author: "osfans <waxaca@163.com>"
-    ascii_mode: 0
+    author: "csjtl"
+    name: 预设45键
     width: 10
-    height: 44
-    lock: true #切換程序時記憶鍵盤
+    #height: 9
+    #lock: true #切换程序时记忆键盘
+    ascii_mode: 0
     keys:
-      - {click: q, long_click: 1, key_back_color: bh1, key_text_color: th1}
-      - {click: w, long_click: 2, key_back_color: bh1, key_text_color: th1}
-      - {click: e, long_click: 3, key_back_color: bh1, key_text_color: th1}
-      - {click: r, long_click: 4, key_back_color: bh1, key_text_color: th1}
-      - {click: t, long_click: 5, key_back_color: bh1, key_text_color: th1}
-      - {click: y, long_click: 6, key_back_color: bh1, key_text_color: th1}
-      - {click: u, long_click: 7, key_back_color: bh1, key_text_color: th1}
-      - {click: i, long_click: 8, key_back_color: bh1, key_text_color: th1}
-      - {click: o, long_click: 9, key_back_color: bh1, key_text_color: th1}
-      - {click: p, long_click: 0, key_back_color: bh1, key_text_color: th1}
+      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+
+      - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: bh1, key_text_color: th1}
+      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
 
       - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: select_all, key_back_color: bh2, key_text_color: th2}
-      - {click: s, long_click: '@', key_back_color: bh2, key_text_color: th2}
-      - {click: d, long_click: '#', key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '$', key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: g, long_click: '%', swipe_down: "Time", key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: '!', swipe_down: "+", key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '&', swipe_down: "-", key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: k, long_click: '*', swipe_down: "_", key_back_color: bh2, key_text_color: th2}
-      - {click: l, long_click: '(){Left}', swipe_down: "=", key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
+      - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh2, key_text_color: th2}
+      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
+      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
+      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
 
-      - {click: Shift_L, composing: delimiter, width: 15, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, long_click: '`', swipe_down: '[]{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: cut, swipe_down: '{}{Left}', key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: copy, swipe_down: ' ', key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: paste_clip, swipe_down: paste, key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: ";", swipe_down: "\\", key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: ":", key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: '?', swipe_down: "|", key_back_color: bh3, key_text_color: th3}
-      - {click: BackSpace, width: 15, key_back_color: bbs, key_text_color: tbs}
+      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
+      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: bh3, key_text_color: th3}
+      - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
+      - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_number, long_click: Menu, width: 12.5, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: Theme_settings, width: 12.5, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
-      - {click: ',', label: '，', long_click: '<>{Left}', key_back_color: bh4, key_text_color: th4}
-      - {label: '______', click: space, long_click: space_R2, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', label: '。', long_click: Keyboard_kaomoji_mark, key_back_color: bh4, key_text_color: th4}
-      - {click: space_R2, long_click: liquid_keyboard_switch, key_text_size: "18", key_back_color: bh4, key_text_color: th4}
-      - {click: Return, composing: Return1, swipe_up: Escape, width: 15, key_back_color: benter, key_text_color: tenter}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
+      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
+      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
+      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
+      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
+      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
 
   qwerty:
     author: "csjtl"
@@ -664,7 +677,7 @@ preset_keyboards:
       - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
 
-      - {click: Keyboard_numberb, long_click: Keyboard_number, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
@@ -846,8 +859,8 @@ preset_keyboards:
     author: "csjtl"
     name: 标点符号更多
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: Keyboard_math_mark, width: 100, key_text_size: "16"}
     - {click: Keyboard_latin_mark, width: 100, key_text_size: "16"}
@@ -867,8 +880,8 @@ preset_keyboards:
     author: "csjtl"
     name: 语言标点符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '、'}
     - {click: '。'}
@@ -1457,8 +1470,8 @@ preset_keyboards:
     author: "csjtl"
     name: 货币符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '$'}
     - {click: '€'}
@@ -1526,8 +1539,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⁰'}
     - {click: '¹'}
@@ -1601,8 +1614,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'Ⅵ'}
     - {click: 'Ⅶ'}
@@ -1676,8 +1689,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '∗'}
     - {click: '∘'}
@@ -1751,8 +1764,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '≑'}
     - {click: '≒'}
@@ -1826,8 +1839,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⊋'}
     - {click: '⊌'}
@@ -1901,8 +1914,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⋅'}
     - {click: '⋆'}
@@ -1976,8 +1989,8 @@ preset_keyboards:
     author: "csjtl"
     name: 数学符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⌗'}
     - {click: '⏨'}
@@ -2042,8 +2055,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'Ā'}
     - {click: 'ā'}
@@ -2117,8 +2130,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'ê'}
     - {click: 'ë'}
@@ -2192,8 +2205,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号3
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'Į'}
     - {click: 'ɨ'}
@@ -2267,8 +2280,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号4
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'ǒ'}
     - {click: 'ô'}
@@ -2342,8 +2355,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号5
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'ū'}
     - {click: 'ú'}
@@ -2417,8 +2430,8 @@ preset_keyboards:
     author: "csjtl"
     name: 拉丁符号6
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: 'ʖ'}
     - {click: 'ʘ'}
@@ -2443,8 +2456,8 @@ preset_keyboards:
     author: "csjtl"
     name: 几何符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '←'}
     - {click: '↑'}
@@ -2518,8 +2531,8 @@ preset_keyboards:
     author: "csjtl"
     name: 几何符号2
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⇉'}
     - {click: '⇊'}
@@ -2593,8 +2606,8 @@ preset_keyboards:
     author: "csjtl"
     name: 几何符号3
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '▧'}
     - {click: '▨'}
@@ -2668,8 +2681,8 @@ preset_keyboards:
     author: "csjtl"
     name: 几何符号4
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '◥'}
     - {click: '◢'}
@@ -2724,8 +2737,8 @@ preset_keyboards:
     author: "csjtl"
     name: 其它符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⨀'}
     - {click: '⨁'}
@@ -2799,8 +2812,8 @@ preset_keyboards:
     author: "csjtl"
     name: 其它符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⨺'}
     - {click: '⨻'}
@@ -2874,8 +2887,8 @@ preset_keyboards:
     author: "csjtl"
     name: 其它符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⩴'}
     - {click: '⩵'}
@@ -2949,8 +2962,8 @@ preset_keyboards:
     author: "csjtl"
     name: 其它符号1
     ascii_mode: 0
-    #width: 10
-    #height: *pmark
+    width: 10
+    height: *pmark
     keys:
     - {click: '⫛'}
     - {click: '⫝̸'}
