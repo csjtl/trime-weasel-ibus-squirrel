@@ -3,11 +3,12 @@
 [https://tl8517.com/trime-scheme-configuration/](https://tl8517.com/trime-scheme-configuration/)
 
 新世纪五笔配置文件
-功能:
-    - 超大字符集专为输入“生僻字”(增广)
-    - 简入繁出
-    - 字符在 Unicode 区间的显示
-    - Emoji表情
+
+- 功能:
+  1. 超大字符集专为输入“生僻字”(增广)
+  2. 简入繁出
+  3. 字符在 Unicode 区间的显示
+  4. Emoji表情
 
 ## 下载及安装
 
