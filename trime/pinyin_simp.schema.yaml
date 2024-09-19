@@ -67,6 +67,7 @@ speller:
 
 translator:
   dictionary: pinyin_simp
+  enable_user_dict: true
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
