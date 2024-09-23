@@ -12,6 +12,10 @@ schema:
 #  dependencies:
 #    - stroke
 
+style:
+  candidate_font: PlangothicP2.ttf
+  hanb_font: PlangothicP1.ttf
+
 switches:
   - name: ascii_mode
     reset: 0
@@ -83,7 +87,7 @@ reverse_lookup:
     - xlit/hspnz/一丨丿丶乙/
 
 punctuator:
-  import_preset: symbols
+  import_preset: default
 
 key_binder:
   import_preset: default

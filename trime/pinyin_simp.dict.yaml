@@ -12,7 +12,7 @@ name: pinyin_simp
 version: "20240919"
 sort: by_weight
 import_tables:
-    - CustomPinyinDictionary_Fcitx
+    - PinyinDictionary_Fcitx
 ...
 
 鼥	ba	0

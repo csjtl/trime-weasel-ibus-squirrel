@@ -1,9 +1,9 @@
 var:
-  last_build_time: 1726730929
+  last_build_time: 1727068121
   option:
     ascii_punct: true
     extended_charset: true
-    full_shape: false
+    full_shape: true
   previously_selected_schema: pinyin_simp
   schema_access_time:
     easy_en: 1702116344
