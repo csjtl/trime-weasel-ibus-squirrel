@@ -19,13 +19,16 @@ style:
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ 中文, 西文 ]
+    states: [ 中文 , 英文 ]
   - name: full_shape
     reset: 0
-    states: [ 半角, 全角 ]
+    states: [ 🌙 , 🌕️ ]
   - name: ascii_punct
-    reset: 0
+    reset: 1
     states: [ 。，, ．， ]
+  - name: emoji_suggestion
+    reset: 0
+    states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
 
 engine:
   processors:
@@ -45,8 +48,14 @@ engine:
     - fallback_segmentor
   translators:
     - punct_translator
-    - script_translator
+    - table_translator
     - reverse_lookup_translator
+    - script_translator
+  filters:
+    - lua_filter@charset_comment_filter
+    - simplifier@zh_trad
+    - simplifier@emoji_suggestion
+    - uniquifier
 
 speller:
   alphabet: zyxwvutsrqponmlkjihgfedcba
@@ -100,3 +109,8 @@ recognizer:
     # this change.
     punct: "^/([0-9]+[a-z]*|[a-z]+)$"
     reverse_lookup: "`[a-z]*'?$"
+
+emoji_suggestion:
+  opencc_config: emoji.json
+  option_name: emoji_suggestion
+  tips: all
