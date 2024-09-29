@@ -75,9 +75,8 @@ style:
  #功能开关++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   auto_caps: ascii #自动句首大写:true|false|ascii
   candidate_use_cursor: false #高亮候选项
-  comment_on_top: true #编码提示在上方或右侧
   horizontal: true #水平模式
-  keyboards: [.default, qwerty, letter, number, numberb, mini, us_intl, punctuation_more, punctuation_mark, en_punctuation_mark, money_mark, emoji_symbols, kaomoji_happy, math_mark, latin_mark, geometry_mark, other_mark] #键盘配置：自动键盘、字母、数字、符号、精简（供插入实体键盘使用）
+  keyboards: [.default, letter, number, symbols, mini]
   proximity_correction: true #按键纠错
   #background_folder: #背景图保存在background目录下的哪个子目录
   reset_ascii_mode: false #显示键盘时重置为中文状态
@@ -111,6 +110,8 @@ style:
   candidate_padding: 11  #候选项内边距（竖线间的距离）
   candidate_spacing: 0.5  #候选间距（字词间的竖线）
   candidate_view_height: 30 #候选区高度
+  comment_position: top
+  comment_on_top: true #编码提示在上方或右侧
   comment_height: 14 #编码提示区高度
   horizontal_gap: *hgap #键水平间距
   background_dim_amount: 0.5
@@ -146,10 +147,16 @@ style:
     background: background.png #颜色或者backgrounds目录下的图片文档名
     movable: false #是否可移动窗口，或仅移动一次 true|false|once
   window: #悬浮窗口组件
-  #- {start: "", move: ' ㄓ ', end: ""}
+    #- {start: "", move: ' ㄓ ', end: ""}
     - {start: "", composition: "%s", end: "", letter_spacing: 0.12} #letter_spacing需要>=Android5.0。TODO: 不爲0时，会导致不换行的问题
     #- {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
     - {start: "\n", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
+  liquid_keyboard_window: #液态键盘模式下显示的悬浮窗口组件
+    - {start: "", click: "space", label: " 空格 "}
+    - {start: "", click: "BackSpace", label: " 删除 "}
+    - {start: "", click: "Return", label: " 回车 "}
+    - {start: "", click: "liquid_keyboard_exit", label: " 返回 "}
+
   key_height: *ajgd4 #键高
   key_width: 10.0 #键宽，占屏幕宽的百分比
   label_text_size: *ytgdjl #标签字号
@@ -162,7 +169,7 @@ style:
   #text_height: 32 #编码区高度
   vertical_correction: -5
   vertical_gap: *sgap #键盘行距
-  #key_long_text_border: 1
+  key_long_text_border: 1
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
     go: 前往
@@ -197,8 +204,8 @@ preset_color_schemes: #配色方案
     hilited_key_back_color: *dark_c4 #按住按键时按键的底色
     hilited_key_symbol_color: *dark_c5 #点击按键时的符号
     hilited_key_text_color: *dark_c5 #点击按键时的文本
-    hilited_off_key_back_color: *dark_c1 #高亮按键关闭状态背景（未知）
-    hilited_off_key_text_color: *dark_c1 #高亮按键关闭状态文本（未知）
+    hilited_off_key_back_color: *dark_c4 #高亮按键关闭状态背景（未知）所有功能键背景色
+    hilited_off_key_text_color: *dark_c5 #高亮按键关闭状态文本（未知）所有功能键文本色
     hilited_on_key_back_color: 0xffe95420 #标明按键打开状态背景
     hilited_on_key_text_color: 0xffffffff #标明按键打开状态文字
     key_back_color: *dark_c3 #非主键盘按键背景
@@ -206,8 +213,8 @@ preset_color_schemes: #配色方案
     key_text_color: *dark_c2 #非主键盘按键文本
     keyboard_back_color: *dark_c4 #主键盘背景
     key_symbol_color: *dark_c2 #键盘按键长按符号（按键主字母/文字上方）
-    off_key_back_color: *dark_c1  #按键关闭状态背景（未知）
-    off_key_text_color: *dark_c1 #按键关闭状态文本（未知）
+    off_key_back_color: *dark_c5  #按键关闭状态背景（未知）所有功能键背景色
+    off_key_text_color: *dark_c2 #按键关闭状态文本（未知）所有功能键文本色
     on_key_back_color: 0xffe95420 #按键打开状态背景
     on_key_text_color: 0xffffffff #按键打开状态文字
     preview_back_color: *dark_c3 #按键弹出显示背景
@@ -401,6 +408,7 @@ liquid_keyboard:
   single_width: 60    #single类型的按键宽度
   vertical_gap: 2     #纵向按键间隙
   margin_x: 2       #左右按键间隙的1/2
+  keyboards: [history, clipboard, candidate, collection, draft, ids, symbollist, list, symbol, tabs, math, unit, combing, yanwenzi, emoji_full, ascii, cn]  #tab列表
   fixed_key_bar: # 固定按键条
     position: bottom  # 摆放位置（在滚动区域的……） top|bottom|left|right
     keys: # 按键（显示名称为对应的label，不能放太多）
@@ -410,9 +418,8 @@ liquid_keyboard:
       - Return1
       - liquid_keyboard_clipboard
       - liquid_keyboard_tabs
-      - Keyboard_number1
-      - Keyboard_numberb
-  keyboards: [history, clipboard, candidate, collection, draft, symbollist, list, ids, symbol, tabs, unit, yanwenzi, combing, emoji_full, math, ascii, cn]  #tab列表
+      - liquid_keyboard_number
+      - liquid_keyboard_numberb
   tabs:
     name: 更多
     type: TABS
@@ -431,7 +438,7 @@ liquid_keyboard:
     type: HISTORY
   emoji_full:
     type: VAR_LENGTH
-    name: 全emoji
+    name: emoji
     keys: ["------------------------ 表情符号 ------------------------", "😀", "😃", "😄", "😁", "😆", "😅", "😂", "🤣", "😭", "😉", "😗", "😙", "😚", "😘", "🥰", "😍", "🤩", "🥳", "🫠", "🙃", "🙂", "🥲", "🥹", "😊", "☺", "️😌", "🙂", "‍🙂‍↔️", "️😏", "🤤", "😋", "😛", "😝", "😜", "🤪", "🥴", "😔", "🥺", "😬", "😑", "😐", "😶", "😶", "‍😶‍🌫️", "️🫥", "🤐", "🫡", "🤔", "🤫", "🫢", "🤭", "🥱", "🤗", "🫣", "😱", "🤨", "🧐", "😒", "🙄", "‍😮‍💨", "😤", "😠", "😡", "🤬", "😞", "😓", "😟", "😥", "😢", "☹️", "️🙁", "🫤", "😕", "😰", "😨", "😧", "😦", "😮", "😯", "😲", "😳", "🤯", "😖", "😣", "😩", "😫", "😵", "😵", "‍💫", "🫨", "🥶", "🥵", "🤢", "🤮", "😴", "😪", "🤧", "🤒", "🤕", "😷", "🤥", "😇", "🤠", "🤑", "🤓", "😎", "🥸", "🤡", "😈", "👿", "👻", "💀", "☠", "️👹", "👺", "🎃", "💩", "🤖", "👽", "👾", "🌚", "🌝", "🌞", "🌛", "🌜", "🙈", "🙉", "🙊", "😺", "😸", "😹", "😻", "😼", "😽", "🙀", "😿", "😾", "💫", "⭐", "🌟", "✨", "💥", "💨", "💦", "💤", "🕳", "️🔥", "💯", "🎉", "❤", "️🧡", "💛", "💚", "🩵", "💙", "💜", "🤎", "🖤", "🩶", "🤍", "🩷", "💘", "💝", "💖", "💗", "💓", "💞", "💕", "💌", "💟", "♥", "️❣", "️❤", "️‍🩹", "💔", "❤", "️‍🔥", "💋", "🫂", "👥", "👤", "🗣", "️👣", "🧠", "🫀", "🫁", "🩸", "🦠", "🦷", "🦴", "👀", "👁", "️👄", "🫦", "👅", "👃", "👂", "🦻", "🦶", "🦵", "🦿", "🦾", "💪", "👏", "👍", "👎", "🫶", "🙌", "👐", "🤲", "🤜", "🤛", "✊", "👊", "🫳", "🫴", "🫱", "🫲", "🫸", "🫷", "👋", "🤚", "🖐", "️✋", "🖖", "🤟", "🤘", "✌", "️🤞", "🫰", "🤙", "🤌", "🤏", "👌", "🫵", "👉", "👈", "☝", "️👆", "👇", "🖕", "✍", "️🤳", "🙏", "💅", "🤝", "--------------------------- 人物 ---------------------------", "🙇", "🙋", "💁", "🙆", "🙅", "🤷", "🤦", "🙍", "🙎", "🧏", "💆", "💇", "🧖", "🛀", "🛌", "🧘", "🧍", "🤸", "🧎", "🧑", "‍🦼", "🧑", "‍🦽", "🧑", "‍🦯", "🚶", "🏃", "⛹", "️🤾", "🚴", "🚵", "🧗", "🏋", "️🤼", "🤹", "🏌", "️🏇", "🤺", "⛷", "️🏂", "🪂", "🏄", "🚣", "🏊", "🤽", "🧜", "🧚", "🧞", "🧝", "🧙", "🧛", "🧟", "🧌", "🦸", "🦹", "🥷", "🧑", "‍🎄", "👼", "💂", "🫅", "🤵", "👰", "🧑", "‍🚀", "👷", "👮", "🕵", "️🧑", "‍✈", "️🧑", "‍🔬", "🧑", "‍⚕", "️🧑", "‍🔧", "🧑", "‍🏭", "🧑", "‍🚒", "🧑", "‍🌾", "🧑", "‍🏫", "🧑", "‍🎓", "🧑", "‍💼", "🧑", "‍⚖", "️🧑", "‍💻", "🧑", "‍🎤", "🧑", "‍🎨", "🧑", "‍🍳", "👳", "🧕", "👲", "👶", "🧒", "🧑", "🧓", "🧑", "‍🦳", "🧑", "‍🦰", "👱", "🧑", "‍🦱", "🧑", "‍🦲", "🧔", "🕴", "️💃", "🕺", "👯", "🧑", "‍🤝", "‍🧑", "👭", "👬", "👫", "💏", "👩", "‍❤", "️‍💋", "‍👨", "👨", "‍❤", "️‍💋", "‍👨", "👩", "‍❤", "️‍💋", "‍👩", "💑", "👩", "‍❤", "️‍👨", "👨", "‍❤", "️‍👨", "👩", "‍❤", "️‍👩", "🫄", "🤱", "🧑", "‍🍼", "----------------------- 动物和自然 -----------------------", "💐", "🌹", "🥀", "🌺", "🌷", "🪷", "🌸", "💮", "🏵", "️🪻", "🌻", "🌼", "🍂", "🍁", "🍄", "🌾", "🌱", "🌿", "🍃", "☘", "️🍀", "🪴", "🌵", "🌴", "🌳", "🌲", "🪵", "🪹", "🪺", "🪨", "⛰", "️🏔", "️❄", "️☃", "️⛄", "🌫", "️🌡", "️🔥", "🌋", "🏜", "️🏞", "️🏝", "️🏖", "️🌅", "🌄", "🌈", "🫧", "🌊", "🌬", "️🌀", "🌪", "️⚡", "☔", "💧", "☁", "️🌨", "️🌧", "️🌩", "️⛈", "️🌦", "️🌥", "️⛅", "🌤", "️☀", "️🌞", "🌝", "🌚", "🌜", "🌛", "⭐", "🌟", "✨", "💫", "🌙", "☄", "️🕳", "️🌠", "🌌", "🌍", "🌎", "🌏", "🪐", "🌑", "🌒", "🌓", "🌔", "🌕", "🌖", "🌗", "🌘", "🙈", "🙉", "🙊", "🐵", "🦁", "🐯", "🐱", "🐶", "🐺", "🐻", "🐻", "‍❄", "️🐨", "🐼", "🐹", "🐭", "🐰", "🦊", "🦝", "🐮", "🐷", "🐽", "🐗", "🦓", "🦄", "🐴", "🫎", "🐲", "🦎", "🐉", "🦖", "🦕", "🐢", "🐊", "🐍", "🐸", "🐇", "🐁", "🐀", "🐈", "🐈", "‍⬛", "🐩", "🐕", "🦮", "🐕", "‍🦺", "🐖", "🐎", "🫏", "🐄", "🐂", "🐃", "🦬", "🐏", "🐑", "🐐", "🦌", "🦙", "🦥", "🦘", "🐘", "🦣", "🦏", "🦛", "🦒", "🐆", "🐅", "🐒", "🦍", "🦧", "🐪", "🐫", "🐿", "️🦫", "🦨", "🦡", "🦔", "🦦", "🦇", "🪽", "🪶", "🐦", "🐦", "‍⬛", "🐓", "🐔", "🐣", "🐤", "🐥", "🦅", "🦉", "🦜", "🕊", "️🦤", "🦢", "🦆", "🪿", "🦩", "🦚", "🐦", "‍🔥", "🦃", "🐧", "🦭", "🦈", "🐬", "🐋", "🐳", "🐟", "🐠", "🐡", "🦐", "🦞", "🦀", "🦑", "🐙", "🪼", "🦪", "🪸", "🦂", "🕷", "️🕸", "️🐚", "🐌", "🐜", "🦗", "🪲", "🦟", "🪳", "🪰", "🐝", "🐞", "🦋", "🐛", "🪱", "🦠", "🐾", "----------------------- 食品和饮料 -----------------------", "🍓", "🍒", "🍎", "🍉", "🍑", "🍊", "🥭", "🍍", "🍌", "🍋", "🍋", "‍🟩", "🍈", "🍏", "🍐", "🥝", "🫒", "🫐", "🍇", "🥥", "🍅", "🌶", "️🫚", "🥕", "🧅", "🌽", "🥦", "🥒", "🥬", "🫛", "🫑", "🥑", "🍠", "🍆", "🧄", "🥔", "🍄", "‍🟫", "🫘", "🌰", "🥜", "🍞", "🫓", "🥐", "🥖", "🥯", "🧇", "🥞", "🍳", "🥚", "🧀", "🥓", "🥩", "🍗", "🍖", "🍔", "🌭", "🥪", "🥨", "🍟", "🍕", "🫔", "🌮", "🌯", "🥙", "🧆", "🥘", "🍝", "🥫", "🫕", "🥣", "🥗", "🍲", "🍛", "🍜", "🦪", "🦞", "🍣", "🍤", "🥡", "🍚", "🍱", "🥟", "🍢", "🍙", "🍘", "🍥", "🍡", "🥠", "🥮", "🍧", "🍨", "🍦", "🥧", "🍰", "🍮", "🎂", "🧁", "🍭", "🍬", "🍫", "🍩", "🍪", "🍯", "🧂", "🧈", "🍿", "🧊", "🫙", "🥤", "🧋", "🧃", "🥛", "🍼", "🍵", "☕", "🫖", "🧉", "🍺", "🍻", "🥂", "🍾", "🍷", "🥃", "🫗", "🍸", "🍹", "🍶", "🥢", "🍴", "🥄", "🔪", "🍽", "----------------------- 旅游和地点 -----------------------", "🛑", "🚧", "🚨", "⛽", "🛢", "️🧭", "🛞", "🛟", "⚓", "🚏", "🚇", "🚥", "🚦", "🛴", "🦽", "🦼", "🩼", "🚲", "🛵", "🏍", "️🚙", "🚗", "🛻", "🚐", "🚚", "🚛", "🚜", "🏎", "️🚒", "🚑", "🚓", "🚕", "🛺", "🚌", "🚈", "🚝", "🚅", "🚄", "🚂", "🚃", "🚋", "🚎", "🚞", "🚊", "🚉", "🚍", "🚔", "🚘", "🚖", "🚆", "🚢", "🛳", "️🛥", "️🚤", "⛴", "️⛵", "🛶", "🚟", "🚠", "🚡", "🚁", "🛸", "🚀", "✈", "️🛫", "🛬", "🛩", "️🛝", "🎢", "🎡", "🎠", "🎪", "🗼", "🗽", "🗿", "🗻", "🏛", "️💈", "⛲", "⛩", "️🕍", "🕌", "🕋", "🛕", "⛪", "💒", "🏩", "🏯", "🏰", "🏗", "️🏢", "🏭", "🏬", "🏪", "🏟", "️🏦", "🏫", "🏨", "🏣", "🏤", "🏥", "🏚", "️🏠", "🏡", "🏘", "️🛖", "⛺", "🏕", "️⛱", "️🏙", "️🌆", "🌇", "🌃", "🌉", "🌁", "🛤", "️🛣", "️🗾", "🗺", "️🌐", "💺", "🧳", "----------------------- 活动与庆国 -----------------------", "🎉", "🎊", "🎈", "🎂", "🎀", "🎁", "🎇", "🎆", "🧨", "🧧", "🪔", "🪅", "🪩", "🎐", "🎏", "🎎", "🎑", "🎍", "🎋", "🎄", "🎃", "🎗", "️🥇", "🥈", "🥉", "🏅", "🎖", "️🏆", "📢", "⚽", "⚾", "🥎", "🏀", "🏐", "🏈", "🏉", "🥅", "🎾", "🏸", "🥍", "🏏", "🏑", "🏒", "🥌", "🛷", "🎿", "⛸", "️🛼", "🩰", "🛹", "⛳", "🎯", "🏹", "🥏", "🪃", "🪁", "🎣", "🤿", "🩱", "🎽", "🥋", "🥊", "🎱", "🏓", "🎳", "♟", "️🪀", "🧩", "🎮", "🕹", "️👾", "🔫", "🎲", "🎰", "🎴", "🀄", "🃏", "🪄", "🎩", "📷", "📸", "🖼", "️🎨", "🖌", "️🖍", "️🪡", "🧵", "🧶", "🎹", "🎷", "🎺", "🎸", "🪕", "🎻", "🪘", "🥁", "🪇", "🪈", "🪗", "🎤", "🎧", "🎚", "️🎛", "️🎙", "️📻", "📺", "📼", "📹", "📽", "️🎥", "🎞", "️🎬", "🎭", "🎫", "🎟", "--------------------------- 物体 ---------------------------", "📱", "☎", "️📞", "📟", "📠", "🔌", "🔋", "🪫", "🖲", "️💽", "💾", "💿", "📀", "🖥", "️💻", "⌨", "️🖨", "️🖱", "️🪙", "💸", "💵", "💴", "💶", "💷", "💳", "💰", "🧾", "🧮", "⚖", "️🛒", "🛍", "️🕯", "️💡", "🔦", "🏮", "🧱", "🪟", "🪞", "🚪", "🪑", "🛏", "️🛋", "️🚿", "🛁", "🚽", "🧻", "🪠", "🧸", "🪆", "🧷", "🪢", "🧹", "🧴", "🧽", "🧼", "🪥", "🪒", "🪮", "🧺", "🧦", "🧤", "🧣", "👖", "👕", "🎽", "👚", "👔", "👗", "👘", "🥻", "🩱", "👙", "🩳", "🩲", "🧥", "🥼", "🦺", "⛑", "️🪖", "🎓", "🎩", "👒", "🧢", "👑", "🪭", "🎒", "👝", "👛", "👜", "💼", "🧳", "☂", "️🌂", "💍", "💎", "💄", "👠", "👟", "👞", "🥿", "🩴", "👡", "👢", "🥾", "🦯", "🕶", "️👓", "🥽", "⚗", "️🧫", "🧪", "🌡", "️💉", "💊", "🩹", "🩺", "🩻", "🧬", "🔭", "🔬", "📡", "🛰", "️🧯", "🪓", "🪜", "🪣", "🪝", "🧲", "🧰", "🗜", "️🔩", "🪛", "🪚", "🔧", "🔨", "⚒", "️🛠", "️⛏", "️⚙", "️⛓", "️‍💥", "🔗", "⛓", "️📎", "🖇", "️📏", "📐", "🖌", "️🖍", "️🖊", "️🖋", "️✒", "️✏", "️📝", "📖", "📚", "📒", "📔", "📕", "📓", "📗", "📘", "📙", "🔖", "🗒", "️📄", "📃", "📋", "📑", "📂", "📁", "🗂", "️🗃", "️🗄", "️📊", "📈", "📉", "📇", "🪪", "📌", "📍", "✂", "️🗑", "️📰", "🗞", "️🏷", "️📦", "📫", "📪", "📬", "📭", "📮", "✉", "️📧", "📩", "📨", "💌", "📤", "📥", "🗳", "️🕛", "🕧", "🕐", "🕜", "🕑", "🕝", "🕒", "🕞", "🕓", "🕟", "🕔", "🕠", "🕕", "🕡", "🕖", "🕢", "🕗", "🕣", "🕘", "🕤", "🕙", "🕥", "🕚", "🕦", "⏱", "️⌚", "🕰", "️⌛", "⏳", "⏲", "️⏰", "📅", "📆", "🗓", "️🪧", "🛎", "️🔔", "📯", "📢", "📣", "🔈", "🔉", "🔊", "🔍", "🔎", "🔮", "🧿", "🪬", "📿", "🏺", "⚱", "️⚰", "️🪦", "🚬", "💣", "🪤", "📜", "⚔", "️🗡", "️🛡", "️🗝", "️🔑", "🔐", "🔏", "🔒", "🔓", "--------------------------- 符号 ---------------------------", "🔴", "🟠", "🟡", "🟢", "🔵", "🟣", "🟤", "⚫", "⚪", "🟥", "🟧", "🟨", "🟩", "🟦", "🟪", "🟫", "⬛", "⬜", "❤", "️🧡", "💛", "💚", "💙", "💜", "🤎", "🖤", "🤍", "🩷", "🩵", "🩶", "♥", "️♦", "️♣", "️♠", "️♈", "♉", "♊", "♋", "♌", "♍", "♎", "♏", "♐", "♑", "♒", "♓", "⛎", "♀", "️♂", "️⚧", "️💭", "🗯", "️💬", "🗨", "️❕", "❔", "❗", "❓", "⁉", "️‼", "️⭕", "❌", "🚫", "🚳", "🚭", "🚯", "🚱", "🚷", "📵", "🔞", "🔕", "🔇", "🅰", "️🆎", "🅱", "️🅾", "️🆑", "🆘", "🛑", "⛔", "📛", "♨", "️💢", "🔻", "🔺", "🉐", "㊙", "️㊗", "️🈴", "🈵", "🈹", "🈲", "🉑", "🈶", "🈚", "🈸", "🈺", "🈷", "️✴", "️🔶", "🔸", "🔆", "🔅", "🆚", "🎦", "📶", "🔁", "🔂", "🔀", "▶", "️⏩", "⏭", "️⏯", "️◀", "️⏪", "⏮", "️🔼", "⏫", "🔽", "⏬", "⏸", "️⏹", "️⏺", "️⏏", "️📴", "🛜", "📳", "📲", "☢", "️☣", "️⚠", "️🚸", "⚜", "️🔱", "〽", "️🔰", "✳", "️❇", "️♻", "️💱", "💲", "💹", "🈯", "❎", "✅", "✔", "️☑", "️⬆", "️↗", "️➡", "️↘", "️⬇", "️↙", "️⬅", "️↖", "️↕", "️↔", "️↩", "️↪", "️⤴", "️⤵", "️🔃", "🔄", "🔙", "🔛", "🔝", "🔚", "🔜", "🆕", "🆓", "🆙", "🆗", "🆒", "🆖", "ℹ", "️🅿", "️🈁", "🈂", "️🈳", "🔣", "🔤", "🔠", "🔡", "🔢", "#️⃣", "*️⃣", "0️⃣", "1️⃣", "2️⃣", "3️⃣", "4️⃣", "5️⃣", "6️⃣", "7️⃣", "8️⃣", "9️⃣", "🔟", "🌐", "💠", "🔷", "🔹", "🏧", "Ⓜ", "️🚾", "🚻", "🚹", "🚺", "♿", "🚼", "🛗", "🚮", "🚰", "🛂", "🛃", "🛄", "🛅", "💟", "⚛", "️🛐", "🕉", "️☸", "️☮", "️☯", "️☪", "️🪯", "✝", "️☦", "️✡", "️🔯", "🕎", "♾", "️🆔", "🧑", "‍🧑", "‍🧒", "🧑", "‍🧑", "‍🧒", "‍🧒", "🧑", "‍🧒", "🧑", "‍🧒", "‍🧒", "⚕", "️🎼", "🎵", "🎶", "✖", "️➕", "➖", "➗", "🟰", "➰", "➿", "〰", "️©", "️®", "️™", "️🔘", "🔳", "◼", "️◾", "▪", "️🔲", "◻", "️◽", "▫", "️👁", "️‍🗨", "--------------------------- 旗帜 ---------------------------", "🏁", "🚩", "🎌", "🏴", "🏳", "️🏳", "️‍🌈", "🏳", "️‍⚧", "️🏴", "‍☠", "️🇦🇨", "🇦🇩", "🇦🇪", "🇦🇫", "🇦🇬", "🇦🇮", "🇦🇱", "🇦🇲", "🇦🇴", "🇦🇶", "🇦🇷", "🇦🇸", "🇦🇹", "🇦🇺", "🇦🇼", "🇦🇽", "🇦🇿", "🇧🇦", "🇧🇧", "🇧🇩", "🇧🇪", "🇧🇫", "🇧🇬", "🇧🇭", "🇧🇮", "🇧🇯", "🇧🇱", "🇧🇲", "🇧🇳", "🇧🇴", "🇧🇶", "🇧🇷", "🇧🇸", "🇧🇹", "🇧🇻", "🇧🇼", "🇧🇾", "🇧🇿", "🇨🇦", "🇨🇨", "🇨🇩", "🇨🇫", "🇨🇬", "🇨🇭", "🇨🇮", "🇨🇰", "🇨🇱", "🇨🇲", "🇨🇳", "🇨🇴", "🇨🇵", "🇨🇷", "🇨🇺", "🇨🇻", "🇨🇼", "🇨🇽", "🇨🇾", "🇨🇿", "🇩🇪", "🇩🇬", "🇩🇯", "🇩🇰", "🇩🇲", "🇩🇴", "🇩🇿", "🇪🇦", "🇪🇨", "🇪🇪", "🇪🇬", "🇪🇭", "🇪🇷", "🇪🇸", "🇪🇹", "🇪🇺", "🇫🇮", "🇫🇯", "🇫🇰", "🇫🇲", "🇫🇴", "🇫🇷", "🇬🇦", "🇬🇧", "🇬🇩", "🇬🇪", "🇬🇫", "🇬🇬", "🇬🇭", "🇬🇮", "🇬🇱", "🇬🇲", "🇬🇳", "🇬🇵", "🇬🇶", "🇬🇷", "🇬🇸", "🇬🇹", "🇬🇺", "🇬🇼", "🇬🇾", "🇭🇰", "🇭🇲", "🇭🇳", "🇭🇷", "🇭🇹", "🇭🇺", "🇮🇨", "🇮🇩", "🇮🇪", "🇮🇱", "🇮🇲", "🇮🇳", "🇮🇴", "🇮🇶", "🇮🇷", "🇮🇸", "🇮🇹", "🇯🇪", "🇯🇲", "🇯🇴", "🇯🇵", "🇰🇪", "🇰🇬", "🇰🇭", "🇰🇮", "🇰🇲", "🇰🇳", "🇰🇵", "🇰🇷", "🇰🇼", "🇰🇾", "🇰🇿", "🇱🇦", "🇱🇧", "🇱🇨", "🇱🇮", "🇱🇰", "🇱🇷", "🇱🇸", "🇱🇹", "🇱🇺", "🇱🇻", "🇱🇾", "🇲🇦", "🇲🇨", "🇲🇩", "🇲🇪", "🇲🇫", "🇲🇬", "🇲🇭", "🇲🇰", "🇲🇱", "🇲🇲", "🇲🇳", "🇲🇴", "🇲🇵", "🇲🇶", "🇲🇷", "🇲🇸", "🇲🇹", "🇲🇺", "🇲🇻", "🇲🇼", "🇲🇽", "🇲🇾", "🇲🇿", "🇳🇦", "🇳🇨", "🇳🇪", "🇳🇫", "🇳🇬", "🇳🇮", "🇳🇱", "🇳🇴", "🇳🇵", "🇳🇷", "🇳🇺", "🇳🇿", "🇴🇲", "🇵🇦", "🇵🇪", "🇵🇫", "🇵🇬", "🇵🇭", "🇵🇰", "🇵🇱", "🇵🇲", "🇵🇳", "🇵🇷", "🇵🇸", "🇵🇹", "🇵🇼", "🇵🇾", "🇶🇦", "🇷🇪", "🇷🇴", "🇷🇸", "🇷🇺", "🇷🇼", "🇸🇦", "🇸🇧", "🇸🇨", "🇸🇩", "🇸🇪", "🇸🇬", "🇸🇭", "🇸🇮", "🇸🇯", "🇸🇰", "🇸🇱", "🇸🇲", "🇸🇳", "🇸🇴", "🇸🇷", "🇸🇸", "🇸🇹", "🇸🇻", "🇸🇽", "🇸🇾", "🇸🇿", "🇹🇦", "🇹🇨", "🇹🇩", "🇹🇫", "🇹🇬", "🇹🇭", "🇹🇯", "🇹🇰", "🇹🇱", "🇹🇲", "🇹🇳", "🇹🇴", "🇹🇷", "🇹🇹", "🇹🇻", "🇹🇼", "🇹🇿", "🇺🇦", "🇺🇬", "🇺🇲", "🇺🇳", "🇺🇸", "🇺🇾", "🇺🇿", "🇻🇦", "🇻🇨", "🇻🇪", "🇻🇬", "🇻🇮", "🇻🇳", "🇻🇺", "🇼🇫", "🇼🇸", "🇽🇰", "🇾🇪", "🇾🇹", "🇿🇦", "🇿🇲", "🇿🇼", "🏴", "󠁧󠁢󠁥󠁮󠁧󠁿🏴", "󠁧󠁢󠁳󠁣󠁴󠁿🏴"]
   collection:
     type: COLLECTION
@@ -467,6 +474,208 @@ liquid_keyboard:
     type: SINGLE
     name: 英文
     keys: "~`!@#$%^&*()_-+={[}]:;\"'|\\<,.>/?"
+
+android_keys:   # 仅供编辑键盘时参考，实际不产生任何效果
+  when:
+    ascii: 西文标签
+    paging: 翻页标签
+    has_menu: 选单标签
+    composing: 输入状态标签
+    #always: 始终
+    #hover: 滑过
+    combo: 并击
+    click: 单按
+    long_click: 长按
+    #double_click: 双按
+    swipe_left: 左滑
+    swipe_right: 右滑
+    swipe_up: 上滑
+    swipe_down: 下滑
+  property:
+    width: 宽度
+    height: 高度
+    gap: 间隔
+    preview: 预览
+    hint: 提示
+    label: 标签
+    states: 状态标签
+    repeatable: 连续按键
+    functional: 功能键
+    shift_lock: Shift锁定 #ascii_long: 英文长按中文单按锁定, long: 长按锁定, click: 单按锁定
+  action:
+    command: 命令
+    option: 参数
+    select: 选择
+    toggle: 状态
+    send: 按键
+    text: 文字
+    commit: 上屏
+
+preset_keys:
+ # 安卓
+  BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
+  BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
+  CALCULATOR: {label: 计算机, send: CALCULATOR}
+  CALENDAR: {label: 日历, send: CALENDAR}
+  CONTACTS: {label: 电话簿, send: CONTACTS}
+  ENVELOPE: {label: 信箱, send: ENVELOPE}
+  EXPLORER: {label: 浏览器, send: EXPLORER}
+  MUSIC: {label: 音乐, send: MUSIC}
+  POWER: {label: 电源, send: POWER}
+  SEARCH: {label: 搜寻, send: Find}
+  SLEEP: {label: 休眠, send: SLEEP}
+  VOICE_ASSIST: {label: 语音, send: VOICE_ASSIST}
+  VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
+  VOLUME_UP: {label: 音量+, send: VOLUME_UP}
+  VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
+  # 编辑
+  Shift_L: {label: ⇧, preview: '⇪', send: Shift_L}
+  Return: { label: ⮠, preview: '⮠', send: Return }
+  Return1: {label: 回车, preview: '回车', send: Return}
+  Hide: {label: 隐藏, send: BACK}
+  BackSpace: {label: ⭠, preview: '⭠', repeatable: true, send: BackSpace}
+  BackSpace1: {label: 退格, preview: '退格,', repeatable: true, send: BackSpace}
+  #space: {repeatable: false, preview: ' ', label: '_______', send: space}
+  space: {repeatable: false, functional: false, send: space}
+  space1: {repeatable: false, label: '空格', send: space}
+  Tab1: {label: ⭲, send: Tab}
+  Escape: {label: 取消, send: Escape}
+  Home: {label: 行首, send: Home}
+  Insert: {label: 插入, send: Insert}
+  Delete: {label: 删除, send: Delete}
+  End: {label: 行尾, send: End}
+  Page_Up: {label: 上页, send: Page_Up}
+  Page_Down: {label: 下页, send: Page_Down}
+  Left: {label: '⯇', send: Left, repeatable: true}
+  Down: {label: '⯆', send: Down}
+  Up: {label: '⯅', send: Up}
+  Right: {label: '⯈', send: Right, repeatable: true}
+  select_all: {label: 全选, send: Control+a}
+  Clear: {label: 清除, text: "{Control+a}{BackSpace}"} #全选并删除
+  cut: {label: 剪切, send: Control+x}
+  cut_all: {label: 全挪, text: "{Control+a}{Control+x}"} #全选并剪切
+  copy: {label: 复制, send: Control+c}
+  copy_all: {label: 全誊, text: "{Control+a}{Control+c}"} #全选并复制
+  paste: {label: 粘贴, send: Control+v}
+  paste_clip: {label: 粘贴, command: clipboard}
+  paste_text: {label: 贴上文本, send: Control+Shift+Alt+v} #>=Android 6.0
+  share_text: {label: 分享文本, send: Control+Alt+s} #>=Android 6.0
+  redo: {label: 重做, send: Control+Shift+z} #>=Android 6.0
+  undo: {label: 撤销, send: Control+z} #>=Android 6.0
+  revert: {label: 恢复, send: Control+y} #>=Android 6.0
+  delimiter: {label: 分词, text: ''''}
+  x1: {text: '{Home}{Right}{Right}', label: 单字}
+  x2: {text: '{Home}{Right}{Right}{Right}{Right}', label: 二字}
+  x3: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}', label: 三字}
+  x4: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}{Right}{Right}', label: 四字}
+
+  # rime组合键
+  F4: {label: 方案菜单, send: F4}
+  BackToPreviousSyllable: {label: 删音节, send: Control+BackSpace}
+  CommitRawInput: {label: 编码, send: Control+Return}
+  CommitScriptText: {label: 编码, send: Shift+Return}
+  CommitComment: {label: 编码, send: Control+Shift+Return}
+  DeleteCandidate: {label: 删词, send: Control+Delete}
+
+  # rime状态
+  Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中文, 西文 ]}
+  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
+  Henkan: {toggle: simplification, send: Mode_switch, states: [ 汉字, 汉字 ]}
+  Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增广 ]}
+  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
+
+  #切换键盘
+  Keyboard_number: { label: 123, send: Eisu_toggle, select: number }
+  Keyboard_number1: { label: 数字键, send: Eisu_toggle, select: number }
+  Keyboard_numberb: { label: 操作键, send: Eisu_toggle, select: numberb }
+  Keyboard_mini: {label: 迷你, send: Eisu_toggle, select: mini}
+  Keyboard_move: { label: ❖, send: Eisu_toggle, select: move }
+  Keyboard_next: { label: 后退, send: Eisu_toggle, select: .next }
+  Keyboard_last: { label: 后退, send: Eisu_toggle, select: .last }
+  Keyboard_last_lock: { label: 返回, send: Eisu_toggle, select: .last_lock } #直接切换到下一键盘
+  Keyboard_letter: { label: 字母, send: Eisu_toggle, select: default }
+  Keyboard_default: { label: 返回, send: Eisu_toggle, select: .default }
+  Keyboard_switch: { label: 键盘, send: Eisu_toggle, select: .next }
+  liquid_keyboard_switch: { label: 符号表, send: function, command: liquid_keyboard, option: "符号表" }
+  liquid_keyboard_tabs: { label: 更多, send: function, command: liquid_keyboard, option: "更多" }
+  liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
+  liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴" }
+  liquid_keyboard_number: { label: 数字键, send: function, command: preset_keyboards, option: "number" }
+  liquid_keyboard_numberb: { label: 操作键, send: function, command: preset_keyboards, option: "numberb" }
+  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
+
+  # trime设置
+  IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #弹出对话框选择输入法
+  IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切换到上一输入法
+  IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next} #直接切换到下一输入法
+  Schema_switch: {label: 下一方案, send: Control+Shift+1}
+  Schema_Eng: {label: En, send: Control+Shift+0}
+  #one_hand_switch_1: {toggle: _one_hand_mode_1, send: Mode_switch, states: [ 左手, 普通 ]}
+  #one_hand_switch_2: {toggle: _one_hand_mode_2, send: Mode_switch, states: [ 右手, 普通 ]}
+  #one_hand_switch_3: {toggle: _one_hand_mode_3, send: Mode_switch, states: [ 左手, 右手 ]}
+  Theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
+  Color_switch: {label: 配色, send: PROG_RED}
+  Help: {label: 说明, send: Help}
+  Info: {label: 关于, send: INFO}
+  Menu: {label: 方案, send: Menu}
+  Settings: {label: 设置, send: SETTINGS}
+  #Color_settings: {label: 配色, send: SETTINGS, option: "color"}
+  #Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
+  #Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ 有候选, 无候选]}
+  #Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有注释, 无注释]}
+  #Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ 有助记, 无助记]}
+
+  # trime命令
+  Date: {label: 日期, command: date, option: " yyyy-MM-dd "}
+  ChineseDate: {label: 农历, command: date, option: "zh_CN@calendar=chinese"} #农历等日期(>=Android 7.0)：date 语言@calendar=历法 格式。具体参见https://developer.android.com/reference/android/icu/util/Calendar.html
+  Time: {label: 时间, command: date, option: " HH:mm:ss "} #时间： date 格式
+  DateTime: {label: 日期, command: date, option: "yyyy-MM-dd-HHmmss"}
+  TrimeApp: {label: 同文, command: run, option: "com.osfans.trime"} #运行程序: run 包名
+  TrimeCmp: {label: 同文组件, command: run, option: "com.osfans.trime/.Pref"} #运行程序指定组件: run 包名/组件名
+  Homepage: {label: 同文主页, command: run, option: "https://github.com/osfans/trime"} #查看网页: run 网址
+  CommitHomepage: {label: 同文网址, commit: https://github.com/osfans/trime} #直接上屏
+  Wiki: {label: 维基, command: run, option: "https://zh.wikipedia.org/wiki/%s"} #搜索网页: %s或者%1$s爲当前字符
+  Google: {label: 谷歌, command: run, option: "https://www.google.com/search?q=%s"} #搜索网页: %s或者%1$s爲当前字符
+  MoeDict: {label: 萌典, command: run, option: "https://www.moedict.tw/%3$s"} #搜索网页: %3$s爲光标前字符
+  Baidu: {label: 百度搜索, command: run, option: "https://www.baidu.com/s?wd=%4$s"} #搜索网页: %4s爲光标前所有字符
+  Zdic: {label: 汉典, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索网页: %s或者%1$s爲当前字符
+  Zdic2: {label: 汉典, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索网页: %2$s爲当前输入的编码
+  WebSearch: {label: 搜索网页, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，参考安卓的intent文档：https://developer.android.com/reference/android/content/Intent.html
+  Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
+  Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲当前字符
+  Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
+  Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
+  RepeatCommit: { label: 重复,  command: commit, option: "%1$s" } #重复输入刚上屏的内容
+
+  Left1: {label: '⇦', send: Control+Left, repeatable: true}
+  Right1: {label: '⇨', send: Control+Right, repeatable: true}
+  Shift_L2: {label: 选择, preview: '⇪', send: Shift_L}
+
+ #英文标点符号键盘
+  Keyboard_null: {label: "^_^预留", send: ""}
+  Keyboard_punctuation_more: {label: "其它", send: Eisu_toggle, select: punctuation_more}
+
+  Keyboard_cn_punctuation_mark: {label: "中文", send: Eisu_toggle, select: punctuation_mark}
+
+ #英文标点符号键盘
+  Keyboard_punctuation_mark: {label: "#!?", send: Eisu_toggle, select: en_punctuation_mark}
+  Keyboard_en_punctuation_mark: {label: '英文', send: Eisu_toggle, select: en_punctuation_mark, key_text_size: "14"}
+
+ #货币符号键盘
+  Keyboard_money_mark: {label: '货币', send: Eisu_toggle, select: money_mark, key_text_size: "14"}
+ #数学符号键盘
+  Keyboard_math_mark: {label: '数学', send: Eisu_toggle, select: math_mark, key_text_size: "14"}
+ #拉丁符号键盘
+  Keyboard_latin_mark: {label: '拉丁', send: Eisu_toggle, select: latin_mark, key_text_size: "14"}
+ #几何符号键盘
+  Keyboard_geometry_mark: {label: '几何', send: Eisu_toggle, select: geometry_mark, key_text_size: "14"}
+ #其它符号键盘
+  Keyboard_other_mark: {label: '其它', send: Eisu_toggle, select: other_mark, key_text_size: "14"}
+ #emoji符号键盘
+  Keyboard_emoji_symbols: {label: '表情', send: Eisu_toggle, select: emoji_symbols, key_text_size: "14"}
+
+ #kaomoji键盘
+  Keyboard_kaomoji_mark: {label: 颜文, send: Eisu_toggle, select: kaomoji_happy, key_text_size: "14"}
 
 preset_keyboards:
  #键盘布局
@@ -523,7 +732,7 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
@@ -583,95 +792,12 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
       - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
       - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
-
-  letter:
-    __include: /preset_keyboards/default
-    name: 26键默认布局2
-    width: 10
-    #height: 48
-    ascii_mode: 1
-    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
-    lock: false
-
-  number:
-    author: "暖暖"
-    name: 数字
-    width: 16.6
-   # height: 48
-    ascii_mode: 1
-    keys:
-      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
-      - {click: 7}
-      - {click: 8}
-      - {click: 9}
-      - {click: '%', key_back_color: bgn, key_text_color: tgn}
-      - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
-
-      - {label: 操作键, click: Keyboard_numberb, key_back_color: bgn, key_text_color: tgn}
-      - {click: 4}
-      - {click: 5, key_back_color: key_fj_back_color}
-      - {click: 6}
-      - {click: '*', key_back_color: bgn, key_text_color: tgn}
-      - {click: '/', key_back_color: bgn, key_text_color: tgn}
-
-
-      - {click: Keyboard_punctuation_mark, key_back_color: bgn, key_text_color: tgn}
-      - {click: 1, long_click: cut}
-      - {click: 2, long_click: copy}
-      - {click: 3, long_click: paste_clip, swipe_down: paste}
-      - {click: '+', key_back_color: bgn, key_text_color: tgn}
-      - {click: '-', key_back_color: bgn, key_text_color: tgn}
-
-
-      - {click: Keyboard_default, key_back_color: bgn, key_text_color: tenter}
-      - {click: Keyboard_last_lock, key_back_color: bgn, key_text_color: tenter}
-      - {click: 0, long_click: select_all}
-      - {click: ., long_click: ':', key_back_color: bgn, key_text_color: tgn}
-      - {click: space1, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, long_click: Menu, composing: Return1, swipe_up: Escape, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
-
-  numberb:
-    ascii_mode: 1
-    author: flypy.com
-    name: 编辑键盘
-    width: 20.25
-    height: *ajgd5
-    keys:
-      - {click: Tab1}
-      - {click: Page_Up}
-      - {click: Up}
-      - {click: Page_Down}
-      - {click: BackSpace, key_back_color: bgn, key_text_color: tgn, width: 19}
-
-      - {click: undo}
-      - {click: Left}
-      - {click: Shift_L2}
-      - {click: Right}
-      - {click: redo, width: 19}
-
-      - {click: Keyboard_number, key_back_color: bgn, key_text_color: tgn}
-      - {click: Home}
-      - {click: Down}
-      - {click: End}
-      - {click: liquid_keyboard_clipboard, width: 19}
-
-      - {click: select_all}
-      - {click: cut}
-      - {click: copy}
-      - {click: paste, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, width: 19}
-
-      - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-      - {click: Keyboard_last_lock, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-      - {click: Keyboard_punctuation_mark, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-      - {click: space1, width: 33, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-      - {click: liquid_keyboard_switch, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
 
   mini:
     name: 精简键盘
@@ -703,6 +829,14 @@ preset_keyboards:
       - {click: Mode_switch, long_click: Menu}
       - {click: Return, composing: Return1, long_click: CommitComment}
 
+  letter:
+    __include: /preset_keyboards/default
+    name: 26键默认布局2
+    width: 10
+    #height: 48
+    ascii_mode: 1
+    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
+    lock: false
   us_intl:
     name: 美式国际
     author: "Terry Tsang <archerindigo@gmail.com>"
@@ -758,6 +892,80 @@ preset_keyboards:
     - {click: "'", long_click: '"'}
     - {click: BackSpace, swipe_right: Delete, swipe_left: Escape, width: 15}
     - {click: Return, long_click: CommitComment, width: 15}
+
+  number:
+    name: 数字
+    author: "csjtl"
+    width: 16.6
+   # height: 48
+    ascii_mode: 1
+    keys:
+      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
+      - {click: 7}
+      - {click: 8}
+      - {click: 9}
+      - {click: '%', key_back_color: bgn, key_text_color: tgn}
+      - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
+
+      - {label: 操作键, click: Keyboard_numberb, key_back_color: bgn, key_text_color: tgn}
+      - {click: 4}
+      - {click: 5, key_back_color: key_fj_back_color}
+      - {click: 6}
+      - {click: '*', key_back_color: bgn, key_text_color: tgn}
+      - {click: '/', key_back_color: bgn, key_text_color: tgn}
+
+
+      - {click: Keyboard_punctuation_mark, key_back_color: bgn, key_text_color: tgn}
+      - {click: 1, long_click: cut}
+      - {click: 2, long_click: copy}
+      - {click: 3, long_click: paste_clip, swipe_down: paste}
+      - {click: '+', key_back_color: bgn, key_text_color: tgn}
+      - {click: '-', key_back_color: bgn, key_text_color: tgn}
+
+
+      - {click: Keyboard_default, key_back_color: benter, key_text_color: tenter}
+      - {click: Keyboard_last, key_back_color: benter, key_text_color: tenter}
+      - {click: 0, long_click: select_all}
+      - {click: ., long_click: ':', key_back_color: bgn, key_text_color: tgn}
+      - {click: space1, key_back_color: bgn, key_text_color: tgn}
+      - {click: Return, long_click: Menu, composing: Return1, swipe_up: Escape, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+
+  numberb:
+    ascii_mode: 1
+    author: flypy.com
+    name: 操作键盘
+    width: 20.25
+    height: *ajgd5
+    keys:
+      - {click: Tab1}
+      - {click: Page_Up}
+      - {click: Up}
+      - {click: Page_Down}
+      - {click: BackSpace, key_back_color: bgn, key_text_color: tgn, width: 19}
+
+      - {click: undo}
+      - {click: Left}
+      - {click: Shift_L2}
+      - {click: Right}
+      - {click: redo, width: 19}
+
+      - {click: Keyboard_number}
+      - {click: Home}
+      - {click: Down}
+      - {click: End}
+      - {click: liquid_keyboard_clipboard, key_back_color: bgn, key_text_color: tgn, width: 19}
+
+      - {click: select_all}
+      - {click: cut}
+      - {click: copy}
+      - {click: paste}
+      - {click: Return, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, width: 19}
+
+      - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+      - {click: Keyboard_last_lock, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+      - {click: space1, width: 33, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
+      - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
 
  #标点符号键盘
   punctuation_more: #标点符号更多
@@ -1342,256 +1550,3 @@ preset_keyboards:
     - {click: Keyboard_punctuation_more, long_click: Keyboard_other_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, symbol_text_size: 16}
     - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
 
-
-android_keys:   # 仅供编辑键盘时参考，实际不产生任何效果
-  when:
-    ascii: 西文标签
-    paging: 翻页标签
-    has_menu: 选单标签
-    composing: 输入状态标签
-    #always: 始终
-    #hover: 滑过
-    combo: 并击
-    click: 单按
-    long_click: 长按
-    #double_click: 双按
-    swipe_left: 左滑
-    swipe_right: 右滑
-    swipe_up: 上滑
-    swipe_down: 下滑
-  property:
-    width: 宽度
-    height: 高度
-    gap: 间隔
-    preview: 预览
-    hint: 提示
-    label: 标签
-    states: 状态标签
-    repeatable: 连续按键
-    functional: 功能键
-    shift_lock: Shift锁定 #ascii_long: 英文长按中文单按锁定, long: 长按锁定, click: 单按锁定
-  action:
-    command: 命令
-    option: 参数
-    select: 选择
-    toggle: 状态
-    send: 按键
-    text: 文字
-    commit: 上屏
-
-preset_keys:
- # 安卓
-  BRIGHTNESS_DOWN: {label: 亮度-, send: BRIGHTNESS_DOWN}
-  BRIGHTNESS_UP: {label: 亮度+, send: BRIGHTNESS_UP}
-  CALCULATOR: {label: 计算机, send: CALCULATOR}
-  CALENDAR: {label: 日历, send: CALENDAR}
-  CONTACTS: {label: 电话簿, send: CONTACTS}
-  ENVELOPE: {label: 信箱, send: ENVELOPE}
-  EXPLORER: {label: 浏览器, send: EXPLORER}
-  MUSIC: {label: 音乐, send: MUSIC}
-  POWER: {label: 电源, send: POWER}
-  SEARCH: {label: 搜寻, send: Find}
-  SLEEP: {label: 休眠, send: SLEEP}
-  VOICE_ASSIST: {label: 语音, functional: true, send: VOICE_ASSIST}
-  VOLUME_DOWN: {label: 音量-, send: VOLUME_DOWN}
-  VOLUME_UP: {label: 音量+, send: VOLUME_UP}
-  VOLUME_MUTE: {label: 静音, send: VOLUME_MUTE}
-  # 编辑
-  Shift_L: {label: ⇧, preview: '⇪', functional: false, send: Shift_L}
-  Return: { label: ⮠, preview: '⮠', functional: false, send: Return }
-  Return1: {label: 回车, preview: '回车', functional: false, send: Return}
-  Hide: {label: 隐藏, send: BACK}
-  BackSpace: {label: ⭠, preview: '⭠', repeatable: true, functional: false, send: BackSpace}
-  BackSpace1: {label: 退格, preview: '退格,', repeatable: true, functional: false, send: BackSpace}
-  #space: {repeatable: false, preview: ' ', functional: false, label: '_______', send: space}
-  space: {repeatable: false, functional: false, send: space}
-  space1: {repeatable: false, label: '空格', functional: false, send: space}
-  Tab1: {label: ⭲, functional: false, send: Tab}
-  Escape: {label: 取消, functional: false, send: Escape}
-  Home: {label: 行首, send: Home, functional: false}
-  Insert: {label: 插入, send: Insert}
-  Delete: {label: 删除, send: Delete, functional: false}
-  End: {label: 行尾, send: End, functional: false}
-  Page_Up: {label: 上页, send: Page_Up, functional: false}
-  Page_Down: {label: 下页, send: Page_Down, functional: false}
-  Left: {label: '⯇', send: Left, repeatable: true, functional: false}
-  Down: {label: '⯆', send: Down, functional: false}
-  Up: {label: '⯅', send: Up, functional: false}
-  Right: {label: '⯈', send: Right, repeatable: true, functional: false}
-  select_all: {label: 全选, functional: false, send: Control+a}
-  Clear: {label: 清除, text: "{Control+a}{BackSpace}"} #全选并删除
-  cut: {label: 剪切, functional: false, send: Control+x}
-  cut_all: {label: 全挪, text: "{Control+a}{Control+x}"} #全选并剪切
-  copy: {label: 复制, functional: false, send: Control+c}
-  copy_all: {label: 全誊, text: "{Control+a}{Control+c}"} #全选并复制
-  paste: {label: 粘贴, functional: false, send: Control+v}
-  paste_clip: {label: 粘贴, send: function, command: clipboard}
-  paste_text: {label: 贴上文本, send: Control+Shift+Alt+v} #>=Android 6.0
-  share_text: {label: 分享文本, send: Control+Alt+s} #>=Android 6.0
-  redo: {label: 重做, functional: false, send: Control+Shift+z} #>=Android 6.0
-  undo: {label: 撤销, functional: false, send: Control+z} #>=Android 6.0
-  revert: {label: 恢复, functional: false, send: Control+y} #>=Android 6.0
-  delimiter: {label: 分词, text: ''''}
-  x1: {text: '{Home}{Right}{Right}', label: 单字, functional: false}
-  x2: {text: '{Home}{Right}{Right}{Right}{Right}', label: 二字, functional: false}
-  x3: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}', label: 三字, functional: false}
-  x4: {text: '{Home}{Right}{Right}{Right}{Right}{Right}{Right}{Right}{Right}', label: 四字, functional: false}
-  # x1: {text: '{Home}{Right}{Right}', label: 单字, functional: false}
-
-  # rime组合键
-  F4: {label: 方案菜单, send: F4}
-  BackToPreviousSyllable: {label: 删音节, send: Control+BackSpace}
-  CommitRawInput: {label: 编码, send: Control+Return}
-  CommitScriptText: {label: 编码, send: Shift+Return}
-  CommitComment: {label: 编码, send: Control+Shift+Return}
-  DeleteCandidate: {label: 删词, send: Control+Delete, functional: false}
-
-  #切换键盘
-  Keyboard_letter: { label: 字母, functional: true, send: Eisu_toggle, select: default }
-  Keyboard_default: { label: 返回, functional: false, send: Eisu_toggle, select: .default }
-  Keyboard_switch: { label: 键盘, functional: true, send: Eisu_toggle, select: .next }
-  Keyboard_number: { label: 123, functional: false, send: Eisu_toggle, select: number }
-  Keyboard_number1: { label: 数字键, functional: false, send: Eisu_toggle, select: number }
-  Keyboard_numberb: { label: 操作键, functional: false, send: Eisu_toggle, select: numberb }
-  Keyboard_move: { label: ❖, functional: true, send: Eisu_toggle, select: move }
-  Keyboard_next: { label: 后退, functional: false, send: Eisu_toggle, select: .next }
-  Keyboard_last: { label: 后退, functional: false, send: Eisu_toggle, select: .last }
-  Keyboard_last_lock: { label: 返回, send: Eisu_toggle, select: .last_lock } #直接切换到下一键盘
-  liquid_keyboard_switch: { label: 更多, send: function, command: liquid_keyboard, option: "特殊" }
-  # liquid_keyboard_switch: { label: 更多, send: function, command: liquid_keyboard, option: "符号表" }
-  liquid_keyboard_switch2: { toggle: _liquid_keyboard, send: Mode_switch, states: [ 更多, 更多 ] }
-  liquid_keyboard_tabs: { label: 更多, send: function, command: liquid_keyboard, option: "更多" }
-  liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
-  liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴" }
-  #Keyboard_mini: {label: 迷你, send: Eisu_toggle, select: mini}
-  liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
-
-  # rime状态
-  Mode_switch: {toggle: ascii_mode, functional: false, send: Mode_switch, states: [ 中文, 西文 ]}
-  Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
-  Henkan: {toggle: simplification, send: Mode_switch, states: [ 汉字, 汉字 ]}
-  Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增广 ]}
-  Punct_switch: {toggle: ascii_punct, send: Mode_switch, states: [ 。，, ．， ]}
-
-  # trime设置
-  IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #弹出对话框选择输入法
-  IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切换到上一输入法
-  IME_next: {label: 下一输入法, send: LANGUAGE_SWITCH, select: .next} #直接切换到下一输入法
-  Schema_switch: {label: 下一方案, functional: false, send: Control+Shift+1}
-  Schema_Eng: {label: En, functional: true, send: Control+Shift+0}
-  #one_hand_switch_1: {toggle: _one_hand_mode_1, send: Mode_switch, states: [ 左手, 普通 ]}
-  #one_hand_switch_2: {toggle: _one_hand_mode_2, send: Mode_switch, states: [ 右手, 普通 ]}
-  #one_hand_switch_3: {toggle: _one_hand_mode_3, send: Mode_switch, states: [ 左手, 右手 ]}
-  Theme_settings: {label: 主题, send: SETTINGS, option: "theme"}
-  Color_switch: {label: 配色, functional: false, send: PROG_RED}
-  Help: {label: 说明, send: Help}
-  Info: {label: 关于, send: INFO}
-  Menu: {label: 方案, functional: false, send: Menu}
-  Settings: {label: 设置, functional: false, send: SETTINGS}
-  #Color_settings: {label: 配色, send: SETTINGS, option: "color"}
-  #Schema_settings: {label: 方案, send: SETTINGS, option: "schema"}
-  #Candidate_switch: {toggle: _hide_candidate, send: Mode_switch, states: [ 有候选, 无候选]}
-  #Comment_switch: {toggle: _hide_comment, send: Mode_switch, states: [ 有注释, 无注释]}
-  #Hint_switch: {toggle: _hide_key_hint, send: Mode_switch, states: [ 有助记, 无助记]}
-
-  # trime命令
-  Date: {label: 日期, send: function, command: date, option: " yyyy-MM-dd "}
-  ChineseDate: {label: 农历, command: date, option: "zh_CN@calendar=chinese"} #农历等日期(>=Android 7.0)：date 语言@calendar=历法 格式。具体参见https://developer.android.com/reference/android/icu/util/Calendar.html
-  Time: {label: 时间, send: function, command: date, option: " HH:mm:ss "} #时间： date 格式
-  DateTime: {label: 日期, send: function, command: date, option: "yyyy-MM-dd-HHmmss"}
-  TrimeApp: {label: 同文, send: function, command: run, option: "com.osfans.trime"} #运行程序: run 包名
-  TrimeCmp: {label: 同文组件, send: function, command: run, option: "com.osfans.trime/.Pref"} #运行程序指定组件: run 包名/组件名
-  Homepage: {label: 同文主页, send: function, command: run, option: "https://github.com/osfans/trime"} #查看网页: run 网址
-  CommitHomepage: {label: 同文网址, commit: https://github.com/osfans/trime} #直接上屏
-  Wiki: {label: 维基, send: function, command: run, option: "https://zh.wikipedia.org/wiki/%s"} #搜索网页: %s或者%1$s爲当前字符
-  Google: {label: 谷歌, send: function, command: run, option: "https://www.google.com/search?q=%s"} #搜索网页: %s或者%1$s爲当前字符
-  MoeDict: {label: 萌典, send: function, command: run, option: "https://www.moedict.tw/%3$s"} #搜索网页: %3$s爲光标前字符
-  Baidu: {label: 百度搜索, send: function, command: run, option: "https://www.baidu.com/s?wd=%4$s"} #搜索网页: %4s爲光标前所有字符
-  Zdic: {label: 汉典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%1$s"} #搜索网页: %s或者%1$s爲当前字符
-  Zdic2: {label: 汉典, send: function, command: run, option: "http://www.zdic.net/sousuo/?q=%2$s"} #搜索网页: %2$s爲当前输入的编码
-  WebSearch: {label: 搜索网页, send: function, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，参考安卓的intent文档：https://developer.android.com/reference/android/content/Intent.html
-  Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
-  Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲当前字符
-  Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
-  Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
-  RepeatCommit: { label: 重复,  command: commit, option: "%1$s" } #重复输入刚上屏的内容
-
-  Left1: {label: '⇦', send: Control+Left, repeatable: true, functional: false}
-  Right1: {label: '⇨', send: Control+Right, repeatable: true, functional: false}
-  Shift_L2: {label: 选择, preview: '⇪', functional: false, send: Shift_L}
-
- #英文标点符号键盘
-  Keyboard_null: {label: "^_^预留", functional: false, send: ""}
-  Keyboard_punctuation_more: {label: "其它", functional: false, send: Eisu_toggle, select: punctuation_more}
-
-  Keyboard_cn_punctuation_mark: {label: "中文", functional: false, send: Eisu_toggle, select: punctuation_mark}
-
- #英文标点符号键盘
-  Keyboard_punctuation_mark: {label: "#!?", functional: false, send: Eisu_toggle, select: en_punctuation_mark}
-  Keyboard_en_punctuation_mark: {label: '英文', functional: false, send: Eisu_toggle, select: en_punctuation_mark, key_text_size: "14"}
-
- #货币符号键盘
-  Keyboard_money_mark: {label: '货币', functional: false, send: Eisu_toggle, select: money_mark, key_text_size: "14"}
- #数学符号键盘
-  Keyboard_math_mark: {label: '数学', functional: false, send: Eisu_toggle, select: math_mark, key_text_size: "14"}
- #拉丁符号键盘
-  Keyboard_latin_mark: {label: '拉丁', functional: false, send: Eisu_toggle, select: latin_mark, key_text_size: "14"}
- #几何符号键盘
-  Keyboard_geometry_mark: {label: '几何', functional: false, send: Eisu_toggle, select: geometry_mark, key_text_size: "14"}
- #其它符号键盘
-  Keyboard_other_mark: {label: '其它', functional: false, send: Eisu_toggle, select: other_mark, key_text_size: "14"}
- #emoji符号键盘
-  Keyboard_emoji_symbols: {label: '表情', functional: false, send: Eisu_toggle, select: emoji_symbols, key_text_size: "14"}
-
- #kaomoji键盘
-  Keyboard_kaomoji_mark: {label: 颜文, functional: false, send: Eisu_toggle, select: kaomoji_happy, key_text_size: "14"}
-
- #符号
-  符号: {text: '{Escape}/fh', label: 符号, functional: false}
-  电脑: {text: '{Escape}/dn', label: 电脑, functional: false}
-  象棋: {text: '{Escape}/xq', label: 象棋, functional: false}
-  麻将: {text: '{Escape}/mj', label: 麻将, functional: false}
-  骰子: {text: '{Escape}/sz', label: 骰子, functional: false}
-  扑克: {text: '{Escape}/pk', label: 扑克, functional: false}
-  天气: {text: '{Escape}/tq', label: 天气, functional: false}
-  音乐: {text: '{Escape}/yy', label: 音乐, functional: false}
-  八卦: {text: '{Escape}/bg', label: 八卦, functional: false}
-  易经: {text: '{Escape}/lssg', label: 易经, functional: false}
-  天体: {text: '{Escape}/tt', label: 天体, functional: false}
-  星座: {text: '{Escape}/xz', label: 星座, functional: false}
-  星号: {text: '{Escape}/xh', label: 星号, functional: false}
-  方块: {text: '{Escape}/fk', label: 方块, functional: false}
-  几何: {text: '{Escape}/jh', label: 几何, functional: false}
-  箭头: {text: '{Escape}/jt', label: 箭头, functional: false}
-  数学: {text: '{Escape}/sx', label: 数学, functional: false}
-  上标: {text: '{Escape}/sb', label: 上标, functional: false}
-  下标: {text: '{Escape}/xb', label: 下标, functional: false}
-  单位: {text: '{Escape}/dw', label: 单位, functional: false}
-  货币: {text: '{Escape}/hb', label: 货币, functional: false}
-  拼音: {text: '{Escape}/py', label: 拼音, functional: false}
-  注音: {text: '{Escape}/zy', label: 注音, functional: false}
-  假名: {text: '{Escape}/jm', label: 假名, functional: false}
-  片假名: {text: '{Escape}/pjm', label: 片假名, functional: false}
-  韩文: {text: '{Escape}/hw', label: 韩文, functional: false}
-  希腊: {text: '{Escape}/xl', label: 希腊, functional: false}
-  希腊大写: {text: '{Escape}/xld', label: 大写, functional: false}
-  罗马: {text: '{Escape}/lm', label: 罗马, functional: false}
-  罗马大写: {text: '{Escape}/lmd', label: 大写, functional: false}
-  俄语: {text: '{Escape}/ey', label: 俄语, functional: false}
-  俄语大写: {text: '{Escape}/eyd', label: 大写, functional: false}
-  表情: {text: '{Escape}/bq', label: 😁}
-  一: {text: '{Escape}/1', label: 1}
-  二: {text: '{Escape}/2', label: 2}
-  三: {text: '{Escape}/3', label: 3}
-  四: {text: '{Escape}/4', label: 4}
-  五: {text: '{Escape}/5', label: 5}
-  六: {text: '{Escape}/6', label: 6}
-  七: {text: '{Escape}/7', label: 7}
-  八: {text: '{Escape}/8', label: 8}
-  九: {text: '{Escape}/9', label: 9}
-  零: {text: '{Escape}/0', label: 0}
-  十: {text: '{Escape}/10', label: 10}
-  分数: {text: '{Escape}/fs', label: 分数, functional: false}
-  标点: {text: '{Escape}/bd', label: 标点, functional: false}
-  偏旁: {text: '{Escape}/pp', label: 偏旁, functional: false}
-  竖标点: {text: '{Escape}/bdz', label: 竖标, functional: false}
