@@ -1,0 +1,117 @@
+# Trime 自定义
+patch:
+  "style/locale": zh_CN # 添加为汉语简体
+  "style/show_preview": false #按鍵提示
+  "style/show_comment": false #顯示提示區
+  "style/key_sound": false
+  #"style/color_scheme": google
+  "style/auto_caps": ascii
+#键盘高度
+  "style/key_height": 100
+  "style/keyboard_height": 400 #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
+  "style/keyboard_height_land": 200 #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
+  "style/layout/min_length": 10000
+  "preset_color_schemes/red": #配色方案
+    name: 红/Red #方案名称
+    author: csjtl #作者资讯
+    back_color: 0xffc62828 #候选区背景
+    border_color: 0xffff0000 #边框
+    candidate_separator_color: 0xffd04e4e #候选分割背景
+    candidate_text_color: 0xffffffff #候选文字
+    comment_text_color: 0xffffffff #提示
+    hilited_back_color: 0xffc62828 #标明编码背景
+    hilited_candidate_back_color: 0xffc62828 #标明候选背景
+    hilited_candidate_text_color: 0xffffffff #标明候选文字
+    hilited_comment_text_color: 0xffffffff #标明提示
+    hilited_key_back_color: 0xffc62828 #标明按键背景
+    hilited_key_symbol_color: 0xffd04c4c #标明按键符号
+    hilited_key_text_color: 0xffd04c4c #标明按键文字
+    hilited_off_key_back_color: 0xffd3d7da #标明按键关闭状态背景
+    hilited_off_key_text_color: 0xff000000 #标明按键关闭状态文字
+    hilited_on_key_back_color: 0xffd3d7da #标明按键打开状态背景
+    hilited_on_key_text_color: 0xff000000 #标明按键打开状态文字
+    hilited_text_color: 0xffffffff #标明编码
+    key_back_color: 0xffd04e4e #按键背景
+    key_fj_back_color: 0xffca3838 #fj按键背景
+    key_border_color: 0xffeceff1 #按键边框
+    key_symbol_color: 0xffffffff #按键符号
+    key_text_color: 0xffffffff #按键文字
+    keyboard_back_color: 0xffc52827 #键盘背景
+    label_color: 0xffffffff #标签
+    off_key_back_color: 0xffd3d7da #按键关闭状态背景
+    off_key_text_color: 0xff000000 #按键关闭状态文字
+    on_key_back_color: 0xff23948e #按键打开状态背景
+    on_key_text_color: 0xff37474f #按键打开状态文字
+    preview_back_color: 0xffec1310 #按键提示背景
+    preview_text_color: 0xffffffff #按键提示文字
+    shadow_color: 0xff000000 #阴影
+    text_color: 0xffffffff #编码
+    text_back_color: 0xffc52827 #编码区背景
+    key_fj: 0xfff44236 #fj按键背景
+    benter: 0xfff44236 #回车键背景色
+    tenter: 0xffffffff #回车键文字颜色
+    bgn: 0xffca3838 #功能键背景色
+    tgn: 0xffffffff #功能键文字颜色
+    bbs: 0xffca3838 #退格键背景色
+    tbs: 0xffffffff #退格键文字颜色
+
+  "preset_keyboards/default":
+    author: "csjtl"
+    name: 预设45键
+    width: 10
+    #height: 9
+    #lock: true #切換程序時記憶鍵盤
+    ascii_mode: 0
+    keys:
+      - {click: 1, long_click: '!'}
+      - {click: 2, long_click: '@'}
+      - {click: 3, long_click: '#'}
+      - {click: 4, long_click: '$'}
+      - {click: 5, long_click: '%'}
+      - {click: 6, long_click: '^'}
+      - {click: 7, long_click: '&'}
+      - {click: 8, long_click: '*'}
+      - {click: 9, long_click: '-'}
+      - {click: 0, long_click: '+'}
+
+      - {click: q, long_click: Tab1}
+      - {click: w, long_click: '(){Left}'}
+      - {click: e, long_click: "[]{Left}"}
+      - {click: r, long_click: '{}{Left}'}
+      - {click: t, long_click: '|'}
+      - {click: y, long_click: ":"}
+      - {click: u, long_click: '"'}
+      - {click: i, long_click: '?'}
+      - {click: o, long_click: '_'}
+      - {click: p, long_click: '='}
+
+      - {width: 5}
+      - {click: a, long_click: select_all}
+      - {click: s, long_click: '~'}
+      - {click: d, long_click: '<>{Left}'}
+      - {click: f, long_click: '\', swipe_down: "\\", key_back_color: key_fj, key_text_color: th2}
+      - {click: g, long_click: ";"}
+      - {click: h, long_click: "'"}
+      - {click: j, long_click: '/', key_back_color: key_fj, key_text_color: th2}
+      - {click: k}
+      - {click: l}
+      - {width: 5}
+
+      - {click: Shift_L, composing: delimiter, width: 12}
+      - {click: z, long_click: '`'}
+      - {click: x, long_click: cut}
+      - {click: c, long_click: copy, swipe_down: ' '}
+      - {click: v, long_click: paste_clip, swipe_down: paste}
+      - {click: b, long_click: liquid_keyboard_clipboard}
+      - {click: n, long_click: Escape}
+      - {click: m}
+      - {click: BackSpace, swipe_right: Delete, width: 18}
+
+      - {click: Keyboard_number, width: 12}
+      - {click: liquid_keyboard_switch, swipe_down: Color_switch, swipe_up: Color_switch, key_text_size: "18"}
+      - {click: ',', long_click: '，'}
+      - {click: space, swipe_left: "Left", swipe_right: "Right", swipe_up: Schema_switchcn, width: 30}
+      - {click: '.', long_click: '。'}
+      - {click: Menu, long_click: Theme_settings, key_text_size: "18"}
+      - {click: Return, long_click: Color_switch, composing: Return1, swipe_up: Escape, width: 18}
+...
