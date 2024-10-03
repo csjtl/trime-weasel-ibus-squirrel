@@ -45,6 +45,9 @@ speller:
 
 translator:
   dictionary: easy_en
+  enable_user_dict: true      #用户字典
+#  db_class: tabledb             #用户字典类型
+  user_dict: easy_en
   spelling_hints: 9
   comment_format:
     - xform/^.+$//

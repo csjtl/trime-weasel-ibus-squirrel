@@ -28,10 +28,10 @@ switches:
   - name: extended_charset
     reset: 1
     states: [ 常用 , 增广 ]
-  - name: zh_trad  #开启简入繁出，1开，0关
+  - name: zh_trad  #开启简入繁出，0关，1开
     reset: 0
     states: [ 简体 , 繁体 ]
-  - name: charset_comment_filter  #Unicode 区段提示，1开，0关
+  - name: charset_comment_filter  #Unicode 区段提示，0关，1开
     reset: 0
     states: [ 区关 , 区显 ]
   - name: ascii_punct
@@ -78,7 +78,6 @@ speller:
 
 translator:
   dictionary: wubi06_all
-  prism: wubi06_all_trad
 #  enable_user_dict: false      #用户字典
 #  db_class: tabledb             #用户字典类型
   user_dict: rime_wubi
@@ -119,7 +118,13 @@ recognizer:
     reverse_lookup: "^z[a-z]*'?$"    #敲 z 鍵進入拼音反查
 
 zh_trad:
-  opencc_config: s2t.json
+  opencc_config: s2t.json  # 简 -> 繁
+  #  opencc_config: s2hk.json  # 繁 -> 香港
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  #  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
+  #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
   option_name: zh_trad
 
 emoji_suggestion:

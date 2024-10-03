@@ -7,68 +7,68 @@ author: csjtl
 
 var_key: #var_value
  #键盘布局
-  1_1: &jpbj_sp 400 #竖屏键盘布局高度
-  1_2: &jpbj_hp 250 #横屏键盘布局高度
-  1_3: &hgap 8 #键盘横缝大小
-  1_4: &sgap 13 #键盘竖缝大小
-  1_5: &ytgdjl 20 #液体键盘固定按键大小
+  1_01: &jpbj_sp 400 #竖屏键盘布局高度
+  1_02: &jpbj_hp 250 #横屏键盘布局高度
+  1_03: &hgap 8 #键盘横缝大小
+  1_04: &sgap 13 #键盘竖缝大小
+  1_05: &ytgdjl 20 #液体键盘固定按键大小
  #按键高度
-  2_1: &ajgd4 100 #主键盘按键高度
-  2_2: &ajgd4_4 130 #主键盘尾行按键高度
-  2_3: &ajgd5 100 #符号键盘按键高度
-  2_4: &pmark 0 #标点符号键盘按键高度punctuation_mark
-  2_5: &pbottom 120 #标点符号键盘底部按键高度punctuation_mark_bottom
-  2_6: &esymbols 0 #表情符号键盘按键高度emoji_symbols
-  2_7: &ebottom 120 #表情符号键盘底部按键高度emoji_bottom
-  2_8: &kaokey 0 #颜文字键盘按键高度kaomoji_key
-  2_9: &kaobottom 120 #颜文字键盘底部按键高度kaomoji_bottom
+  2_01: &ajgd4 100 #主键盘按键高度
+  2_02: &ajgd4_4 130 #主键盘尾行按键高度
+  2_03: &ajgd5 100 #符号键盘按键高度
+  2_04: &pmark 0 #标点符号键盘按键高度punctuation_mark
+  2_05: &pbottom 120 #标点符号键盘底部按键高度punctuation_mark_bottom
+  2_06: &esymbols 0 #表情符号键盘按键高度emoji_symbols
+  2_07: &ebottom 120 #表情符号键盘底部按键高度emoji_bottom
+  2_08: &kaokey 0 #颜文字键盘按键高度kaomoji_key
+  2_09: &kaobottom 120 #颜文字键盘底部按键高度kaomoji_bottom
  #符号位置
-  3_1: &ksox_e 17 #字母上方为标点左移距离
-  3_2: &ksoy_c 0 #字母上方为中文-上移距离
-  3_3: &sts_c 11 #字母上方为中文-字体大小
-  3_4: &ktox_enter -7 #特殊符号enter-右移距离
+  3_01: &ksox_e 17 #字母上方为标点左移距离
+  3_02: &ksoy_c 0 #字母上方为中文-上移距离
+  3_03: &sts_c 11 #字母上方为中文-字体大小
+  3_04: &ktox_enter -7 #特殊符号enter-右移距离
  #键盘圆角
-  4_1: &round1 20 #按键圆角半径
-  4_2: &round2 0 #候选窗口圆角
-  4_3: &round3 65 #回车键圆角
+  4_01: &round1 20 #按键圆角半径
+  4_02: &round2 0 #候选窗口圆角
+  4_03: &round3 65 #回车键圆角
 
 var_colors:
  #深色方案
-  1_1: &dark_c1 0xC62828
-  1_2: &dark_c2 0xE3E3E3
-  1_3: &dark_c3 0x38393D
-  1_4: &dark_c4 0x1F1F1F
-  1_5: &dark_c5 0x444746
-  1_6: &dark_c6 0xff131313
-  1_7: &dark_c7 0xA8C7FA
-  1_8: &dark_c8 0xff838383
-  1_9: &dark_c9 0x062D6D
-  1_10: &dark_c10 0x7B7B7B
+  1_01: &dark_c1 0xFFC62828
+  1_02: &dark_c2 0xFFE3E3E3
+  1_03: &dark_c3 0xFF38393D
+  1_04: &dark_c4 0xFF1F1F1F
+  1_05: &dark_c5 0xFF444746
+  1_06: &dark_c6 0xff131313
+  1_07: &dark_c7 0xFFA8C7FA
+  1_08: &dark_c8 0xff838383
+  1_09: &dark_c9 0xFF062D6D
+  1_10: &dark_c10 0xFF7B7B7B
  #浅色方案
-  2_1: &light_c1 0xC62828
-  2_2: &light_c2 0xE3E3E3
-  2_3: &light_c3 0x38393D
-  2_4: &light_c4 0x1F1F1F
-  2_5: &light_c5 0x444746
-  2_6: &light_c6 0xff131313
-  2_7: &light_c7 0xA8C7FA
-  2_8: &light_c8 0xff838383
-  2_9: &light_c9 0x062D6D
+  2_01: &light_c1 0xC62828
+  2_02: &light_c2 0xE3E3E3
+  2_03: &light_c3 0x38393D
+  2_04: &light_c4 0x1F1F1F
+  2_05: &light_c5 0x444746
+  2_06: &light_c6 0xff131313
+  2_07: &light_c7 0xA8C7FA
+  2_08: &light_c8 0xff838383
+  2_09: &light_c9 0x062D6D
   2_10: &light_c10 0x7B7B7B
  #ubuntu颜色
-  3_1: &ubuntu_o 0xffe95420 #橙色
-  3_2: &ubuntu_w 0xffffffff #白色
-  3_3: &ubuntu_b 0xff000000 #黑色
+  3_01: &ubuntu_o 0xffe95420 #橙色
+  3_02: &ubuntu_w 0xffffffff #白色
+  3_03: &ubuntu_b 0xff000000 #黑色
  #Gboard red方案
-  4_1: &red_tab 0xffe2e4e5 #Typing area background
-  4_2: &red_tat 0xff161616 #Typing area text
-  4_3: &red_mkb 0xffc62828 #Main keyboard background
-  4_4: &red_mkt 0xffffffff #Main keyboard text/Preview text
-  4_5: &red_mkkb 0xffd04e4e #Main keyboard keys background
-  4_6: &red_fk 0xffca3838 #Function keys
-  4_7: &red_ek 0xfff44336 #Enter key
-  4_8: &red_apt 0xffcd4343 #After pressing text
-  4_9: &red_pb 0xffb71c1c #Preview background
+  4_01: &red_tab 0xffe2e4e5 #Typing area background
+  4_02: &red_tat 0xff161616 #Typing area text
+  4_03: &red_mkb 0xffc62828 #Main keyboard background
+  4_04: &red_mkt 0xffffffff #Main keyboard text/Preview text
+  4_05: &red_mkkb 0xffd04e4e #Main keyboard keys background
+  4_06: &red_fk 0xffca3838 #Function keys
+  4_07: &red_ek 0xfff44336 #Enter key
+  4_08: &red_apt 0xffcd4343 #After pressing text
+  4_09: &red_pb 0xffb71c1c #Preview background
   4_10: &red_pk 0xffec1310 #Preview key
 
 style:
@@ -76,7 +76,7 @@ style:
   auto_caps: ascii #自动句首大写:true|false|ascii
   candidate_use_cursor: false #高亮候选项
   horizontal: true #水平模式
-  keyboards: [.default, letter, number, symbols, mini]
+  keyboards: [.default, letter, number, mini]
   proximity_correction: true #按键纠错
   #background_folder: #背景图保存在background目录下的哪个子目录
   reset_ascii_mode: false #显示键盘时重置为中文状态
@@ -189,7 +189,7 @@ preset_color_schemes: #配色方案
     author: csjtl #作者信息
     #light_scheme: light
     back_color: *dark_c4 #状态栏(候选区)/打字区光标（符号^）的背景
-    border_color: 0xffe95420 #边框
+    border_color: *ubuntu_o #边框
     candidate_separator_color: *dark_c5 #候选区文字间分割线
     candidate_text_color: *dark_c2 #候选区文字
     comment_text_color: *dark_c2 #候选区文字上方的文字，符号，编码显示
@@ -206,44 +206,44 @@ preset_color_schemes: #配色方案
     hilited_key_text_color: *dark_c5 #点击按键时的文本
     hilited_off_key_back_color: *dark_c4 #高亮按键关闭状态背景（未知）所有功能键背景色
     hilited_off_key_text_color: *dark_c5 #高亮按键关闭状态文本（未知）所有功能键文本色
-    hilited_on_key_back_color: 0xffe95420 #标明按键打开状态背景
-    hilited_on_key_text_color: 0xffffffff #标明按键打开状态文字
+    hilited_on_key_back_color: *ubuntu_o #标明按键打开状态背景
+    hilited_on_key_text_color: *ubuntu_w #标明按键打开状态文字
     key_back_color: *dark_c3 #非主键盘按键背景
-    key_border_color: 0xffe95420 #按键边框
+    key_border_color: *ubuntu_o #按键边框
     key_text_color: *dark_c2 #非主键盘按键文本
     keyboard_back_color: *dark_c4 #主键盘背景
     key_symbol_color: *dark_c2 #键盘按键长按符号（按键主字母/文字上方）
     off_key_back_color: *dark_c5  #按键关闭状态背景（未知）所有功能键背景色
     off_key_text_color: *dark_c2 #按键关闭状态文本（未知）所有功能键文本色
-    on_key_back_color: 0xffe95420 #按键打开状态背景
-    on_key_text_color: 0xffffffff #按键打开状态文字
+    on_key_back_color: *ubuntu_o #按键打开状态背景
+    on_key_text_color: *ubuntu_w #按键打开状态文字
     preview_back_color: *dark_c3 #按键弹出显示背景
     preview_text_color: *dark_c7 #按键弹出显示文本
-    shadow_color: 0xffe95420 #按键文字阴影
+    shadow_color: *ubuntu_o #按键文字阴影
     key_fj_back_color: *dark_c10 #fj按键背景
-    bkg: *dark_c3 #空格键背景色
-    tkg: *dark_c2 #空格键文字颜色
-    benter: *dark_c7 #回车键背景色
-    tenter: *dark_c9 #回车键文字颜色
-    bgn: *dark_c5 #功能键背景色
-    tgn: *dark_c2 #功能键文字颜色
-    bbs: *dark_c5 #退格键背景色
-    tbs: *dark_c2 #退格键文字颜色
-    baoe: *dark_c3 #aoeiu背景色
-    taoe: *dark_c7 #aoeiu文字颜色
-    bh0: *dark_c3 #键盘数字键背景色
-    th0: *dark_c2 #键盘数字键数字颜色
-    bh1: *dark_c3 #键盘字母一行背景色
-    th1: *dark_c2 #键盘字母一行文字颜色
-    bh2: *dark_c3 #键盘字母二行背景色
-    th2: *dark_c2 #键盘字母二行文字颜色
-    bh3: *dark_c3 #键盘字母三行背景色
-    th3: *dark_c2 #键盘字母三行文字颜色
-    bh4: *dark_c3 #键盘尾行背景色
-    th4: *dark_c2 #键盘尾行文字颜色
+    b_kg: *dark_c3 #空格键背景色
+    t_kg: *dark_c2 #空格键文字颜色
+    b_enter: *dark_c7 #回车键背景色
+    t_enter: *dark_c9 #回车键文字颜色
+    b_gn: *dark_c5 #功能键背景色
+    t_gn: *dark_c2 #功能键文字颜色
+    b_bs: *dark_c5 #退格键背景色
+    t_bs: *dark_c2 #退格键文字颜色
+    b_aoe: *dark_c3 #aoeiu背景色
+    t_aoe: *dark_c7 #aoeiu文字颜色
+    b_h0: *dark_c3 #键盘数字键背景色
+    t_h0: *dark_c2 #键盘数字键数字颜色
+    b_h1: *dark_c3 #键盘字母一行背景色
+    t_h1: *dark_c2 #键盘字母一行文字颜色
+    b_h2: *dark_c3 #键盘字母二行背景色
+    t_h2: *dark_c2 #键盘字母二行文字颜色
+    b_h3: *dark_c3 #键盘字母三行背景色
+    t_h3: *dark_c2 #键盘字母三行文字颜色
+    b_h4: *dark_c3 #键盘尾行背景色
+    t_h4: *dark_c2 #键盘尾行文字颜色
 
 #--------配色开始----------------#
-  light: #0xffe95420
+  light:
     name: 明亮 #方案名称
     author: csjtl #作者资讯
     back_color: 0xffEFF4FA #候选区背景
@@ -279,12 +279,12 @@ preset_color_schemes: #配色方案
     text_color: 0xff0B57CF #编码
     text_back_color: 0xffEFF4FA #编码区背景
     key_fj_back_color: 0xffE1E3E0 #fj按键背景
-    benter: 0xff0B57CF #回车键背景色
-    tenter: 0xffFFFFFF #回车键文字颜色
-    bgn: 0xffE1E3E0 #功能键背景色
-    tgn: 0xff1A1A1A #功能键文字颜色
-    bbs: 0xffE1E3E0 #退格键背景色
-    tbs: 0xff1A1A1A #退格键文字颜色
+    b_enter: 0xff0B57CF #回车键背景色
+    t_enter: 0xffFFFFFF #回车键文字颜色
+    b_gn: 0xffE1E3E0 #功能键背景色
+    t_gn: 0xff1A1A1A #功能键文字颜色
+    b_bs: 0xffE1E3E0 #退格键背景色
+    t_bs: 0xff1A1A1A #退格键文字颜色
 
   red: #0xffff0000
     name: 红/Red #方案名称
@@ -312,12 +312,12 @@ preset_color_schemes: #配色方案
     hilited_key_symbol_color: *red_apt #点击按键时的符号
     preview_back_color: *red_pk #按键弹出显示背景
     preview_text_color: *red_mkt #按键弹出显示文本
-    benter: *red_ek #回车键背景色
-    tenter: *red_mkt #回车键文字颜色
-    bgn: *red_fk #功能键背景色
-    tgn: *red_mkt #功能键文字颜色
-    bbs: *red_fk #退格键背景色
-    tbs: *red_mkt #退格键文字颜色
+    b_enter: *red_ek #回车键背景色
+    t_enter: *red_mkt #回车键文字颜色
+    b_gn: *red_fk #功能键背景色
+    t_gn: *red_mkt #功能键文字颜色
+    b_bs: *red_fk #退格键背景色
+    t_bs: *red_mkt #退格键文字颜色
     key_fj_back_color: *red_ek #fj按键背景
 
     shadow_color: *red_pk #阴影
@@ -687,57 +687,57 @@ preset_keyboards:
     #lock: true #切换程序时记忆键盘
     ascii_mode: 1
     keys:
-      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
-      - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: bh1, key_text_color: th1}
-      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
 
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh2, key_text_color: th2}
-      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
-      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
+      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
+      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
-      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
-      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
-      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
-      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
+      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   qwerty:
     author: "csjtl"
@@ -747,57 +747,57 @@ preset_keyboards:
     #lock: true #切换程序时记忆键盘
     ascii_mode: 0
     keys:
-      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
-      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: bh0, key_text_color: th0}
+      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
-      - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: bh1, key_text_color: th1}
-      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
-      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: bh1, key_text_color: th1}
+      - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
 
-      - {width: 5, key_back_color: bh2, key_text_color: th2}
-      - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh2, key_text_color: th2}
-      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: th2}
-      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
-      - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: bh2, key_text_color: th2}
+      - {width: 5, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
-      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: benter, key_back_color: bbs, key_text_color: tbs}
-      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: bh3, key_text_color: th3}
-      - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bh3, key_text_color: th3}
-      - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: bbs, key_text_color: tbs}
+      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
+      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
-      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: bgn, key_text_color: tgn}
-      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
-      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: bkg, key_text_color: tkg}
-      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: bh4, key_text_color: th4}
-      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
+      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Return, long_click: Color_switch, composing: Return1, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   mini:
     name: 精简键盘
@@ -900,35 +900,35 @@ preset_keyboards:
    # height: 48
     ascii_mode: 1
     keys:
-      - {click: '=', long_click: '≠', key_back_color: bgn, key_text_color: tgn}
+      - {click: '=', long_click: '≠', key_back_color: b_gn, key_text_color: t_gn}
       - {click: 7}
       - {click: 8}
       - {click: 9}
-      - {click: '%', key_back_color: bgn, key_text_color: tgn}
-      - {click: BackSpace, key_back_color: bbs, key_text_color: tbs}
+      - {click: '%', key_back_color: b_gn, key_text_color: t_gn}
+      - {click: BackSpace, key_back_color: b_bs, key_text_color: t_bs}
 
-      - {label: 操作键, click: Keyboard_numberb, key_back_color: bgn, key_text_color: tgn}
+      - {label: 操作键, click: Keyboard_numberb, key_back_color: b_gn, key_text_color: t_gn}
       - {click: 4}
       - {click: 5, key_back_color: key_fj_back_color}
       - {click: 6}
-      - {click: '*', key_back_color: bgn, key_text_color: tgn}
-      - {click: '/', key_back_color: bgn, key_text_color: tgn}
+      - {click: '*', key_back_color: b_gn, key_text_color: t_gn}
+      - {click: '/', key_back_color: b_gn, key_text_color: t_gn}
 
 
-      - {click: Keyboard_punctuation_mark, key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_punctuation_mark, key_back_color: b_gn, key_text_color: t_gn}
       - {click: 1, long_click: cut}
       - {click: 2, long_click: copy}
       - {click: 3, long_click: paste_clip, swipe_down: paste}
-      - {click: '+', key_back_color: bgn, key_text_color: tgn}
-      - {click: '-', key_back_color: bgn, key_text_color: tgn}
+      - {click: '+', key_back_color: b_gn, key_text_color: t_gn}
+      - {click: '-', key_back_color: b_gn, key_text_color: t_gn}
 
 
-      - {click: Keyboard_default, key_back_color: benter, key_text_color: tenter}
-      - {click: Keyboard_last, key_back_color: benter, key_text_color: tenter}
+      - {click: Keyboard_default, key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_last, key_back_color: b_enter, key_text_color: t_enter}
       - {click: 0, long_click: select_all}
-      - {click: ., long_click: ':', key_back_color: bgn, key_text_color: tgn}
-      - {click: space1, key_back_color: bgn, key_text_color: tgn}
-      - {click: Return, long_click: Menu, composing: Return1, swipe_up: Escape, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter}
+      - {click: ., long_click: ':', key_back_color: b_gn, key_text_color: t_gn}
+      - {click: space1, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Return, long_click: Menu, composing: Return1, swipe_up: Escape, round_corner: *round3, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   numberb:
     ascii_mode: 1
@@ -941,7 +941,7 @@ preset_keyboards:
       - {click: Page_Up}
       - {click: Up}
       - {click: Page_Down}
-      - {click: BackSpace, key_back_color: bgn, key_text_color: tgn, width: 19}
+      - {click: BackSpace, key_back_color: b_gn, key_text_color: t_gn, width: 19}
 
       - {click: undo}
       - {click: Left}
@@ -953,19 +953,19 @@ preset_keyboards:
       - {click: Home}
       - {click: Down}
       - {click: End}
-      - {click: liquid_keyboard_clipboard, key_back_color: bgn, key_text_color: tgn, width: 19}
+      - {click: liquid_keyboard_clipboard, key_back_color: b_gn, key_text_color: t_gn, width: 19}
 
       - {click: select_all}
       - {click: cut}
       - {click: copy}
       - {click: paste}
-      - {click: Return, round_corner: *round3, key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, width: 19}
+      - {click: Return, round_corner: *round3, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
 
-      - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-      - {click: Keyboard_last_lock, width: 17, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-      - {click: space1, width: 33, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-      - {click: Keyboard_punctuation_mark, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-      - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
+      - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_last, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: space1, width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
 
  #标点符号键盘
   punctuation_more: #标点符号更多
@@ -980,14 +980,14 @@ preset_keyboards:
     - {click: Keyboard_geometry_mark, width: 100, key_text_size: "16"}
     - {click: Keyboard_other_mark, width: 100, key_text_size: "16"}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
   punctuation_mark: #中文标点符号1
     author: "csjtl"
@@ -1034,14 +1034,14 @@ preset_keyboards:
     - {click: '／'}
     - {click: 'Keyboard_null', width: 100}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #英文标点符号键盘
   en_punctuation_mark: #英文标点符号1
@@ -1089,14 +1089,14 @@ preset_keyboards:
     - {click: '/'}
     - {click: 'Keyboard_null', width: 100}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #货币符号符号键盘
   money_mark: #货币符号1
@@ -1158,14 +1158,14 @@ preset_keyboards:
     - {click: '৹'}
     - {click: '৻'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #emoji符号键盘
   emoji_symbols: #笑脸1
@@ -1226,14 +1226,14 @@ preset_keyboards:
     - {click: "🤤"}
     - {click: "😒"}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #kaomoji符键盘号
   kaomoji_happy: #颜文字键盘-开心
@@ -1265,14 +1265,14 @@ preset_keyboards:
     - {click: "乁( ˙ ω˙乁)", key_text_size: "14"}
     - {click: "✧*｡٩(ˊωˋ*)و✧*｡", key_text_size: "10"}
     - {click: "～(￣▽￣～)(～￣▽￣)～", width: 50, key_text_size: "14"}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #数学符号键盘
   math_mark: #数学符号1
@@ -1334,14 +1334,14 @@ preset_keyboards:
     - {click: '₊'}
     - {click: '₋'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: Keyboard_punctuation_more, long_click: Keyboard_math_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, symbol_text_size: 16}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: Keyboard_punctuation_more, long_click: Keyboard_math_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #拉丁符号键盘
   latin_mark: #拉丁符号1
@@ -1403,14 +1403,14 @@ preset_keyboards:
     - {click: 'ʣ'}
     - {click: 'Ē'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: Keyboard_punctuation_more, long_click: Keyboard_latin_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, symbol_text_size: 16}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: Keyboard_punctuation_more, long_click: Keyboard_latin_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #几何符号键盘
   geometry_mark: #几何符号1
@@ -1472,14 +1472,14 @@ preset_keyboards:
     - {click: '⇁'}
     - {click: '⇄'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: Keyboard_punctuation_more, long_click: Keyboard_geometry_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, symbol_text_size: 16}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: Keyboard_punctuation_more, long_click: Keyboard_geometry_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 
  #其它符号键盘
   other_mark: #其它符号1
@@ -1541,12 +1541,12 @@ preset_keyboards:
     - {click: '⨯'}
     - {click: '⨰'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
-    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: bgn, key_text_color: tgn}
-    - {click: Keyboard_punctuation_more, long_click: Keyboard_other_mark, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter, key_symbol_color: tenter, symbol_text_size: 16}
-    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: benter, key_text_color: tenter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+    - {click: Keyboard_punctuation_more, long_click: Keyboard_other_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
+    - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
 

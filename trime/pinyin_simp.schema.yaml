@@ -80,7 +80,11 @@ speller:
 
 translator:
   dictionary: pinyin_simp
-  enable_user_dict: true
+  enable_user_dict: true      #用户字典
+#  db_class: tabledb             #用户字典类型
+  user_dict: pinyin_simp
+  
+  
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
