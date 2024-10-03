@@ -1,0 +1,11 @@
+customization:
+  distribution_code_name: trime
+  distribution_version: "nightly-2-gfe9c39dc"
+  generator: "Rime::SwitcherSettings"
+  modified_time: "Thu Oct  3 21:38:27 2024"
+  rime_version: 1.11.2
+patch:
+  schema_list:
+    - {schema: easy_en}
+    - {schema: pinyin_simp}
+    - {schema: wubi06_cjk}
