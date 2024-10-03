@@ -37,3 +37,6 @@ trime.custom.yaml
 ### ibus-rime
 
 
+### squirrel
+
+squirrel.custom.yaml
