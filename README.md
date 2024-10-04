@@ -28,9 +28,10 @@
 
 ### 目录结构
 
-```
+```txt
 ### 通用
 
+fonts 文件夹
 lua 文件夹
 opencc 文件夹
 
@@ -55,21 +56,30 @@ wubi06_unicodecjk.dict.yaml
 
 ### Weasel
 
+default.custom.yaml
+installation.yaml
+user.yaml
 weasel.custom.yaml
 weasel_style.yaml
 
 ### trime
 
-fonts 文件夹
+default.custom.yaml
+installation.yaml
 TGboard.trime.yaml
 tongwenfeng.trime.custom.yaml
 trime.custom.yaml
+user.yaml
 
 ### ibus-rime
 
+default.custom.yaml
+installation.yaml
+user.yaml
 
 ### squirrel
 
+installation.yaml
 squirrel.custom.yaml
 ```
 
