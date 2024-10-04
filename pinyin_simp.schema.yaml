@@ -82,7 +82,7 @@ translator:
   dictionary: pinyin_simp
   enable_user_dict: true
   #db_class: tabledb             #用户字典类型
-  user_dict: userdb_pinyin_simp
+  user_dict: db_pinyin_simp
   preedit_format:
     - xform/([nl])v/$1ü/
     - xform/([nl])ue/$1üe/
