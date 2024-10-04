@@ -14,7 +14,7 @@ schema:
 
 switches:
   - name: ascii_mode
-    reset: 0
+    reset: 1
     states: [ ASCII-OFF, ASCII-ON ]
 
 engine:
@@ -45,6 +45,9 @@ speller:
 
 translator:
   dictionary: easy_en
+  enable_user_dict: true
+  #db_class: tabledb             #用户字典类型
+  user_dict: easy_en
   spelling_hints: 9
   comment_format:
     - xform/^.+$//

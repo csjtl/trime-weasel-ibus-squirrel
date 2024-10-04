@@ -56,6 +56,9 @@ speller:
 
 translator:
   dictionary: easy_en_super
+  enable_user_dict: true
+#  db_class: tabledb             #用户字典类型
+  user_dict: easy_en_super
   enable_encoder: false
   encode_commit_history: false
   enable_completion: true
