@@ -83,8 +83,6 @@ installation.yaml
 squirrel.custom.yaml
 ```
 
-
-
 #### 同文-Trime
 
 |文件名|描述
@@ -185,11 +183,11 @@ trime.yaml
       11: &jpbj_sp 350 #竖屏键盘布局高度
       12: &jpbj_hp 250 #横屏键盘布局高度
       13: &ajgd4_4 130 #主键盘尾行按键高度
-    
+
       14: &ksox_e 17 #字母上方为标点左移距离
       15: &ksoy_c -7 #字母上方为中文-上移距离
       16: &sts_c 11 #字母上方为中文-字体大小
-    
+
     round_corner: #键盘圆角
       1: &round1 20 #按键圆角半径
       2: &round2 0 #候选窗口圆角
