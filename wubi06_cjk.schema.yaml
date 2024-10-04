@@ -79,7 +79,7 @@ speller:
 translator:
   dictionary: wubi06_all
   enable_user_dict: true      #用户字典
-  db_class: tabledb             #用户字典类型
+  #db_class: tabledb             #用户字典类型
   user_dict: userdb_wubi06_cjk
   enable_charset_filter: true     #字符集过滤
   enable_sentence: true          #自动造句
