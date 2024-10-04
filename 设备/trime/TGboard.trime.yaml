@@ -76,7 +76,7 @@ style:
   auto_caps: ascii #自动句首大写:true|false|ascii
   candidate_use_cursor: false #高亮候选项
   horizontal: true #水平模式
-  keyboards: [.default, letter, number, mini]
+  keyboards: [.default, mini, letter, us_intl, number, numberb, punctuation_more, punctuation_mark, en_punctuation_mark, money_mark, emoji_symbols, kaomoji_happy, math_mark, latin_mark, geometry_mark, other_mark]
   proximity_correction: true #按键纠错
   #background_folder: #背景图保存在background目录下的哪个子目录
   reset_ascii_mode: false #显示键盘时重置为中文状态
