@@ -1,11 +1,11 @@
 var:
-  last_build_time: 1727962793
+  last_build_time: 1728007974
   option:
     ascii_punct: false
-    full_shape: true
-  previously_selected_schema: pinyin_simp
+    full_shape: false
+  previously_selected_schema: easy_en
   schema_access_time:
-    easy_en: 1702135376
+    easy_en: 1728003850
     easy_en_super: 1701179902
-    pinyin_simp: 1727949425
-    wubi06_cjk: 1727946460
+    pinyin_simp: 1728003823
+    wubi06_cjk: 1727967458
