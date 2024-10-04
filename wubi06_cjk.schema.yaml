@@ -7,7 +7,7 @@ schema:
   version: "0.21"
   author:
     - 发明人 王永民先生
-    - 方案制作人 https://tl8517.com
+    - 方案制作人 聚焦单车 https://tl8517.com
   description: |
     1 五笔字型新世纪版
     敲 z 键进入拼音反查
@@ -69,8 +69,8 @@ engine:
     - uniquifier
 
 speller:
-  delimiter: " ;'"  #上屛時的音節間分音符
-  #max_code_length: 4  # 四碼頂字上屏
+  delimiter: " ;'"  #上屛时的音节间分音符
+  #max_code_length: 4  # 四码顶字上屏
   auto_select: false    #自动上屏
   auto_select_unique_candidate: false    #无重码自动上屏
   use_space: false     #空格作输入码
@@ -107,15 +107,15 @@ punctuator:
 key_binder:
   import_preset: default
   bindings:
-    - {accept: semicolon, send: 2, when: has_menu}    #分號選第二重碼
-    - {accept: apostrophe, send: 3, when: has_menu}    #引號選第三重碼
+    - {accept: semicolon, send: 2, when: has_menu}    #分号选第二重码
+    - {accept: apostrophe, send: 3, when: has_menu}    #引号选第三重码
     - {accept: space, send: Escape, when: composing}    #空格清屛
     - {accept: space, send: space, when: has_menu}
 
 recognizer:
   import_preset: default
   patterns:
-    reverse_lookup: "^z[a-z]*'?$"    #敲 z 鍵進入拼音反查
+    reverse_lookup: "^z[a-z]*'?$"    #敲 z 键进入拼音反查
 
 zh_trad:
   opencc_config: s2t.json  # 简 -> 繁
@@ -123,8 +123,8 @@ zh_trad:
   #  opencc_config: t2s.json   # 繁 -> 简
   #  opencc_config: t2tw.json  # 繁 -> 台湾
   #  opencc_config: t2hk.json  # 繁 -> 香港
-  #  opencc_config: s2tw.json  # 簡 -> 臺灣標準
-  #  opencc_config: s2twp.json  # 簡 -> 臺灣片語
+  #  opencc_config: s2tw.json  # 简 -> 台湾标准
+  #  opencc_config: s2twp.json  # 简 -> 台湾片语
   option_name: zh_trad
 
 emoji_suggestion:

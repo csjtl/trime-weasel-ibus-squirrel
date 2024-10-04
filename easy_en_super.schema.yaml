@@ -3,20 +3,24 @@
 
 schema:
   schema_id: easy_en_super
-  name: EasyEnglish英漢字典
-  version: "202211"
+  name: EasyEnglish英汉字典
+  version: "202410"
   author:
-    - 洋蔥
+    - 洋葱
+    - 方案制作人 聚焦单车 https://tl8517.com
   description:
     Easy English Super
 
 switches:
   - name: ascii_mode
     reset: 0
-    states: [ On, Off ]
+    states: [ ASCII-OFF, ASCII-ON ]
+  - name: full_shape
+    reset: 0
+    states: [ 🌙 , 🌕️ ]
   - name: en_sort
     reset: 0
-    states: [ 個排, 序排 ]
+    states: [ 个排, 序排 ]
 
 engine:
   processors:
@@ -35,7 +39,7 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
-#    - echo_translator #不要用，會把分號和/上屏
+#    - echo_translator #不要用，会把分号和/上屏
     - table_translator
     - script_translator@easy_en_script
     - punct_translator
@@ -69,7 +73,7 @@ translator:
   # spelling_hints: 2
   # initial_quality: 1000
   comment_format:
-    - xform/.+//  #刪除尚未輸入完整碼之提示 ~abc
+    - xform/.+//  #删除尚未输入完整码之提示 ~abc
   #   # - xform/⌗$//
   #   # - xform|[~a-z;/.'-]+||
   #   - xform/^.+⌗//
@@ -108,11 +112,11 @@ key_binder:
     - {accept: minus, send: minus, when: paging}
     - {accept: equal, send: equal, when: has_menu}
     - {accept: equal, send: equal, when: paging}
-### 選字翻頁 ###
-    - {accept: Left, send: Page_Up, when: paging} #直式選單用 #has_menu
-    - {accept: Right, send: Page_Down, when: paging} #直式選單用 #has_menu
-### 快捷鍵轉換排序 ###
-    - {accept: Control+bracketright, toggle: en_sort, when: always} #「easy」選單排序是否照英漢字典順序
+### 选字翻页 ###
+    - {accept: Left, send: Page_Up, when: paging} #直式选单用 #has_menu
+    - {accept: Right, send: Page_Down, when: paging} #直式选单用 #has_menu
+### 快捷键转换排序 ###
+    - {accept: Control+bracketright, toggle: en_sort, when: always} #「easy」选单排序是否照英汉字典顺序
 
 punctuator:
   # import_preset: default
