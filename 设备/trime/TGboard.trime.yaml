@@ -647,7 +647,7 @@ preset_keys:
   Shift_L2: {label: 选择, preview: '⇪', send: Shift_L}
 
  #英文标点符号键盘
-  Keyboard_null: {label: "^_^预留", send: ""}
+  Keyboard_null: {label: "^_^空", send: ""}
   Keyboard_punctuation_more: {label: "其它", send: Eisu_toggle, select: punctuation_more}
 
   Keyboard_cn_punctuation_mark: {label: "中文", send: Eisu_toggle, select: punctuation_mark}
@@ -921,7 +921,7 @@ preset_keyboards:
 
 
       - {click: Keyboard_default, key_back_color: b_enter, key_text_color: t_enter}
-      - {click: Keyboard_last, key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_null, key_back_color: b_enter, key_text_color: t_enter}
       - {click: 0, long_click: select_all}
       - {click: ., long_click: ':', key_back_color: b_gn, key_text_color: t_gn}
       - {click: space1, key_back_color: b_gn, key_text_color: t_gn}
@@ -959,7 +959,7 @@ preset_keyboards:
       - {click: Return, round_corner: *round3, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
 
       - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {click: Keyboard_last, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_null, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
       - {click: space1, width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
