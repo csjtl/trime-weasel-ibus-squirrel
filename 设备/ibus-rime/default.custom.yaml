@@ -1,11 +1,11 @@
 customization:
-  distribution_code_name: ""
-  distribution_version: ""
+  distribution_code_name: ibus-rime
+  distribution_version: 1.5.0
   generator: "Rime::SwitcherSettings"
   modified_time: "Tue Dec 26 18:18:30 2023"
-  rime_version: 1.9.0
+  rime_version: 1.10.0
 patch:
   schema_list:
-    - {schema: wubi06_cjk}
+    - {schema: five_strokes}
     - {schema: easy_en}
     - {schema: pinyin_simp}

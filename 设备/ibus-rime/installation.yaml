@@ -1,6 +1,7 @@
-distribution_code_name: "ibus-rime"
+distribution_code_name: ibus-rime
 distribution_name: Rime
 distribution_version: 1.5.0
 install_time: "Thu Oct  3 20:25:54 2024"
 installation_id: "ibus-backup"
 rime_version: 1.10.0
+sync_dir: '/home/csjtl/Insync/tl8517@live.com/OneDrive/设备/软件/rime_userdb'
