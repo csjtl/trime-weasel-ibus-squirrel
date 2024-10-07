@@ -3,10 +3,10 @@ var:
   option:
     ascii_punct: false
     full_shape: false
-  previously_selected_schema: five_strokes
+  previously_selected_schema: pinyin_simp
   schema_access_time:
     easy_en: 1728021578
     easy_en_super: 1728021345
     five_strokes: 1728115265
-    pinyin_simp: 1728115170
+    pinyin_simp: 1728125511
     wubi06_cjk: 1728115144
