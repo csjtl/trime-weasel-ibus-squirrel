@@ -9,28 +9,28 @@ var_key: #var_value
  #键盘布局
   1_01: &jpbj_sp 400 #竖屏键盘布局高度
   1_02: &jpbj_hp 250 #横屏键盘布局高度
-  1_03: &hgap 8 #键盘横缝大小
-  1_04: &sgap 13 #键盘竖缝大小
-  1_05: &ytgdjl 20 #液体键盘固定按键大小
+  1_03: &h_gap 8 #键盘横缝大小
+  1_04: &s_gap 13 #键盘竖缝大小
+  1_05: &liquid_bar_size 20 #液体键盘固定按键大小
  #按键高度
-  2_01: &ajgd4 100 #主键盘按键高度
-  2_02: &ajgd4_4 130 #主键盘尾行按键高度
-  2_03: &ajgd5 100 #符号键盘按键高度
-  2_04: &pmark 0 #标点符号键盘按键高度punctuation_mark
-  2_05: &pbottom 120 #标点符号键盘底部按键高度punctuation_mark_bottom
-  2_06: &esymbols 0 #表情符号键盘按键高度emoji_symbols
-  2_07: &ebottom 120 #表情符号键盘底部按键高度emoji_bottom
-  2_08: &kaokey 0 #颜文字键盘按键高度kaomoji_key
-  2_09: &kaobottom 120 #颜文字键盘底部按键高度kaomoji_bottom
+  2_01: &keyb_h 100 #主键盘按键高度
+  2_02: &keyb_end_h 130 #主键盘尾行按键高度
+  2_03: &keyb_gn_h 100 #功能键盘按键高度
+  2_04: &p_mark_h 0 #标点符号键盘按键高度punctuation_mark
+  2_05: &pbottom_end_h 120 #标点符号键盘底部按键高度punctuation_mark_bottom
+  2_06: &esymbols_h 0 #表情符号键盘按键高度emoji_symbols
+  2_07: &ebottom_h 120 #表情符号键盘底部按键高度emoji_bottom
+  2_08: &kaokey_h 0 #颜文字键盘按键高度kaomoji_key
+  2_09: &kaobottom_h 120 #颜文字键盘底部按键高度kaomoji_bottom
  #符号位置
   3_01: &ksox_e 17 #字母上方为标点左移距离
   3_02: &ksoy_c 0 #字母上方为中文-上移距离
   3_03: &sts_c 11 #字母上方为中文-字体大小
   3_04: &ktox_enter -7 #特殊符号enter-右移距离
  #键盘圆角
-  4_01: &round1 20 #按键圆角半径
-  4_02: &round2 0 #候选窗口圆角
-  4_03: &round3 65 #回车键圆角
+  4_01: &key_round 20 #按键圆角半径
+  4_02: &window_round 0 #候选窗口圆角
+  4_03: &enter_round 65 #回车键圆角
 
 var_colors:
  #深色方案
@@ -97,7 +97,7 @@ style:
     - PlangothicP2.ttf
     - han.ttf
     - hanb.ttf
-  candidate_text_size: 22  #候选字号（状态栏/候选栏）
+  candidate_text_size: 25  #候选字号（状态栏/候选栏）
   #hanb_font: PlangothicP1.ttf #候选字后备字体生僻字
   latin_font: latin.ttf #西文本体
   key_font: seguisym.ttf #symbol.ttf #seguisym.ttf #键盘字体(包括特殊符号enter, 删除，液体键盘表情)
@@ -109,11 +109,11 @@ style:
   color_scheme: red #配色方案
   candidate_padding: 11  #候选项内边距（竖线间的距离）
   candidate_spacing: 0.5  #候选间距（字词间的竖线）
-  candidate_view_height: 30 #候选区高度
+  candidate_view_height: 33 #候选区高度
   comment_position: top
   comment_on_top: true #编码提示在上方或右侧
-  comment_height: 14 #编码提示区高度
-  horizontal_gap: *hgap #键水平间距
+  comment_height: 17 #编码提示区高度（区显，编码补全区）
+  horizontal_gap: *h_gap #键水平间距
   background_dim_amount: 0.5
   root_background: keyboard_back_color # 整个键盘区+候选栏的背景图/色
   keyboard_padding: 0 #竖屏模式下，屏幕左右两侧与键盘的距离（曲面屏减少误触）
@@ -141,7 +141,7 @@ style:
     line_spacing_multiplier: 1.2 #候选词的行间距(倍数)
     real_margin: 3 #屏幕左右边缘和悬浮窗之间的距离 TODO: 在 4.0 时给 real_margin 与 spacing 换一个更适合的名字
     spacing: 1 #屏幕上下边缘或预编辑上下边缘和悬浮窗之间的距离
-    round_corner: *round2 #候选窗口圆角
+    round_corner: *window_round #候选窗口圆角
     alpha: 0xff #透明度(0-255)
     elevation: 0 #阴影(>=Android5.0)
     background: background.png #颜色或者backgrounds目录下的图片文档名
@@ -157,18 +157,18 @@ style:
     - {start: "", click: "Return", label: " 回车 "}
     - {start: "", click: "liquid_keyboard_exit", label: " 返回 "}
 
-  key_height: *ajgd4 #键高
+  key_height: *keyb_h #键高
   key_width: 10.0 #键宽，占屏幕宽的百分比
-  label_text_size: *ytgdjl #标签字号
+  label_text_size: *liquid_bar_size #标签字号
   keyboard_height: *jpbj_sp #锁定键盘高度，避免切换时键盘高度变化而造成闪烁
   keyboard_height_land: *jpbj_hp #锁定横屏下键盘高度，避免切换时键盘高度变化而造成闪烁
   preview_height: 56 #按键提示高度
   preview_offset: -32 #按键提示纵向偏移
-  round_corner: *round1 #按键圆角半径
+  round_corner: *key_round #按键圆角半径
   shadow_radius: 0.0 #按键阴影半径
   #text_height: 32 #编码区高度
   vertical_correction: -5
-  vertical_gap: *sgap #键盘行距
+  vertical_gap: *s_gap #键盘行距
   key_long_text_border: 1
   enter_label_mode: 0  #是否使用App提供的ActionLabel内容作为Enter键的文本（由于多数App没有适配ActionLable，实际影响不大）。0不使用，1只使用actionlabel，2优先使用，3当其他方式没有获得label时才读取actionlabel
   enter_labels:  # 定义Enter键的文本
@@ -727,22 +727,22 @@ preset_keyboards:
       - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
-      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
       - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   five_strokes:
     author: "csjtl"
     name: 五笔45键
     width: 10
     #height: 9
-    lock: true #切换程序时记忆键盘
+    lock: false #切换程序时记忆键盘
     ascii_mode: 0
-    reset_ascii_mode: false  #显示键盘时重置为ascii_mode指定的状态
+    reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     keys:
       - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
       - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
@@ -788,13 +788,13 @@ preset_keyboards:
       - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
-      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *ajgd4_4, round_corner: *round3, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
       - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *round3, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   mini:
     name: 精简键盘
@@ -925,14 +925,14 @@ preset_keyboards:
       - {click: 0, long_click: select_all}
       - {click: ., long_click: ':', key_back_color: b_gn, key_text_color: t_gn}
       - {click: space1, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: Menu, composing: Return, swipe_up: Escape, round_corner: *round3, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, long_click: Menu, composing: Return, swipe_up: Escape, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   numberb:
     ascii_mode: 1
     author: flypy.com
     name: 操作键盘
     width: 20.25
-    height: *ajgd5
+    height: *keyb_gn_h
     keys:
       - {click: Tab1}
       - {click: Page_Up}
@@ -956,7 +956,7 @@ preset_keyboards:
       - {click: cut}
       - {click: copy}
       - {click: paste}
-      - {click: Return, round_corner: *round3, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
+      - {click: Return, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
 
       - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
       - {click: Keyboard_null, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
@@ -970,14 +970,14 @@ preset_keyboards:
     name: 标点符号更多
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: Keyboard_math_mark, width: 100, key_text_size: "16"}
     - {click: Keyboard_latin_mark, width: 100, key_text_size: "16"}
     - {click: Keyboard_geometry_mark, width: 100, key_text_size: "16"}
     - {click: Keyboard_other_mark, width: 100, key_text_size: "16"}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -991,7 +991,7 @@ preset_keyboards:
     name: 语言标点符号1
     ascii_mode: 0
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '！'}
     - {click: '@'}
@@ -1031,7 +1031,7 @@ preset_keyboards:
     - {click: '／'}
     - {click: 'Keyboard_null', width: 100}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1045,7 +1045,7 @@ preset_keyboards:
     name: 英文标点符号
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '!'}
     - {click: '@'}
@@ -1086,7 +1086,7 @@ preset_keyboards:
     - {click: '/'}
     - {click: 'Keyboard_null', width: 100}
     - {click: 'Keyboard_null', width: 100}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1101,7 +1101,7 @@ preset_keyboards:
     name: 货币符号1
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '$'}
     - {click: '€'}
@@ -1155,7 +1155,7 @@ preset_keyboards:
     - {click: '৹'}
     - {click: '৻'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
@@ -1169,7 +1169,7 @@ preset_keyboards:
     name: emoji符号1
     ascii_mode: 1
     width: 10
-    height: *esymbols
+    height: *esymbols_h
     keys:
     - {click: "😀"}
     - {click: "😁"}
@@ -1223,7 +1223,7 @@ preset_keyboards:
     - {click: "🤤"}
     - {click: "😒"}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1237,7 +1237,7 @@ preset_keyboards:
     name: 颜文字键盘-开心
     ascii_mode: 1
     width: 25
-    height: *kaokey
+    height: *kaokey_h
     keys:
     - {click: "^_^", key_text_size: "14"}
     - {click: "^ω^", key_text_size: "14"}
@@ -1262,7 +1262,7 @@ preset_keyboards:
     - {click: "乁( ˙ ω˙乁)", key_text_size: "14"}
     - {click: "✧*｡٩(ˊωˋ*)و✧*｡", key_text_size: "10"}
     - {click: "～(￣▽￣～)(～￣▽￣)～", width: 50, key_text_size: "14"}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1277,7 +1277,7 @@ preset_keyboards:
     name: 数学符号1
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '⁰'}
     - {click: '¹'}
@@ -1331,7 +1331,7 @@ preset_keyboards:
     - {click: '₊'}
     - {click: '₋'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1346,7 +1346,7 @@ preset_keyboards:
     name: 拉丁符号1
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: 'Ā'}
     - {click: 'ā'}
@@ -1400,7 +1400,7 @@ preset_keyboards:
     - {click: 'ʣ'}
     - {click: 'Ē'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1415,7 +1415,7 @@ preset_keyboards:
     name: 几何符号1
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '←'}
     - {click: '↑'}
@@ -1469,7 +1469,7 @@ preset_keyboards:
     - {click: '⇁'}
     - {click: '⇄'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
@@ -1484,7 +1484,7 @@ preset_keyboards:
     name: 其它符号1
     ascii_mode: 1
     width: 10
-    height: *pmark
+    height: *p_mark_h
     keys:
     - {click: '⨀'}
     - {click: '⨁'}
@@ -1538,7 +1538,7 @@ preset_keyboards:
     - {click: '⨯'}
     - {click: '⨰'}
     - {click: 'Keyboard_null', width: 90}
-    - {click: Keyboard_default, width: 12.5, height: *pbottom, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+    - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
     - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
     - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
