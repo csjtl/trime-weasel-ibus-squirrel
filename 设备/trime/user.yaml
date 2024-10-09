@@ -1,11 +1,11 @@
 var:
-  last_build_time: 1728274295
+  last_build_time: 1728458723
   option:
     ascii_punct: false
     full_shape: true
   previously_selected_schema: pinyin_simp
   schema_access_time:
-    easy_en: 1728140078
+    easy_en: 1728318393
     easy_en_super: 1701179902
-    five_strokes: 1728224868
-    pinyin_simp: 1728272010
+    five_strokes: 1728353127
+    pinyin_simp: 1728362069
