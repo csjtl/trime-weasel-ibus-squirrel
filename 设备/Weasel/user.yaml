@@ -1,12 +1,14 @@
 var:
-  last_build_time: 1728118020
+  last_build_time: 1728645563
   option:
-    ascii_punct: false
+    ascii_punct: true
+    emoji: true
     full_shape: false
-  previously_selected_schema: pinyin_simp
+    search_single_char: true
+  previously_selected_schema: rime_ice
   schema_access_time:
-    easy_en: 1728021578
+    easy_en: 1728640591
     easy_en_super: 1728021345
-    five_strokes: 1728115265
-    pinyin_simp: 1728125511
+    five_strokes: 1728639151
+    rime_ice: 1728640600
     wubi06_cjk: 1728115144

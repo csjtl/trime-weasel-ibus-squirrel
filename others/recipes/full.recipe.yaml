@@ -1,0 +1,19 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: others/recipes/full
+  args:
+  description: >-
+    完整安装、更新
+install_files: >-
+  dicts_cn/*.*
+  dicts_en/*.*
+  opencc/*.*
+  rime.lua
+  lua/*.*
+  lua/cold_word_drop/*.*
+  default.yaml
+  rime_ice.schema.yaml
+  rime_ice.dict.yaml
+  symbols.yaml
+  custom_phrase.txt

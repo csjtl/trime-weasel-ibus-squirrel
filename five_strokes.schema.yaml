@@ -12,7 +12,7 @@ schema:
     1 五笔字型新世纪版
     敲 z 键进入拼音反查
   dependencies:
-    - pinyin_simp
+    - rime_ice
 
 style:
   candidate_font: PlangothicP2.ttf #候选字体
@@ -20,26 +20,26 @@ style:
 
 switches:
   - name: ascii_mode
-    reset: 0
     states: [ 中文 , 英文 ]
+    reset: 0
   - name: full_shape
-    reset: 0
     states: [ 🌙 , 🌕️ ]
-  - name: extended_charset
-    reset: 1
-    states: [ 常用 , 增广 ]
-  - name: zh_trad  #开启简入繁出，0关，1开
     reset: 0
-    states: [ 简体 , 繁体 ]
-  - name: charset_comment_filter  #Unicode 区段提示，0关，1开
-    reset: 0
-    states: [ 区关 , 区显 ]
   - name: ascii_punct
-    reset: 1
     states: [ ，。 , ，． ]
-  - name: emoji_suggestion
+    reset: 1
+  - name: traditionalization  #开启简入繁出，0关，1开
+    states: [ 简体 , 繁体 ]
     reset: 0
+  - name: extended_charset
+    states: [ 常用 , 增广 ]
+    reset: 1
+  - name: charset_comment_filter  #Unicode 区段提示，0关，1开
+    states: [ 区关 , 区显 ]
+    reset: 0
+  - name: emoji_suggestion
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
+    reset: 1
 
 engine:
   processors:
@@ -64,7 +64,7 @@ engine:
     - script_translator
   filters:
     - lua_filter@charset_comment_filter
-    - simplifier@zh_trad
+    - simplifier@traditionalize
     - simplifier@emoji_suggestion
     - uniquifier
 
@@ -83,7 +83,7 @@ translator:
   #db_class: tabledb             #用户字典类型
   user_dict: db_five_strokes
   enable_charset_filter: true     #字符集过滤
-  enable_sentence: true          #自动造句
+  enable_sentence: false          #自动造句
   enable_encoder: true           #自动造词
   encode_commit_history: true     #上屏词自动成词
   enable_completion: true        #提示没有输入完整编码的字
@@ -93,7 +93,7 @@ translator:
     - "^z.*$"
 
 reverse_lookup:
-  dictionary: pinyin_simp
+  dictionary: rime_ice
   prefix: "z"
   suffix: "'"
   tips: 〔拼音〕
@@ -104,6 +104,8 @@ reverse_lookup:
 
 punctuator:
   import_preset: default
+  symbols:
+    __include: symbols:/symbols
 
 key_binder:
   import_preset: default
@@ -118,7 +120,7 @@ recognizer:
   patterns:
     reverse_lookup: "^z[a-z]*'?$"    #敲 z 键进入拼音反查
 
-zh_trad:
+traditionalize:
   opencc_config: s2t.json  # 简 -> 繁
   #  opencc_config: s2hk.json  # 繁 -> 香港
   #  opencc_config: t2s.json   # 繁 -> 简
@@ -126,7 +128,7 @@ zh_trad:
   #  opencc_config: t2hk.json  # 繁 -> 香港
   #  opencc_config: s2tw.json  # 简 -> 台湾标准
   #  opencc_config: s2twp.json  # 简 -> 台湾片语
-  option_name: zh_trad
+  option_name: traditionalization
 
 emoji_suggestion:
   opencc_config: emoji.json

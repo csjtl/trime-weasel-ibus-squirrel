@@ -1,11 +1,11 @@
 customization:
   distribution_code_name: trime
-  distribution_version: nightly
+  distribution_version: "nightly-4-gf71f16b9"
   generator: "Rime::SwitcherSettings"
-  modified_time: "Sat Oct  5 14:20:29 2024"
+  modified_time: "Fri Oct 11 18:11:56 2024"
   rime_version: 1.11.2
 patch:
   schema_list:
     - {schema: five_strokes}
     - {schema: easy_en}
-    - {schema: pinyin_simp}
+    - {schema: rime_ice}
