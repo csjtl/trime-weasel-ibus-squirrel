@@ -29,7 +29,7 @@ switches:
     reset: ０
   - name: ascii_punct
     states: [ ，。 , ，． ]
-    reset: 1
+    reset: 0
   - name: traditionalization
     states: [ 简体 , 繁体 ]
     reset: 0

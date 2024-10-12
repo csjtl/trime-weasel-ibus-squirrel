@@ -117,7 +117,7 @@ punctuator:
     '?' : { commit: '？' }
 
   half_shape:
-    ' ' : { commit: '　' }
+    ' ' : { commit: ' ' }
     '~' : { commit: '~' }
     '`' : { commit: '·' }
     '!' : { commit: '！' }
@@ -199,12 +199,12 @@ key_binder:
     # - { when: always, select: .next, accept: Control+Shift+exclam }             # 在最近的两个方案之间切换
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+2 }             # 切换中英
     # - { when: always, toggle: ascii_mode, accept: Control+Shift+at }            # 切换中英
-    - { when: always, toggle: ascii_punct, accept: Control+Shift+3 }              # 切换中英标点
-    - { when: always, toggle: ascii_punct, accept: Control+Shift+numbersign }     # 切换中英标点
-    - { when: always, toggle: traditionalization, accept: Control+Shift+4 }       # 切换简繁
-    - { when: always, toggle: traditionalization, accept: Control+Shift+dollar }  # 切换简繁
-    # - { when: always, toggle: full_shape, accept: Control+Shift+5 }             # 切换全半角
-    # - { when: always, toggle: full_shape, accept: Control+Shift+percent }       # 切换全半角
+    - { when: always, toggle: full_shape, accept: Control+Shift+8 }             # 切换全半角
+    - { when: always, toggle: full_shape, accept: Control+Shift+asterisk }       # 切换全半角
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+9 }              # 切换中英标点
+    - { when: always, toggle: ascii_punct, accept: Control+Shift+parenleft }     # 切换中英标点
+    #- { when: always, toggle: traditionalization, accept: Control+Shift+5 }       # 切换简繁
+    #- { when: always, toggle: traditionalization, accept: Control+Shift+percent }  # 切换简繁
 
     # emacs_editing:
     # - { when: composing, accept: Control+p, send: Up }

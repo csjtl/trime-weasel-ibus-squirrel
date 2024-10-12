@@ -9,3 +9,5 @@ patch:
     - {schema: easy_en}
     - {schema: five_strokes}
     - {schema: rime_ice}
+  menu:
+    page_size: 9

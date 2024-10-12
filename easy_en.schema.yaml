@@ -21,7 +21,7 @@ switches:
     states: [ASCII-OFF, ASCII-ON]
   - name: full_shape
     states: [ 🌙 , 🌕️ ]
-    reset: ０
+    reset: 0
 
 engine:
   processors:

@@ -37,7 +37,7 @@ full_shape:
   '?' : { commit: '？' }
 
 half_shape:
-  ' ' : { commit: '　' }
+  ' ' : { commit: ' ' }
   '~' : { commit: '~' }
   '`' : { commit: '·' }
   '!' : { commit: '！' }

@@ -106,66 +106,97 @@ preset_color_schemes:
     prevpage_color: 0xff161616
     nextpage_color: 0xff161616
   macos12_dark:
-      back_color: 0x1E1F24
-      border_color: 0x1E1F24
-      candidate_text_color: 0xE8E8E8
-      comment_text_color: 0x808080
-      hilited_candidate_back_color: 0xDA6203
-      hilited_candidate_label_color: 0xFFE7D6
-      hilited_candidate_text_color: 0xFFFFFF
-      hilited_comment_text_color: 0x808080
-      hilited_text_color: 0xFFFFFF
-      label_color: 0x7C7C7C
-      name: macos12_dark
-      text_color: 0x3F000000
+    back_color: 0x1E1F24
+    border_color: 0x1E1F24
+    candidate_text_color: 0xE8E8E8
+    comment_text_color: 0x808080
+    hilited_candidate_back_color: 0xDA6203
+    hilited_candidate_label_color: 0xFFE7D6
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x808080
+    hilited_text_color: 0xFFFFFF
+    label_color: 0x7C7C7C
+    name: macos12_dark
+    text_color: 0x3F000000
   macos12_light:
-      back_color: 0xFFFFFF
-      border_color: 0xFFFFFF
-      candidate_text_color: 0xD8000000
-      comment_text_color: 0x3F000000
-      hilited_candidate_back_color: 0xD05925
-      hilited_candidate_label_color: 0xFFFFFF
-      hilited_candidate_text_color: 0xFFFFFF
-      hilited_comment_text_color: 0x808080
-      hilited_text_color: 0xD8000000
-      label_color: 0x7F7F7F
-      name: macos12_light
-      text_color: 0x3F000000
+    back_color: 0xFFFFFF
+    border_color: 0xFFFFFF
+    candidate_text_color: 0xD8000000
+    comment_text_color: 0x3F000000
+    hilited_candidate_back_color: 0xD05925
+    hilited_candidate_label_color: 0xFFFFFF
+    hilited_candidate_text_color: 0xFFFFFF
+    hilited_comment_text_color: 0x808080
+    hilited_text_color: 0xD8000000
+    label_color: 0x7F7F7F
+    name: macos12_light
+    text_color: 0x3F000000
   win10:
-      back_color: 0xffffff
-      candidate_text_color: 0x000000
-      comment_text_color: 0x888888
-      hilited_back_color: 0xffffff
-      hilited_candidate_back_color: 0xcc8f29
-      hilited_candidate_text_color: 0xffffff
-      hilited_comment_text_color: 0xffffff
-      hilited_label_color: 0xffffff
-      hilited_text_color: 0x000000
-      label_color: 0x888888
-      name: win10
-      text_color: 0x000000
+    back_color: 0xffffff
+    candidate_text_color: 0x000000
+    comment_text_color: 0x888888
+    hilited_back_color: 0xffffff
+    hilited_candidate_back_color: 0xcc8f29
+    hilited_candidate_text_color: 0xffffff
+    hilited_comment_text_color: 0xffffff
+    hilited_label_color: 0xffffff
+    hilited_text_color: 0x000000
+    label_color: 0x888888
+    name: win10
+    text_color: 0x000000
   win10_weasel:
-      back_color: 0xF3F3F3
-      border_color: 0xDBDCDC
-      candidate_text_color: 0x000000
-      hilited_candidate_back_color: 0xFFD8A6
-      hilited_label_color: 0x6F6F6F
-      hilited_mark_color: 0x00000000
-      label_color: 0x6F6F6F
-      name: win10_weasel
-      shadow_color: 0x20000000
-      text_color: 0x000000
+    back_color: 0xF3F3F3
+    border_color: 0xDBDCDC
+    candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xFFD8A6
+    hilited_label_color: 0x6F6F6F
+    hilited_mark_color: 0x00000000
+    label_color: 0x6F6F6F
+    name: win10_weasel
+    shadow_color: 0x20000000
+    text_color: 0x000000
   win11_weasel:
-      back_color: 0xF9F9F9
-      border_color: 0xE7E7E7
-      candidate_text_color: 0x000000
-      hilited_candidate_back_color: 0xF0F0F0
-      hilited_label_color: 0x727272
-      hilited_mark_color: 0xFFD8A6
-      label_color: 0x727272
-      name: win11_weasel
-      shadow_color: 0x20000000
-      text_color: 0x000000
+    back_color: 0xF9F9F9
+    border_color: 0xE7E7E7
+    candidate_text_color: 0x000000
+    hilited_candidate_back_color: 0xF0F0F0
+    hilited_label_color: 0x727272
+    hilited_mark_color: 0xFFD8A6
+    label_color: 0x727272
+    name: win11_weasel
+    shadow_color: 0x20000000
+    text_color: 0x000000
+  nord:                                      # 在 `style/color_schema` 指定的配色方案值
+    name: "远山／Nord"                       # 方案设置中显示的配色名称
+    author: Mirtle                           # 配色作者名称
+    color_format: rgba                       # 颜色格式：argb（0xaarrggbb）；rgba（0xrrggbbaa）；abgr（0xaabbggrr 默认）
+    # 默认配色
+    text_color: 0x2E3440                     # 文字
+    shadow_color: 0x000000b4                 # 阴影
+    label_color: 0x4C566A                    # 标签
+    comment_text_color: 0xD08770             # 注释
+    border_color: 0xECEFF4                   # 边框
+    back_color: 0xECEFF4                     # 背景
+    # 普通候选项配色
+    candidate_back_color: 0xECEFF4           # 背景
+    # candidate_border_color:                # 边框
+    # candidate_shadow_color:                # 阴影
+    candidate_text_color: 0x2E3440           # 文字
+    # 编码区域配色
+    hilited_text_color: 0x000000             # 文字
+    hilited_back_color: 0xEBCB8B             # 背景
+    # hilited_shadow_color:                  # 阴影
+    # 选中的候选区域配色
+    hilited_mark_color: 0xBF616A             # 标签前的标记
+    hilited_label_color: 0x4C566A            # 标签
+    hilited_comment_text_color: 0xBF616A     # 注释
+    hilited_candidate_text_color: 0x2E3440   # 文字
+    hilited_candidate_border_color: 0x8FBCBB # 边框
+    hilited_candidate_back_color: 0x8FBCBB   # 背景
+    # hilited_candidate_shadow_color:        # 阴影
+    # inline_preedit: false 时翻页箭头颜色，不设置则不显示箭头
+    # nextpage_color: 0x000000               # 下一页
+    # prevpage_color: 0x000000               # 上一页
 
 # 为特定的应用单独设定选项
  #使用方法：在 weasel.custom.yaml 的 patch: 中添加如下两行：

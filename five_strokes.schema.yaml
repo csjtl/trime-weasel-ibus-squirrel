@@ -27,7 +27,7 @@ switches:
     reset: 0
   - name: ascii_punct
     states: [ ，。 , ，． ]
-    reset: 1
+    reset: 0
   - name: traditionalization  #开启简入繁出，0关，1开
     states: [ 简体 , 繁体 ]
     reset: 0
