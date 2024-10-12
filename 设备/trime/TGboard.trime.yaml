@@ -34,31 +34,40 @@ var_key: #var_value
 
 var_colors:
  #深色方案
-  1_01: &dark_c1 0xFFC62828
-  1_02: &dark_c2 0xFFE3E3E3
-  1_03: &dark_c3 0xFF38393D
-  1_04: &dark_c4 0xFF1F1F1F
-  1_05: &dark_c5 0xFF444746
-  1_06: &dark_c6 0xff131313
-  1_07: &dark_c7 0xFFA8C7FA
-  1_08: &dark_c8 0xff838383
-  1_09: &dark_c9 0xFF062D6D
+  1_01: &dark_c01 0xFFC62828
+  1_02: &dark_c02 0xFFE3E3E3
+  1_03: &dark_c03 0xFF38393D
+  1_04: &dark_c04 0xFF1F1F1F
+  1_05: &dark_c05 0xFF444746
+  1_06: &dark_c06 0xff131313
+  1_07: &dark_c07 0xFFA8C7FA
+  1_08: &dark_c08 0xff838383
+  1_09: &dark_c09 0xFF062D6D
   1_10: &dark_c10 0xFF7B7B7B
  #浅色方案
-  2_01: &light_c1 0xC62828
-  2_02: &light_c2 0xE3E3E3
-  2_03: &light_c3 0x38393D
-  2_04: &light_c4 0x1F1F1F
-  2_05: &light_c5 0x444746
-  2_06: &light_c6 0xff131313
-  2_07: &light_c7 0xA8C7FA
-  2_08: &light_c8 0xff838383
-  2_09: &light_c9 0x062D6D
-  2_10: &light_c10 0x7B7B7B
+  2_01: &light_c01 0xff000000
+  2_02: &light_c02 0xff0B57CF
+  2_03: &light_c03 0xff1A1A1A
+  2_04: &light_c04 0xff1F1F1F
+  2_05: &light_c05 0xff23948e
+  2_06: &light_c06 0xff37474f
+  2_07: &light_c07 0xff5f6b73
+  2_08: &light_c08 0xffd3d7da
+  2_09: &light_c09 0xffDDE1E8
+  2_10: &light_c10 0xffE1E3E0
+  2_11: &light_c11 0xffeceff1
+  2_12: &light_c12 0xffEFF3FA
+  2_13: &light_c13 0xffEFF4FA
+  2_14: &light_c14 0xffff0000
+  2_15: &light_c15 0xffFFFFFF
  #ubuntu颜色
   3_01: &ubuntu_o 0xffe95420 #橙色
   3_02: &ubuntu_w 0xffffffff #白色
   3_03: &ubuntu_b 0xff000000 #黑色
+ #验证用颜色
+  3_01: &error_r 0xffff0000 #红色
+  3_02: &error_g 0xff00ff00 #绿色
+  3_03: &error_b 0xff0000ff #蓝色
  #Gboard red方案
   4_01: &red_tab 0xffe2e4e5 #Typing area background
   4_02: &red_tat 0xff161616 #Typing area text
@@ -188,150 +197,146 @@ preset_color_schemes: #配色方案
     name: 深色  #方案名称
     author: csjtl #作者信息
     #light_scheme: light
-    back_color: *dark_c4 #状态栏(候选区)/打字区光标（符号^）的背景
-    border_color: *ubuntu_o #边框
-    candidate_separator_color: *dark_c5 #候选区文字间分割线
-    candidate_text_color: *dark_c2 #候选区文字
-    comment_text_color: *dark_c2 #候选区文字上方的文字，符号，编码显示
-    text_back_color: *dark_c4 #打字区底色
-    text_color: *dark_c7 #打字区光标的符号（^）颜色
-    label_color: *dark_c2 #打字区候选字词的序号数字标签
-    hilited_back_color: *dark_c4 #打字区正在输入的编码区底色
-    hilited_text_color: *dark_c7 #打字区正在输入的编码颜色
-    hilited_candidate_back_color: *dark_c4 #打字区高亮候选词的底色
-    hilited_candidate_text_color: *dark_c2 #打字区高亮候选词文字颜色
-    hilited_comment_text_color: *dark_c2 #打字区文字的符号，编码提示
-    hilited_key_back_color: *dark_c4 #按住按键时按键的底色
-    hilited_key_symbol_color: *dark_c5 #点击按键时的符号
-    hilited_key_text_color: *dark_c5 #点击按键时的文本
-    hilited_off_key_back_color: *dark_c4 #高亮按键关闭状态背景（未知）所有功能键背景色
-    hilited_off_key_text_color: *dark_c5 #高亮按键关闭状态文本（未知）所有功能键文本色
-    hilited_on_key_back_color: *ubuntu_o #标明按键打开状态背景
-    hilited_on_key_text_color: *ubuntu_w #标明按键打开状态文字
-    key_back_color: *dark_c3 #非主键盘按键背景
-    key_border_color: *ubuntu_o #按键边框
-    key_text_color: *dark_c2 #非主键盘按键文本
-    keyboard_back_color: *dark_c4 #主键盘背景
-    key_symbol_color: *dark_c2 #键盘按键长按符号（按键主字母/文字上方）
-    off_key_back_color: *dark_c5  #按键关闭状态背景（未知）所有功能键背景色
-    off_key_text_color: *dark_c2 #按键关闭状态文本（未知）所有功能键文本色
-    on_key_back_color: *ubuntu_o #按键打开状态背景
-    on_key_text_color: *ubuntu_w #按键打开状态文字
-    preview_back_color: *dark_c3 #按键弹出显示背景
-    preview_text_color: *dark_c7 #按键弹出显示文本
-    shadow_color: *ubuntu_o #按键文字阴影
+    back_color: *dark_c04 #状态栏(候选区)/打字区光标（符号^）的背景
+    border_color: *error_b #边框
+    candidate_separator_color: *dark_c05 #候选区文字间分割线
+    candidate_text_color: *dark_c02 #候选区文字
+    comment_text_color: *dark_c02 #候选区文字上方的文字，符号，编码显示
+    text_back_color: *dark_c04 #打字区底色
+    text_color: *dark_c07 #打字区光标的符号（^）颜色
+    label_color: *dark_c02 #打字区候选字词的序号数字标签
+    hilited_back_color: *dark_c04 #打字区正在输入的编码区底色
+    hilited_text_color: *dark_c07 #打字区正在输入的编码颜色
+    hilited_candidate_back_color: *dark_c04 #打字区高亮候选词的底色
+    hilited_candidate_text_color: *dark_c02 #打字区高亮候选词文字颜色
+    hilited_comment_text_color: *dark_c02 #打字区文字的符号，编码提示
+    hilited_key_back_color: *dark_c04 #按住按键时按键的底色
+    hilited_key_symbol_color: *dark_c05 #点击按键时的符号
+    hilited_key_text_color: *dark_c05 #点击按键时的文本
+    hilited_off_key_back_color: *dark_c04 #高亮按键关闭状态背景（未知）所有功能键按住背景色
+    hilited_off_key_text_color: *dark_c05 #高亮按键关闭状态文本（未知）所有功能键按住文本色
+    hilited_on_key_back_color: *error_g #标明按键打开状态背景
+    hilited_on_key_text_color: *error_r #标明按键打开状态文字
+    key_back_color: *dark_c03 #非主键盘按键背景
+    key_border_color: *error_b #按键边框
+    key_text_color: *dark_c02 #非主键盘按键文本
+    keyboard_back_color: *dark_c04 #主键盘背景
+    key_symbol_color: *dark_c02 #键盘按键长按符号（按键主字母/文字上方）
+    off_key_back_color: *dark_c05  #按键关闭状态背景（未知）所有功能键背景色
+    off_key_text_color: *dark_c02 #按键关闭状态文本（未知）所有功能键文本色
+    on_key_back_color: *error_g #按键打开状态背景
+    on_key_text_color: *error_r #按键打开状态文字
+    preview_back_color: *dark_c03 #按键弹出显示背景
+    preview_text_color: *dark_c07 #按键弹出显示文本
+    shadow_color: *error_r #按键文字阴影
     key_fj_back_color: *dark_c10 #fj按键背景
-    b_kg: *dark_c3 #空格键背景色
-    t_kg: *dark_c2 #空格键文字颜色
-    b_enter: *dark_c7 #回车键背景色
-    t_enter: *dark_c9 #回车键文字颜色
-    b_gn: *dark_c5 #功能键背景色
-    t_gn: *dark_c2 #功能键文字颜色
-    b_bs: *dark_c5 #退格键背景色
-    t_bs: *dark_c2 #退格键文字颜色
-    b_aoe: *dark_c3 #aoeiu背景色
-    t_aoe: *dark_c7 #aoeiu文字颜色
-    b_h0: *dark_c3 #键盘数字键背景色
-    t_h0: *dark_c2 #键盘数字键数字颜色
-    b_h1: *dark_c3 #键盘字母一行背景色
-    t_h1: *dark_c2 #键盘字母一行文字颜色
-    b_h2: *dark_c3 #键盘字母二行背景色
-    t_h2: *dark_c2 #键盘字母二行文字颜色
-    b_h3: *dark_c3 #键盘字母三行背景色
-    t_h3: *dark_c2 #键盘字母三行文字颜色
-    b_h4: *dark_c3 #键盘尾行背景色
-    t_h4: *dark_c2 #键盘尾行文字颜色
+    b_kg: *dark_c03 #空格键背景色
+    t_kg: *dark_c02 #空格键文字颜色
+    b_enter: *dark_c07 #回车键背景色
+    t_enter: *dark_c09 #回车键文字颜色
+    b_gn: *dark_c05 #功能键背景色
+    t_gn: *dark_c02 #功能键文字颜色
+    b_bs: *dark_c05 #退格键背景色
+    t_bs: *dark_c02 #退格键文字颜色
+    b_aoe: *dark_c03 #aoeiu背景色
+    t_aoe: *dark_c07 #aoeiu文字颜色
+    b_h0: *dark_c03 #键盘数字键背景色
+    t_h0: *dark_c02 #键盘数字键数字颜色
+    b_h1: *dark_c03 #键盘字母一行背景色
+    t_h1: *dark_c02 #键盘字母一行文字颜色
+    b_h2: *dark_c03 #键盘字母二行背景色
+    t_h2: *dark_c02 #键盘字母二行文字颜色
+    b_h3: *dark_c03 #键盘字母三行背景色
+    t_h3: *dark_c02 #键盘字母三行文字颜色
+    b_h4: *dark_c03 #键盘尾行背景色
+    t_h4: *dark_c02 #键盘尾行文字颜色
 
 #--------配色开始----------------#
   light:
-    name: 明亮 #方案名称
-    author: csjtl #作者资讯
-    back_color: 0xffEFF4FA #候选区背景
-    border_color: 0xffff0000 #边框
-    candidate_separator_color: 0xffDDE1E8 #候选分割背景
-    candidate_text_color: 0xff1F1F1F #候选文字
-    comment_text_color: 0xff1F1F1F #提示
-    hilited_back_color: 0xffEFF3FA #标明编码背景
-    hilited_candidate_back_color: 0xffd3d7da #标明候选背景
-    hilited_candidate_text_color: 0xff000000 #标明候选文字
-    hilited_comment_text_color: 0xff000000 #标明提示
-    hilited_key_back_color: 0xffd3d7da #标明按键背景
-    hilited_key_symbol_color: 0xff000000 #标明按键符号
-    hilited_key_text_color: 0xff000000 #标明按键文字
-    hilited_off_key_back_color: 0xffd3d7da #标明按键关闭状态背景
-    hilited_off_key_text_color: 0xff000000 #标明按键关闭状态文字
-    hilited_on_key_back_color: 0xffd3d7da #标明按键打开状态背景
-    hilited_on_key_text_color: 0xff000000 #标明按键打开状态文字
-    hilited_text_color: 0xff1A1A1A #标明编码
-    key_back_color: 0xffFFFFFF #按键背景
-    key_border_color: 0xffeceff1 #按键边框
-    key_symbol_color: 0xff5f6b73 #按键符号
-    key_text_color: 0xff1A1A1A #按键文字
-    keyboard_back_color: 0xffEFF4FA #键盘背景
-    label_color: 0xff0B57CF #标签
-    off_key_back_color: 0xffd3d7da #按键关闭状态背景
-    off_key_text_color: 0xff000000 #按键关闭状态文字
-    on_key_back_color: 0xff23948e #按键打开状态背景
-    on_key_text_color: 0xff37474f #按键打开状态文字
-    preview_back_color: 0xff0B57CF #按键提示背景
-    preview_text_color: 0xffFFFFFF #按键提示文字
-    shadow_color: 0xff000000 #阴影
-    text_color: 0xff0B57CF #编码
-    text_back_color: 0xffEFF4FA #编码区背景
-    key_fj_back_color: 0xffE1E3E0 #fj按键背景
-    b_enter: 0xff0B57CF #回车键背景色
-    t_enter: 0xffFFFFFF #回车键文字颜色
-    b_gn: 0xffE1E3E0 #功能键背景色
-    t_gn: 0xff1A1A1A #功能键文字颜色
-    b_bs: 0xffE1E3E0 #退格键背景色
-    t_bs: 0xff1A1A1A #退格键文字颜色
+    name: 明亮
+    author: csjtl
+    back_color: *light_c13
+    border_color: *error_g
+    candidate_separator_color: *light_c09
+    candidate_text_color: *light_c04
+    comment_text_color: *light_c04
+    hilited_back_color: *light_c12
+    hilited_candidate_back_color: *light_c08
+    hilited_candidate_text_color: *light_c01
+    hilited_comment_text_color: *light_c01
+    hilited_key_back_color: *light_c08
+    hilited_key_symbol_color: *light_c01
+    hilited_key_text_color: *light_c01
+    hilited_off_key_back_color: *light_c08
+    hilited_off_key_text_color: *light_c01
+    hilited_on_key_back_color: *error_g
+    hilited_on_key_text_color: *error_r
+    hilited_text_color: *light_c03
+    key_back_color: *light_c15
+    key_border_color: *light_c11
+    key_symbol_color: *light_c07
+    key_text_color: *light_c03
+    keyboard_back_color: *light_c13
+    label_color: *light_c02
+    off_key_back_color: *light_c08
+    off_key_text_color: *light_c01
+    on_key_back_color: *light_c05
+    on_key_text_color: *light_c06
+    preview_back_color: *light_c02
+    preview_text_color: *light_c15
+    shadow_color: *error_g
+    text_back_color: *light_c13
+    text_color: *light_c02
+    key_fj_back_color: *light_c10
+    b_enter: *light_c02
+    t_enter: *light_c15
+    b_gn: *light_c10
+    t_gn: *light_c03
+    b_bs: *light_c10
+    t_bs: *light_c03
 
-  red: #0xffff0000
-    name: 红/Red #方案名称
-    author: csjtl #作者资讯
-    keyboard_back_color: *red_mkb #主键盘背景
-    text_back_color: *red_tab #打字区底色
-    back_color: *red_mkb #状态栏(候选区)/打字区光标（符号^）的背景
-    text_color: *red_mkt #打字区光标的符号（^）颜色
-    hilited_back_color: *red_tab #打字区正在输入的编码区底色
-    hilited_text_color: *red_tat #打字区正在输入的编码颜色
-    hilited_candidate_back_color: *red_mkb #打字区高亮候选词的底色
-    hilited_candidate_text_color: *red_mkt #打字区高亮候选词文字颜色
-    hilited_comment_text_color: *red_mkt #打字区文字的符号，编码提示
-    label_color: *red_mkt #打字区候选字词的序号数字标签
-
-    candidate_separator_color: *red_mkkb #候选区文字间分割线
-    candidate_text_color: *red_mkt #候选区文字
-    comment_text_color: *red_mkt #候选区文字上方的文字，符号，编码显示
-
-    key_back_color: *red_mkkb #键盘按键背景
-    key_text_color: *red_mkt #键盘按键文本
-    key_symbol_color: *red_mkt #键盘按键长按符号（按键主字母/文字上方）
-    hilited_key_back_color: *red_mkb #点击按键时的底色
-    hilited_key_text_color: *red_apt #点击按键时的文本
-    hilited_key_symbol_color: *red_apt #点击按键时的符号
-    preview_back_color: *red_pk #按键弹出显示背景
-    preview_text_color: *red_mkt #按键弹出显示文本
-    b_enter: *red_ek #回车键背景色
-    t_enter: *red_mkt #回车键文字颜色
-    b_gn: *red_fk #功能键背景色
-    t_gn: *red_mkt #功能键文字颜色
-    b_bs: *red_fk #退格键背景色
-    t_bs: *red_mkt #退格键文字颜色
-    key_fj_back_color: *red_ek #fj按键背景
-
-    shadow_color: *red_pk #阴影
-    border_color: *ubuntu_o #边框
-    key_border_color: *ubuntu_o #按键边框
-
-    hilited_off_key_back_color: *ubuntu_o #高亮按键关闭状态背景
-    hilited_off_key_text_color: *ubuntu_b #高亮按键关闭状态文本
-    hilited_on_key_back_color: *ubuntu_o #标明按键打开状态背景
-    hilited_on_key_text_color: *ubuntu_b #标明按键打开状态文字
-    off_key_back_color: *ubuntu_o #按键关闭状态背景
-    off_key_text_color: *ubuntu_b #按键关闭状态文本
-    on_key_back_color: *ubuntu_o #按键打开状态背景
-    on_key_text_color: *ubuntu_b #按键打开状态文字
+  red:
+    name: 红/Red
+    author: csjtl
+    back_color: *red_mkb
+    border_color: *error_b
+    candidate_separator_color: *red_mkkb
+    candidate_text_color: *red_mkt
+    comment_text_color: *red_mkt
+    hilited_back_color: *red_tab
+    hilited_candidate_back_color: *red_mkb
+    hilited_candidate_text_color: *red_mkt
+    hilited_comment_text_color: *red_mkt
+    hilited_key_back_color: *red_mkb
+    hilited_key_symbol_color: *red_apt
+    hilited_key_text_color: *red_apt
+    hilited_off_key_back_color: *red_mkkb
+    hilited_off_key_text_color: *red_mkt
+    hilited_on_key_back_color: *error_g
+    hilited_on_key_text_color: *error_r
+    hilited_text_color: *red_tat
+    key_back_color: *red_mkkb
+    key_border_color: *error_b
+    key_symbol_color: *red_mkt
+    key_text_color: *red_mkt
+    keyboard_back_color: *red_mkb
+    label_color: *red_mkt
+    off_key_back_color: *red_fk
+    off_key_text_color: *red_mkt
+    on_key_back_color: *error_g
+    on_key_text_color: *error_r
+    preview_back_color: *red_pk
+    preview_text_color: *red_mkt
+    shadow_color: *red_pk
+    text_back_color: *red_tab
+    text_color: *red_mkt
+    key_fj_back_color: *red_ek
+    b_enter: *red_ek
+    t_enter: *red_mkt
+    b_gn: *red_fk
+    t_gn: *red_mkt
+    b_bs: *red_fk
+    t_bs: *red_mkt
 
   google:
     name: 谷歌/Google
