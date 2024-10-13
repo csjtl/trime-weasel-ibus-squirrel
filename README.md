@@ -31,28 +31,28 @@
 ```txt
 ### 通用
 
-fonts 文件夹
-lua 文件夹
-opencc 文件夹
+#### 文件夹
+dicts_cn
+dicts_en
+fonts
+lua
+opencc
+others
 
-default.custom.yaml
+#### 文件
+default.yaml
 easy_en.dict.yaml
 easy_en.schema.yaml
-easy_en.yaml
 easy_en_super.dict.yaml
 easy_en_super.schema.yaml
-installation.yaml
+five_strokes.dict.yaml
+five_strokes.schema.yaml
 key_bindings.yaml
-pinyin_simp.dict.yaml
-pinyin_simp.schema.yaml
-PinyinDictionary_Fcitx.dict.yaml
 punctuation.yaml
 rime.lua
+rime_ice.dict.yaml
+rime_ice.schema.yaml
 symbols.yaml
-user.yaml
-wubi06_all.dict.yaml
-wubi06_cjk.schema.yaml
-wubi06_unicodecjk.dict.yaml
 
 ### Weasel
 
