@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1728730363
+  last_build_time: 1728799643
   option:
     ascii_punct: true
     emoji: true
@@ -7,8 +7,8 @@ var:
     search_single_char: false
   previously_selected_schema: rime_ice
   schema_access_time:
-    easy_en: 1728729786
-    easy_en_super: 1728021345
-    five_strokes: 1728730397
-    rime_ice: 1728730411
+    easy_en: 1728799601
+    easy_en_super: 1728799647
+    five_strokes: 1728799676
+    rime_ice: 1728800017
     wubi06_cjk: 1728115144

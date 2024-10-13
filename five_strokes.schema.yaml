@@ -14,9 +14,8 @@ schema:
   dependencies:
     - rime_ice
 
-style:
-  candidate_font: PlangothicP2.ttf #候选字体
-  hanb_font: PlangothicP1.ttf #hanb.ttf候选字后备字体生僻字
+#style:
+ # candidate_font: Plangothic.ttc #候选字体
 
 switches:
   - name: ascii_mode
@@ -78,7 +77,7 @@ speller:
   auto_clear: 4        #四码内不清屏，四码空码时第五码清空前四码
 
 translator:
-  dictionary: five_strokes_all
+  dictionary: five_strokes
   enable_user_dict: true      #用户字典
   #db_class: tabledb             #用户字典类型
   user_dict: db_five_strokes

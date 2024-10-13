@@ -1,0 +1,11 @@
+---
+#内部字典名，也即schema所引用的字典名，确保与文件名相一致
+name: five_strokes
+#如果发布，请确保每次改动陞版本号
+version: "20241013"
+#字典初始排序，可选original或by_weight
+sort: by_weight
+import_tables:
+    - dicts_cn/five_strokes_all
+    - dicts_cn/five_strokes_unicodecjk
+...
