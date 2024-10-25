@@ -6,6 +6,6 @@ version: "20241013"
 #字典初始排序，可选original或by_weight
 sort: by_weight
 import_tables:
-    - dicts_cn/five_strokes_all
     - dicts_cn/five_strokes_unicodecjk
+    - dicts_cn/five_strokes_all
 ...

@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1728799643
+  last_build_time: 1729839291
   option:
     ascii_punct: true
     emoji: true
@@ -9,6 +9,6 @@ var:
   schema_access_time:
     easy_en: 1729592618
     easy_en_super: 1729592620
-    five_strokes: 1729592614
-    rime_ice: 1729592624
+    five_strokes: 1729837613
+    rime_ice: 1729840740
     wubi06_cjk: 1728115144
