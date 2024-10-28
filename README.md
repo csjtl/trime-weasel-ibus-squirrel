@@ -32,14 +32,21 @@
 ### 通用
 
 #### 文件夹
+
 dicts_cn
+
 dicts_en
+
 fonts
+
 lua
+
 opencc
+
 others
 
 #### 文件
+
 default.yaml
 easy_en.dict.yaml
 easy_en.schema.yaml
