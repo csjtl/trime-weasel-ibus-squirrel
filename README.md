@@ -28,7 +28,7 @@
 
 ### 目录结构
 
-```txt
+
 ### 通用
 
 #### 文件夹
@@ -81,7 +81,7 @@ user.yaml
 
 installation.yaml
 squirrel.custom.yaml
-```
+
 
 #### 同文-Trime
 
