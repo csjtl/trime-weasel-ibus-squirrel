@@ -5,6 +5,22 @@ name: five_strokes
 version: "20241013"
 #字典初始排序，可选original或by_weight
 sort: by_weight
+columns: #定义码表以Tab分隔出的各列，可设text【文本】、code【码】、weight【权重】、stem【造词码】
+  - text   #第一列字／词
+  - code   #第二列码
+  - weight   #第三列字／词频
+  #- stem  #第四列造词码
+#import_tables: #加载其它外部码表
+encoder: #形码造词规则
+  exclude_patterns:   #取消某编码的造词资格
+    - '^z.*$'
+  rules:  #可用length_equal:和length_in_range:定义。大写字母表示字序，小写字母表示其所跟随的大写字母所以表的字中的编码序
+    - length_equal: 2     #两字词：取每字全码的前两码组成，共四码
+      formula: "AaAbBaBb"
+    - length_equal: 3     #三字词：前两个字各取第一码，最後一字取前两码，共四码
+      formula: "AaBaCaCb"
+    - length_in_range: [4, 10]    #四字词：每字各取其全码的第一码，共四码     #多字词：取第一、二、三及末一个汉字的第一码，共四码
+      formula: "AaBaCaZa"
 import_tables:
     - dicts_cn/five_strokes_unicodecjk
     - dicts_cn/five_strokes_all

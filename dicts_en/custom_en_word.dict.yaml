@@ -1,0 +1,91 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+#
+#
+# 个人的学习语法笔记
+# https://tl8517.com/docs/english-grammar/
+
+---
+name: custom_en_word
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+aboveboard	aboveboard
+addressing	addressing
+ansi	ansi
+autoindex	autoindex
+bios	bios
+circumstances	circumstances
+concatenate	concatenate
+delimiter	delimiter
+demonst	demonst
+employe	employe
+environ	environ
+exceeded	exceeded
+fourscore	fourscore
+greater	greater
+hercules	hercules
+highest	highest
+inc	inc
+indus	indus
+keyed	keyed
+landler	landler
+limitations	limitations
+linker	linker
+locating	locating
+logged	logged
+lowest	lowest
+macros	macros
+manipulating	manipulating
+multiprocessing	multiprocessing
+noninteractive	noninteractive
+on-	on
+ones	ones
+overstrike	overstrike
+reappears	reappears
+redi	redi
+reenter	reenter
+restricting	restricting
+runtime	runtime
+startup	startup
+sub-dire	subdire
+unformatted	unformatted
+unshift	unshift
+wildcard	wildcard
+windowing	windowing
+wordperfect	wordperfect
+
+He'd	hed
+He'll	hell
+He's	hes
+Isn't	isnt
+It'd	itd
+It'll	itll
+It's	its
+Let's	lets
+She'd	shed
+She'll	shell
+She's	shes
+There's	theres
+They'd	theyd
+They'll	theyll
+They're	theyre
+They've	theyve
+We'd	wed
+We'll	well
+We're	were
+We've	weve
+Who'd	whod
+Who'll	wholl
+Who're	whore
+Who's	whos
+Who've	whove
+You'd	youd
+You'll	youll
+You're	youre
+You've	youve
+don't know	dontknow

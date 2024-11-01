@@ -82,74 +82,9 @@ ascii_composer:
 #              '`'（反引号）没有改成 '·'（间隔号）。
 punctuator:
   full_shape:
-    ' ' : { commit: '　' }
-    '~' : { commit: '~' }
-    '`' : { commit: '·' }
-    '!' : { commit: '！' }
-    '@' : { commit: '@' }
-    '#' : { commit: '#' }
-    '$' : { commit: '￥' }
-    '%' : { commit: '%' }
-    '^' : { commit: '……' }
-    "&" : { commit: '&' }
-    '*' : { commit: '*' }
-    '(' : { commit: '（' }
-    ')' : { commit: '）' }
-    '_' : { commit: '——' }
-    '-' : { commit: '-' }
-    '+' : { commit: '+' }
-    '=' : { commit: '=' }
-    '{' : { commit: '{' }
-    '[' : { commit: '【' }
-    '}' : { commit: '}' }
-    ']' : { commit: '】' }
-    ':' : { commit: '：' }
-    ';' : { commit: '；' }
-    '"' : { commit: '“' }
-    "'" : { commit: '‘' }
-    '|' : { commit: '|' }
-    '\' : { commit: '、' }
-    '<' : { commit: '《' }
-    ',' : { commit: '，' }
-    '.' : { commit: '。' }
-    '>' : { commit: '》' }
-    '/' : { commit: '/' }
-    '?' : { commit: '？' }
-
+    __include: punctuation:/full_shape
   half_shape:
-    ' ' : { commit: ' ' }
-    '~' : { commit: '~' }
-    '`' : { commit: '·' }
-    '!' : { commit: '！' }
-    '@' : { commit: '@' }
-    '#' : { commit: '#' }
-    '$' : { commit: '￥' }
-    '%' : { commit: '%' }
-    '^' : { commit: '……' }
-    "&" : { commit: '&' }
-    '*' : { commit: '*' }
-    '(' : { commit: '（' }
-    ')' : { commit: '）' }
-    '_' : { commit: '——' }
-    '-' : { commit: '-' }
-    '+' : { commit: '+' }
-    '=' : { commit: '=' }
-    '{' : { commit: '{' }
-    '[' : { commit: '【' }
-    '}' : { commit: '}' }
-    ']' : { commit: '】' }
-    ':' : { commit: '：' }
-    ';' : { commit: '；' }
-    '"' : { commit: '“' }
-    "'" : { commit: '‘' }
-    '|' : { commit: '|' }
-    '\' : { commit: '、' }
-    '<' : { commit: '《' }
-    ',' : { commit: '，' }
-    '.' : { commit: '。' }
-    '>' : { commit: '》' }
-    '/' : { commit: '/' }
-    '?' : { commit: '？' }
+    __include: punctuation:/half_shape
 
 
 # 处理符合特定规则的输入码，如网址、反查

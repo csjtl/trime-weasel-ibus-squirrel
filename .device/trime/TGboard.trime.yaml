@@ -112,7 +112,7 @@ style:
   key_text_size: 35 #按键字母字号
   preview_font: seguisym.ttf #按键提示字体
   preview_text_size: 30 #按键提示字号
-  long_text_font: comment.ttf #剪贴板等可能包含大段文本使用的字体
+  long_text_font: comment.ttf #剪贴板板等可能包含大段文本使用的字体
  #界面风格++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
   color_scheme: red #配色方案
   candidate_padding: 11  #候选项内边距（竖线间的距离）
@@ -433,7 +433,7 @@ liquid_keyboard:
     keys: ["⃢", "꯭", "̣", "̲"  ]
   clipboard:
     type: CLIPBOARD
-    name: 剪贴
+    name: 剪贴板
   candidate:
     name: 候选
     type: CANDIDATE
@@ -598,7 +598,7 @@ preset_keys:
   liquid_keyboard_switch: { label: 符号表, send: function, command: liquid_keyboard, option: "符号表" }
   liquid_keyboard_tabs: { label: 更多, send: function, command: liquid_keyboard, option: "更多" }
   liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
-  liquid_keyboard_clipboard: { label: 剪贴, send: function, command: liquid_keyboard, option: "剪贴" }
+  liquid_keyboard_clipboard: { label: 剪贴板, send: function, command: liquid_keyboard, option: "剪贴板" }
   liquid_keyboard_number: { label: 数字键, send: function, command: preset_keyboards, option: "number" }
   liquid_keyboard_numberb: { label: 操作键, send: function, command: preset_keyboards, option: "numberb" }
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
@@ -687,57 +687,58 @@ preset_keyboards:
     #ascii_mode: １
     #reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     keys:
-      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+    keys:
+      - {click: 1, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 2, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 3, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 4, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 5, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 6, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 7, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 8, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 9, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 0, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
       - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: e, long_click: '""{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: r, long_click: "''{Left}", key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: t, long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: y, long_click: '}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: u, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: i, long_click: '[', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: o, long_click: ']', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: p, long_click: '\', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
 
       - {width: 5, key_back_color: b_h2, key_text_color: t_h2}
       - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
-      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
-      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: s, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: d, long_click: DateTime, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: f, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: g, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: h, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: j, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: k, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: l, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
       - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
-      - {click: Shift_L, width: 12, key_back_color: b_bs, key_text_color: t_bs}
-      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
+      - {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: n, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: m, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: ',', long_click: '<', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
-      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: '.', long_click: '>', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   five_strokes:
     author: "csjtl"
@@ -748,57 +749,57 @@ preset_keyboards:
     ascii_mode: 0
     reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     keys:
-      - {click: 1, long_click: '!', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 2, long_click: '@', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 3, long_click: '#', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 4, long_click: '$', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 5, long_click: '%', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 6, long_click: '^', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 7, long_click: '&', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 8, long_click: '*', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 9, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
-      - {click: 0, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 1, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 2, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 3, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 4, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 5, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 6, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 7, long_click: '_', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 8, long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 9, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
+      - {click: 0, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
       - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: w, long_click: '(){Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: e, long_click: '[]{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: r, long_click: '{}{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: t, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: y, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: u, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: i, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: o, long_click: '-', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: p, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: e, long_click: '""{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: r, long_click: "''{Left}", key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: t, long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: y, long_click: '}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: u, long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: i, long_click: '[', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: o, long_click: ']', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: p, long_click: '\', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
 
       - {width: 5, key_back_color: b_h2, key_text_color: t_h2}
       - {click: a, long_click: select_all, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: s, long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: d, long_click: '<>{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: f, long_click: '\', swipe_down: "\\", key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
-      - {click: g, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: h, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: j, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
-      - {click: k, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
-      - {click: l, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: s, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: d, long_click: DateTime, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: f, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: g, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: h, long_click: ':', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: j, long_click: '"', key_symbol_offset_x: *ksox_e, key_back_color: key_fj_back_color, key_text_color: t_h2}
+      - {click: k, long_click: ';', key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
+      - {click: l, long_click: "'", key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
       - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
       - {click: Shift_L, composing: delimiter, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
-      - {click: z, long_click: '`', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: 0xffe95420}
+      - {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: *ubuntu_o}
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: b, long_click: liquid_keyboard_clipboard, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: n, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: m, long_click: DateTime,key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: n, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: m, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 12, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: ',', long_click: '，', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: ',', long_click: '<', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 30, key_back_color: b_kg, key_text_color: t_kg}
-      - {click: '.', long_click: '。', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
+      - {click: '.', long_click: '>', key_symbol_offset_x: *ksox_e, key_back_color: b_h4, key_text_color: t_h4}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: Color_switch, composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   mini:
     name: 精简键盘
@@ -948,7 +949,7 @@ preset_keyboards:
       - {click: Left}
       - {click: Shift_L2}
       - {click: Right}
-      - {click: redo, width: 19}
+      - {click: revert, width: 19}
 
       - {click: Keyboard_number}
       - {click: Home}

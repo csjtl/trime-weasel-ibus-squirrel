@@ -1,0 +1,16 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# 自定义 短语，习语，惯用语
+#
+# 个人的学习语法笔记
+# https://tl8517.com/docs/english-grammar/
+
+---
+name: custom_en_phrase
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
