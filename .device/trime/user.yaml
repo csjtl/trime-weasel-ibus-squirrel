@@ -1,13 +1,13 @@
 var:
-  last_build_time: 1730456702
+  last_build_time: 1730535664
   option:
     ascii_punct: false
     emoji: false
     full_shape: true
   previously_selected_schema: easy_en
   schema_access_time:
-    easy_en: 1730450215
-    easy_en_super: 1730378633
-    five_strokes: 1730448683
+    easy_en: 1730522872
+    easy_en_super: 1730507290
+    five_strokes: 1730521157
     pinyin_simp: 1728574005
-    rime_ice: 1730448675
+    rime_ice: 1730521141

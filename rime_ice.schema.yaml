@@ -28,7 +28,7 @@ switches:
     states: [ 🌙 , 🌕️ ]
     reset: ０
   - name: ascii_punct
-    states: [ ，。 , ，． ]
+    states: [ 。， , ". , " ]
     reset: 0
   - name: traditionalization
     states: [ 简体 , 繁体 ]

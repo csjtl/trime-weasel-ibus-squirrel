@@ -1,7 +1,7 @@
 # Rime basic symbols
 # encoding: utf-8
 
-full_shape: # 全中
+full_shape: # 全角 中标
   ' ' : { commit: ' ' }
   '~' : { commit: '～' }
   '!' : { commit: '！' }
@@ -36,7 +36,7 @@ full_shape: # 全中
   '.' : { commit: '。' }
   '/' : { commit: '／' }
 
-half_shape: # 半中
+half_shape: # 半角 中标
   ' ' : { commit: ' ' }
   '~' : { commit: '~' }
   '!' : { commit: '！' }
@@ -72,7 +72,7 @@ half_shape: # 半中
   '/' : [ '/' , '//' ]
 #  '/' : { commit: '/' }
 
-ascii_style: # 半英
+ascii_style: # 半角 英标
   '~' : '~'
   '!' : '!'
   '@' : '@'
@@ -107,7 +107,7 @@ ascii_style: # 半英
   '/' : '/'
 
 
-# 全英
+# 全角 英标
 #  '~' : '～'
 #  '!' : '！'
 #  '@' : '＠'
