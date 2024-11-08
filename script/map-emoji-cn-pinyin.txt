@@ -1,0 +1,1932 @@
+
+〰	pozhehao	biaodianfuhao	bolangxian
+‼	!	!!	bangbang	shuang	gantanhao	biaoji	biaodianfuhao
+⁉	!	!?	?	gantanhao	wenhao	biaoji	biaodianfuhao	yiwenju
+*️⃣	jianmao	xing
+#️⃣	jianmao	jinghao
+〽	jiaoti	biaoji	bufen
+©	c	banquan
+®	r	yizhuce
+←	zuo	zuojiantou
+→	you	youjiantou
+↑	shang	shangjiantou
+↓	xia	xiajiantou
+↔	jiantou	zuoyou
+↔︎	zuoyou	zuoyoujiantou
+↕	jiantou	shangxia
+↕	shangxia	shangxiajiantou
+↖	jiantou	fangxiang	jishujian	xibei	zuoshang
+↖	zuoshang	zuoshangjiantou
+↗	jiantou	fangxiang	jishujian	dongbei	youshang
+↗	youshang	youshangjiantou
+↘	jiantou	fangxiang	youxia	jishujian	dongnan
+↘	youxia	youxiajiantou
+↙	jiantou	fangxiang	zuoxia	jishujian	xinan
+↙	zuoxia	zuoxiajiantou
+↩	jiantou	wanqu	zuo	you
+↪	jiantou	wanqu	zuo	you
+⌚	shizhong	shijian	shoubiao
+⌛	wancheng	shalou	shazi	shijian	jishiqi
+⌨	diannao	jianpan
+⏏	anniu	danchu
+⏩	jiantou	anniu	shuang	kuaisu	kuaijin	qianjin
+⏪	jiantou	anniu	shuangji	kuaisu	fanxiang	daodai
+⏫	jiantou	anniu	shuang	kuaisu	xiangshang
+⏬	jiantou	anniu	shuangji	xiangxia	kuaisu
+⏭	jiantou	anniu	xiayige	changjing	guidao	sanjiaoxing
+⏮	jiantou	anniu	zuihou	shangyige	changjing	guidao	sanjiaoxing
+⏯	jiantou	anniu	zanting	bofang	you	sanjiaoxing
+⏰	naozhong	shizhong	xiaoshi	xiaoshi	wan	shijian	dengdai
+⏱	shizhong	miaobiao	shijian
+⏲	shizhong	jishiqi
+⏳	wancheng	liudong	shalou	xiaoshi	bu	shazi	jishiqi	dengdai	yolo
+⏸	lan	anniu	shuang	zanting	chuizhi
+⏹	anniu	zhengfangxing	tingzhi
+⏺	anniu	yuanquan	jilu
+▪	heise	jihe	xiao	fangxing
+▫	jihe	xiao	zhengfangxing	baise
+▶	jiantou	anniu	bofang	you	sanjiaoxing
+◀	jiantou	anniu	zuo	fanxiang	sanjiaoxing
+◻	jihe	zhongdeng	zhengfangxing	baise
+◼	heise	jihe	zhongdeng	fangxing
+◽	jihe	zhongxiao	zhengfangxing	baise
+◾	heise	jihe	zhongxiao	fangxing
+☀	mingliang	shexian	kongjian	taiyang	qinglang	tianqi
+☁	yun	tianqi
+☂	fuzhuang	yuju	yusan
+☃	hanleng	ren	xue	xueren
+☄	huixing	taikong
+☎	dianhua	dianhua
+☑	✓	xuanpiao	kuang	jiancha	yijiancha	wancheng	guanbi	gouxuan
+☔	yifu	shuidi	di	yu	yusan	tianqi
+☕	yinliao	kafeiguan	kafeiyin	cha	kafei	yinliao	re	zaochen	zheng	cha
+☘	aierlan	zhiwu	sanyecao
+☝	shouzhi	shou	shizhi	dian	zhixiang	zhege	xiangshang
+☠	gutou	jiaochagutou	siwang	siwang	lian	guaiwu	tougu
+☢	fangshexing	biaozhi
+☣	shengwuweihai	biaozhi
+☦	jidujiao	shizijia	dongzhengjiao	zongjiao
+☪	xinyue	yisilanjiao	musilin	zhaiyue	zongjiao	xingxing
+☮	zhiyu	heping	anning	fuhao
+☯	kunnan	shenghuo	zongjiao	tao	daojiao	zongji	yang	yin	yinyang
+☸	fojiao	fofa	zongjiao	lunzi
+☹	lian	zhoumei	zhoumei	beishang
+☺	lian	kuaile	lunkuo	fangsong	weixiao	weixiao
+♀	nvxing	fuhao	nvren
+♂	nanxing	nanren	shoushi
+♈	baiyangzuo	xingzuoyunshi	gongyang	huangdaoshiergong
+♉	gongniu	xingzuo	niu	jinniuzuo	huangdaoshiergong
+♊	shuangzizuo	xingzuoyunshi	shuangbaotai	huangdaoshiergong
+♋	juxiezuo	pangxie	xingzuo	huangdaoshiergong
+♌	xingzuoyunshi	shizizuo	shizi	huangdaoshiergong
+♍	xingzuoyunshi	chunvzuo	huangdaoshiergong
+♎	pingheng	xingzuo	zhengyi	tianchengzuo	tianchengzuo	huangdaoshiergong
+♏	xingzuoyunshi	tianxiezuo	xiezi	tianxiezuo	huangdaoshiergong
+♐	sheshouzuo	xingzuo	sheshouzuo	huangdaoshiergong
+♑	mojiezuo	shanyang	xingzuoyunshi	huangdaoshiergong
+♒	shuipingzuo	chiyouzhe	xingzuo	shui	huangdaoshiergong
+♓	yu	xingzuo	shuangyuzuo	huangdaoshiergong
+♟	guojixiangqi	zhongfupin	xiaohaopin	qizi
+♠	pai	youxi	heitao	huase
+♣	qiapian	julebu	julebu	youxi	taozhuang
+♥	qiapian	qinggan	youxi	xin	hongxin	taozhuang
+♦	qiapian	zuanshi	youxi	huase
+♨	re	wenquan	quanshui	zheng
+♻	huishou	huishouliyong	fuhao
+♾	yongyuan	wuxian	wujie	pubian
+♿	tongdao	zhangai	fuhao	lunyi
+⚒	chuizi	gao	gongju
+⚓	mao	chuan	gongju
+⚔	jiaocha	jian	wuqi
+⚕	aisikulabiwusi	yiliao	yixue	zhiyuan	fuhao
+⚖	pingheng	zhengyi	tianchengzuo	guimo	cheng	gongju	zhongliang	huangdaoshiergong
+⚗	zhengliuqi	huaxue	gongju
+⚙	chilun	dunchilun	chilun	gongju
+⚛	wushenlunzhe	yuanzi	fuhao
+⚜	yuanweihua	qishi
+⚠	xiaoxin	jinggao
+⚡	weixian	dian	dian	gao	shandian	ziran	leisheng	leidian	dianya	dianji
+⚧	fuhao	bianxingren
+⚪	yuanxing	jihe	baise
+⚫	heise	yuanxing	jihe
+⚰	guancai	siwang	xixiegui
+⚱	guhui	siwang	zangli	guhuihe
+⚽	qiu	zuqiu	zuqiu	yundong
+⚾	qiu	bangqiu	yundong
+⛄	hanleng	ren	xue	xueren
+⛅	houmian	yun	duoyun	taiyang	tianqi
+⛈	yun	shandian	yu	lei	leibao
+⛎	chengzaizhe	shefuzuo	she	huangdaoshiergong
+⛏	chuizi	caikuang	gao	gongju
+⛑	yuanzhu	shizijia	lian	maozi	toukui	jiuyuan	gongren
+⛓	lian	liantiao
+⛓️‍💥	dapo	dapo	sunhuai	suolian	xiukou	ziyou
+⛔	zuo	jinru	shibai	jinzhi	bu	bu	tongguo	jinzhi	jiaotong
+⛩	zongjiao	shendaojiao	shenshe
+⛪	zhufu	jiaotang	jidujiao	jiaotang	shizijia	zongjiao
+⛰	shan
+⛱	dimian	yu	taiyang	yusan
+⛲	penquan
+⛳	qi	gaoerfu	dong	yundong
+⛴	chuan	dulun	chengke
+⛵	chuan	dujiacun	fanchuan	hanghang	hai	youting
+⛷	huaxue	huaxuezhe	xue
+⛸	bing	huabing	liubing
+⛹	yundong	qiu	lanqiu	dantiao	jinbiaosai	yunqiu	wang	ren	qiuyuan	touzhi
+⛹️‍♀️	yundong	qiu	lanqiu	dantiao	jinbiaosai	yunqiu	wang	qiuyuan	touzhi	nvren
+⛹️‍♂️	yundong	qiu	lanqiu	dantiao	jinbiaosai	yunqiu	nanzi	wang	qiuyuan	touzhi
+⛺	louying	zhangpeng
+⛽	chaiyou	ranliao	ranyoubeng	tianranqi	qiyou	beng	zhan
+🇦🇨	qi	asensongdao
+🇦🇩	qi	andaoer
+🇦🇪	qi	alabolianheqiuchangguo
+🇦🇫	qi	afuhan
+🇦🇬	qi	antiguahebabuda
+🇦🇮	qi	anguila
+🇦🇱	qi	aerbaniya
+🇦🇲	qi	yameiniya
+🇦🇴	qi	angela
+🇦🇶	qi	nanjizhou
+🇦🇷	qi	agenting
+🇦🇸	qi	meishusamoya
+🇦🇹	qi	aodili
+🇦🇺	qi	aodaliya
+🇦🇼	qi	aluba
+🇦🇽	qi	aolanqundao
+🇦🇿	qi	asaibaijiang
+🇧🇦	qi	bosiniyaheheisaigeweina
+🇧🇧	qi	babaduosi
+🇧🇩	qi	mengjialaguo
+🇧🇪	qi	bilishi
+🇧🇫	qi	bujinafasuo
+🇧🇬	qi	baojialiya
+🇧🇭	qi	balin
+🇧🇮	qi	bulongdi
+🇧🇯	qi	beining
+🇧🇱	qi	shengbatailemi
+🇧🇲	qi	baimuda
+🇧🇳	qi	wenlai
+🇧🇴	qi	boliweiya
+🇧🇶	qi	jialebinidelan
+🇧🇷	qi	baxi
+🇧🇸	qi	bahama
+🇧🇹	qi	budan
+🇧🇻	qi	buweidao
+🇧🇼	qi	bociwana
+🇧🇾	qi	baieluosi
+🇧🇿	qi	bolizi
+🇨🇦	qi	jianada
+🇨🇨	qi	kekesi（jilin）qundao
+🇨🇩	qi	gangguo	jinshasa
+🇨🇫	qi	zhongfeigongheguo
+🇨🇬	qi	gangguo	bulachaiweier
+🇨🇭	qi	ruishi
+🇨🇮	qi	ketediwa
+🇨🇰	qi	kukequndao
+🇨🇱	qi	zhili
+🇨🇲	qi	kamailong
+🇨🇳	qi	zhongguo
+🇨🇴	qi	gelunbiya
+🇨🇵	qi	kelipodundao
+🇨🇶	qi	sakedao
+🇨🇷	qi	gesidalijia
+🇨🇺	qi	guba
+🇨🇻	qi	fodejiao
+🇨🇼	qi	kulasuo
+🇨🇽	qi	shengdandao
+🇨🇾	qi	saipulusi
+🇨🇿	qi	jieke
+🇩🇪	qi	deguo
+🇩🇬	qi	diegejiaxiyadao
+🇩🇯	qi	jibuti
+🇩🇰	qi	danmai
+🇩🇲	qi	duominijia
+🇩🇴	qi	duominijiagongheguo
+🇩🇿	qi	aerjiliya
+🇪🇦	qi	xiudahemeililiya
+🇪🇨	qi	eguaduoer
+🇪🇪	qi	aishaniya
+🇪🇬	qi	aiji
+🇪🇭	qi	xisahala
+🇪🇷	qi	eliteliya
+🇪🇸	qi	xibanya
+🇪🇹	qi	aisaiebiya
+🇪🇺	qi	oumeng
+🇫🇮	qi	fenlan
+🇫🇯	qi	feiji
+🇫🇰	qi	fukelanqundao
+🇫🇲	qi	mikeluonixiya
+🇫🇴	qi	faluoqundao
+🇫🇷	qi	faguo
+🇬🇦	qi	jiapeng
+🇬🇧	qi	yingguo
+🇬🇩	qi	gelinnada
+🇬🇪	qi	gelujiya
+🇬🇫	qi	fashuguiyana
+🇬🇬	qi	genxidao
+🇬🇭	qi	jiana
+🇬🇮	qi	zhibuluotuo
+🇬🇱	qi	gelinglan
+🇬🇲	qi	gangbiya
+🇬🇳	qi	jineiya
+🇬🇵	qi	guadeluopudao
+🇬🇶	qi	chidaojineiya
+🇬🇷	qi	xila
+🇬🇸	qi	nanqiaozhiyahenansangweiqiqundao
+🇬🇹	qi	weidimala
+🇬🇺	qi	guandao
+🇬🇼	qi	jineiyabishao
+🇬🇾	qi	guiyana
+🇭🇰	qi	zhongguoxianggangtebiehangzhengqu
+🇭🇲	qi	hededaohemaiketangnaqundao
+🇭🇳	qi	hongdulasi
+🇭🇷	qi	keluodiya
+🇭🇹	qi	haidi
+🇭🇺	qi	xiongyali
+🇮🇨	qi	jianaliqundao
+🇮🇩	qi	yindunixiya
+🇮🇪	qi	aierlan
+🇮🇱	qi	yiselie
+🇮🇲	qi	maendao
+🇮🇳	qi	yindu
+🇮🇴	qi	yingshuyinduyanglingdi
+🇮🇶	qi	yilake
+🇮🇷	qi	yilang
+🇮🇸	qi	bingdao
+🇮🇹	qi	yidali
+🇯🇪	qi	zexidao
+🇯🇲	qi	yamaijia
+🇯🇴	qi	yuedan
+🇯🇵	qi	riben
+🇰🇪	qi	kenniya
+🇰🇬	qi	jierjisisitan
+🇰🇭	qi	jianpuzhai
+🇰🇮	qi	jilibasi
+🇰🇲	qi	kemoluo
+🇰🇳	qi	shengjiciheniweisi
+🇰🇵	qi	zhaoxian
+🇰🇷	qi	hanguo
+🇰🇼	qi	keweite
+🇰🇾	qi	kaimanqundao
+🇰🇿	qi	hasakesitan
+🇱🇦	qi	laozhua
+🇱🇧	qi	libanen
+🇱🇨	qi	shengluxiya
+🇱🇮	qi	liezhidunshideng
+🇱🇰	qi	sililanqia
+🇱🇷	qi	libiliya
+🇱🇸	qi	laisuotuo
+🇱🇹	qi	litaowan
+🇱🇺	qi	lusenbao
+🇱🇻	qi	latuoweiya
+🇱🇾	qi	libiya
+🇲🇦	qi	moluoge
+🇲🇨	qi	monage
+🇲🇩	qi	moerduowa
+🇲🇪	qi	heishan
+🇲🇫	qi	shengmading
+🇲🇬	qi	madajiasijia
+🇲🇭	qi	mashaoerqundao
+🇲🇰	qi	beimaqidun
+🇲🇱	qi	mali
+🇲🇲	qi	miandian
+🇲🇳	qi	menggu
+🇲🇴	qi	zhongguoaomentebiehangzhengqu
+🇲🇵	qi	beimaliyanaqundao
+🇲🇶	qi	matinikedao
+🇲🇷	qi	maolitaniya
+🇲🇸	qi	mengtesailate
+🇲🇹	qi	maerta
+🇲🇺	qi	maoliqiusi
+🇲🇻	qi	maerdaifu
+🇲🇼	qi	malawei
+🇲🇽	qi	moxige
+🇲🇾	qi	malaixiya
+🇲🇿	qi	mosangbike
+🇳🇦	qi	namibiya
+🇳🇨	qi	xinkaliduoniya
+🇳🇪	qi	nirier
+🇳🇫	qi	nuofukedao
+🇳🇬	qi	niriliya
+🇳🇮	qi	nijialagua
+🇳🇱	qi	helan
+🇳🇴	qi	nuowei
+🇳🇵	qi	niboer
+🇳🇷	qi	naolu
+🇳🇺	qi	niuai
+🇳🇿	qi	xinxilan
+🇴🇲	qi	aman
+🇵🇦	qi	banama
+🇵🇪	qi	milu
+🇵🇫	qi	fashubolinixiya
+🇵🇬	qi	babuyaxinjineiya
+🇵🇭	qi	feilvbin
+🇵🇰	qi	bajisitan
+🇵🇱	qi	bolan
+🇵🇲	qi	shengpiaierhemikelongqundao
+🇵🇳	qi	pitekaienqundao
+🇵🇷	qi	boduolige
+🇵🇸	qi	balesitanlingtu
+🇵🇹	qi	putaoya
+🇵🇼	qi	palao
+🇵🇾	qi	balagui
+🇶🇦	qi	qiataer
+🇷🇪	qi	liuniwang
+🇷🇴	qi	luomaniya
+🇷🇸	qi	saierweiya
+🇷🇺	qi	eluosi
+🇷🇼	qi	luwangda
+🇸🇦	qi	shatealabo
+🇸🇧	qi	suoluomenqundao
+🇸🇨	qi	saisheer
+🇸🇩	qi	sudan
+🇸🇪	qi	ruidian
+🇸🇬	qi	xinjiapo
+🇸🇭	qi	shenghelenadao
+🇸🇮	qi	siluowenniya
+🇸🇯	qi	siwaerbatequndaoheyangmayandao
+🇸🇰	qi	siluofake
+🇸🇱	qi	sailaliang
+🇸🇲	qi	shengmalinuo
+🇸🇳	qi	saineijiaer
+🇸🇴	qi	suomali
+🇸🇷	qi	sulinan
+🇸🇸	qi	nansudan
+🇸🇹	qi	shengduomeihepulinxibi
+🇸🇻	qi	saerwaduo
+🇸🇽	qi	shengmading
+🇸🇾	qi	xuliya
+🇸🇿	qi	siweishilan
+🇹🇦	qi	telisitandakuniya
+🇹🇨	qi	tekesihekaikesiqundao
+🇹🇩	qi	zhade
+🇹🇫	qi	fashunanbulingtu
+🇹🇬	qi	duoge
+🇹🇭	qi	taiguo
+🇹🇯	qi	tajikesitan
+🇹🇰	qi	tuokelao
+🇹🇱	qi	dongdiwen
+🇹🇲	qi	tukumansitan
+🇹🇳	qi	tunisi
+🇹🇴	qi	tangjia
+🇹🇷	qi	tuerqi
+🇹🇹	qi	telinidaheduobage
+🇹🇻	qi	tuwalu
+🇹🇼	qi	taiwan
+🇹🇿	qi	tansangniya
+🇺🇦	qi	wukelan
+🇺🇬	qi	wuganda
+🇺🇲	qi	meiguowaidao
+🇺🇳	qi	lianheguo
+🇺🇸	qi	meiguo
+🇺🇾	qi	wulagui
+🇺🇿	qi	wuzibiekesitan
+🇻🇦	qi	fandigangcheng
+🇻🇨	qi	shengwensentehegelinnadingsi
+🇻🇪	qi	weineiruila
+🇻🇬	qi	yingshuweierjingqundao
+🇻🇮	qi	meishuweierjingqundao
+🇻🇳	qi	yuenan
+🇻🇺	qi	wanuatu
+🇼🇫	qi	walisihefutuna
+🇼🇸	qi	samoya
+🇽🇰	qi	kesuowo
+🇾🇪	qi	yemen
+🇾🇹	qi	mayuete
+🇿🇦	qi	nanfei
+🇿🇲	qi	zanbiya
+🇿🇼	qi	jinbabuwei
+✂	qiege	caijian	zhi	jiandao	gongju
+✅	✓	anniu	jiancha	yixuanzhong	fuxuanbiaoji	wancheng	wancheng	wancheng	xiufu	biaoji	gouxuan
+✈	feiji	feiji	feihang	feihang	penqishifeiji	lvhang
+✉	dianziyoujian	dianziyoujian	xinfeng	xinjian
+✊	jinwode	quantou	shou	quanda	juqi	tuanjie
+✋	wu	wu	shou	gao	juqi	tingzhi
+✌	shou	heping	v	shengli
+✍	shou	xie	xiezuo
+✏	qianbi
+✒	heise	bijian	gangbi
+✔	✓	jiancha	yijiancha	gouxuan	wancheng	zhong	biaoji	gouxuan
+✖	×	quxiao	chengfa	chengyi	fuhao	x
+✝	jidu	jidujiao	shizijia	ladingyu	zongjiao
+✡	dawei	youtairen	youtaijiao	zongjiao	mingxing
+✨	*	mofa	shanyao	huohua	xingxing
+✳	*	xinghao	bafu
+✴	*	bajiao	xing
+❄	hanleng	xue	xuehua	tianqi
+❇	*	shanyao
+❌	×	quxiao	jiaocha	biaoji	chengfa	chengyi	x
+❎	×	anniu	shizi	biaoji	chengfa	chengfa	pingfang	x
+❓	?	biaoji	biaodianfuhao	wenti	hongse
+❔	?	biaoji	lunkuo	biaodianfuhao	wenti	baise
+❕	!	gantanhao	biaoji	lunkuo	biaodianfuhao	baise
+❗	!	gantanhao	biaoji	biaodianfuhao	hongse
+❣	gantanhao	xin	chenzhong	biaoji	biaodianfuhao
+❤	qinggan	xin	ai	hongse
+❤️‍🔥	ranshao	huo	xin	ai	yuwang	shensheng
+❤️‍🩹	gengjiankang	xinzang	gaishan	xiufu	huifu	kangfu
+➕	jia	jiahao
+➖	jian	jian	zhong	shuxue	jianhao	fuhao
+➗	chu	chufa	chufa	zhong	shuxue	fuhao
+➡	jiantou	jibenfangxiang	fangxiang	dong	you
+➰	juanqu	juanqu	xunhuan
+➿	juanqu	juanqu	shuangzhong	xunhuan
+⤴	jiantou	wanqu	you	shang
+⤵	jiantou	wanqu	xiangxia	xiangyou
+⬅	jiantou	jibenfangxiang	fangxiang	zuo	xi
+⬆	jiantou	jibenfangxiang	fangxiang	bei	xiangshang
+⬇	jiantou	jibenfangxiang	fangxiang	xiangxia	nan
+⬛	heise	jihe	da	zhengfangxing
+⬜	jihe	da	zhengfangxing	baise
+⭐	tianwenxue	zhongdeng	xingxing	xingxing	baise
+⭕	yuanxing	cu	kongxin	da	o	hongse
+🀄	long	youxi	majiang	hongse
+🃏	qiapian	youxi	xiaochou	tongpeifu
+🌀	qixuan	xuanyun	jufeng	longjuanfeng	taifeng	tianqi
+🌁	wu	youwu
+🌂	guanbi	fuzhuang	yu	yusan
+🌃	yewan	xingxing	xingxing
+🌄	zaochen	shanmai	shangfang	taiyang	richu
+🌅	zaochen	ziran	taiyang	richu
+🌆	zai	jianzhuwu	chengshi	chengshijingguan	huanghun	bangwan	fengjing	taiyang	rila
+🌇	jianzhu	huanghun	taiyang	rila
+🌈	tongxinglian	xingbiekuer	glbt	glbtq	nvtongxinglian	lgbt	lgbtq	lgbtqia	ziran	jiaoao	kuer	yu	caihong	kuaxingbie	kuaxingbiezhe	tianqi
+🌉	zai	qiao	wanshang
+🌊	ziran	haiyang	chonglang	chonglangzhe	chonglang	shui	bolang
+🌋	penfa	shan	ziran	huoshan
+🌌	yinhe	kongjian	fangshi
+🌍	feizhou	diqiu	ouzhou	ouzhoufeizhou	diqiu	xianshi	shijie
+🌎	meizhou	diqiu	diqiu	xianshi	shijie
+🌏	yazhou	yazhouaodaliya	aodaliya	diqiu	diqiu	xianshi	shijie
+🌐	diqiu	quanqiu	hulianwang	jingluo	wangluo	shijie	shijiegedi
+🌑	heian	yueliang	xin	kongjian
+🌒	xinyue	meng	yueliang	taikong	yingkui
+🌓	diyige	yueliang	sifenzhiyi	kongjian
+🌔	tuyue	yueliang	taikong	shangxianyue
+🌕	manyue	yueliang	taikong
+🌖	tuyue	yueliang	taikong	canyue
+🌗	zuihou	yueliang	sifenzhiyi	kongjian
+🌘	xinyue	yueliang	taikong	canque
+🌙	xinyue	yueliang	zhaiyue	kongjian
+🌚	miandui	yueqiu	xin	kongjian
+🌛	mian	chuyue	yueliang	sifenzhiyi	kongjian
+🌜	mengxiang	miandui	zuihou	yueliang	sifenzhiyi
+🌝	mingliang	lian	man	yueliang
+🌞	haitan	mingliang	baitian	lian	yanre	shanyao	taiyang	qinglang	yangguang	tianqi
+🌟	shanshanfaguang	faguang	yewan	shanliang	shanyao	mingxing	shengli
+🌠	zhuila	yewan	sheji	taikong	xingxing
+🌡	wenduji	tianqi
+🌤	houmian	yun	taiyang	tianqi
+🌥	houmian	yun	taiyang	tianqi
+🌦	beihou	yun	yu	taiyang	tianqi
+🌧	yun	yu	tianqi
+🌨	yun	leng	xue	tianqi
+🌩	yun	shandian	tianqi
+🌪	yun	longjuanfeng	tianqi	xuanfeng
+🌫	yun	wu	tianqi
+🌬	chui	yun	lian	feng
+🌭	gou	falankefuxiangchang	re	regou	xiangchang
+🌮	moxige	zhayumibing
+🌯	moxigejuanbing	moxige	juanbing
+🌰	xingren	lizi	zhiwu
+🌱	zhiwu	shumiao	youmiao	youya	youmiao
+🌲	shengdanjie	changlvshu	senlin	songshu	shu
+🌳	laye	senlin	lvse	qixidi	tuola	shumu
+🌴	haitan	zonglv	zhiwu	shumu	redai
+🌵	xianrenzhang	shamo	ganhan	ziran	zhiwu
+🌶	lajiao
+🌷	kaihua	hua	shengchang	zhiwu	yujinxiang
+🌸	kaihua	yinghua	hua	zhiwu	chuntian	chuntian
+🌹	meili	youya	huaduo	ai	zhiwu	hongse	meigui	qingrenjie
+🌺	huahui	furong	zhiwu
+🌻	huahui	huwai	zhiwu	taiyang	xiangrikui
+🌼	kaihua	maogen	pugongying	hua	zhiwu
+🌽	yumi	nongzuowu	sui	nongchang	yumi	migong
+🌾	sui	guli	guwu	zhiwu	daomi	kun
+🌿	caobenzhiwu	yezi	zhiwu
+🍀	si	sanyecao	si	siye	aierlan	yezi	xingyun	zhiwu
+🍁	laye	fengye
+🍂	qiutian	laxia	laye	laye
+🍃	chui	piaodong	piaodong	yezi	feng
+🍄	zhenjun	mogu	dumogu
+🍄‍🟫	shiwu	junlei	zhenjun	mogu	ziran	pisa	botuobeiluo	xianggu	mogu	baozi	yacai	peiliao	songlou	shucai	sushi	sushi
+🍅	shiwu	shuiguo	xihongshi	shucai
+🍆	qiezi	qiezi	shucai
+🍇	dienisuosi	shuiguo	putao	putao
+🍈	hami​​gua	shuiguo	tiangua
+🍉	shuiguo	xigua
+🍊	c	ganju	shuiguo	youtao	chengzi	juzi	weishengsu
+🍋	ganju	shuiguo	ningmeng	suanwei
+🍋‍🟩	suandu	ganju	jiweijiu	shuiguo	zhuangshi	guanjian	suancheng	magelita	mojituo	qingshuang	suosuojiang	suanwei	nongyu	longshelanjiu	redai	reqing
+🍌	xiangjiao	shuiguo	jia
+🍍	keleda	shuiguo	boluo	redai
+🍎	pingguo	yinshi	shiwu	shuiguo	jiankang	hongse	chengshu
+🍏	pingguo	shuiguo	lvse
+🍐	shuiguo	li
+🍑	shuiguo	taozi
+🍒	jiangguo	yingtao	yingtao	shuiguo	hongse
+🍓	jiangguo	shuiguo	caomei
+🍔	hanbao	chi	kuaican	hanbaobao	ele
+🍕	nailao	shiwu	jie	yidalilaxiangchang	pisa	qiepian
+🍖	gutou	rou
+🍗	gutou	ji	jitui	jie	tui	jiaqin	huoji
+🍘	binggan	shipin	mifan
+🍙	wanzi	shiwu	riyu	mifan
+🍚	shushi	shiwu	mifan
+🍛	kali	shiwu	mifan
+🍜	wan	kuaizi	shiwu	miantiao	yuenanfen	lamian	tang	​​zheng
+🍝	shipin	rouwan	yidalimian	canting	yidalimiantiao
+🍞	mianbao	tanshuihuahewu	shiwu	guwu	mianbao	canting	tusi	xiaomai
+🍟	kuaican	shiwu	fashizhashutiao
+🍠	shiwu	tudou	kaotudou	tiantudou
+🍡	tuanzi	tiandian	rishi	chuanshao	gunbang	tianpin
+🍢	shipin	kaorouchuan	guandongzhu	canting	haixian	chuanshao	gunbang
+🍣	shiwu	shousi
+🍤	youzha	xia	xia	tianfuluo
+🍥	dangao	yu	shiwu	gaodian	canting	xuanwo
+🍦	naiyou	tiandian	shiwu	bing	bingqilin	canting	fuwu	ruan	tian
+🍧	tiandian	bing	canting	paobing	tianpin
+🍨	naiyou	tiandian	shiwu	bing	canting	tianpin
+🍩	zaocan	tiandian	tiantianquan	tiantianquan	shiwu	tianshi
+🍪	shupian	qiaokeli	binggan	tiandian	tianpin
+🍫	jiuba	tangguo	qiaokeli	tiandian	wanshengjie	tianpin	yachi
+🍬	tangguo	zhuya	tiandian	wanshengjie	canting	tianpin	yachi	baozhuangzhi
+🍭	tangguo	tiandian	shiwu	bangbangtang	canting	tianpin
+🍮	dannaidong	tiandian	buding	tianpin
+🍯	tong	xiong	shiwu	fengmi	miguan	guanzi	guo	tangguo
+🍰	dangao	tiandian	gaodian	cuibing	qiepian	tianpin
+🍱	biandang	hezi	shiwu
+🍲	shiwu	guo	tang	​​duncai
+🍳	zaocan	pengren	jiandan	jidan	jianzha	jianzha	guo	guo	canting	cemian	yangguang	xiangshang
+🍴	zaocan	zaocan	pengren	canju	meiwei	wancan	chi	weishi	shiwu	chazi	jie	dao	wucan	canting	meiwei	haochi
+🍵	yinliao	beizi	yinpin	shoubing	wulongcha	cha	chabei
+🍶	jiuba	yinliao	pingzi	beizi	yinpin	canting	qingjiu
+🍷	jiujing	jiuba	yinliao	jiu	julebu	yinliao	yinjiu	yinpin	boli	canting	putaojiu
+🍸	jiujing	jiuba	liejiu	julebu	jiweijiu	yinliao	yinjiu	yinpin	boli	fengkuang	matini	nanshi
+🍹	jiujing	jiuba	jiu	julebu	jiweijiu	yinliao	yinjiu	yinpin	zuijiu	mai	paidui	tai	redai	redaidiqu
+🍺	jiujing	maijiu	jiuba	pijiu	liejiu	yinliao	yinjiu	yinpin	beizi	shiyuejie	muniheipijiujie	pintuo	pijiubei	xiaji
+🍻	jiujing	jiuba	pijiu	liejiu	dibu	ganbei	pengbei	pengbei	hejiu	yinliao	beizi
+🍼	yinger	yinger	dansheng	chusheng	naiping	yinliao	yinger	niunai	xinshenger
+🍽	pengren	wancan	chi	chazi	dao	panzi
+🍾	jiuba	pingzi	ruanmusai	yinliao	baomihua
+🍿	yumi	dianying	liuhangyinle	baomihua
+🎀	qingdian	sidai
+🎁	shengri	hudiejie	hezi	qingzhu	shengdanjie	liwu	lipin	jingxi	baozhuang
+🎂	shengri	shengri	dangao	qingdian	tiandian	kuaile	gaodian	tianshi
+🎃	qingdian	wanshengjie	jieke	nanguadeng	denglong	nangua
+🎄	qingzhu	shengdanjie	shu
+🎅	qingzhu	shengdanjie	shengdanlaoren	xiannv	huanxiang	fuqin	jieri	kuaile	shengdanlaoren	gushi	shengdanjie
+🎆	fanrong	qingzhu	yule	yanhua	yolo
+🎇	fanrong	qingzhu	yanhua	huohua	yanhuo
+🎈	qiqiu	shengri	qingzhu	qingzhuhuodong
+🎉	bangjile	shengri	qingzhu	qingdian	xingfen	wansui	paidui	baozhu	tada	wao
+🎊	wuhui	qingzhu	qingdian	wucaizhixie	paidui	wao
+🎋	hengfu	qingzhu	riyu	qixi	shu
+🎌	qingzhu	shizijia	jiaocha	qi	riyu
+🎍	zhuzi	qingdian	zhuangshi	riben	songshu	zhiwu
+🎎	qingdian	wawa	wanou	jieri	riyu
+🎏	liyu	qingdian	caidai
+🎐	zhong	qingdian	fengling	feng
+🎑	qingzhu	dianli	yueliang	guanshang
+🎒	beibao	beibaolvhang	bao	shubao	jiaoyu	beibao	shubao	xuexiao
+🎓	maozi	qingzhu	fuzhuang	jiaoyu	biye	maozi	xuezhe
+🎖	jiangxiang	qingdian	jiangzhang	junshi
+🎗	qingzhu	tixing	sidai
+🎙	maikefeng	huatong	yinle	gongzuoshi
+🎚	jibie	yinle	huakuai
+🎛	kongzhi	xuanniu	yinle
+🎞	dianyingyuan	dianying	zhen	dianying
+🎟	ruchang	menpiao	menpiao
+🎠	xuanzhuanmuma	yule	ma
+🎡	youle	motianlun	gongyuan	zhuti	lunzi
+🎢	youle	guoshanche	gongyuan	guoshanche	zhuti
+🎣	yule	yu	diaoyu	diaogan	yundong
+🎤	qialaok	maikefeng	huatong	yinle	changge	shengyin
+🎥	baolaiwu	xiangji	dianyingyuan	dianying	haolaiwu	dianying	changpian
+🎦	zhaoxiangji	dianyingyuan	yingpian	dianying
+🎧	ersai	erji	shengyin
+🎨	yishu	yishujia	yishuqixi	fuyongfengya	duocai	youchuangyi	yule	bowuguan	huajia	huihua	tiaoseban
+🎩	yifu	fushi	huashi	zhengshi	maozi	moshu	shangyi	gaodinglimao
+🎪	maxituan	zhangpeng
+🎫	ruchangquan	piaogen	menpiao
+🎬	dongzuo	ban	changji	dianying
+🎭	yanyuan	nvyanyuan	yishu	yishu	yule	mianju	biaoyan	juyuan	juyuan	xijuyanyuan
+🎮	kongzhiqi	yule	youxi	shipin
+🎯	gongniu	baxin	feibiao	zhijie	yule	youxi	jizhong	mubiao
+🎰	duchang	dubo	dubo	youxi	jiqi	laohuji
+🎱	ba	bahaoqiu	qiu	taiqiu	ba	youxi	youyongchi
+🎲	touzi	touzi	yule	youxi
+🎳	qiu	baolingqiu	youxi	yundong	jiqiu
+🎴	qiapian	pai	hua	youxi	riyu	wanshua
+🎵	yinle	yinle	yinfu	shengyin
+🎶	yinle	yinle	yinfu	yinfu	shengyin
+🎷	leqi	yinle	sakesi	sakesiguan
+🎸	jita	leqi	yinle	strat
+🎹	leqi	jianpan	yinle	yinleju	gangqin
+🎺	leqi	yinle	xiaohao
+🎻	leqi	yinle	xiaotiqin
+🎼	yinle	yinle	yinfu	lepu
+🎽	tianjing	paobu	yaodai	chenshan
+🎾	qiu	qiupai	yundong	wangqiu
+🎿	huaxue	huaxueban	xue	yundong
+🏀	qiu	lanqiu	lankuang	yundong
+🏁	fangge	gezi	wancheng	qi	qi	youxi	bisai	jingsai	yundong	shengli
+🏂	huaxue	xue	huaxueban	huaxuebanyundongyuan	yundong
+🏃	kuai	congmang	malasong	yidong	ren	kuaijie	bisai	jingsu	benpao	chongci	sudu
+🏃♀️	kuai	congmang	malasong	yidong	xunsu	bisai	jingsai	benpao	chongci	sudu	nvren
+🏃‍♀️‍➡️	kuai	congmang	malasong	yidong	xunsu	bisai	jingsai	benpao	chongci	sudu	nvren
+🏃♂️	kuai	congmang	nanren	malasong	yidong	xunsu	bisai	jingsai	benpao	chongci	sudu
+🏃‍♂️‍➡️	kuai	congmang	nanren	malasong	yidong	xunsu	bisai	jingsai	benpao	chongci	sudu
+🏃‍➡️	kuai	congmang	malasong	yidong	ren	kuaijie	bisai	jingsu	benpao	chongci	sudu
+🏄	haitan	haiyang	ren	yundong	chonglang	chonglangzhe	chonglang	yonglang	hailang
+🏄♀️	haitan	haiyang	ren	yundong	chonglang	chonglangzhe	chonglang	yonglang	hailang
+🏄‍♂️	haitan	nanren	haiyang	yundong	chonglang	chonglangzhe	chonglang	yonglang	bolang
+🏅	jiangxiang	jinpai	jiangpai	tiyu	huoshengzhe
+🏆	guanjun	guanjun	jiangpin	jisha	yundong	jiangbei	shengli	huosheng	huosheng
+🏇	ma	qishi	saima	saima	qima	yundong
+🏈	meiguo	qiu	wan	zuqiu	yundong	chaoji
+🏉	qiuleiyundong	zuqiu	ganlanqiu	yundong
+🏊	ziyouyong	renwu	yundong	youyong	youyongyundongyuan	youyong	tierensanxiang
+🏊‍♀️	ziyouyong	nanzi	yundong	youyong	youyongyundongyuan	youyong	tierensanxiang
+🏊‍♂️	ziyouyong	nanzi	yundong	youyong	youyongyundongyuan	youyong	tierensanxiang
+🏋	gangling	jianmeiyundongyuan	yingla	juzhongyundongyuan	juzhong	ren	juzhong	zhongliang	juzhongyundongyuan	zhongliang	duanlian
+🏋️‍♀️	gangling	jianmeiyundongyuan	yingla	juzhongyundongyuan	juzhong	liliangju	zhongliang	juzhongyundongyuan	zhongliang	nvren	duanlian
+🏋️‍♂️	gangling	jianmeiyundongyuan	yingla	juzhongyundongyuan	juzhong	nanzi	juzhong	zhongliang	juzhongyundongyuan	zhongliang	duanlian
+🏌	qiu	xiaoniaoqiu	qiutong	kaiqiu	gaoerfu	gaoerfuyundong	guoling	ren	pga	tuigan	fanwei	faqiuzuo
+🏌️‍♀️	qiu	xiaoniaoqiu	qiutong	jiashi	gaoerfu	gaoerfuyundong	guoling	pga	tuigan	fanwei	faqiuzuo	nvren
+🏌️‍♂️	qiu	xiaoniaoqiu	qiutong	jiashi	gaoerfu	gaoerfuyundong	guoling	nanzi	pga	tuigan	fanwei	faqiuzuo
+🏍	motuoche	saiche
+🏎	qiche	saiche	suofang
+🏏	qiu	qiubang	banqiu	youxi
+🏐	qiu	youxi	paiqiu
+🏑	qiu	changdi	youxi	qugunqiu	qiugun
+🏒	youxi	qugunqiu	bingqiu	bingqiu	qiugun
+🏓	qiu	qiupai	youxi	jiang	pingpangqiu	pingpangqiu	pingpangqiu	zhuozi	wangqiu
+🏔	hanleng	shan	xue	baixueaiai
+🏕	yeying
+🏖	haitan	zheyangsan
+🏗	jianzhu	shigong	qizhongji
+🏘	fangzi	fangwu
+🏙	chengshi	chengshijingguan
+🏚	feiqide	jia	fangzi
+🏛	jianzhu	gudian
+🏜	shamo
+🏝	shamo	daoyu
+🏞	guojia	gongyuan
+🏟	tiyuchang
+🏠	jianzhu	guojia	xinzang	jia	fangzi	muchang	dingju	jiandan	jiaoqu	jiaoqu	nali
+🏡	jianzhu	xiangcun	huayuan	xinzang	jia	fangzi	muchang	dingju	jiandan	jiaoqu	jiaoqu	nali
+🏢	jianzhu	chengshi	lifangti	gongzuo	bangongshi
+🏣	jianzhu	riyu	bangongshi	youju
+🏤	jianzhu	ouzhou	bangongshi	youju
+🏥	jianzhu	yisheng	yiyuan	yiyao
+🏦	yinhang	jianzhuwu
+🏧	atm	zidong	yinhang	xianjin	jinqian	biaozhi	chunayuan
+🏨	jianzhu	jiudian
+🏩	jianzhu	jiudian	aiqing
+🏪	ersi	dalou	bianlidian	xiaoshi	shangdian
+🏫	jianzhu	xuexiao
+🏬	jianzhuwu	baihuo	shangdian
+🏭	jianzhu	gongchang
+🏮	jiuba	denglong	deng	zhi	hongse	canting
+🏯	jianzhu	chengbao	riyu
+🏰	jianzhu	chengbao	ouzhou
+🏳	qi	huiwu	baise
+🏳️‍⚧️	lanse	qi	qianse	fense	kuaxingbie	baise
+🏳️‍🌈	shuangxinglian	qi	tongxinglian	xingbiekuer	glbt	glbtq	nvtongxinglian	lgbt	lgbtq	lgbtqia	jiaoao	kuer	caihong	kuaxingbie	kuaxingbiezhe
+🏴	heise	qi	huiwu
+🏴󠁧󠁢󠁳󠁣󠁴󠁿	qi	sugelan
+🏴󠁧󠁢󠁷󠁬󠁳󠁿	qi	weiershi
+🏴󠁧󠁢󠁥󠁮󠁧󠁿	qi	yinggelan
+🏴‍☠️	qi	qiaoli	haidao	lveduo	luojie	baocang
+🏵	zhiwu	lianzuocong
+🏷	biaoqian	biaoqian
+🏸	yumaoqiu	xiaoniaoqiu	youxi	qiupai	yumaoqiu
+🏹	gongjianshou	shejian	jian	gong	sheshouzuo	gongju	wuqi	huangdaoshiergong
+🏺	shuangerping	shuipingzuo	pengren	yinliao	shuihu	gongju	wuqi	huangdaoshiergong
+🐀	dongwu	dashu
+🐁	dongwu	dongwu	laoshu
+🐂	dongwu	dongwu	gongniu	nongchang	niu	jinniuzuo	huangdaoshiergong
+🐃	dongwu	shuiniu	shui	dongwuyuan
+🐄	dongwu	dongwu	niu	nongchang	niunai	moumou
+🐅	dongwu	da	maokedongwu	bushizhe	laohu	dongwuyuan
+🐆	dongwu	da	maokedongwu	baozi	bushizhe	dongwuyuan
+🐇	dongwu	tuzi	chongwu	tuzi
+🐈	dongwu	dongwu	mao	mao	xiaomao	chongwu
+🐈⬛	dongwu	heise	mao	maokedongwu	wanshengjie	miaowu	buxing
+🐉	dongwu	long	xiannv	tonghua	qishi	gushi
+🐊	dongwu	eyu	dongwuyuan
+🐋	dongwu	haitan	haiyang	jingyu
+🐌	dongwu	woniu	huayuan	ziran	kuoyu	woniu
+🐍	dongwu	chengzaizhe	shefuzuo	she	huangdaoshiergong
+🐎	dongwu	mashu	nongchang	ma	saima	saima
+🐏	dongwu	baiyangzuo	jiao	nanxing	gongyang	mianyang	huangdaoshiergong	dongwuyuan
+🐐	dongwu	mojiezuo	nongchang	shanyang	niunai	huangdaoshiergong
+🐑	dongwu	miemie	muyang	nongchang	cixing	maorongrongde	gaoyang	mianyang	yangmao
+🐒	dongwu	xiangjiao	houzi
+🐓	dongwu	niaolei	niaoleixue	gongji
+🐔	dongwu	niaolei	ji	niaoleixue
+🐕	dongwu	dongwu	gou	gou	chongwu
+🐕‍🦺	kefangwenxing	dongwu	yuanzhu	gou	fuwu
+🐖	dongwu	peigen	nongchang	zhu	zhurou	muzhu
+🐗	dongwu	yezhu	zhu
+🐘	dongwu	daxiang
+🐙	dongwu	shengwu	haiyang	zhangyu
+🐚	dongwu	haitan	hailuo	haiyang	beike	luoxuan
+🐛	dongwu	chongzi	huayuan	kunchong
+🐜	dongwu	mayi	huayuan	kunchong
+🐝	dongwu	mifeng	dahuangfeng	fengmi	mifeng	kunchong	ziran	chuntian
+🐞	dongwu	jiachong	huayuan	kunchong	nvshi	piaochong	piaochong	ziran
+🐟	dongwu	wancan	yu	yulei	diaoyu	shuangyuzuo	huangdaoshiergong
+🐠	dongwu	yu	yulei	redai
+🐡	dongwu	hetun	yu
+🐢	dongwu	bie	lugui	haigui
+🐣	dongwu	yinger	niao	xiaoji	dan	fuhua
+🐤	dongwu	yinger	niao	xiaoji	niaoleixue
+🐥	dongwu	yinger	niao	xiaoji	zhengmian	xinshenger	niaoleixue
+🐦	dongwu	niaolei	niaoleixue
+🐦⬛	dongwu	hui	niao	heise	gagajiao	yake	wuya	niaoleixue	duya	wuya
+🐦‍🔥	shengtian	shangsheng	chuxian	huanxiang	huoniao	rongyao	buxiu	fenghuang	zhongsheng	zhuanshi	zhongsu	gengxin	fuxing	fuxing	jueqi	zhuanbian
+🐧	dongwu	nanjizhou	niaolei	niaoleixue	qie
+🐨	dongwu	aodaliya	xiong	rongmao	lian	kaola	youdaidongwu	xia
+🐩	dongwu	gou	maorongrongde	guibinquan
+🐪	dongwu	luotuo	shamo	danfengluotuo	tuofeng	yi
+🐫	dongwu	shuangfengtuo	luotuo	shamo	tuofeng	er	shuangtuofeng
+🐬	dongwu	haitan	haitun	qizhuangzhi	haiyang
+🐭	dongwu	lian	laoshu
+🐮	dongwu	niu	lian	nongchang	niunai	moumou
+🐯	dongwu	da	mao	lian	bushizhe	laohu
+🐰	dongwu	tuzi	lian	chongwu	tuzi
+🐱	dongwu	mao	lian	xiaomao	xiaomao	chongwu
+🐲	dongwu	long	lian	xiannv	tonghua	gushi
+🐳	dongwu	haitan	lian	haiyang	penshui	jingyu
+🐴	dongwu	shengzhuangwubu	ma	lian	nongchang	ma	mapi
+🐵	dongwu	xiangjiao	lian	houzi
+🐶	keai	dongwu	gou	lian	chongwu	xiaogou	xiaogou
+🐷	dongwu	peigen	lian	nongchang	zhu	zhurou
+🐸	dongwu	lian	qingwa
+🐹	dongwu	lian	cangshu	chongwu
+🐺	dongwu	lian	lang
+🐻	dongwu	xiong	lian	huixiong	paoxiao	fengmi
+🐻‍❄️	dongwu	beiji	xiong	jidi	baise
+🐼	dongwu	zhuzi	lian	xiongmao
+🐽	dongwu	lian	nongchang	bizi	zhu	qiwei	bizi
+🐾	jiao	zhaozi	zhaozi	yinji	zhiwen
+🐿	dongwu	hualishu	songshu
+👀	shenti	yanjing	yanjing	lian	gulu	kan	kanzhuo	tiana	toukan	kan	kanjian
+👁	yi	shenti	yanjing	yizhi
+👁️‍🗨️	qiqiu	paomo	yanjing	yanjiang	zhengren
+👂	shenti	erduo	erduo	ting	tingjue	ting	lingting	shengyin
+👃	shenti	bizi	bizi	haobizi	qiwei	qiwei
+👄	meirong	shenti	qinwen	qinwen	zuichun	kouhong	zuiba
+👅	shenti	tian	chuoyin	shetou
+👆	fanshou	shouzhi	shou	shizhi	dian	zhixiang	xiangshang
+👇	fanshou	xiangxia	shouzhi	shou	shizhi	dian	zhixiang
+👈	fanshou	shouzhi	shou	shizhi	zuo	dian	zhixiang
+👉	fanshou	shouzhi	shou	shizhi	dian	zhixiang	you
+👊	juedui	tongyi	honglong	xiongdi	xiongdi	zhuangji	jinwo	jiuzheng	quantou	shou	guanjie	yingmianerlai	zhongji	quanji	yaogun	ttyl
+👋	zaijian	cya	gerg	wenhou	gtg	shou	nihao	hei	hai	daihuier	outtie	ttfn	ttyl	huishou	yo	ni
+👌	bangjile	dadu	ku	bianyi	fosho	dedao	zhuazhunile	shou	hefa	haode	haode	nie	rad	dangran	tianmi	san
+👍	jiayi	hao	shou	xihuan	muzhi	xiangshang	shide
+👎	jianyi	huai	buxihuan	shiwang	hao	shou	bu	bu	muzhi	muzhi
+👏	zhangsheng	zantong	lingrenjingwei	guzhang	gongxi	zhuhe	xingfen	hao	weidade	shou	xiongdi	gongzuo	henhao	qidao	hao	ye
+👐	shou	shou	yongbao	jueshile	dakai	zhuanxiang
+👑	fuzhuang	wangguan	jiating	guowang	zhongshiji	nvwang	huangshi	huangshi	shengli
+👒	yifu	fushi	huayuan	maozi	paidui	nvren	nvshi
+👓	fuzhuang	yanjing	yanjing	yanjing	yanjing
+👔	fuzhuang	jiuye	lingdai	yansu	chenshan	lingdai
+👕	lanse	xiuxian	yifu	fushi	yiling	zhuozhuang	chenshan	gouwu	txu	txu	zhoumo
+👖	lanse	xiuxian	yifu	fushi	niuzibu	zhengzhuang	niuziku	kuzi	gouwu	changku	zhoumo
+👗	yifu	fushi	chuanzhuo	chuanzhuo	huashao	gouwu
+👘	fuzhuang	shushi	hefu
+👙	muyu	haitan	bijini	fuzhuang	yongchi	taozhuang	youyong
+👚	chenshan	yifu	fuzhuang	yiling	lianyiqun	lifu	nvshi	chenshan	gouwu	nvren	nvshi
+👛	yifu	fushi	yingbi	qunzi	huashi	shoutibao	qianbao	gouwu
+👜	bao	yifu	fushi	lianyiqun	shoutibao	nvshi	qianbao	gouwu
+👝	bao	yifu	fuzhuang	shoubao	lianyiqun	shoutibao	xiaodai	qianbao
+👞	zongse	yifu	fushi	jiao	jiao	ti	nanren	nanshi	xie	xiezi	gouwu
+👟	yundong	yifu	fuzhuang	kuai	ti	paobu	xie	xiezi	gouwu	yundongxie	wangqiu
+👠	yifu	fushi	qunzi	shishang	gaogenxie	gaogenxie	gaogenxie	xiezi	gouwu	xigaogenxie	nvren
+👡	fuzhuang	liangxie	xie	nvxie	nvzhuang
+👢	xuezi	yifu	fushi	qunzi	xie	xiezi	gouwu	nvshi	nvzhuang
+👣	chijiao	yifu	zuji	jiaoyin	omw	dayin	buhang
+👤	banshenxiang	shenmi	yinying	jianying
+👥	zuihaodepengyou	banshenxiang	banshenxiang	suoyouren	pengyou	pengyou	renwu	jianying
+👦	nanhai	yanjingmingliangde	haizi	sunzi	haizi	erzi	nianqing	nianqingren
+👧	yanjingmingliangde	haizi	nver	nvhai	sunnv	haizi	chunvzuo	nianqing	nianqingren	huangdaoshiergong
+👨	chengren	xiongdi	nanren
+👨⚕️	yisheng	jiankang	yiliaobaojian	nanzi	hushi	zhiliaoshi	gongren
+👨⚖️	faguan	zhengyi	falv	ren	tianping
+👨✈️	nanzi	feihangyuan	feiji
+👨‍❤️‍👨	zhounianjinian	baobei	bae	qinglv	yuehui	xin	wen	ai	nanren	renwu	guanxi	langman	yiqi	ni
+👨‍❤️‍💋‍👨	zhounianjinian	baobei	bae	qinglv	yuehui	yuehui	xin	qinwen	ai	nanren	wa	renwu	langman	yiqi	xoxo
+👨‍🌾	nongmin	yuanding	nanren	muchangzhu
+👨‍🍳	chushi	chushi	nanren
+👨‍🍼	yinger	baba	fuqin	weiyang	weiyang	nanren	baomu	xinshenger	huli
+👨‍🎓	biyesheng	nanshi	xuesheng
+👨‍🎤	yanyuan	yiren	nanshi	yaogun	yaogunmingxing	geshou	mingxing
+👨‍🎨	yishujia	nanren	tiaoseban
+👨‍🏫	jiangshi	jiangshi	nanshi	jiaoshou	laoshi
+👨‍🏭	zhuangpei	gongchang	gongye	nanzi	gongren
+👨‍👦	nanhai	ertong	jiating	nanren
+👨‍👦‍👦	nanhai	ertong	jiating	nanren
+👨‍👧	ertong	jiating	nvhai	nanren
+👨‍👧‍👦	nanhai	ertong	jiating	nvhai	nanren
+👨‍👧‍👧	ertong	jiating	nvhai	nanren
+👨‍👨‍👦	nanhai	ertong	jiating	nanren
+👨‍👨‍👦‍👦	nanhai	ertong	jiating	nanren
+👨‍👨‍👧	ertong	jiating	nvhai	nanren
+👨‍👨‍👧‍👦	nanhai	ertong	jiating	nvhai	nanren
+👨‍👨‍👧‍👧	ertong	jiating	nvhai	nanren
+👨‍👩‍👦	nanhai	ertong	jiating	nanren	nvren
+👨‍👩‍👦‍👦	nanhai	ertong	jiating	nanren	nvren
+👨‍👩‍👧	ertong	jiating	nvhai	nanren	nvren
+👨‍👩‍👧‍👦	nanhai	ertong	jiating	nvhai	nanren	nvren
+👨‍👩‍👧‍👧	ertong	jiating	nvhai	nanren	nvren
+👨‍💻	bianmayuan	jisuanji	kaifarenyuan	famingjia	ren	ruanjian	jishuzhuanjia
+👨‍💼	jianzhushi	shangren	nanshi	jingli	bangongshi	bailing	gongren
+👨‍🔧	diangong	gongren	jixieshi	shuiguangong	shangren
+👨‍🔬	shengwuxuejia	huaxuejia	gongchengshi	nanren	shuxuejia	wulixuejia	kexuejia
+👨‍🦯	wuzhangaisheshi	mangren	shouzhang	nanren	tance	bairen
+👨‍🦯‍➡️	wuzhangaisheshi	mangren	shouzhang	nanren	tance	bairen
+👨‍🦰	chengren	xiongdi	nanren	hongtoufa
+👨‍🦱	chengren	xiongdi	juanfa	nanren
+👨‍🦲	chengren	tutou	xiongdi	nanren
+👨‍🦳	chengren	xiongdi	nanren	baifa
+👨‍🦼	kefangwenxing	ren	jidong	lunyi
+👨‍🦼‍➡️	kefangwenxing	ren	jidong	lunyi
+👨‍🦽	wuzhangaisheshi	ren	shouce	lunyi
+👨‍🦽‍➡️	wuzhangaisheshi	ren	shouce	lunyi
+👨‍🚀	yuhangyuan	ren	huojian	taikong
+👨‍🚒	huozai	xiaofangyuan	xiaofangche	nanzi
+👩	chengren	nvshi	nvren
+👩⚕️	yisheng	jiankang	yiliaobaojian	hushi	zhiliaoshi	nvren	gongren
+👩⚖️	faguan	zhengyi	falv	tianping	nvren
+👩✈️	feihangyuan	feiji	nvren
+👩‍❤️‍👨	zhounianjinian	baobei	bae	qinglv	yuehui	xin	wen	ai	nanren	renwu	guanxi	langman	yiqi	nvren	ni
+👩‍❤️‍👩	zhounianjinian	baobei	bae	qinglv	yuehui	xin	wen	ai	renwu	guanxi	langman	yiqi	nvren	ni
+👩‍❤️‍💋‍👨	zhounianjinian	baobei	bae	qinglv	yuehui	yuehui	xin	qinwen	ai	nanren	wa	renwu	langman	yiqi	nvren	xoxo
+👩‍❤️‍💋‍👩	zhounianjinian	baobei	bae	qinglv	yuehui	yuehui	xin	qinwen	ai	mwah	renwu	langman	yiqi	nvren	xoxo
+👩‍🌾	nongmin	yuanding	muchangzhu	nvren
+👩‍🍳	chushi	chushi	nvren
+👩‍🍼	yinger	weiyang	weiyang	mama	muqin	baomu	xinshenger	huli	nvren
+👩‍🎓	biyesheng	xuesheng	nvxing
+👩‍🎤	yanyuan	yiren	yaogun	yaogunmingxing	geshou	mingxing	nvren
+👩‍🎨	yishujia	tiaoseban	nvren
+👩‍🏫	jiangshi	jiangshi	jiaoshou	laoshi	nvren
+👩‍🏭	zhuangpei	gongchang	gongye	nvren	gongren
+👩‍👦	nanhai	ertong	jiating	nvren
+👩‍👦‍👦	nanhai	ertong	jiating	nvren
+👩‍👧	ertong	jiating	nvhai	nvren
+👩‍👧‍👦	nanhai	ertong	jiating	nvhai	nvren
+👩‍👧‍👧	ertong	jiating	nvhai	nvren
+👩‍👩‍👦	nanhai	ertong	jiating	nvren
+👩‍👩‍👦‍👦	nanhai	ertong	jiating	nvren
+👩‍👩‍👧	ertong	jiating	nvhai	nvren
+👩‍👩‍👧‍👦	nanhai	ertong	jiating	nvhai	nvren
+👩‍👩‍👧‍👧	ertong	jiating	nvhai	nvren
+👩‍💻	chengxuyuan	jisuanji	kaifarenyuan	famingjia	ruanjian	jishuzhuanjia	nvxing
+👩‍💼	jianzhushi	shangye	jingli	bangongshi	bailing	nvxing	gongren
+👩‍🔧	diangong	jixieshi	shuiguangong	shangren	nvren
+👩‍🔬	shengwuxuejia	huaxuejia	gongchengshi	shuxuejia	wulixuejia	kexuejia	nvren
+👩‍🦯	kefangwenxing	mangren	shouzhang	tance	bairen	nvren
+👩‍🦯‍➡️	kefangwenxing	mangren	shouzhang	tance	bairen	nvren
+👩‍🦰	chengren	nvshi	hongtoufa	nvren
+👩‍🦱	chengren	juanfa	nvshi	nvren
+👩‍🦲	chengren	tutou	nvshi	nvren
+👩‍🦳	chengren	nvshi	baifa	nvren
+👩‍🦼	wuzhangaisheshi	jidong	lunyi	nvxing
+👩‍🦼‍➡️	wuzhangaisheshi	jidong	lunyi	nvxing
+👩‍🦽	wuzhangaisheshi	shouce	lunyi	nvren
+👩‍🦽‍➡️	wuzhangaisheshi	shouce	lunyi	nvren
+👩‍🚀	yuhangyuan	huojian	taikong	nvren
+👩‍🚒	huozai	xiaofangyuan	xiaofangche	nvren
+👪	ertong	jiating
+👫	bae	guimi	guimi	qinglv	yuehui	tiaoqing	pengyou	shou	yongbao	nanren	shuangbaotai	nvren
+👬	bae	guimi	zuihaodepengyou	nanhai	xiongdi	qinglv	yuehui	tiaoqing	pengyou	shou	yongbao	nanren	shuangbaotai
+👭	bae	guimi	guimi	qinglv	yuehui	tiaoqing	pengyou	nvhai	shou	yongbao	jiemei	shuangbaotai	nvren
+👮	daibu	jubu	chuanpiao	jingcha	falv	guanyuan	jieshu	jingcha	la	wodi
+👮‍♀️	daibu	daibu	chuanpiao	jingcha	falv	guanyuan	jieshu	jingcha	la	wodi	nvren
+👮‍♂️	daibu	jubu	chuanpiao	jingcha	falv	nanzi	jingguan	chaoguo	jingcha	la	wodi
+👯	guimi	zuihaodepengyou	tuzi	banlv	wuzhe	shuang	erduo	xiangtong	chengdui	paidui	juhui	renmen	linghunbanlv	shuangbaotai	shuangbaotai
+👯‍♀️	guimi	guimi	tuzi	banlv	wuzhe	shuang	erduo	xiangtong	chengdui	paidui	juhui	renwu	linghunbanlv	shuangbaotai	shuangbaotai	nvren
+👯‍♂️	guimi	guimi	tuzi	banlv	wuzhe	shuang	erduo	xiangtong	nanren	yidui	paidui	juhui	renmen	linghunbanlv	shuangbaotai	shuangbaotai
+👰	ren	miansha	hunli
+👰‍♀️	xinniang	miansha	hunli	nvren
+👰‍♂️	nanshi	miansha	hunli
+👱	jinfa	jinfabiyande	renlei	ren
+👱♀️	jinfa	jinfabiyan	toufa	nvren
+👱♂️	jinfa	jinfabiyan	toufa	nanren
+👲	mao	zhongwen	gua	guapi	maozi	mao	ren	yuanzhoushuai	huangqin
+👳	ren	toujin	chuanzhuo
+👳♀️	toujin	peidai	nvren
+👳‍♂️	nanshi	toujin	peidai
+👴	chengnianren	tutou	laonianren	laoyeye	zufu	yeye	nanren	laonian	mingzhi
+👵	chengren	laonianren	zumu	nainai	nvshi	laoren	zhizhe	nvren
+👶	yinger	baobao	ertong	zhanxingwuzhi	yinger	xinshenger	huaiyun	nianqing
+👷	jianzao	shigong	xiuli	anquanmao	maozi	ren	ren	zhongjian	gaizao	xiuli	gongzuo	gongren
+👷‍♀️	jianzao	shigong	xiuli	anquanmao	maozi	nanren	zhongjian	gaizao	xiuli	nvren	gongzuo	gongren
+👷‍♂️	jianzao	shigong	xiuli	anquanmao	maozi	nanren	zhongjian	gaizao	xiuli	gongzuo	gongren
+👸	wangguan	xiannv	tonghua	huanxiang	gongzhu	nvwang	huangshi	huangshi
+👹	shengwu	mogui	lian	xiannv	tonghua	huanxiang	mianju	guaiwu	shirenmo	kepa	gushi	jumo
+👺	fennu	shengwu	lian	xiannv	tonghua	huanxiang	yaojing	mianju	beibi	guaiwu	gushi
+👻	xu	shengwu	xingfen	lian	xiannv	tonghua	huanxiang	gui	wanshengjie	kunrao	guaiwu	kepade	yuchunde	gushi
+👼	tianshi	yinger	jiaotang	lian	xiannv	tonghua	huanxiang	gushi
+👽	waixingren	shengwu	waixingshengwu	lian	xiannv	tonghua	huanxiang	guaiwu	taikong	gushi	bumingfeihangwu
+👾	waixingren	shengwu	waixingshengwu	lian	xiannv	tonghua	huanxiang	youxi	youxiwanjia	youxi	guaiwu	xiangsuhua	kongjian	gushi	bumingfeihangwu
+👿	fennu	emo	mogui	xiee	lian	xiannv	tonghua	huanxiang	jiao	xiaogui	taoqi	zise	yinying	gushi
+💀	shenti	siwang	siwang	lian	xiannv	tonghua	wo	daxiao	guaiwu	tougu	gushi	yolo
+💁	quhui	qingdan	fanzhuan	bagua	shou	ren	fengci	wakude	wulide	renzhendi	xiaofei	suibian
+💁‍♀️	quhui	qingdan	fanzhuan	xianhua	shou	fengci	waku	wuli	renzhen	xiaofei	suibian	nvren
+💁‍♂️	quhui	qingdan	fanzhuan	xianhua	shou	nanren	fengci	wakude	wulide	renzhendi	xiaofei	suibian
+💂	baijinhangong	weibing	toukui	lundun	gongdian
+💂♀️	baijinhangong	weibing	toukui	lundun	gongdian	nvren
+💂‍♂️	baijinhan	weibing	toukui	lundun	nanren	gongdian
+💃	wudao	wuzhe	tiaowu	youya	xiqing	tianfu	fulamenge	aocao	rangwomen	saersawu	tange	nvren
+💄	huazhuangpin	yuehui	kouhong	caizhuang
+💅	wuliao	huli	huazhuangpin	wancheng	huazhuang	xiuzhijia	zhijia	paoguang	suibian
+💆	mianbu	kaishi	toutong	anmo	ren	fangsong	fangsongde	shalong	shuhuan	shuiliao	jinzhang	liaofa	zhiliao
+💆‍♀️	mianbu	kaishi	toutong	anmo	fangsong	fangsongde	shalong	shuhuan	shuiliao	jinzhang	zhiliao	zhiliao	nvren
+💆‍♂️	mianbu	kaishi	toutong	nanren	anmo	fangsong	fangsongde	shalong	shuhuan	shuiliao	jinzhang	zhiliao	zhiliao
+💇	lifashi	meirong	jianfa	meirongshu	jianfa	xiushi	toufa	lifadian	ren	jiandao	fengge
+💇‍♀️	lifashi	meirong	jianfa	meirongshu	jianfa	xiushi	toufa	lifadian	ren	jiandao	fengge	nvren
+💇‍♂️	lifashi	meirong	jianfa	meirongshu	jianfa	xiushi	toufa	lifa	nanshi	falang	ren	jiandao	fengge
+💈	lifashi	jianfa	xinxian	lifa	chuifeng	tixu
+💉	yisheng	liugan	yaowu	zhentou	zhushe	shengbing	zhusheqi	gongju	yimiaojiezhong
+💊	yisheng	yaowu	yaowu	yaowan	yaowan	shengbing	weishengsu
+💋	yuehui	qinggan	xin	wen	qinwen	zuichun	biaoji	langman	xinggan
+💌	xinzang	xinjian	ai	youjian	langman	qingrenjie
+💍	zuanshi	dinghun	dinghun	yihun	jiezhi	langman	shanliang	shanshanfaguang	hunli
+💎	zuanshi	dinghun	baoshi	zhubao	jinqian	langman	shitou	hunli
+💏	zhounianjinian	baobei	bae	qinglv	yuehui	yuehui	xin	qinwen	ai	mwah	ren	langman	yiqi	xoxo
+💐	zhounianjinian	shengri	huashu	riqi	xianhua	aiqing	zhiwu	langman
+💑	zhounianjinian	baobei	bae	qinglv	yuehui	xin	wen	ai	renwu	guanxi	langman	yiqi	ni
+💒	jiaotang	yihun	hunli	langman	hunli
+💓	yisisan	tiaodong	youyang	qinggan	xinzang	xintiao	ai	maidong	maibo
+💔	dapo	posui	yakua	qinggan	xin	xinsui	gudu	beishang
+💕	yisisan	zhounianjinian	riqi	yuehui	qinggan	xin	xin	yiwei	qinwen	ai	ai	er	xoxo
+💖	yisisan	qinggan	xingfen	meihao	xin	qingqingdi	qinwen	zaochen	yewan	shanyao	shanshanfaguang	xoxo
+💗	yisisan	qingxu	xingfen	chengchang	xinzang	xintiao	yili	qinwen	n	jinzhang	maibo	xoxo
+💘	yisisan	ai	jiantou	qiubite	riqi	qinggan	xin	ai	langman	qingrenjie
+💙	yisisan	lanse	qinggan	xin	ai	langman
+💚	yisisan	qinggan	lvse	xin	ai	langman
+💛	yisisan	xinzang	qinggan	xin	ai	huangse
+💜	yisisan	zuihao	qinggan	xin	ai	zise
+💝	yisisan	zhounianjinian	qinggan	xin	ily	qinwen	sidai	qingrenjie	xoxo
+💞	yisisan	xiai	zhounianjinian	qinggan	xin	xinxing	xuanzhuan
+💟	yisisan	zhuangshi	qinggan	xin	bilu	zise	baise
+💠	manhua	lingxing	yuandian	jihe
+💡	dengpao	manhua	diandong	xiangfa	guang
+💢	fennu	shengqi	huaji	fengkuang	fuhao	buan
+💣	zhadan	honglong	huaji	weixian	baozha	remen
+💤	huaji	hao	wanan	yewan	shuijue	shuijue	kunjuan	lei	zzz
+💥	zhadan	honglong	pengzhuang	pengzhuang	manhua	baozha
+💦	manhua	di	shuidi	shuidi	di	jian	penshe	han	shui	shi	gongzuo	duanlian
+💧	hanleng	huaji	di	shuidi	ziran	beishang	hanshui	leishui	shui	tianqi
+💨	likai	yun	manhua	chongci	chongci	fangpi	kuai	qu	zoule	bixu	paobu	xiyan
+💩	bs	manhua	doo	fenbian	lian	fml	guaiwu	dui	bianbian	dabian	chou	smh	chou	chouwei	chou	chou
+💪	shoubi	yeshou	changdeng	ertouji	jianmeiyundongyuan	xiongdi	wanju	wanqu	shouyi	jianshenfang	jieke	jirou	tuiju	silie	qiangzhuang	juzhong
+💫	manhua	xuanyun	shanliang	sheji	mingxing	xingxing
+💬	qiqiu	qipao	manhua	duihua	xiaoxi	duanxin	yanjiang	tanhua	wenben	dazi
+💭	qiqiu	qipao	donghuapian	yun	manhua	bairimeng	jueding	mengxiang	xiangfa	faming	shixian	sikao	sixiang	qiji
+💮	hua	baise
+💯	yilingling	ajia	tongyi	qingchu	kending	zhongshi	wanmei	baifen	baochi	wanmei	guandian	fenshu	zhenshi	shishi	shide
+💰	daizi	yinhang	duzhu	shiyi	xianjin	chengben	meiyuan	huangjin	baiwan	qian	qiandai	yifukuan	zhifu	guo	fu	ying
+💱	yinhang	huobi	duihuan	jinqian
+💲	shiyi	xianjin	feiyong	huobi	meiyuan	zhong	baiwan	qian	zhifu	biaozhi
+💳	yinhang	qia	xianjin	shoufei	xinyong	qian	zhifu
+💴	yinhang	chaopiao	chaopiao	huobi	qian	chaopiao	riyuan
+💵	yinhang	chaopiao	chaopiao	huobi	meiyuan	qian	chaopiao
+💶	yilingling	yinhang	chaopiao	chaopiao	huobi	ouyuan	qian	zhibi	furen
+💷	yinhang	chaopiao	zhangdan	shiyi	xianjin	huobi	qian	chaopiao	yingbang
+💸	yinhang	chaopiao	zhangdan	shiyi	xianjin	meiyuan	feihang	baiwan	jinqian	piaoju	zhifu	chibang
+💹	yinhang	tubiao	huobi	tuxing	zengchang	zengjia	shichang	jinqian	shangsheng	qushi	xiangshang	riyuan
+💺	yizi	zuowei
+💻	diannao	bijibendiannao	bangongshi	gerendiannao
+💼	gongwenbao	bangongshi
+💽	jisuanji	cipan	minicipan	guangpan
+💾	jisuanji	cipan	ruanpan
+💿	languang	cd	jisuanji	cipan	dvd	guangpan
+📀	languang	cd	jisuanji	cipan	dvd	guangpan
+📁	wenjian	wenjianjia
+📂	wenjian	wenjianjia	dakai
+📃	juanqu	wendang	yemian	zhizhang
+📄	wenjian	miandui	yemian	zhizhang	xiangshang
+📅	rili	riqi
+📆	rili	sixia
+📇	qiapian	suoyin	jiu	xuanzhuanqiapianxia	xuexiao
+📈	tubiao	shuju	tuxing	zengchang	zengjia	you	qushi	shangsheng	xiangshang
+📉	tubiao	shuju	jianshao	xiajiang	xiangxia	tubiao	fumian	qushi
+📊	tiaoxingtu	tubiao	shuju	tuxing
+📋	jiantieban	zhihang	liebiao	zhushi
+📌	pintie	datouzhen	tuding
+📍	weizhi	ditu	tuding	tuding	yuanxing
+📎	huixingzhen
+📏	jiaodu	bianyuan	shuxue	chizi	zhi	zhichi
+📐	jiaodu	shuxue	guize	biaochi	shezhi	huandengpian	sanjiaoxing	sanjiaoxing
+📑	shuqian	biaoji	biaoji	biaoqian
+📒	fenleizhang	bijiben
+📓	bijiben
+📔	shuji	fengmian	zhuangshi	zhuangshixing	jiaoyu	bijiben	xuexiao	xiezuo
+📕	shuji	yiguanbi	jiaoyu
+📖	shuji	jiaoyu	huanxiang	zhishi	tushuguan	xiaoshuo	kaifang	yuedu
+📗	shuji	jiaoyu	huanxiang	lvse	tushuguan	yuedu
+📘	lanse	shuji	jiaoyu	huanxiang	tushuguan	yuedu
+📙	shuji	jiaoyu	huanxiang	tushuguan	chengse	yuedu
+📚	shuji	tushu	jiaoyu	huanxiang	zhishi	tushuguan	xiaoshuo	yuedu	xuexiao	xuexi
+📛	huizhang	xingming
+📜	zhi	juanzhou
+📝	tongxun	meiti	beiwanglu	biji	qianbi
+📞	tongxun	dianhua	jieshouqi	dianhua	voip
+📟	tongxun	chuanhuji
+📠	tongxun	chuanzhen	jiqi
+📡	waixingren	tianxian	jiechu	diexingtianxian	weixing	kexue
+📢	dizhi	tongxun	xiangliang	yangshengqi	gonggong	shengyin
+📣	huanhu	kuoyinqi	shengyin
+📤	xiang	dianziyoujian	xinjian	youjian	fajianxiang	yifasong	tuopan
+📥	kuang	dianziyoujian	shoujianxiang	xinjian	youjian	jieshou	tuopan	ling
+📦	hezi	tongxun	disong	baoguo	baoguo	yunshu
+📧	dianziyoujian	dianziyoujian	xinjian	youjian
+📨	disong	dianziyoujian	dianziyoujian	xinfeng	laihan	xinjian	youjian	jieshou	fasong
+📩	jiantou	tongxun	xiangxia	dianziyoujian	dianziyoujian	xinfeng	xinjian	youjian	waifa	fasong	yifasong
+📪	guanbi	qi	jiangxia	youjian	youxiang	youxiang
+📫	guanbi	tongxun	qi	youjian	youxiang	youxiang	tuqi
+📬	qi	youjian	xinxiang	dakai	youxiang	shengqi
+📭	qi	jiangxia	youjian	youxiang	dakai	youxiang
+📮	youjian	youxiang	youxiang
+📯	laba	zhuzi	youzheng
+📰	tongxun	xinwen	baozhi	baozhi
+📱	shouji	tongxun	yidongdianhua	dianhua
+📲	jiantou	goujian	hujiao	xibao	tongxun	yidong	dianhua	jieshou	dianhua
+📳	xibao	tongxin	yidong	moshi	dianhua	dianhua	zhendong
+📴	shouji	yidongdianhua	guanji	dianhua	dianhua
+📵	shouji	jinzhi	yidongdianhua	fou	bu	dianhua	dianhua	jinzhi	dianhua
+📶	tianxian	tiao	tiao	shouji	tongxun	yidong	dianhua	xinhao	dianhua
+📷	xiangji	zhaopian	zipai	kuaizhao	tbt	lvhang	shipin
+📸	xiangji	shanguangdeng	shipin
+📹	shexiangji	zhaoxiangji	tbt	shipin
+📺	dianshi	dianshi	shibin
+📻	yule	guangbo	tbt	shipin
+📼	jiu	xuexiao	cidai	luxiangji	vhs	shipin	luxiangdai
+📽	dianyingyuan	yingpian	dianying	fangyingji	shipin
+📿	zhuzi	fuzhuang	xianglian	qidao	zongjiao
+🔀	jiantou	anniu	jiaocha	suijibofang	guidao
+🔁	jiantou	anniu	shunshizhen	zhongfu
+🔂	jiantou	anniu	shunshizhen	yici	zhongfu	danci
+🔃	jiantou	jiantou	shunshizhen	shuaxin	zhongxinjiazai	chuizhi
+🔄	zaici	nishizhen	jiantou	jiantou	anniu	nishizhen	sizengxiangshi	shuaxin	daodai	sizengxiangshi
+🔅	liangdu	anniu	andan	di
+🔆	mingliang	liangdu	anniu	deng
+🔇	jingyin	jingyin	anjing	wusheng	shengyin	yangshengqi
+🔈	di	rouhe	shengyin	yangshengqi	yinliang
+🔉	jiezhi	shengyin	yangshengqi	yinliang
+🔊	gao	xiang	yinle	shengyin	yangshengqi	yinliang
+🔋	dianchi
+🔌	diandong	dian	chatou
+🔍	boli	shiyanshi	zuo	zuozhi	fangda	kexue	sousuo	qingxie	gongju
+🔎	jiechu	boli	shiyanshi	fangda	you	youzhi	kexue	sousuo	qingxie	gongju
+🔏	moshui	suo	suoding	bijian	gangbi	yinsi
+🔐	zihangche	guanbi	yuechi	suo	suoding	anquan
+🔑	yuechi	yuechi	suo	zhuyao	mima	jiesuo
+🔒	guanbi	suoding	yisuoding	siren
+🔓	pojie	suoding	dakai	jiesuo	jiesuo
+🔔	zhongsheng	xiuxi	jiaotang	shengyin
+🔕	lingsheng	jinzhi	jingyin	bu	bu	jinzhi	anjing	wusheng	xiexian	shengyin
+🔖	shuqian	biaoji
+🔗	lianjie	lianjie
+🔘	anniu	jihe	wuxiandian
+🔙	jiantou	fanhui
+🔚	jiantou	jieshu
+🔛	jiantou	biaoji	kaiqi！
+🔜	jiantou	brb	omw	jijiangtuichu
+🔝	jiantou	zhuye	dingbu	xiangshang
+🔞	yiba	nianling	shibasui	jinzhi	bu	bu	yi	jinzhi	xianzhi	weichengnian
+🔟	jianmao	yiling
+🔠	abcd	shuru	ladingwen	zimu	daxie
+🔡	abcd	shuru	ladingwen	zimu	xiaoxie
+🔢	yiersansi	shuru	shuzi
+🔣	&	%	♪	〒	shuru	fuhao
+🔤	abc	zimubiao	shuru	ladingwen	zimu
+🔥	af	ranshao	huo	huoyan	re	dianran	litaf	gongju
+🔦	diandong	shoudiantong	deng	gongju	shoudiantong
+🔧	shouye	gaijin	banshou	gongju	banshou
+🔨	chuizi	jiaju	gaijin	weixiu	gongju
+🔩	luoshuan	jiaju	gaijin	luomu	gongju
+🔪	chushi	pengren	hocho	chufang	dao	gongju	wuqi
+🔫	qiang	shouqiang	shouqiang	zuolunshouqiang	gongju	shui	wuqi
+🔬	shiyan	shiyanshi	xianweijing	kexue	gongju
+🔭	lianxi	waixingren	kexue	wangyuanjing	gongju
+🔮	qiu	shuijing	xiannv	tonghua	huanxiang	caifu	weilai	mofa	gushi	gongju
+🔯	dianzhuang	caifu	youtai	youtaijiao	liujiao	xing
+🔰	chuxuezhe	renzixing	lvse	riyu	yezi	fuhao	gongju	huangse
+🔱	mao	huizhang	haishen	chuan	gongju	sanchaji
+🔲	heise	anniu	jihe	fangxing
+🔳	anniu	jihe	lunkuo	zhengfangxing	baise
+🔴	yuanxing	jihe	hongse
+🔵	lanse	yuanxing	jihe
+🔶	zuanshi	jihe	da	chengse
+🔷	lanse	zuanshi	jihe	da
+🔸	zuanshi	jihe	chengse	xiao
+🔹	lanse	zuanshi	jihe	xiao
+🔺	jihe	jiantou	hongse	sanjiaoxing	xiangshang
+🔻	xiangxia	jihe	jiantou	hongse	sanjiaoxing
+🔼	jiantou	anniu	hongse	xiangshang	xiangshang
+🔽	jiantou	anniu	xiangxia	xiangxia	hongse
+🕉	yindujiao	om	zongjiao
+🕊	niao	gezi	cangying	niaoleixue	heping
+🕋	zhaojin	yisilanjiao	tianfang	musilin	zongjiao	fuzhao
+🕌	yisilanjiao	qingzhensi	qingzhensi	musilin	zongjiao
+🕍	youtairen	youtairen	youtaijiao	zongjiao	youtaijiaotang	simiao
+🕎	zhutai	zhutai	guangmingjie	youtaijiao	youtaizhutai	zongjiao
+🕐	yi	yi:lingling	shizhong	dian	yi	shijian
+🕑	er	er:lingling	shizhong	dianzhong	shijian	er
+🕒	san	san:lingling	shizhong	dian	san	shijian
+🕓	si	si:lingling	shizhong	si	dian	shijian
+🕔	wu	wu:lingling	shizhong	wu	dian	shijian
+🕕	liu	liu:lingling	shizhong	dian	liu	shijian
+🕖	ling	7	7:lingling	shizhong	dian	qi
+🕗	ba	ba:lingling	shizhong	ba	dian	shijian
+🕘	jiu	jiu:lingling	shizhong	jiu	dian	shijian
+🕙	ling	yiling	yiling:lingling	shizhong	dian	shi
+🕚	yiyi	yiyi:lingling	shizhong	shiyi	dian	shijian
+🕛	yier	yier:lingling	shizhong	dianzhong	shijian	shier
+🕜	yi	yi:sanling	sanling	shizhong	yidian	yidianban	sanshi	shijian
+🕝	er	er:sanling	sanling	shizhong	sanshi	shijian	er	liangdianban
+🕞	san	san:sanling	sanling	shizhong	sanshi	san	sandianban	shijian
+🕟	sanling	si	si:sanling	shizhong	si	sidianban	sanshi	shijian
+🕠	sanling	wu	wu:sanling	shizhong	wu	wudianban	sanshi	shijian
+🕡	sanling	liu	liu:sanling	shizhong	liu	liudianban	sanshi
+🕢	sanling	7	7:sanling	shizhong	qi	qidianban	sanshi
+🕣	sanling	ba	badianban	shizhong	ba	badianban	sanshi	shijian
+🕤	sanling	jiu	jiu:sanling	shizhong	jiu	jiudianban	sanshi	shijian
+🕥	yiling	yiling:sanling	sanling	shizhong	shi	shidianban	sanshi	shijian
+🕦	yiyi	yiyi:sanling	sanling	shizhong	shiyi	shiyidianban	sanshi	shijian
+🕧	yier	yier:sanling	sanling	shizhong	sanshi	shijian	shier	shierdianban
+🕯	lazhu	guang
+🕰	shizhong	bilujia	shijian
+🕳	dong
+🕴	shangye	xuanfu	ren	susong
+🕵	zhentan	zhentan	jiandie
+🕵️‍♀️	zhentan	zhentan	jiandie	nvren
+🕵️‍♂️	zhentan	nanzi	zhentan	jiandie
+🕶	shense	yanjing	yanjing	yanjing	taiyangjing
+🕷	dongwu	kunchong	zhizhu
+🕸	zhizhu	wang
+🕹	youxi	caozonggan	shipin	shipinyouxi
+🕺	wudao	wuzhe	tiaowu	youya	xiqing	tianfu	fulamenge	aocao	rangwomen	nanren	saersawu	tange
+🖇	lianjie	lianjie	huixingzhen	huixingzhen
+🖊	yuanzhubi	gangbi
+🖋	gangbi	gangbi
+🖌	huabi	huihua
+🖍	labi
+🖐	shouzhi	shouzhi	shou	juqi	zhangkai	tingzhi
+🖕	shouzhi	shou	zhong
+🖖	shouzhi	shou	shouzhang	jingli	huoshen
+🖤	heise	xiee	xin	xiee
+🖥	jisuanji	taishiji	xianshiqi
+🖨	diannao	dayinji
+🖱	diannao	shubiao
+🖲	jisuanji	guijiqiu
+🖼	yishu	kuangjia	kuangjia	bowuguan	huihua	tupian
+🗂	qiapian	fengefu	suoyin
+🗃	hezi	qiapian	wenjian
+🗄	guizi	wenjian	guidang	zhizhang
+🗑	guan	laji	feiwu	feiliao	feizhilou
+🗒	biji	jishiben	bianjianben	luoxuan
+🗓	rili	bianjianbu	luoxuan
+🗜	jiaju	yasuo	gongju	huqian
+🗝	xiansuo	yuechi	suo	jiu
+🗞	xinwen	baozhi	zhizhang	juanqi	juanqi
+🗡	bishou	xiaodao	wuqi
+🗣	lianbu	toubu	lunkuo	shuohua	jianghua
+🗨	qiqiu	qipao	duihuakuang	zuo	yanjiang
+🗯	fennu	shengqi	qiqiu	paomo	fengkuang	zhengque
+🗳	xuanpiao	xuanpiaoxiang
+🗺	ditu	shijie
+🗻	fushishan	shan	shanmai	ziran
+🗼	dongjing	ta
+🗽	ziyou	ziyou	xin	niuyue	niuyueshi	diaoxiang	diaoxiang	yueke
+🗾	riben	ditu
+🗿	lian	moaishixiang	moya	diaoxiang	shimian	lvhang
+🤌	shouzhi	shoushi	shou	wozhu	n	xunwen	naixin	nie	fangsong	fengci	e	shenme	lalian
+🤍	yisisan	xinxing	baise
+🤎	yisisan	zongse	xinxing
+🤏	shuliang	yidian	shouzhi	shou	xiao	nie	xiao	paixu
+🤐	miandui	baochi	zuiba	anjing	mimi	guanbi	lalian	lalian	lalianzui
+🤑	mianzi	qian	qiankou	zuiba	fuqian
+🤒	lian	shengbing	shengbing	wenduji
+🤓	congming	congming	zhuanjia	lian	jike	tiancai	yanjing	congming	shudaizi	congming
+🤔	xiaba	kaolv	miandui	n	sikao	sisuo	sikao	xiangzhidao
+🤕	bengdai	lian	toubengdai	shoushang	shoushang	aiyo
+🤖	lian	guaiwu	jiqiren
+🤗	lian	shou	yongbao	yongbao	zhangkai	weixiao
+🤘	shouzhi	shou	jiao	yaogun	shoushi
+🤙	huhuan	shou	guaqi	songkai	wo	shaqia
+🤚	beibu	fanshou	shou	juqi
+🤛	quantou	mianxiangzuo	xiangzuo
+🤜	quantou	mianxiangyou	xiangyou
+🤝	xieyi	jiaoyi	shou	woshou	huiyi	woshou
+🤞	jiaocha	jiaocha	shouzhi	shouzhi	shou	yunqi
+🤟	shouzhi	shoushi	shou	ily	ai	aini	san	ni
+🤠	niuzi	nvniuzi	lian	maozi
+🤡	xiaochou	lian
+🤢	lian	exin	lingrenyane	exin	outu
+🤣	kuqi	lian	diban	youqu	haha	kuaile	hehe	gaoxiao	xiyue	daxiao	daxiao	daxiao	daxiao	daxiao	daxiao	gundong	silie
+🤤	liukoushui	lian
+🤥	miandui	pianzi	huangyan	shuohuang	pinuocao
+🤦	zaici	kunhuo	huaiyi	fennu	wulian	bu	bushi	o	tiana	ren	zhenjing	yaotou
+🤦‍♀️	zaici	kunhuo	huaiyi	fennu	wulian	bu	bushi	o	tiana	zhenjing	yaotou	nvren
+🤦‍♂️	zaici	kunhuo	huaiyi	naonu	wulian	nanren	bu	bushi	o	tiana	zhenjing	yaotou
+🤧	lian	fashao	liugan	shentijiankang	shengbing	dapenti	dapenti
+🤨	buzancheng	buxiangxin	buxinren	biaoqingfuhao	meimao	lian	n	qingwei	taiqi	huaiyilunzhe	huaiyi	huaiyilun	jingya	shenme	qingweijingya	huaiyilun
+🤩	xingfen	yanjing	lian	liezuixiao	weixiao	mingxing	xingguangyiyi	yanhualiaoluan	wa
+🤪	fengkuang	yanjing	yanjing	lian	yuchun	da	xiao	huaji
+🤫	miandui	anjing	xu	xu	xu
+🤬	shencha	zhouma	zhouma	lian	fengkuang	zuiba	shengqi	zhouma	fuhao
+🤭	lian	kakaxiao	kakaxiao	shou	zui	aiya	yishidao	mimi	zhenjing	turan	jingya	aiya	turanyishidao
+🤮	outu	exin	lian	exin	outu	exin	outu	outu
+🤯	chui	baozha	baozha	toubu	xinling	zhenjing	bu	zhenjing	fangshi
+🤰	huaiyun	nvren
+🤱	yinger	rufang	muruweiyang	weiyang	mama	muqin	buru	nvren
+🤲	beizhuang	qidao	shou	shouzhang	qidao	daogao	yiqi	xiangshang	yuanwang	beizhuangshuangshou
+🤳	xiangji	shouji	zipai
+🤴	wangguan	xiannv	tonghua	huanxiang	guowang	wangzi	huangshi	huangshi
+🤵	zhengshi	ren	yanweifu	hunli
+🤵‍♀️	zhengshi	yanweifu	hunli	nvshi
+🤵‍♂️	zhengshi	xinlang	nanshi	yanweifu	hunli
+🤶	qingzhu	shengdanjie	shengdanlaoren	xiannv	huanxiang	jieri	kuaile	muqin	furen	shengdanlaoren	gushi	shengdanjie
+🤷	huaiyi	buzhidao	caice	wobuzhidao	wuzhi	mobuguanxin	zhidao	yexu	ren	songjian	songjian	wulun	shui
+🤷‍♀️	huaiyi	buzhidao	caice	wobuzhidao	wuzhi	mobuguanxin	zhidao	yexu	songjian	songjian	wulun	shui	nvren
+🤷‍♂️	huaiyi	buzhidao	caice	wobuzhidao	wuzhi	mobuguanxin	zhidao	nanren	yexu	songjian	songjian	wulun	shui
+🤸	huoyue	ceshoufan	ceshoufan	xingfen	fanzhuan	ticao	kuaile	ren	kongfan
+🤸‍♀️	huoyue	ceshoufan	ceshoufan	xingfen	fanzhuan	ticao	kuaile	kongfan	nvren
+🤸‍♂️	huoyue	ceshoufan	ceshoufan	xingfen	fanzhuan	ticao	kuaile	nanren	kongfan
+🤹	hangdong	pingheng	pingheng	chuli	wanzashua	wanzashua	guanli	duorenwu	ren	jineng
+🤹‍♀️	hangdong	pingheng	pingheng	chuli	wanzashua	wanzashua	guanli	duorenwu	jineng	nvren
+🤹‍♂️	hangdong	pingheng	pingheng	chuli	wanzashua	wanzashua	ren	guanli	duorenwu	jineng
+🤺	jijianyundongyuan	jijian	ren	jian
+🤼	zhandou	juedou	qinbao	renwu	quanjitai	jinbiaosai	shuaijiao	bodou
+🤼‍♀️	zhandou	juedou	qinbao	quanjitai	jinbiaosai	nvxing	shuaijiao	jiaoli
+🤼‍♂️	zhandou	juedou	qinbao	nanzi	quanjitai	jinbiaosai	shuaijiao	bodou
+🤽	ren	daqiu	maqiu	yundong	youyong	shui	shuiqiu
+🤽♀️	daqiu	maqiu	yundong	youyong	shui	shuiqiu	nvren
+🤽♂️	nanren	daqiu	maqiu	yundong	youyong	shui	shuiqiu
+🤾	tianjing	qiu	jieqiu	paoqiu	shouqiu	touzhi	gaopaoqiu	ren	touqiu	wanshua	yundong	touzhi	paozhi
+🤾♀️	tianjing	qiu	jieqiu	paoqiu	shouqiu	touzhi	gaopaoqiu	touqiu	youxi	yundong	touzhi	paozhi	nvren
+🤾♂️	tianjing	qiu	jieqiu	paoqiu	shouqiu	touzhi	gaopaoqiu	nanzi	touqiu	wanshua	yundong	touzhi
+🤿	qianshui	mianzhao	shuifei	fuqian
+🥀	chuisi	hua	kuwei
+🥁	gu	guchui	yinle
+🥂	qingzhu	pengbei	dingdangxiang	hejiu	bolibei	bolibei
+🥃	bolibei	jiu	sugelanweishiji	liejiu	pingdibolibei	weishiji	weishiji
+🥄	chi	shaozi	canju
+🥅	mubiao	jing
+🥇	diyiming	diyiming	jinpai	jiangpai	mingci
+🥈	dierming	jiangpai	mingci	dierming	yinpai
+🥉	disanming	tongpai	jiangpai	mingci	disan
+🥊	quanji	shoutao
+🥋	yishu	roudao	kongshoudao	wushu	taiquandao	zhifu
+🥌	binghuyundong	bisai	binghu	shitou
+🥍	qiu	qiumen	changqugunqiu	yundong	qiugun
+🥎	qiu	shoutao	leiqiu	yundong	yexia
+🥏	guangpan	feihang	zhongji
+🥐	mianbao	zaocan	xinyuexingmianbao	yangjiaomianbao	shiwu	fayu	juan
+🥑	eli	shiwu	shuiguo
+🥒	huanggua	shipin	acai	shucai
+🥓	peigen	zaocan	shiwu	roulei
+🥔	shipin	tudou	shucai
+🥕	huluobu	shiwu	shucai
+🥖	fagunmianbao	mianbao	shiwu	fayu
+🥗	shiwu	lvse	shala
+🥘	shaguo	shiwu	xibanyahaixianfan	pingdiguo	qian
+🥙	shalasanmingzhi	bianmianbao	shipin	tuoluoyi	kaorouchuan	xianliao
+🥚	zaocan	jidan	shiwu
+🥛	yinliao	boli	niunai
+🥜	shipin	jianguo	huasheng	huasheng	shucai
+🥝	shiwu	shuiguo	mihoutao
+🥞	zaocan	jianbing	shipin	rebing	baojianbing	jianbing
+🥟	jiaozi	xianbing	jiaozi	jiaozi	bolanjiaozi	guotie
+🥠	binggan	caifu	yuyan
+🥡	hezi	kuaizi	peisong	shiwu	muli	tong	waimai
+🥢	kuaizi	hashi	jietejialake	kuaizi
+🥣	wan	zaocan	maipian	zhou	yanmaipian	xifan	shaozi
+🥤	beizi	yinliao	guozhi	maiya	sudashui	ruanyinliao	xiguan	shui	ruanyinliao
+🥥	yezi	kelada	shouzhang	pina
+🥦	xilanhua	juanxincai	yesheng
+🥧	pingguo	xianliao	shuiguo	rou	gaodian	xianbing	nangua	qiepian
+🥨	panxuande	jiaoyanjuanbing	niuqude
+🥩	duosui	qiege	yangpai	rou	zhupai	hongse	niupai
+🥪	mianbao	sanmingzhi
+🥫	guantou	guantoushipin
+🥬	baicai	hanbaobao	juanxincai	caixin	lvseshucai	ganlan	lvyeshucai	shengcai	shala
+🥭	shiwu	shuiguo	mangguo	redai
+🥮	qiutian	dangao	jieri	yueliang	yuebing
+🥯	baijibing	mianbaodian	mianbao	zaocan	tumo
+🥰	san	chongbai	milian	lian	xin	xin	ai	langman	weixiao	weixiao	ni
+🥱	shuijueshijian	wuliao	lian	wanan	xiaoshui	yewan	shuijue	kunjuan	leile	wulun	dahaqian	dahaqian	zzz
+🥲	miandui	gaoxing	ganji	xingfu	xiyue	tongku	zihao	songleyikouqi	weixiao	xiaolian	weixiao	leishui	gandong
+🥳	shengri	shengri	qingzhu	qingzhuhuodong	xingfen	lian	kuaile	maozi	wansui	laba	paidui	juhui
+🥴	touyun	zuijiu	yanjing	lian	zuiyi	zuiba	zuiyi	bujunyun	bolangzhuang	touyun
+🥵	chuisi	lian	fashao	fare	yanre	qichuan	lianhong	zhongfeng	chuhan	shetou
+🥶	lanse	liansefaqing	hanleng	lian	dongjie	dongshang	bingzhu	lingduyixia	yachi
+🥷	cike	zhandou	zhanshi	yincang	renzhe	renwu	mimi	jineng	jiaohua	shibing	yinshen	zhanzheng
+🥸	weizhuang	meimao	lian	yanjing	yinxingmaiming	huzi	bizi	ren	jiandie	huzi	tashen
+🥹	qinpei	a	hui	kuqi	ganga	miandui	ganshou	ganji	ganji	chiyou	xiyue	qing	zihao	dizhi	beishang	yanlei
+🥺	qiqiu	da	yanjing	lian	lianmin	bu	kenqiu	qing	piaoliang	xiaogou	beishang	weishenme
+🥻	fuzhuang	lianyiqun	shali
+🥼	yifu	waitao	yisheng	boshi	shiyan	jiake	shiyanshi	kexuejia	baise
+🥽	qianshui	yanjing	humujing	fanghu	shuifei	youyong	hanjie
+🥾	beibaolvhang	xuezi	zongse	louying	tubulvhang	huwai	xiezi
+🥿	balei	shushi	pingdixie	pingdixie	xiezi	yijiaodeng	tuoxie
+🦀	juxiezuo	pangxie	huangdaoshiergong
+🦁	aerfa	dongwu	lian	shizizuo	shizi	zongmao	shunxu	paoxiao	paoxiao	shoulie	qiangzhuang	huangdaoshiergong
+🦂	tianxiezuo	xiezi	tianxiezuo	huangdaoshiergong
+🦃	niao	langtunhuyan	ganenjie	huoji
+🦄	lian	dujiaoshou
+🦅	dongwu	niaolei	ying	niaoleixue
+🦆	dongwu	niaolei	yazi	niaoleixue
+🦇	dongwu	bianfu	xixiegui
+🦈	dongwu	yu	shayu
+🦉	dongwu	niaolei	niaoleixue	maotouying	congming
+🦊	dongwu	lian	huli
+🦋	hudie	kunchong	meili
+🦌	dongwu	lu
+🦍	dongwu	daxingxing
+🦎	dongwu	xiyi	pahangdongwu
+🦏	dongwu	xiniu
+🦐	shipin	beilei	xia	xiao
+🦑	dongwu	shiwu	ruantidongwu	youyu
+🦒	dongwu	changjinglu	bandian
+🦓	dongwu	tiaowen	banma
+🦔	dongwu	ciwei	duoci
+🦕	wanlong	leilong	konglong	lianglong	xijiaoleidongwu
+🦖	konglong	bawanglong	t	bawanglong	baolong	bawanglong
+🦗	dongwu	chongzi	xishuai	zhameng	kunchong	zhichimu
+🦘	dongwu	qiaoyi	tiaoyue	daishu	youdaidongwu
+🦙	yangtuo	dongwu	yuantuo	luotuo	luotuomao	yangmao
+🦚	dongwu	niao	secaixianyan	niaoleixue	huali	kongque	cikongque	piaoliang	jiaoao
+🦛	dongwu	hema	hema
+🦜	dongwu	niao	niaoleixue	yingwu	haidao	tanhua
+🦝	dongwu	haoqi	huanxiong	jiaohua
+🦞	dongwu	nongtang	zhaozi	longxia	haixian
+🦟	dingyao	jibing	fashao	kunchong	nveji	wenzi	haichong	bingdu
+🦠	bianxingchong	xijun	weishengwu	kexue	bingdu
+🦡	dongwu	huan	fengmi	saorao
+🦢	dongwu	niao	xiaotiane	xiaoya	niaoleixue	tiane	choulou
+🦣	dongwu	miejue	daxing	mengmaxiang	xiangya	maorongrongde
+🦤	dongwu	niao	duduniao	miejue	daxing	niaoleixue
+🦥	landuo	daiduo	huanman
+🦦	dongwu	diaoyu	shuita	haowan
+🦧	dongwu	yuan	hou	xingxing
+🦨	dongwu	chouyou	chouwei
+🦩	dongwu	niaolei	hualide	huolieniao	niaoleixue	redai
+🦪	qianshui	muli	zhenzhu
+🦫	dongwu	haili	shuiba	yachi
+🦬	dongwu	yeniu	shuiniu	niuqun	weisente
+🦭	dongwu	shizi	haiyang	haibao
+🦮	kefangwenxing	dongwu	mangren	gou	zhinan
+🦯	wuzhangaisheshi	mangren	shouzhang	tance	baise
+🦰	jianghuangse	toufa	hongse	hongfa
+🦱	feizhoushifaxing	juanfa	toufa	juanfa
+🦲	tutou	hualiao	toufa	wumao	meiyou	tiguang
+🦳	huise	toufa	jiu	baise
+🦴	gutou	gutou	gou	gujia	chagu
+🦵	wanqu	jiao	ti	xigai	tui	zhiti
+🦶	jiaohuai	jiao	jiao	ti	duojiao
+🦷	yayi	zhenzhu	yachi	yachi	baise
+🦸	hao	yingxiong	chaojiyingxiong	chaojidaguo
+🦸‍♀️	hao	yingxiong	nvyingxiong	chaojiyingxiong	chaojidaguo	nvren
+🦸‍♂️	hao	yingxiong	nanren	chaojiyingxiong	chaojidaguo
+🦹	huai	zuifan	xiee	chaojidaguo	chaojiegun	egun
+🦹‍♀️	huai	zuifan	xiee	chaojidaguo	chaojiegun	egun	nvren
+🦹‍♂️	huai	zuifan	xiee	nanren	chaojidaguo	chaojiegun	egun
+🦺	yingji	anquan	beixin
+🦻	kefangwenxing	yuanzhu	erduo	tinglizhangai	tinglizhangai
+🦼	wuzhangaisheshi	jidonghua	lunyi
+🦽	wuzhangaisheshi	shouce	lunyi
+🦾	wuzhangaisheshi	shoubi	jixie	jiazhi
+🦿	wuzhangaisheshi	tuibu	jixie	jiazhi
+🧀	nailao	xiexing
+🧁	mianbaodian	zhibeidangao	tiandian	tangxie	tang	tianpin	lingshi
+🧂	tiaoweipin	weidao	fengkuang	yan	xiande	tiaoweiping	weidao	buan
+🧃	yinliao	hezi	guozhi	xiguan	tianpin
+🧄	tiaoweiliao	dasuan
+🧅	tiaoweiliao	yangcong
+🧆	yingzuidou	shalasanmingzhi	rouwan
+🧇	zaocan	youyubujue	tie	huafubing
+🧈	huangyou	ruzhipin
+🧉	he	he
+🧊	leng	lifangti	bing	bingshan
+🧋	boba	paopao	shipin	niunai	zhenzhu	cha
+🧌	xiannv	huanxiang	guaiwu	gushi	jumo	tuodiao
+🧍	ren	zhanli	zhanli
+🧍‍♀️	zhanli	zhanli	nvren
+🧍‍♂️	nanren	zhanli	zhanli
+🧎	guixia	guixia	xigai	ren
+🧎‍♀️	guixia	guizhuo	xigai	nvren
+🧎‍♀️‍➡️	guixia	guizhuo	xigai	nvren
+🧎‍♂️	guixia	guizhuo	xigai	nanren
+🧎‍♂️‍➡️	guixia	guizhuo	xigai	nanren
+🧎‍➡️	guixia	guixia	xigai	ren
+🧏	kefangwenxing	longren	erduo	shoushi	tingjian	ren
+🧏‍♀️	kefangwenxing	longren	erduo	shoushi	tingjian	nvren
+🧏‍♂️	kefangwenxing	longren	erduo	shoushi	tingjian	nanren
+🧐	youya	lian	huashao	danpianyanjing	fuyou	guban	fuyu
+🧑	chengren	ren
+🧑‍⚕️	yisheng	jiankang	yiliaobaojian	hushi	zhiliaoshi	gongren
+🧑⚖️	faguan	zhengyi	falv	tianping
+🧑‍✈️	feihangyuan	feiji
+🧑‍🌾	nongmin	yuanding	muchangzhu
+🧑‍🍳	chushi	chushi
+🧑‍🍼	yinger	weiyang	weiyang	baomu	xinshenger	huli	fumu
+🧑‍🎄	qingzhu	shengdanjie	shengdanlaoren	xiannv	huanxiang	jieri	kuaile	mx	shengdanlaoren	gushi	shengdanjie
+🧑‍🎓	biyesheng	xuesheng
+🧑‍🎤	yanyuan	yiren	yaogun	yaogunmingxing	geshou	mingxing
+🧑‍🎨	yishujia	tiaoseban
+🧑‍🏫	jiangshi	jiangshi	jiaoshou	laoshi
+🧑‍🏭	zhuangpei	gongchang	gongye	gongren
+🧑‍💻	bianmayuan	jisuanji	kaifarenyuan	famingjia	ruanjian	jishuzhuanjia
+🧑‍💼	jianzhushi	shangwu	jingli	bangongshi	bailing	gongren
+🧑‍🔧	diangong	jixieshi	shuiguangong	shangren
+🧑‍🔬	shengwuxuejia	huaxuejia	gongchengshi	shuxuejia	wulixuejia	kexuejia
+🧑‍🤝‍🧑	bae	guimi	guimi	qinglv	yuehui	tiaoqing	pengyou	shou	yongbao	renmen	shuangbaotai
+🧑‍🦯	wuzhangaisheshi	mangren	shouzhang	ren	tance	baise
+🧑‍🦯‍➡️	wuzhangaisheshi	mangren	shouzhang	ren	tance	baise
+🧑‍🦰	chengren	ren	hongtoufa
+🧑‍🦱	chengren	juanfa	ren
+🧑‍🦲	chengnianren	tutou	ren
+🧑‍🦳	chengren	ren	baifa
+🧑‍🦼	wuzhangaisheshi	jidong	ren	lunyi
+🧑‍🦼‍➡️	wuzhangaisheshi	jidong	ren	lunyi
+🧑‍🦽	wuzhangaisheshi	shouce	ren	lunyi
+🧑‍🦽‍➡️	wuzhangaisheshi	shouce	ren	lunyi
+🧑‍🧑‍🧒	chengren	ertong	jiating
+🧑‍🧑‍🧒‍🧒	chengren	ertong	jiating
+🧑‍🧒	chengren	ertong	jiating
+🧑‍🧒‍🧒	chengren	ertong	jiating
+🧑‍🚀	yuhangyuan	huojian	taikong
+🧑‍🚒	huozai	xiaofangyuan	xiaofangche
+🧒	yanjingmingliangde	haizi	sunzi	xiaohai	nianqingren	nianqingren
+🧓	chengnianren	laonianren	zufumu	laoren	ren	zhizhe
+🧔	huxu	youhuxude	ren	huxu	youhuxude
+🧔♀️	huxu	youhuxude	huxu	nvren
+🧔♂️	huxu	youhuxude	nanren	huxu
+🧕	toujin	toubu	toujin	toujin	toujin	pijian	tousha	toujin	nvren	toujin
+🧖	tian	shehua	zongqingxiangshou	ren	fangsong	fangjian	sangna	shuiliao	zhengqi	zhengqiyu	fangsong	tuerqiyushi	zhengqifang
+🧖‍♀️	rijian	shehua	zongqingxiangshou	fangsong	fangjian	sangna	shuiliao	zhengqi	zhengqiyu	fangsong	nvren
+🧖‍♂️	baitian	shehua	nanren	zongrong	fangsong	fangjian	sangna	shuiliao	zhengqi	zhengqiyu	fangsong
+🧗	pandeng	dengshanzhe	pandeng	shan	ren	yanshi	guimo
+🧗‍♀️	pandeng	dengshanzhe	dengshan	shan	yanshi	pandeng	xiangshang	nvren
+🧗‍♂️	pandeng	dengshanzhe	dengshan	ren	shan	yanshi	pandeng
+🧘	jiaocha	shuangtui	tui	lianhua	mingxiang	heping	ren	weizhi	fangsong	ningjing	yuqie	yuqieshi	chan
+🧘‍♀️	jiaocha	shuangtui	tui	lianhua	mingxiang	heping	weizhi	fangsong	ningjing	nvren	yuqie	yuqieshi	chan
+🧘‍♂️	jiaocha	shuangtui	tui	lianhua	nanren	mingxiang	heping	weizhi	fangsong	ningjing	yuqie	yuqieshi	chan
+🧙	huanxiang	fashi	mofa	youxi	wushi	nvwu	wushu	zhouyu	zhaohuan	nvwu	wushi
+🧙‍​​♀️	huanxiang	fashi	mofa	youxi	wushi	nvwu	wushu	zhouyu	zhaohuan	nvwu	wushi	nvren
+🧙‍​​♂️	huanxiang	fashi	mofa	nanren	youxi	wushi	nvwu	wushu	zhouyu	zhaohuan	nvwu	wushi
+🧚	xiannv	tonghua	huanxiang	shenhua	renwu	xiaojingling	gushi	chibang
+🧚‍♀️	xiannv	tonghua	huanxiang	shenhua	renwu	xiaojingling	gushi	taitanniya	chibang	nvren
+🧚‍♂️	xiannv	tonghua	huanxiang	nanren	shenhua	aobolong	renwu	xiaojingling	pake	gushi	chibang
+🧛	xianxie	degula	jianya	wanshengjie	kongbu	chaoziran	yachi	wangling	xixiegui
+🧛‍♀️	xieye	jianya	wanshengjie	kongbu	chaoziran	yachi	wangling	xixiegui	nvren
+🧛‍♂️	xieye	jianya	wanshengjie	nanren	kongbu	chaoziran	yachi	wangling	xixiegui
+🧜	shengwu	tonghua	minjianchuanshuo	renyu	haiyang	hai	jingbaoqi	sanchaji	meirenyu	renyu
+🧜♀️	shengwu	tonghua	minjianchuanshuo	meirenyu	nvmeirenyu	haiyang	dahai	haiyao	sanchaji
+🧜‍♂️	shengwu	tonghua	minjianchuanshuo	renyu	haiwangxing	haiyang	bosaidong	hai	sairen	sanchaji	telitong
+🧝	jingling	jingling	mofa	huanxiang	minjianchuanshuo	mofa	mohuande	shenhua	zhihuanwangfengge
+🧝‍♀️	xiaojingling	jingling	mofa	huanxiang	minjianchuanshuo	mofa	mohuande	shenhua	nvren
+🧝‍♂️	xiaojingling	jingling	mofa	huanxiang	minjianchuanshuo	mofa	shenqide	nanren	shenhua
+🧞	jingling	huanxiang	shenling	yaoguai	deng	shenhua	moca	yuanwang	 （feirenleiyanse）
+🧞♀️	jingling	huanxiang	shenling	jingling	deng	shenhua	moca	yuanwang	nvren
+🧞‍♂️	jingling	huanxiang	shenling	jingling	deng	ren	shenhua	moca	yuanwang
+🧟	mori	siwang	wanshengjie	kongbu	kepa	wangling	hangzou	jiangshi	 （feirenleiyanse）
+🧟‍♀️	qishilu	siwang	wanshengjie	kongbu	kepa	wangling	hangzou	nvren	jiangshi
+🧟‍♂️	qishilu	siwang	wanshengjie	kongbu	nanren	kepa	wangling	hangzou	jiangshi
+🧠	danao	zhineng	congming
+🧡	yisisan	xinxing	chengse
+🧢	bangqiu	wanqu	hui	maozi	baba	maozi	bangqiumao
+🧣	kunbang	hanleng	bozi	weijin	xiangshang
+🧤	shoutao	shou
+🧥	brr	kunbang	waitao	leng	jiake	qilai
+🧦	wazi	changwa
+🧧	xinfeng	liwu	hao	hongbao	lai	yunqi	qian	hongse	jian
+🧨	zhayao	baozhawu	huo	baozhu	yanhua	guang	peng	peng	huohua
+🧩	xiansuo	husuo	pintu	suipian	miti
+🧪	huaxuejia	huaxue	shiyan	shiyanshi	kexue	ceshi	guan
+🧫	xijun	shengwuxuejia	shengwuxue	peiyang	peiyangmin	shiyanshi	peiyangmin
+🧬	shengwuxuejia	dna	jinhua	jiyin	yichuanxue	shengming
+🧭	zhinanzhen	fangxiang	cili	daohang	dingxiangyueye
+🧮	suanpan	jisuan	jisuanqi
+🧯	pumie	miehuoqi	huozai	ximie
+🧰	hezi	xiangzi	jixieshi	hongse	gongju	gongjuxiang
+🧱	zhuan	zhuankuai	zhantu	shajiang	qiang
+🧲	xiyinli	matitie	citie	cixing	fumian	zhengmian	xingzhuang	u
+🧳	bao	hanglixiang	baozhuang	gunlun	shoutixiang	lvhang
+🧴	pingzi	ruye	baoshishuang	xifashui	fangshaishuang
+🧵	zhen	fengren	xianzhou	shengzi	xian
+🧶	qiu	goubian	zhenzhi	shaxian
+🧷	niaobu	biezhen	pengke	yaogun	anquan
+🧸	xiong	wanwu	maorongwanju	tianchongwanju	taidixiong	wanju
+🧹	saozhou	qingjie	qingsao	nvwu
+🧺	lanzi	nongye	xiyi	yecan
+🧻	zhi	juanzhi	weishengzhi	maojin
+🧼	jiuba	muyu	qingjie	qingxi	paomo	feizao	feizaohe
+🧽	xishou	qingjie	duokong	jinpao	haimian
+🧾	huiji	buji	zhengju	fapiao	zhengming	shouju
+🧿	hushenfu	zhuzi	lanse	meili	xieezhiyan	emozhiyan	hushenfu
+🩰	baleiwu	wudao	xiezi
+🩱	muyu	liantiyongyi	taozhuang	yongyi
+🩲	muyu	sanjiaoku	liantiyongyi	taozhuang	yongyi	neiyi
+🩳	muyu	kuzi	duanku	taozhuang	yongyi	neiyi
+🩴	haitan	renzituo	tuoxie	liangxie	liangxie	xiezi	dingziku	renzituo
+🩵	yisisan	lanse	keai	qingse	qinggan	xin	ily	guang	xihuan	ai	tiankong	teshu	shenqingse
+🩶	yisisan	qinggan	huise	huise	xin	ai	yinse	banyan	teshu
+🩷	yisisan	keai	keai	qinggan	xin	ai	xihuan	ai	fense	tebie	tianmi
+🩸	liuxie	xieye	juanzeng	diaola	shoushang	yaowu	yuejing
+🩹	zhanheji	bengdai
+🩺	yisheng	xinzang	yixue	tingzhenqi
+🩻	gutou	yisheng	yiliao	gujia	tougu	xshexian	xshexian
+🩼	yuanzhu	shouzhang	guaizhang	canji	bangzhu	shang​​hai	shoushang	hangdongnengli	gunbang
+🪀	bodong	wanju	liuliuqiu
+🪁	feixiang	fengzheng	aoxiang
+🪂	xuanguashihuaxiang	jianglasan	huaxiangsan	tiaosan
+🪃	huixuanbiao	fandan	fanxiang	wuqi
+🪄	mofa	moshushi	mozhang	nvwu	wushi
+🪅	tangguo	qingzhu	qingdian	wuke	de	jieri	danhuangjiang	juhui	pinada	pinata	pinata
+🪆	babushenqia	babushenqia	toujin	wawa	wawa	taowa	zhuchao	eluosi
+🪇	qia	wudao	leqi	shaqiu	yinle	paidui	dajileqi	bolanggu	yaodong	tiaojiuqi
+🪈	ledui	hengdi	changdiyanzoujia	changdi	leqi	hangjinleqi	yinle	guanxianledui	duandi	guanleqi	shudi	muguanleqi
+🪐	hangxing	huanzhuang	tuxing	tuxing
+🪑	yizi	zuowei	zuo
+🪒	tidao	fengli	tixu
+🪓	futou	futou	kan	futou	pi	mutou
+🪔	diya	deng	deng	you
+🪕	banzhuoqin	yinle	xianleqi
+🪖	jundui	toukui	junshi	shibing	zhanzheng	zhanshi
+🪗	shoufengqin	hezi	liujiaoshoufengqin	leqi	yinle	jiya	jiyahe
+🪘	jiepai	kangjiagu	gu	leqi	chang	jiezou
+🪙	yingbi	meiyuan	ouyuan	huangjin	jinshu	jinqian	furen	yin	baocang
+🪚	mujiang	mugong	qiege	mucai	ju	gongju	xiujian
+🪛	pingtou	fangbian	luosi	luosidao	gongju
+🪜	pa	tizi	hengdang	taijie
+🪝	zhuazhu	gouzi	quxian	youbu	gouzi	dian	xiaoshou
+🪞	huazhuang	jingzi	fanshe	fansheqi	kuijing
+🪟	kongqi	kuangjia	xinxian	kaifang	touming	shitu	chuangkou
+🪠	beizi	liliang	shuiguangong	zhusai	fenbian	xili	cesuo
+🪡	cixiu	zhen	fengren	fengren	zhenji	fenghexian	caifeng	xian
+🪢	sheng	jie	shengsuo	chanjie	dajie	masheng	niuqu
+🪣	tong	tong	tong	datong
+🪤	youer	nailao	youer	laoshu	bushuqi	quantao	xianjing
+🪥	yushi	shuazi	qingjie	yake	weisheng	yachi	guanxiyongpin	yashua
+🪦	mudi	siwang	fenmu	mudi	mubei	jinianbei	anzang	fenmu	mubei
+🪧	qiapian	shiwei	tongzhi	jiucha	biaoyupai	paibian	kangyi	biaozhi
+🪨	jushi	zhong	yanshi	guti	shitou	jianren
+🪩	wuhui	wudao	disike	shanguang	jingzi	paidui
+🪪	qia	zhengjian	wenjian	shenfenzheng	shenfenzhengming	xukezheng	anquan
+🪫	dianchi	haojin	dianzi	nengliang	di	gongshuai
+🪬	hushenfu	fadima	caifu	zhinan	hamusa	shou	mali	miliyamu	shouzhang	baohu	baohu
+🪭	pipa	paishou	liangshuang	lengque	wudao	shanzi	tiaoqing	piaodong	zhedie	shou	re	haixiu
+🪮	pengpengtou	shuzi	xinlang	toufa	tiaoxuan
+🪯	dege	fatahe	qiaersa	kanda	zongjiao	xikejiao	xikejiao	taige
+🪰	dongwu	jibing	cangying	kunchong	qu	haichong	fulan
+🪱	dongwu	huanjiedongwu	qiuyin	jishengchong	ruchong
+🪲	dongwu	jiachong	chongzi	kunchong
+🪳	dongwu	zhanglang	kunchong	haichong	zhanglang
+🪴	zhuangshi	zhongzhi	fangwu	peiyu	zhiwu	penzai	penzai
+🪵	yuanmu	mucai	mucai	mucai
+🪶	niao	yumao	feihang	guang	yumao
+🪷	meili	fojiao	pingjing	huaduo	yindujiao	lianhua	heping	chunjie	ningjing
+🪸	bianhua	qihou	shanhu	haiyang	jiaoshi	haiyang
+🪹	fenzhi	kong	jia	chao	qiantao
+🪺	niao	shuzhi	dan	danke	chao	zhuchao
+🪻	kaihua	shicheju	hua	fengxinzi	dianlan	xunyicao	zidingxiang	yushandou	zhiwu	zise	guanmu	jinyucao	chuntian	ziluolan
+🪼	dongwu	shuizuguan	shaoshang	wujizhuidongwu	guodong	shuimu	shengming	haiyang	haiyang	aiyo	fuyoushengwu	hai	ci	cizhen	chushou
+🪽	tianshi	shengtian	hangkong	niao	feixiang	feihang	tianshangde	shenhua	aoxiang	chibang
+🪿	dongwu	niao	yazi	yangqun	jiaqin	equn	gongyan	e	e	mingjiao	niaoleixue	yuchun
+🫀	jiepou	jiepai	xinzangbingxue	xinzang	xintiao	qiguan	maibo	zhenshi	hongse
+🫁	huxi	huxi	huqi	xiqi	fei	fei	qiguan	huxi
+🫂	anwei	yongbao	gaobie	youyi	zaijian	nihao	yongbao	yongbao	ai	renmen	ganxie
+🫃	duzi	fuzhang	bao	nanren	chideguoduo	huaiyun
+🫄	duzi	zhangqi	bao	chideguoduo	ren	huaiyun	chibao
+🫅	wangguan	junzhu	guizu	ren	fuhao	huangjia	huangshi
+🫎	tuolu	dongwu	lujiao	milu	burudongwu	tuolu
+🫏	dongwu	lv	lvju	lvluo	burudongwu	luozi	guzhi
+🫐	jiangguo	jiangguo	yueju	lanse	lanmei	lanmei	shiwu	shuiguo
+🫑	zhongxing	lajiao	shipin	hujiao	shucai
+🫒	shipin	ganlan
+🫓	binlang	mianbao	dabing	shipin	gedita	rongyan	nang	pitabing
+🫔	shiwu	moxige	pamonha	tamali	baoguo
+🫕	nailao	qiaokeli	huoguo	shiwu	ronghua	guo	huaxue
+🫖	niangzao	yinliao	shiwu	guo	cha	chahu
+🫗	shigu	yinliao	kong	boli	yeti	aiya	dao	qingdao	sa	shui
+🫘	doulei	shiwu	shenzang	doukezhiwu	xiao
+🫙	tiaoweipin	rongqi	kongde	guanzi	wu	jiangzhi	shangdian
+🫚	pijiu	jiang	jiankang	caoben	tianran	gen	xiangliao
+🫛	doulei	doujing	maodou	doukezhiwu	wandou	doujia	dadou	shucai	sushi
+🫠	xiaoshi	rongjie	ganga	lian	haha	re	re	yeti	daxiao	ronghua	ronghua	fengci	fengcide
+🫡	lian	hao	yunqi	nvshi	haode	zunzhong	jingli	jingli	xiansheng	budui	shide
+🫢	jingya	jingwei	huaiyi	ganga	yanjing	lian	chuanxi	shou	zui	tiana	zhangkai	jieshu	anjing	haipa	zhenjing	jingya
+🫣	zhuomi	ganga	yanjing	lian	yincang	duocang	toukan	toukan	toukan	haipa	haixiu	dingzhuo
+🫤	kunhuo	hunluan	duijiaoxian	shiwang	huaiyi	keyi	miandui	jusang	cuozhe	n	zuiba	huaiyi	buqueding	suibian	wtv
+🫥	jusang	xiaoshi	xuxian	lian	yincang	duocang	neixiang	yinxing	xian	n	suibian	wtv
+🫦	jiaolv	yao	yaoren	haipa	tiaoqing	tiaoqing	qinwen	zuichun	kouhong	jinzhang	xinggan	bushufu	danxin	danyou
+🫧	paomo	qipao	dage	qingjie	piaofu	zhenzhu	feizao	shuixia
+🫨	fengkuang	mangran	dizhen	lian	tiana	konghuang	yaohuang	zhenjing	jingya	zhendong	wa	wa
+🫰	<san	jiaocha	anggui	shouzhi	shou	xin	shizhi	ai	qian	pa	muzhi
+🫱	shou	woshou	wozhu	shenshou	you	xiangyou	xiangyou	yaohuang
+🫲	shou	woshou	wozhu	zuo	xiangzuo	xiangzuo	shenshou	yaohuang
+🫳	jiegu	xiangxia	fangxia	diaola	shou	shouzhang	tiaoxuan	pai	xiangshang
+🫴	zhaoshou	zhuazhu	lai	shou	wozhu	zhidao	juqi	wo	tigong	shouzhang	gaosu
+🫵	zai	shouzhi	shou	shizhi	zhizhuo	chuo	guanzhong	ni
+🫶	<san	shou	xin	ai	ni
+🫷	zudang	wu	tingzhi	shou	gao	wozhu	xiangzuo	xiangzuo	zanting	tui	tui	jujue	paida	tingzhi	dengdai
+🫸	zudang	wu	tingzhi	shou	gao	wozhu	zanting	tui	tui	jujue	xiangyou	xiangyou	paida	tingzhi	dengdai
+😀	yukuai	yukuai	lian	liezuixiao	liezuixiao	gaoxing	xiao	henhao	weixiao	weixiao	yachi
+😁	xiaorongmanmian	yanjing	yanjing	lian	liezuixiao	liezuixiao	kuaile	piaoliang	weixiao	weixiao	yachi
+😂	kuqi	lian	ganjue	youqu	haha	kuaile	hehe	gaoxiao	xiyue	daxiao	daxiao	daxiao	daxiao	daxiao	daxiao
+😃	bangjile	da	yanjing	lian	liezuixiao	liezuixiao	kuaile	zuiba	zhangkai	weixiao	weixiao	yachi	ye
+😄	yanjing	yanjing	lian	liezuixiao	liezuixiao	kuaile	daxiao	daxiao	zuiba	zhangkai	weixiao	weixiao
+😅	hanleng	jusang	xingfen	lian	liezuixiao	zuiba	jinzhang	zhangkai	weixiao	weixiao	yali	jinzhang	hanshui
+😆	bishang	yanjing	lian	liezuixiao	haha	hahaha	kaixin	daxiao	daxiao	zuiba	zhangkai	daxiao	weixiao	weixiao	miyan
+😇	tianshi	tianshibande	tianshi	zhufu	lian	xiannv	tonghua	huanxiang	guanghuan	kuaile	tianzhen	pingjing	weixiao	weixiao	jingshen	gushi
+😈	emo	mogui	xiee	lian	xiannv	tonghua	huanxiang	jiao	zise	yinying	weixiao	weixiao	gushi
+😉	miandui	tiaoqing	lingrenxinsui	xinggan	huadong	tiaodou	zhayan	zhayan	zhayan
+😊	lianhong	yanjing	yanjing	lian	gaoxing	manyi	weixiao	weixiao
+😋	meiwei	chi	lian	shiwu	bao	jie	pinchang	weixiao	weixiao	meiwei	n	haochi	meiwei
+😌	pingjing	miandui	anning	jietuo	kuanwei	chan
+😍	yisisan	bae	yanjing	lian	ganjue	xinyan	xin	ily	qinwen	ai	langman	langman	weixiao	xoxo
+😎	bangjile	haitan	mingliang	xiongdi	hanleng	ku	lian	jijin	fangsong	yinying	shasi	weixiao	fengge	taiyangjing	zangwu	shengli
+😏	laoban	yiguanchuchu	lian	tiaoqing	pengyou	kaiwanxiao	yindang	yinying	yuanhua	jiaohua	jiaxiao	zimingdeyi	qiexiao	wenwenerya	keyi	yaobai
+😐	ganga	mangran	mianwubiaoqing	haowubiaoqing	miandui	henhao	jidu	n	zhongli	o	yinying	zhi	bugaoxing	bugaoxing	bugandong	suibian
+😑	ganga	siqichenchen	mianwubiaoqing	lian	henhao	haowubiaoqing	jidu	n	bu	o	tiana	zhi	e	bukaixin	bugandong	suibian
+😒	wuliao	lian	henhao	jidu	guodong	guodong	shengqi	yaotou	e	e	bukaixin	bukaixin	qiguaide	suibian
+😓	guanbi	hanleng	chuitousangqi	lian	ganjue	toutong	jinzhang	beishang	haipa	chuhan	aiya
+😔	zaogao	wuliao	jusang	siwang	shiwang	miandui	shibai	mishi	chensi	beishang	zaogao
+😕	kunhuo	kunhuo	lingrenkunhuo	buzhidao	miandui	zhoumei	n	n	bu	beishang	baoqian	dangran
+😖	naohuo	kunhuo	kunhuo	weisuo	xinfanyiluan	mianbu	ganjue	jusang	shengqi	beishang
+😗	yisisan	yuehui	yuehui	miandui	tiaoqing	suiyi	qinwen	ai	qinwen	qinwen	xoxo	ni
+😘	aimu	baobei	chui	lian	tiaoqing	xin	yiwei	qinwen	ai	airen	xiangnian	wa	langman	qinwen	xoxo	ni
+😙	yisisan	guanbi	yuehui	yuehui	yanjing	yanjing	lian	tiaoqing	suiyi	qinwen	qinwen	qinwen	ai	yewan	weixiao	weixiao
+😚	yisisan	bae	lianhong	guanbi	yuehui	yuehui	yanjing	yanjing	lian	tiaoqing	yiwei	qinwen	qinwen	xoxo
+😛	bangjile	ku	lian	henhao	paidui	tuchu	tian	shetou
+😜	fengkuang	shishi	yanjing	lian	youqu	xiaohua	fengkuang	fengkuang	paidui	shenchu	shetou	guguai	guairen	zhayan	zhayan	yolo
+😝	bishang	yanjing	yanjing	lian	exin	kepa	tiana	miyan	tuchu	weidao	shetou	wulunshenme	yolo
+😞	zaogao	zebei	jusang	shiwang	miandui	shibai	shiqu	beishang	bukuaile
+😟	jiaolv	jinzhang	mianbu	shenjing	buan	beishang	yali	youyali	jingya	danxin	youlv
+😠	fennu	shengqi	zebei	miandui	ganjue	jusang	fengkuang	lingrenfakuang	baonu	yinying	bukuaile	buan
+😡	fennu	shengqi	baonu	mianbu	ganjue	fengkuang	naonu	juezui	baonu	hongse	yinying	bukuaile	buan
+😢	kepa	kuqi	kuqi	lian	ganjue	xiangnian	beishang	yanlei	beitong	bukuaile
+😣	jizhongjingli	zhuanzhu	miandui	jiaodian	toutong	jianchi	jianchibuxie
+😤	fennu	shengqi	lian	ganjue	maoyan	maoyan	fennu	baonu	kuangnu	feng	bizi	zhengqi	shengli	bukuaile	ying
+😥	jiaolv	hujiao	guanbi	fuza	shiwang	miandui	bu	fangxin	beishang	han	shijian	yo
+😦	zhuazhu	lian	zhoumei	zhoumei	fangshou	zuiba	zhangkai	haipa	kepa	jingya	shenme	wa
+😧	tongku	miandui	wangji	haipa	kepa	yali	jingya	bukaixin	shenme	wa
+😨	haipa	jiaolv	zebei	miandui	kongju	haipa	haipa	danxin
+😩	kuqi	miandui	shibai	ganjue	jie	shengqi	bu	beishang	kunjuan	lei	bukuaile	pijuan
+😪	kuqi	lian	wanan	beishang	shuijue	shuijue	kunle	leile
+😫	chengben	lian	ganjue	xiaoshui	beishang	dapenti	leile
+😬	ganga	ganga	yayi	lian	banguilian	banguilian	liezuixiao	weixiao	weixiao
+😭	daku	kuqi	kuqi	lian	dasheng	beishang	chouqi	yanlei	leishui	bukuaile
+😮	xiangxin	miandui	wangji	zuiba	tiana	zhangkai	zhenjing	jingya	tongqing	nanyizhixin	buzhenshi	wa	wa	ni
+😮‍💨	chui	chuiqi	huqi	huqi	jingpilijin	lian	chuanqi	shenyin	jietuo	tanxi	xiaolian	xiyan	eryu	chuikoushao
+😯	shishi	miandui	anjing	tiana	zhenjing	jingya	wao	wao
+😰	jiaolv	youyu	hanleng	e	lian	zui	jinzhang	zhangkai	congmang	haipa	chuhan	aiya
+😱	shishi	miandui	kongju	haipa	jujiao	haipa	jianjiao	jianjiaozhe	jianjiao	zhenjing	jingya	wa
+😲	jingya	chengben	miandui	bu	tiana	zhenjing	wanquan	fangshi
+😳	jingya	ganga	fengkuang	mangran	siqu	nanyizhixin	ganga	lian	lianhong	tianna	re	yanre	yinxiangshenke	tianna	shenme	wa
+😴	chuang	jiuqinshijian	lian	hao	wanan	xiaoshui	yewan	shuijue	shuijue	leile	suibian	dahaqian	zzz
+😵	huadiao	siwang	touyun	yanjing	lian	ganjue	hundao	shengbing	leile
+😵‍💫	kunhuo	touyun	yanjing	lian	cuimian	tiana	xiaolian	luoxuan	mafan	wao	wao	touyun
+😶	ganga	mangran	mianwubiaoqing	lian	zui	wuzui	chenmo	anjing	mimi	chenmo	wusheng	wuyan
+😶‍🌫️	xinbuzaiyan	yun	lian	wu	tou
+😷	ganmao	yayi	pifukeyisheng	yisheng	boshi	lian	xijun	mianju	yiliao	yaowu	shengbing
+😸	dongwu	mao	yanjing	yanjing	lian	liezuixiao	liezuixiao	weixiao	weixiao
+😹	dongwu	mao	lian	xiyue	xiao	daxiao	daxiao	yanlei	yanlei
+😺	dongwu	mao	lian	liezuixiao	zuiba	zhangkai	weixiao	weixiao
+😻	dongwu	mao	yanjing	lian	xin	xinyan	ai	weixiao	weixiao
+😼	dongwu	mao	lian	fengci	weixiao	kuxiao
+😽	dongwu	mao	bishang	yanjing	yanjing	lian	wen	qinwen
+😾	dongwu	mao	lian	juezui
+😿	dongwu	mao	kuqi	kuqi	lian	beishang	yanlei
+🙀	dongwu	mao	lian	o	jingya	pijuan
+🙁	lian	zhoumei	zhoumei	beishang	lvewei
+🙂	lian	kuaile	shaowei	weixiao	weixiao
+🙂‍↔️	toubu	shuiping	wu	yaohuang	huangdong
+🙂‍↕️	tou	diantou	yaohuang	chuizhi	shi
+🙃	lian	hehe	weixiao	daoli
+🙄	fanbaiyan	yanjing	lian	gundong	yinying	e	suibian
+🙅	jinzhi	shoushi	shou	bu	bu	ren	jinzhi
+🙅‍♀️	jinzhi	shoushi	shou	bu	bu	jinzhi	nvren
+🙅‍♂️	jinzhi	shoushi	shou	nanren	bu	bu	jinzhi
+🙆	duanlian	shoushi	shoushi	shou	ok	tiana	ren
+🙆‍♀️	duanlian	shoushi	shoushi	shou	ok	tiana	nvren
+🙆‍♂️	duanlian	shoushi	shoushi	shou	nanren	ok	tiana
+🙇	daoqian	xunwen	qiqiu	jugong	jugong	enhui	yuanliang	shoushi	mingxiang	mingxiang	ren	lianmin	yihan	baoqian
+🙇‍♀️	daoqian	xunwen	qiqiu	jugong	jugong	enhui	yuanliang	shoushi	mingxiang	chensi	lianmin	yihan	baoqian	nvren
+🙇‍♂️	daoqian	xunwen	qiqiu	jugong	jugong	enhui	yuanliang	shoushi	nanren	mingxiang	chensi	lianmin	yihan	baoqian
+🙈	ganga	xiee	miandui	jinzhi	wangji	shoushi	yincang	houzi	bu	tiana	jinzhi	haipa	mimi	yaotou	guankan
+🙉	dongwu	erduo	xiee	lian	jinzhi	shoushi	ting	ting	houzi	bu	bu	jinzhi	mimi	xu	tmi
+🙊	dongwu	xiee	lian	jinzhi	shoushi	houzi	bu	bu	aiya	jinzhi	anjing	mimi	shuohua	yinshen
+🙋	shoushi	shou	zheli	zhidao	wo	ren	tiaoxuan	wenti	tichu	tichu
+🙋‍♀️	shoushi	shou	zheli	zhidao	wo	tiaoxuan	wenti	tichu	tigao	nvren
+🙋‍♂️	shoushi	shou	zheli	zhidao	nanren	wo	tiaoxuan	wenti	tichu	tigao
+🙌	qingzhu	shoushi	shou	shuangshou	wansui	zanmei	juqi	juqi
+🙍	naohuo	shiwang	buman	buan	zhoumei	zhoumeitou	jusang	shoushi	naonu	ren	buan
+🙍‍♀️	naohuo	shiwang	buman	buan	zhoumei	zhoumeitou	jusang	shoushi	naonu	buan	nvren
+🙍‍♂️	naohuo	shiwang	buman	buan	zhoumei	zhoumeitou	jusang	shoushi	naonu	nanren	buan
+🙎	shiwang	shouyapo	zhoumei	banguilian	ren	juezui	zhoumei	shengmenqi	buan	baoyuan
+🙎‍♀️	shiwang	shouyapo	zhoumei	banguilian	juezui	numuershi	shengmenqi	xinfan	baoyuan	nvren
+🙎‍♂️	shiwang	shouyapo	zhoumei	banguilian	nanren	juezui	zhoumei	shengmenqi	buan	baoyuan
+🙏	xinshang	xunwen	qiqiu	zhufu	jugong	laiba	wu	zhedie	shoushi	shou	gao	qing	qidao	xiexie	xiexie
+🚀	fashe	huojian	huojian	taikong	lvhang
+🚁	zhishengji	zhishengfeiji	roflcopter	lvhang	cheliang
+🚂	shouche	yinqing	jiche	tielu	zhengqi	huoche	lieche	lvhang
+🚃	qiche	diandong	tielu	huoche	dianche	lvhang	wuguidianche
+🚄	gaosu	tielu	xinganxian	sudu	huoche
+🚅	zidantou	gaosu	chetou	tielu	xinganxian	sudu	huoche	lvhang
+🚆	daoda	xuanze	tielu	huoche
+🚇	ditie	ditie	lvhang
+🚈	dida	qinggui	danguilieche	tielu	tielu
+🚉	tielu	chezhan	huoche
+🚊	youguidianche	wuguidianche
+🚋	gonggongqiche	qiche	youguidianche	wuguidianche
+🚌	gonggongqiche	xuexiao	cheliang
+🚍	gongjiaoche	qiche	yingmianerlai
+🚎	gonggongqiche	youguidianche	wuguidianche	wuguidianche
+🚏	bashi	bashizhan	chezhan
+🚐	gonggongqiche	jiache	xiaoxingbashi	huoche	cheliang
+🚑	jiuhuche	jijiuche	cheliang
+🚒	fadongji	huozai	qiache
+🚓	wu–ling	qiche	jingcha	xunluo	jingcha
+🚔	qiche	yingmianerlai	jingcha
+🚕	chuzuche	chuzuchesiji	qiche	jiashi	chuzuche	cheliang	huangse
+🚖	chuzuche	chuzuchesiji	qiche	kaiche	jiaoche	yingmianerlai	chuzuche	huangse
+🚗	qiche	jiaoche	jiashi	cheliang
+🚘	qiche	qiche	jiaoche	jiashi	yingmianerlai	cheliang
+🚙	qiche	jiashi	xiuxian	yundong	yundongxingduoyongtuche	duogongnengche	cheliang
+🚚	qiche	songhuo	jiashi	qiache	cheliang
+🚛	jiaojieshi	qiche	jiashi	huoche	yidong	banguache	qiache	cheliang
+🚜	tuolaji	cheliang
+🚝	danguilieche	cheliang
+🚞	qiche	shanqu	tielu	lvhang
+🚟	tielu	xuanguaxitong
+🚠	lanche	suodao	lanche	shengjiangji	shanqu	huaxuechang
+🚡	tianxian	dianlan	che	lanche	suodao	lanche
+🚢	chuan	chengke	lunchuan	lvhang
+🚣	chuan	dumuzhou	xunhang	diaoyu	hubo	jiang	jiang	ren	mufa	heliu	huachuan	huating	huating
+🚣♀️	chuan	dumuzhou	xunhang	diaoyu	hubo	jiang	jiang	mufa	heliu	huachuan	huating	huachuan	nvren
+🚣‍♂️	chuan	dumuzhou	xunhang	diaoyu	hubo	ren	jiang	jiang	mufa	heliu	huachuan	huating	huating
+🚤	yiwanfuweng	chuan	hubo	haohua	baiwanfuweng	kuaiting	xiaji	lvhang
+🚥	shuiping	jiaochalukou	deng	xinhao	tingzhi	honglvdeng	jiaotong
+🚦	jiashi	shizilukou	deng	xinhao	tingzhi	honglvdeng	jiaotong	chuizhi
+🚧	pingzhang	jianzhu
+🚨	jingbao	jingbao	xinbiao	qiche	yingji	deng	jingcha	xuanzhuan	jingbaoqi
+🚩	jianzhu	qi	gaoerfu	zhuzi	sanjiaoxing
+🚪	beimian	bichu	men	zhengmian
+🚫	jinru	jinzhi	bu	bu	jinzhi	xiyan
+🚬	xiangyan	xiyan
+🚭	jinzhi	bu	bu	jinzhi	xiyan	xiyan
+🚮	lajitong	laji	lajixiang	biaozhi
+🚯	jinzhi	luanrenglaji	luanrenglaji	bu	bu	jinzhi
+🚰	yinyong	yinyongshui	shui
+🚱	gande	feiyinyongde	feiyinyongshui	jinzhide	shui
+🚲	zihangche	zihangche	kecheng	zhouqi	qizihangche	qichezhe	tuanhuo	qihang	xuanzhuan	xuanzhuan
+🚳	zihangche	zihangche	jinzhi	bu	bu	jinzhi
+🚴	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	ren	qihang	yundong
+🚴‍♀️	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	qihang	yundong	nvren
+🚴‍♂️	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	nanzi	qihang	yundong
+🚵	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	shan	ren	qihang	yundong
+🚵‍♀️	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	shandi	qihang	yundong	nvren
+🚵‍♂️	zihangche	qizihangchederen	zihangche	qizihangche	zhouqi	qicheren	nanren	shandi	qihang	yundong
+🚶	manbu	butai	yuanzu	nanren	bufa	hangren	ren	bufu	manbu	buhang	sanbu
+🚶‍♀️	manbu	butai	yuanzu	nanren	bufa	hangren	dabuzou	manbu	sanbu	buhang	nvren
+🚶‍♀️‍➡️	manbu	butai	yuanzu	nanren	bufa	hangren	dabuzou	manbu	sanbu	buhang	nvren
+🚶‍♂️	manbu	butai	yuanzu	nanren	bufa	hangren	dabuzou	manbu	buhang
+🚶‍♂️‍➡️	manbu	butai	yuanzu	nanren	bufa	hangren	dabuzou	manbu	buhang
+🚶‍➡️	manbu	butai	yuanzu	nanren	bufa	hangren	ren	bufu	manbu	buhang	sanbu
+🚷	jinzhi	bu	bu	hangren	hangren	jinzhi
+🚸	ertong	xiaohai	guojie	hangren	jiaotong
+🚹	yushi	guanxishi	nancesuo	weishengjian	cesuo	wc
+🚺	yushi	guanxishi	weishengjian	fangjian	cesuo	wc	nvren	nvshi
+🚻	yushi	guanxishi	weishengjian	cesuo
+🚼	yinger	bianhua	fuhao
+🚽	yushi	cesuo
+🚾	yushi	bichu	guanxishi	weishengjian	cesuo	shui	wc
+🚿	linyu	shui
+🛀	muyu	yugang	ren	fuyong	yugang
+🛁	yugang	yugang
+🛂	kongzhi	huzhao
+🛃	haiguan	baozhuang
+🛄	dida	hangli	daizi	xiangzi	tuoyun	renling	lvhang	dabao	feiji	zhunbeihao	lvhang	lvhang
+🛅	hangli	xiangzi	yishi	chuwugui	hangli
+🛋	shafa	jiudian	deng
+🛌	chuang	shuijueshijian	hao	wanan	jiudian	xiaoshui	yewan	ren	shuijue	lei	zzz
+🛍	bao	baodai	jiudian	gouwu
+🛎	hangliyuan	hangliyuan	jiudian
+🛏	chuang	jiudian	shuimian
+🛐	didian	qidao	zongjiao	chongbai
+🛑	bajiaoxing	biaozhi	tingzhi
+🛒	gouwuche	gouwu	shoutuiche
+🛕	yindujiao	simiao
+🛖	jia	fangzi	xiaowu	yuanwu	bihusuo	menggubao
+🛗	wuzhangaisheshi	dianti	shengjiangji	shengjiangji
+🛜	kuandai	diannao	lianjie	redian	hulianwang	wangluo	luyouqi	zhinengshouji	wuxianwangluo	wuxian	wuxianjuyuwang
+🛝	youle	gongyuan	wanshua	youlechang	wanshua	huati	huahang	zhuti
+🛞	qiche	yuanquan	luntai	zhuanwan	cheliang	chelun
+🛟	fubiao	futong	shengming	jiushengquan	baohuzhe	jiuyuan	jiezhi	anquan	zhengjiuzhe	youyong
+🛠	chuizi	banshou	gongju	banshou
+🛡	dunpai	wuqi
+🛢	gu	you
+🛣	gaosugonglu	gaosugonglu	daolu
+🛤	tielu	guidao	huoche
+🛥	chuan	mada	motuoting
+🛩	feiji	feiji	xiaoxingfeiji
+🛫	feiji	feiji	banlidengjishouxu	chufa	chufa	feiji
+🛬	feiji	feiji	dida	daoda	zhuolu	feiji
+🛰	weixing	kongjian
+🛳	kechuan
+🛴	ti	huabanche
+🛵	motuo	tabanche
+🛶	chuan	dumuzhou
+🛷	xueqiao	xueqiao	xueqiao	xueqiao	xueqiao
+🛸	waixingren	ewai	feihang	feidie	ludi	ufo
+🛹	ban	liubingxie	huaban	liubingzhe	lunzi
+🛺	qiche	renliche	duduche
+🛻	qiche	jiaoche	pingbanche	piqia	piqia	yunshu	qiache
+🛼	daopian	gunzhou	liubingxie	liubingxie	yundong
+🟠	yuanxing	chengse
+🟡	yuanquan	huangse
+🟢	yuanxing	lvse
+🟣	yuanxing	zise
+🟤	zongse	yuanxing
+🟥	pai	dianqiu	hongse	fangkuai
+🟦	lanse	fangxing
+🟧	chengse	fangxing
+🟨	pai	faqiu	fangkuai	huangpai
+🟩	lvse	zhengfangxing
+🟪	zise	zhengfangxing
+🟫	zongse	fangxing
+🟰	daan	pingdeng	pingdeng	dengyu	zhong	shuxue	fuhao
+$	meiyuan	meidao
+£	yingbang	bang
+￥	renminbi	riyuan	ribi
+฿	taizhu	zhu
+€	ouyuan
+₹	yindulubi
+₿	bitebi
+₨	lubi
+0️⃣	jianmao	ling
+1️⃣	jianmao	yi
+2️⃣	jianmao	er
+3️⃣	jianmao	san
+4️⃣	jianmao	si
+5️⃣	jianmao	wu
+6️⃣	jianmao	liu
+7️⃣	jianmao	qi
+8️⃣	jianmao	ba
+9️⃣	jianmao	jiu
+🉐	taojiahuanjia	anniu	biaoyiwenzi	riyu
+🈹	anniu	zhekou	biaoyiwenzi	riyu
+🈴	anniu	dengji	biaoyiwenzi	riyu	tongguo
+🈲	anniu	biaoyiwenzi	riyu	jinzhi
+🉑	kejieshoude	anniu	biaoyiwenzi	riyu
+🈳	anniu	biaoyiwenzi	riyu	kongque
+🈵	anniu	biaoyiwenzi	riyu	wu	kongque
+㊙	anniu	biaoyiwenzi	riyu	mimi
+🈸	yingyongchengxu	anniu	biaoyiwenzi	riyu
+🈚	anniu	shoufei	mianfei	biaoyiwenzi	riyu
+🈺	shangwu	anniu	biaoyiwenzi	riyu	dakai
+🈶	anniu	shoufei	mianfei	biaoyiwenzi	riyu	bu
+🈷	jine	anniu	biaoyiwenzi	riyu	meiyue
+🈯	anniu	biaoyiwenzi	riwen	baoliu
+㊗	anniu	zhuhe	biaoyiwenzi	riyu
+🅰	xieye	anniu	leixing
+🆎	ab	xie	anniu	leixing
+🅱	b	xieye	anniu	leixing
+🆑	anniu	cl
+🆒	anniu	ku
+🆓	anniu	mianfei
+HK$	gangyuan	gangbi
+ℹ	wo	xinxi
+🆔	anniu	id	shenfen
+ⓜ	yuanquan	daiyuanquan	m
+MOP$	aomenyuan	aomenbi	pubi
+🆕	anniu	xinpin
+🆖	anniu	ng
+🅾	xieye	anniu	o	xing
+🆗	anniu	queding	queding
+🅿	anniu	p	tingche
+S$	xinjiapoyuan	xinjiapobi
+🆘	anniu	bangzhu	sos
+™	biaoji	tm	maoyi	shangbiao
+🆙	anniu	biaoji	xiangshang	xiangshang！
+🆚	anniu	duibi	vs
+🈁	anniu	zheli	riyu	pianjiaming
+🈂	anniu	shoufei	riyu	pianjiaming	fuwu
+🪉	qiubite	shuqin	leqi	aiqing	yinle	guanxianledui
+🪏	mai	wa	huayuan	dong	zhiwu	chan	chan	xue	tieqiao
+🪾	luoloude	guangtude	shuzhi	kuside	ganhan	wuyede	shu	shugan	dongji	mucai
+🫆	xiansuo	fanzui	zhentan	zhiwen	fayi	shenfen	mituan	dayin	anquan	zongji
+🫜	tiancai	shiwu	huayuan	luobu	gen	shala	wujing	shucai	sushi
+🫟	dila	sahongjie	moshui	yeti	hunluan	youqi	sachu	feijian	wuzi
+🫩	bao	wuliao	jingpilijin	yanjing	lian	pilao	wanle	kunle	leile	pijuan
