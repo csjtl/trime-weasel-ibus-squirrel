@@ -137,7 +137,7 @@ style:
     sticky_lines: 1 #固顶行数
     sticky_lines_land: 0 #横屏模式下的固顶行数
     max_entries: 1 #候选窗口最大词条数+++++++++1+++++++（输入区第2个候选词与候选区的候选词文字颜色相同）
-    all_phrases: false #显示所有长词
+    all_phrases: true #显示所有长词
     border: 0 #候选窗口边框宽度
     max_width: 340 #最大宽度，超过则自动换行
     max_height: 300 #最大高度
@@ -699,7 +699,7 @@ preset_keyboards:
       - {click: 0, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
       - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: w, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h1, key_text_color: t_h1}
       - {click: e, long_click: '""{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
       - {click: r, long_click: "''{Left}", key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
       - {click: t, long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
@@ -726,7 +726,7 @@ preset_keyboards:
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: b, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: n, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: m, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
@@ -760,7 +760,7 @@ preset_keyboards:
       - {click: 0, long_click: '=', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0}
 
       - {click: q, long_click: Tab1, symbol_text_size: 25, key_back_color: b_h1, key_text_color: t_h1}
-      - {click: w, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
+      - {click: w, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h1, key_text_color: t_h1}
       - {click: e, long_click: '""{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
       - {click: r, long_click: "''{Left}", key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
       - {click: t, long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h1, key_text_color: t_h1}
@@ -787,7 +787,7 @@ preset_keyboards:
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
-      - {click: b, long_click: Escape, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: b, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: n, long_click: '?', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: m, long_click: '/', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}

@@ -38,7 +38,7 @@ switches:
     reset: 0
   - name: emoji_suggestion
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
-    reset: 1
+    reset: 0
 
 engine:
   processors:
@@ -68,7 +68,8 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcba
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
+  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
   delimiter: " ;'"  #上屛时的音节间分音符
   #max_code_length: 4  # 四码顶字上屏
   auto_select: false    #自动上屏
@@ -131,6 +132,6 @@ traditionalize:
   option_name: traditionalization
 
 emoji_suggestion:
-  opencc_config: emoji.json
   option_name: emoji_suggestion
+  opencc_config: emoji_cn.json
   tips: all

@@ -8,7 +8,7 @@ patch:
   menu:
     page_size: 9
   schema_list:
-    - {schema: easy_en}
+    - {schema: focus_en}
     - {schema: five_strokes}
     - {schema: rime_ice}
     - {schema: easy_en_super}

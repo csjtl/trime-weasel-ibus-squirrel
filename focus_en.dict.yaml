@@ -5,7 +5,7 @@
 #
 
 ---
-name: easy_en
+name: focus_en
 version: "2024-10-09"
 import_tables:
   - dicts_en/english_word_ol            # 牛津，朗文的 单词
@@ -13,20 +13,8 @@ import_tables:
   - dicts_en/english_phrase_ol          # 牛津，朗文的 词组 短语 惯用语
   - dicts_en/english_phrase_easy        # 文件来自 easy English，已与词典文件去重
   - dicts_en/custom_en_abbreviation     # 自定义 缩写
-  - dicts_en/custom_en_word
+  - dicts_en/custom_en_idiom
   - dicts_en/custom_en_phrase           # 自定义 短语，习语，惯用语
   - dicts_en/english_grammar            # 牛津词典中的 语法. 不需要注释掉
-
-  #- dicts_en/en_ext # 补充（里面有些许带权重的，且和 en 重复，需要把 en_ext 放在上面）
-  #- dicts_en/en     # 英文主词库
-  #- dicts_en/easy_english
-  #- dicts_en/english_one_letter     # 单字母
-  #- dicts_en/english_word     # 单词
-  #- dicts_en/english_phrase     # 词组
-  #- dicts_en/english_abbreviation     # 缩写 / 简写
-  #- dicts_en/english_special_symbols     # 其它语种
-
-  #- dicts_en/english_custom_abbreviation     # 自定义缩写
-  #- dicts_en/english_custom_phrase     # 自定义短语
-  #- dicts_en/english_custom_sentence     # 自定义句子
+  - dicts_en/emoji_ed
 ...

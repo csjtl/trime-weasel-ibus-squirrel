@@ -13,7 +13,7 @@ schema:
     雾凇拼音
     https://github.com/iDvel/rime-ice
   dependencies:
-    - easy_en        # 英文输入，作为次翻译器挂载到拼音方案
+    - focus_en        # 英文输入，作为次翻译器挂载到拼音方案
 
 
 # 开关
@@ -26,19 +26,16 @@ switches:
     reset: 0
   - name: full_shape
     states: [ 🌙 , 🌕️ ]
-    reset: ０
+    reset: 0
   - name: ascii_punct
     states: [ 。， , ". , " ]
     reset: 0
   - name: traditionalization
     states: [ 简体 , 繁体 ]
     reset: 0
-  - name: search_single_char  # search.lua 的功能开关，辅码查词时是否单字优先
-    abbrev: [词, 单]
-    states: [正常, 单字]
-  - name: emoji
+  - name: emoji_suggestion
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
-    reset: 1
+    reset: 0
 
 
 # 输入引擎
@@ -65,20 +62,19 @@ engine:
     - lua_translator@date_translator    # 时间、日期、星期
     - lua_translator@lunar              # 农历
     - table_translator@custom_phrase    # 自定义短语 custom_phrase.txt
-    - table_translator@easy_en         # 英文输入
+    - table_translator@focus_en         # 英文输入
     - table_translator@cn_en            # 中英混合词汇
     - lua_translator@unicode            # Unicode
     - lua_translator@number_translator  # 数字、金额大写
     - lua_translator@force_gc           # 暴力 GC
   filters:
     - lua_filter@corrector                          # 错音错字提示
-    - reverse_lookup_filter@radical_reverse_lookup  # 部件拆字滤镜
     - lua_filter@autocap_filter                     # 英文自动大写
     - lua_filter@v_filter                           # v 模式 symbols 优先
     - lua_filter@pin_cand_filter                    # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
     - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - lua_filter@reduce_english_filter              # 降低部分英语单词在候选项的位置
-    - simplifier@emoji                              # Emoji
+    - simplifier@emoji_suggestion                             # Emoji
     - simplifier@traditionalize                     # 简繁切换
     - uniquifier                                    # 去重
 
@@ -309,8 +305,8 @@ translator:
 
 
 # 次翻译器，英文
-easy_en:
-  dictionary: easy_en     # 挂载词库 easy_en.dict.yaml
+focus_en:
+  dictionary: focus_en     # 挂载词库 focus_en.dict.yaml
   enable_sentence: false   # 禁止造句
   enable_user_dict: false  # 禁用用户词典
   initial_quality: 1.1     # 初始权重
@@ -337,13 +333,14 @@ custom_phrase:
   db_class: stabledb        # 只读数据库，无法动态调频；设为 tabledb 可以动态调频
   enable_completion: false  # 补全提示
   enable_sentence: false    # 禁止造句
-  initial_quality: 99       # custom_phrase 的权重应该比 pinyin 和 easy_en 大
+  initial_quality: 99       # custom_phrase 的权重应该比 pinyin 和 focus_en 大
 
 
 # Emoji
-emoji:
-  option_name: emoji
-  opencc_config: emoji.json
+emoji_suggestion:
+  option_name: emoji_suggestion
+  opencc_config: emoji_cn.json
+  tips: all
   inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
 
 
@@ -374,18 +371,6 @@ punctuator:
   symbols:
     __include: symbols:/symbols_v              # 从 symbols.yaml 导入symbols_v 配置
 
-
-# 部件拆字滤镜
-radical_reverse_lookup:
-  tags: [ radical_lookup ]
-  # dictionary 为拼音标注来源。目前是显示本方案词库的注音，可去部件拆字方案下载更全的、带声调的、已编译好的词典
-  # https://github.com/mirtlecn/rime-radical-pinyin?tab=readme-ov-file#%E5%8F%8D%E6%9F%A5%E5%B8%A6%E5%A3%B0%E8%B0%83%E6%B3%A8%E9%9F%B3
-  dictionary: rime_ice
-  # comment_format:     # 自定义 comment，例如在左右加上括号
-  #  - xform/^/(/
-  #  - xform/$/)/
-
-
 # 处理符合特定规则的输入码，如网址、反查
 recognizer:
   import_preset: default  # 从 default.yaml 继承通用的
@@ -395,7 +380,6 @@ recognizer:
     unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@unicode，输出 Unicode 字符
     number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@number_translator，数字金额大写
     gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
-
 
 # 从 default 继承快捷键
 key_binder:
@@ -407,9 +391,9 @@ key_binder:
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA`
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
   # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
-  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
+  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
     ### 模糊音

@@ -24,4 +24,5 @@ encoder: #形码造词规则
 import_tables:
     - dicts_cn/five_strokes_unicodecjk
     - dicts_cn/five_strokes_all
+    - dicts_cn/emoji_cd_five
 ...

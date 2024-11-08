@@ -1,0 +1,64 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# 自定义 常用句
+#
+# 查询方式：
+# 1. 字符串首字母大写：Abcdhijk
+# 2. 多单词连续输
+# 3. 字符串中出现的符号省略不输
+# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z
+#
+# 个人的学习语法笔记
+# https://tl8517.com/docs/english-grammar/
+
+---
+name: custom_en_idiom
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+After you.	Afteryou
+Allow me.	Allowme
+Be careful!	Becareful
+Be quiet!	Bequiet
+Bless you!	Blessyou
+Cheer up!	Cheerup
+Come on.	Comeon
+Follow me.	Followme
+Forget it!	Forgetit
+Good job!	Goodjob
+Good luck!	Goodluck
+Have fun!	Havefun
+Hold on.	Holdon
+How much?	Howmuch
+I agree.	Iagree
+I decline!	Idecline
+I promise.	Ipromise
+I quit!	Iquit
+I see.	Isee
+I'm full.	Imfull
+I'm home.	Imhome
+I'm lost.	Imlost
+Let go!	Letgo
+Me too.	Metoo
+My god!	Mygod
+My treat.	Mytreat
+No way!	Noway
+Not bad.	Notbad
+Not yet.	Notyet
+Of course!	Ofcourse
+See you.	Seeyou
+Shut up!	Shutup
+Slow down!	Slowdown
+So do I.	Sodoi
+So long.	Solong
+Take care!	Takecare
+They hurt.	Theyhurt
+This way.	Thisway
+Try again.	Tryagain
+Watch out!	Watchout
+What's up?	Whatsup
+Why not?	Whynot

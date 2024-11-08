@@ -17,6 +17,8 @@ import_tables:
   #- dicts_cn/tencent  # 腾讯词向量（大词库，部署时间较长）
   - dicts_cn/others   # 一些杂项
 
+  - dicts_cn/emoji_cd_pin
+
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
 ...
 

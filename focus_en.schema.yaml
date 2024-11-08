@@ -2,14 +2,16 @@
 # encoding: utf-8
 
 schema:
-  schema_id: easy_en_super
-  name: EasyEnglish英汉字典
-  version: "202410"
+  schema_id: focus_en
+  name: Focus_English
+  version: "2024-11-02"
   author:
     - 洋葱
-    - 聚焦单车 https://tl8517.com
+    - Focus_English https://tl8517.com
   description:
-    Easy English Super
+    输入全小写输出单词，词组等
+    输入全大写（缩写词）输出缩写词全拼
+    输入首字母大写输出一些语法使用。
 
 switches:
   - name: ascii_mode
@@ -18,8 +20,8 @@ switches:
   - name: full_shape
     states: [ 🌙 , 🌕️ ]
     reset: 0
-  - name: en_sort
-    states: [ 个排, 序排 ]
+  - name: emoji_suggestion
+    states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
     reset: 0
 
 engine:
@@ -28,7 +30,7 @@ engine:
     - key_binder
     - speller
     - recognizer
-    - punctuator
+    - punctuator    #關閉標點符號轉換（對應symbols.yaml）
     - selector
     - navigator
     - express_editor
@@ -39,18 +41,17 @@ engine:
     - punct_segmentor
     - fallback_segmentor
   translators:
-#    - echo_translator #不要用，会把分号和/上屏
+    #- echo_translator #会把分号和/上屏
     - table_translator
-    - script_translator@easy_en_script
     - punct_translator
   filters:
-    - lua_filter@en_sort_filter
+    - simplifier@emoji_suggestion
     - reverse_lookup_filter@e_reverse_lookup
-    - uniquifier
+    - uniquifier                        # Emoji
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcba-.;/'"
-  # initials: "zyxwvutsrqponmlkjihgfedcba-./'"
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
+  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-?/>"
   delimiter: " "
   algebra:
     - derive/^\|$/ /
@@ -59,10 +60,10 @@ speller:
     # - derive/^(.+)([;'])$/$2$1/
 
 translator:
-  dictionary: easy_en_super
+  dictionary: focus_en
   enable_user_dict: true
   #db_class: tabledb             #用户字典类型
-  user_dict: db_easy_en_super
+  user_dict: db_focus_en
   enable_encoder: false
   encode_commit_history: false
   enable_completion: true
@@ -91,16 +92,6 @@ easy_en_script:
   # initial_quality: 0
   # comment_format: []
 
-e_reverse_lookup:
-  tags: [ abc ]
-  overwrite_comment: true
-  dictionary: easy_en_super
-  comment_format:
-    - xform/^.+⌗//
-    - xform|^[ a-z;/.'-]+||
-    - xform/@@/\n          /
-    - xform/@/ /
-
 key_binder:
   import_preset: default
   bindings:
@@ -115,11 +106,18 @@ key_binder:
 ### 选字翻页 ###
     - {accept: Left, send: Page_Up, when: paging} #直式选单用 #has_menu
     - {accept: Right, send: Page_Down, when: paging} #直式选单用 #has_menu
-### 快捷键转换排序 ###
-    - {accept: Control+bracketright, toggle: en_sort, when: always} #「easy」选单排序是否照英汉字典顺序
+
+# Emoji
+emoji_suggestion:
+  option_name: emoji_suggestion
+  opencc_config: emoji_en.json
+  tips: all
+  inherit_comment: false  # 在 corrector.lua 及反查中，emoji 返回空注释
 
 punctuator:
   import_preset: default
 
 recognizer:
   import_preset: default
+  patterns:
+    punct: '^/([0-9]0?|[A-Za-z]+)$'  # 响应 symbols.yaml 的 symbols，用 '/'
