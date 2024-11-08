@@ -1,7 +1,7 @@
 
 〰	pozhehao	biaodianfuhao	bolangxian
-‼	!	!!	bangbang	shuang	gantanhao	biaoji	biaodianfuhao
-⁉	!	!?	?	gantanhao	wenhao	biaoji	biaodianfuhao	yiwenju
+‼	tanhao	gantanhao	bangbang	shuang	gantanhao	biaoji	biaodianfuhao
+⁉	tanhao	tanhaowenhao	wenhao	gantanhao	wenhao	biaoji	biaodianfuhao	yiwenju
 *️⃣	jianmao	xing
 #️⃣	jianmao	jinghao
 〽	jiaoti	biaoji	bufen
@@ -407,20 +407,20 @@
 ✏	qianbi
 ✒	heise	bijian	gangbi
 ✔	✓	jiancha	yijiancha	gouxuan	wancheng	zhong	biaoji	gouxuan
-✖	×	quxiao	chengfa	chengyi	fuhao	x
+✖	cha	quxiao	chengfa	chengyi	fuhao	x
 ✝	jidu	jidujiao	shizijia	ladingyu	zongjiao
 ✡	dawei	youtairen	youtaijiao	zongjiao	mingxing
-✨	*	mofa	shanyao	huohua	xingxing
-✳	*	xinghao	bafu
-✴	*	bajiao	xing
+✨	xing	mofa	shanyao	huohua	xingxing
+✳	xing	xinghao	bafu
+✴	xing	bajiao	xing
 ❄	hanleng	xue	xuehua	tianqi
-❇	*	shanyao
-❌	×	quxiao	jiaocha	biaoji	chengfa	chengyi	x
-❎	×	anniu	shizi	biaoji	chengfa	chengfa	pingfang	x
+❇	xing	shanyao
+❌	cha	quxiao	jiaocha	biaoji	chengfa	chengyi	x
+❎	cha	anniu	shizi	biaoji	chengfa	chengfa	pingfang	x
 ❓	?	biaoji	biaodianfuhao	wenti	hongse
 ❔	?	biaoji	lunkuo	biaodianfuhao	wenti	baise
-❕	!	gantanhao	biaoji	lunkuo	biaodianfuhao	baise
-❗	!	gantanhao	biaoji	biaodianfuhao	hongse
+❕	tanhao	gantanhao	biaoji	lunkuo	biaodianfuhao	baise
+❗	tanhao	gantanhao	biaoji	biaodianfuhao	hongse
 ❣	gantanhao	xin	chenzhong	biaoji	biaodianfuhao
 ❤	qinggan	xin	ai	hongse
 ❤️‍🔥	ranshao	huo	xin	ai	yuwang	shensheng

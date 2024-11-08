@@ -167,34 +167,50 @@ main(){
 
     # map 文件路径（中文或英文）
     EmojiCnMapPath=map-emoji-cn.txt
+    EmojiEnMapPath=map-emoji-en.txt
     EmojiCnPMapPath=map-emoji-cn-pinyin.txt
     #EmojiCnWMapPath=emoji-cn-map-wubi.txt
-    EmojiEnMapPath=map-emoji-en.txt
 
-    # yaml 词典输出路径
-    EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
-    EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
+    # 中文汉字 yaml 词典输出路径(目前不能直接使用)
+    # 使用 map-emoji-cn.txt
+    #EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
+    #EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
 
+    # 英文 yaml 词典输出路径
+    # 使用 map-emoji-en.txt
     EmojiEDPath=../dicts_en/emoji_ed.dict.yaml
     EmojiEDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_ed\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
 
-    # 中文 yaml 转为拼音编码
+    # 中文pinyin yaml 转为拼音编码
+    # 使用 map-emoji-cn-pinyin.txt
     EmojiCDPPath=../dicts_cn/emoji_cd_pin.dict.yaml
     EmojiCDPHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd_pin\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
-    # 中文 yaml 转为五笔编码
-    #EmojiCDWPath=emoji_cd_five.dict.yaml
 
-    # txt 格式输出路径
+    # 中文五笔 yaml 转为五笔编码（无五笔编码，使用拼音编码）
+    # map 文件路径（中文pinyin）
+    # 使用 map-emoji-cn-pinyin.txt
+    EmojiCDWPath=../dicts_cn/emoji_cd_five.dict.yaml
+    EmojiCDWHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd_five\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
+
+    # txt 格式输出路径 opencc
+    # 使用 map-emoji-cn.txt
     EmojiCnPath=../opencc/emoji_cn.txt
+    # 使用 map-emoji-en.txt
     EmojiEnPath=../opencc/emoji_en.txt
 
 
-    EmojiDict $EmojiCnMapPath $EmojiCDPath $EmojiCDHead
+    # 汉字 yaml
+    #EmojiDict $EmojiCnMapPath $EmojiCDPath $EmojiCDHead
+    # 拼音编码 yaml
     EmojiDict $EmojiCnPMapPath $EmojiCDPPath $EmojiCDPHead
-    #EmojiDict $EmojiCnWMapPath $EmojiCDWPath
+    # 五笔编码 yaml
+    EmojiDict $EmojiCnPMapPath $EmojiCDWPath $EmojiCDWHead
+    # 英文 yaml
     EmojiDict $EmojiEnMapPath $EmojiEDPath $EmojiEDHead
 
+    # 中文 txt opencc
     EmojiTxt $EmojiCnMapPath $EmojiCnPath
+    # 英文 txt opencc
     EmojiTxt $EmojiEnMapPath $EmojiEnPath
 
     CleanUp
