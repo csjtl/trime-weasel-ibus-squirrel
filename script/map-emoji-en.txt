@@ -1565,7 +1565,7 @@
 7️⃣	keycap	seven
 8️⃣	keycap	eight
 9️⃣	keycap	nine
-🔟	keycap	ten	onezero oz
+🔟	keycap	ten	onezero	oz
 🔠	abcd	input	latin	letters	uppercase
 🔡	abcd	input	latin	letters	lowercase
 🔢	ottf	input	numbers

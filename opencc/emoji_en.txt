@@ -2404,7 +2404,7 @@ overeat	overeat 🫃 🫄
 owl	owl 🦉
 ox	ox 🐂 ♉
 oyster	oyster 🦪 🥡
-oz	oz 🕙 🕥
+oz	oz 🕙 🕥 🔟
 oz:tz	oz:tz 🕥
 oz:zz	oz:zz 🕙
 ozz	ozz 💯 💶

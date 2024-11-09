@@ -13,8 +13,8 @@ import_tables:
   - dicts_en/english_phrase_ol          # 牛津，朗文的 词组 短语 惯用语
   - dicts_en/english_phrase_easy        # 文件来自 easy English，已与词典文件去重
   - dicts_en/custom_en_abbreviation     # 自定义 缩写
-  - dicts_en/custom_en_idiom
+  - dicts_en/custom_en_idiom             # 成语，常用句
   - dicts_en/custom_en_phrase           # 自定义 短语，习语，惯用语
   - dicts_en/english_grammar            # 牛津词典中的 语法. 不需要注释掉
-  - dicts_en/emoji_ed
+  - dicts_en/emoji_ed                       # 表情词典
 ...
