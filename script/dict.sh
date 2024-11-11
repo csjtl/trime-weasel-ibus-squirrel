@@ -166,26 +166,28 @@ Preprocessing(){
     #sed -i "s/[!@#$%^&*()-]/\\\&/g" $TMPFILE0
 
     # 进度条参数打印
-    schedule_0=1
-    schedule_all=$(awk 'END{print NR}' $TMPFILE0)
-    schedule_one=$(echo "scale=6;$schedule_all/100"|bc)
-    schedule_one=$(echo "scale=6;1/$schedule_one"|bc)
+    line_0=1
+    line_all=$(awk 'END{print NR}' $TMPFILE0)
+    line_one=$(echo "scale=6;$line_all/100"|bc)
+    line_one=$(echo "scale=6;1/$line_one"|bc)
 
     ch=('|' '\' '-' '/')
     index=0
     printf "map 文件名: $1\n"
     printf "输出目录: $2\n"
-    printf "总行数: $schedule_all\n"
+    printf "总行数: $line_all\n"
 
 }
 
 Progress_Bar(){
     # 开始处理每行 进度条打印
     #clear
-    if [ "$schedule_0" != "$schedule_all" ];then
-        star=$(echo "scale=2;$schedule_0*$schedule_one"|bc)
+    if [ "$line_0" != "$line_all" ];then
+        star=$(echo "scale=2;$line_0*$line_one"|bc)
         num=$(echo ${star%.*})
-        if ((num <= 1 )); then
+        if ((num == 0 )); then
+            str=' '
+        elif ((num <= 1 )); then
             str='#'
         elif ((num == 2)); then
             str='##'
@@ -388,12 +390,12 @@ Progress_Bar(){
             exit
         fi
         printf "Progress:[%-100s][%d%%][%c]\r" $str $star ${ch[$index]}
-        let schedule_0++
-        let index=schedule_0%4
+        let line_0++
+        let index=line_0%5
     else
         # 最后时行打印 100%
         str='####################################################################################################'
-        printf "Progress:[%-100s][%d%%][%c]\r" $str 100 √
+        printf "Progress:[%-100s][%d%%][%c]\r" $str 100 ${ch[$index]}
         printf "\n"
     fi
 }
