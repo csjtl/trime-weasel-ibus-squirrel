@@ -144,17 +144,11 @@ Preprocessing(){
     TMPFILE1=$(mktemp /tmp/customtemplate.XXX.tmp) || exit 1
     TMPFILE2=$(mktemp /tmp/customtemplate.XXX.tmp) || exit 1
 
-    # 删除注释
-    sed -e '/#/d' $1 > $TMPFILE0
-
     # 删除空行
-    sed -i '/^$/d' $TMPFILE0
+    sed -e '/^$/d' $1 > $TMPFILE0
 
-    # 删除行尾空格
-    sed -i 's/[ ]*$//g' $TMPFILE0
-
-    # 删除行尾制表符
-    sed -i 's/[	]*$//g' $TMPFILE0
+    # 删除注释
+    #sed -i '/#/d' $TMPFILE0
 
     # 连续空格替换为一个空格
     sed -i 's/ \{2,\}/ /g' $TMPFILE0
@@ -411,33 +405,33 @@ main(){
     # emoji 列表网站：https://www.unicode.org/emoji/charts/emoji-list.html
     # 中文转拼音网站：https://www.pinyinzi.cn/
 
-    #######################################################################################################################################
-    ######################################################## 使用 map-emoji-cn.txt ########################################################
-    ########################################################################################################################################
-    MapPath_Emoji_cn=map-emoji-cn.txt
-
-    ###### 中文汉字 yaml 词典
-    #EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
-    #EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
-    #Func_EmojiDict $MapPath_Emoji_cn $EmojiCDPath $EmojiCDHead
-
-    ###### OpenCC 中文
-    OutPath_Emoji_cn=../opencc/emoji_cn.txt
-    Func_EmojiTxt $MapPath_Emoji_cn $OutPath_Emoji_cn
-
     ########################################################################################################################################
     ########################################################## 使用 map-emoji-en.txt #######################################################
     ########################################################################################################################################
     MapPath_Emoji_en=map-emoji-en.txt
+
+    ###### OpenCC 英文
+    OutPath_Emoji_en=../opencc/emoji_en.txt
+    Func_EmojiTxt $MapPath_Emoji_en $OutPath_Emoji_en
 
     ###### 英文 yaml 词典
     DictOutPath_Emoji_en=../dicts_en/emoji_ed.dict.yaml
     DictHead_Emoji_en="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_ed\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
     Func_EmojiDict $MapPath_Emoji_en $DictOutPath_Emoji_en $DictHead_Emoji_en
 
-    ###### OpenCC 英文
-    OutPath_Emoji_en=../opencc/emoji_en.txt
-    Func_EmojiTxt $MapPath_Emoji_en $OutPath_Emoji_en
+    #######################################################################################################################################
+    ######################################################## 使用 map-emoji-cn.txt ########################################################
+    ########################################################################################################################################
+    MapPath_Emoji_cn=map-emoji-cn.txt
+
+    ###### OpenCC 中文
+    OutPath_Emoji_cn=../opencc/emoji_cn.txt
+    Func_EmojiTxt $MapPath_Emoji_cn $OutPath_Emoji_cn
+
+    ###### 中文汉字 yaml 词典
+    #EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
+    #EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
+    #Func_EmojiDict $MapPath_Emoji_cn $EmojiCDPath $EmojiCDHead
 
     #######################################################################################################################################
     ######################################################## 使用 map-emoji-cn-pinyin.txt #################################################
