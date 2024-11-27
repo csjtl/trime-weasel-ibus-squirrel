@@ -3,8 +3,6 @@
 #	# #️⃣
 %	% 🔣
 &	& 🔣
-(non-humancolor)	(non-humancolor) 🧞
-(non-humancolor)	(non-humancolor) 🧟
 +	+ ➕
 +1	+1 👍
 -	- ➖
@@ -740,7 +738,7 @@ coat	coat 🥼 🧥
 cockroach	cockroach 🪳
 cocktail	cocktail 🍋‍🟩 🍸 🍹
 coconut	coconut 🥥
-cocos(keeling)islands	cocos(keeling)islands 🇨🇨
+cocoskeelingislands	cocoskeelingislands 🇨🇨
 coder	coder 🧑‍💻 👨‍💻 👩‍💻
 coffee	coffee ☕
 coffin	coffin ⚰
@@ -2278,7 +2276,7 @@ mute	mute 😶 🔇 🔕
 muted	muted 🔇
 mwah	mwah 💏 👩‍❤️‍💋‍👨 👨‍❤️‍💋‍👨 👩‍❤️‍💋‍👩
 mx	mx 🧑‍🎄
-myanmar(burma)	myanmar(burma) 🇲🇲
+myanmarburma	myanmarburma 🇲🇲
 mysterious	mysterious 👤
 mystery	mystery 🫆
 myth	myth 🧚 🧚‍♂️ 🧚‍♀️ 🧝 🧝‍♂️ 🧝‍♀️ 🧞 🧞‍♂️ 🧞‍♀️

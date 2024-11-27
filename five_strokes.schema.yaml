@@ -110,8 +110,8 @@ punctuator:
 key_binder:
   import_preset: default
   bindings:
-    - {accept: semicolon, send: 2, when: has_menu}    #分号选第二重码
-    - {accept: apostrophe, send: 3, when: has_menu}    #引号选第三重码
+ #   - {accept: semicolon, send: 2, when: has_menu}    #分号选第二重码
+ #   - {accept: apostrophe, send: 3, when: has_menu}    #引号选第三重码
     - {accept: space, send: Escape, when: composing}    #空格清屛
     - {accept: space, send: space, when: has_menu}
 

@@ -985,7 +985,7 @@ use_preset_vocabulary: false
 🇧🇿	?flag
 🇨🇦	?canada
 🇨🇦	?flag
-🇨🇨	?cocos(keeling)islands
+🇨🇨	?cocoskeelingislands
 🇨🇨	?flag
 🇨🇩	?congo-kinshasa
 🇨🇩	?flag
@@ -1216,7 +1216,7 @@ use_preset_vocabulary: false
 🇲🇱	?flag
 🇲🇱	?mali
 🇲🇲	?flag
-🇲🇲	?myanmar(burma)
+🇲🇲	?myanmarburma
 🇲🇳	?flag
 🇲🇳	?mongolia
 🇲🇴	?flag
@@ -9570,7 +9570,6 @@ use_preset_vocabulary: false
 🧝‍♂️	?magical
 🧝‍♂️	?man
 🧝‍♂️	?myth
-🧞	?(non-humancolor)
 🧞	?djinn
 🧞	?fantasy
 🧞	?genie
@@ -9597,7 +9596,6 @@ use_preset_vocabulary: false
 🧞‍♂️	?myth
 🧞‍♂️	?rub
 🧞‍♂️	?wishes
-🧟	?(non-humancolor)
 🧟	?apocalypse
 🧟	?dead
 🧟	?halloween

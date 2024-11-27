@@ -393,10 +393,10 @@
 🧝	elf	elves	enchantment	fantasy	folklore	magic	magical	myth	lotrstyle
 🧝‍♂️	elf	elves	enchantment	fantasy	folklore	magic	magical	man	myth
 🧝‍♀️	elf	elves	enchantment	fantasy	folklore	magic	magical	myth	woman
-🧞	djinn	fantasy	genie	jinn	lamp	myth	rub	wishes	(non-humancolor)
+🧞	djinn	fantasy	genie	jinn	lamp	myth	rub	wishes
 🧞‍♂️	djinn	fantasy	genie	jinn	lamp	man	myth	rub	wishes
 🧞‍♀️	djinn	fantasy	genie	jinn	lamp	myth	rub	wishes	woman
-🧟	apocalypse	dead	halloween	horror	scary	undead	walking	zombie	(non-humancolor)
+🧟	apocalypse	dead	halloween	horror	scary	undead	walking	zombie
 🧟‍♂️	apocalypse	dead	halloween	horror	man	scary	undead	walking	zombie
 🧟‍♀️	apocalypse	dead	halloween	horror	scary	undead	walking	woman	zombie
 🧌	fairy	fantasy	monster	tale	troll	trolling
@@ -1685,7 +1685,7 @@
 🇧🇾	flag	belarus
 🇧🇿	flag	belize
 🇨🇦	flag	canada
-🇨🇨	flag	cocos(keeling)islands
+🇨🇨	flag	cocoskeelingislands
 🇨🇩	flag	congo-kinshasa
 🇨🇫	flag	centralafricanrepublic
 🇨🇬	flag	congo-brazzaville
@@ -1798,7 +1798,7 @@
 🇲🇭	flag	marshallislands
 🇲🇰	flag	northmacedonia
 🇲🇱	flag	mali
-🇲🇲	flag	myanmar(burma)
+🇲🇲	flag	myanmarburma
 🇲🇳	flag	mongolia
 🇲🇴	flag	macaosarchina
 🇲🇵	flag	northernmarianaislands

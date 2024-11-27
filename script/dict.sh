@@ -429,9 +429,9 @@ main(){
     Func_EmojiTxt $MapPath_Emoji_cn $OutPath_Emoji_cn
 
     ###### 中文汉字 yaml 词典
-    #EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
-    #EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
-    #Func_EmojiDict $MapPath_Emoji_cn $EmojiCDPath $EmojiCDHead
+    EmojiCDPath=../dicts_cn/emoji_cd.dict.yaml
+    EmojiCDHead="# Rime dictionary\n# mim: set ts=8 sw=8 noet:\n# encoding: utf-8\n#\n# 搜索表情词典\n#\n# 查询方式：\n# 1. 字符串前加|后面小写字母：?abcdhijk\n# 2. 多单词连续输\n# 3. 字符串中出现的符号省略不输\n# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z\n#\n# 个人的学习语法笔记\n# https://tl8517.com/docs/english-grammar/\n\n---\nname: emoji_cd\nversion: "1.0"\nsort: by_original\nuse_preset_vocabulary: false\n...\n"
+    Func_EmojiDict $MapPath_Emoji_cn $EmojiCDPath $EmojiCDHead
 
     #######################################################################################################################################
     ######################################################## 使用 map-emoji-cn-pinyin.txt #################################################
