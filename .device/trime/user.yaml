@@ -1,5 +1,5 @@
 var:
-  last_build_time: 1732691855
+  last_build_time: 1732705466
   option:
     ascii_punct: false
     emoji: false
@@ -8,7 +8,7 @@ var:
   schema_access_time:
     easy_en: 1730543530
     easy_en_super: 1732553366
-    five_strokes: 1732605787
-    focus_en: 1732553400
+    five_strokes: 1732698092
+    focus_en: 1732700238
     pinyin_simp: 1728574005
-    rime_ice: 1732605791
+    rime_ice: 1732700378
