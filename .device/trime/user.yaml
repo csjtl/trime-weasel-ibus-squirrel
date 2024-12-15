@@ -1,14 +1,14 @@
 var:
-  last_build_time: 1732705466
+  last_build_time: 1734237459
   option:
     ascii_punct: false
     emoji: false
     full_shape: true
-  previously_selected_schema: rime_ice
+  previously_selected_schema: five_strokes
   schema_access_time:
     easy_en: 1730543530
-    easy_en_super: 1732553366
-    five_strokes: 1732698092
-    focus_en: 1732700238
+    easy_en_super: 1732833417
+    five_strokes: 1734197910
+    focus_en: 1732962195
     pinyin_simp: 1728574005
-    rime_ice: 1732700378
+    rime_ice: 1734197649

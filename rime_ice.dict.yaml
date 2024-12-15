@@ -7,9 +7,9 @@ version: "2024-10-25"
 import_tables:
   - dicts_cn/pinyin_simp # 单字
   - dicts_cn/pinyinA     # A：词，搜狗官方推荐
-  - dicts_cn/pinyinB01   # B：词，搜狗全部，与官方推荐去重
-  - dicts_cn/pinyinB02
-  - dicts_cn/pinyinB03
+  #- dicts_cn/pinyinB01   # B：词，搜狗全部，与官方推荐去重
+  #- dicts_cn/pinyinB02
+  #- dicts_cn/pinyinB03
   #- dicts_cn/8105     # 字表
   # - dicts_cn/41448  # 大字表（按需启用）
   #- dicts_cn/base     # 基础词库

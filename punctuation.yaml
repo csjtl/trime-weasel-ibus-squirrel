@@ -10,7 +10,7 @@ full_shape: # 全角 中标
   '$' : { commit: '￥' }
   '%' : { commit: '％' }
   '^' : { commit: '……' }
-  "&" : { commit: '＆' }
+  '&' : { commit: '＆' }
   '*' : { commit: '＊' }
   '(' : { commit: '（' }
   ')' : { commit: '）' }
@@ -46,7 +46,7 @@ half_shape: # 半角 中标
   '$' : { commit: '￥' }
   '%' : { commit: '%' }
   '^' : { commit: '……' }
-  "&" : { commit: "&" }
+  '&' : { commit: '&' }
   '*' : { commit: '*' }
   '(' : { commit: '（' }
   ')' : { commit: '）' }
