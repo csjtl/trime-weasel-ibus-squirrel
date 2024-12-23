@@ -5,16 +5,13 @@
 name: rime_ice
 version: "2024-10-25"
 import_tables:
-  - dicts_cn/pinyin_simp # 单字
+  - dicts_cn/pinyin_danzi # 单字
+  - dicts_cn/pinyin_cidian
+  - dicts_cn/pinyin_guanyongyu
   - dicts_cn/pinyinA     # A：词，搜狗官方推荐
   #- dicts_cn/pinyinB01   # B：词，搜狗全部，与官方推荐去重
   #- dicts_cn/pinyinB02
   #- dicts_cn/pinyinB03
-  #- dicts_cn/8105     # 字表
-  # - dicts_cn/41448  # 大字表（按需启用）
-  #- dicts_cn/base     # 基础词库
-  #- dicts_cn/ext      # 扩展词库
-  #- dicts_cn/tencent  # 腾讯词向量（大词库，部署时间较长）
   - dicts_cn/others   # 一些杂项
 
   - dicts_cn/emoji_cd_pin

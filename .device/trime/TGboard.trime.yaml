@@ -534,6 +534,7 @@ preset_keys:
   #space: {repeatable: false, preview: ' ', label: '_______', send: space}
   space: {repeatable: false, functional: false, send: space}
   space1: {repeatable: false, label: '空格', send: space}
+  space_markdown: {repeatable: false, label: 'MarkDown', send: space}
   Tab1: {label: 制表符, send: Tab}
   Escape: {label: 取消, send: Escape}
   Home: {label: 行首, send: Home}
@@ -581,6 +582,7 @@ preset_keys:
   Keyboard_number: { label: 123, send: Eisu_toggle, select: number }
   Keyboard_number1: { label: 数字键, send: Eisu_toggle, select: number }
   Keyboard_numberb: { label: 操作键, send: Eisu_toggle, select: numberb }
+  Keyboard_markdown: { label: MD, send: Eisu_toggle, select: markdown }
   Keyboard_mini: {label: 迷你, send: Eisu_toggle, select: mini}
   Keyboard_move: { label: ❖, send: Eisu_toggle, select: move }
   Keyboard_next: { label: 后退, send: Eisu_toggle, select: .next }
@@ -597,6 +599,37 @@ preset_keys:
   liquid_keyboard_numberb: { label: 操作键, send: function, command: preset_keyboards, option: "numberb" }
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
 
+# markdown
+  md_H1: {label: H1, text: '# '}
+  md_H2: {label: H2, text: '## '}
+  md_H3: {label: H3, text: '### '}
+  md_H4: {label: H4, text: '#### '}
+  md_H5: {label: H5, text: '##### '}
+  md_H6: {label: H6, text: '###### '}
+  md_bold: {label: 粗体, text: '****{Left}{Left}'}
+  md_linebreak: {label: 换行, text: '  '}
+  md_italic: {label: 斜体, text: '**{Left}'}
+  md_bold_italic: {label: 粗斜, text: '******{Left}{Left}{Left}'}
+  md_yinyong: {label: 引用, text: '> '}
+  md_kuaiyinyong: {label: 块引用, text: '>> '}
+  md_orderedlist: {label: 有序列表, text: '1. '}
+  md_unorderedlist: {label: 无序列表, text: '- '}
+  md_codeblock: {label: 代码块, text: '    '}
+  md_fencedcodeblock: {label: 围栏代码块, text: '``````{Left}{Left}{Left}'}
+  md_code: {label: 代码, text: '``{Left}'}
+  md_tropecode: {label: 转义代码块, text: '````{Left}{Left}'}
+  md_horizontalrule: {label: 分割线, text: '---'}
+  md_link: {label: 超链接, text: '[](){Left}{Left}{Left}'}
+  md_linktitle: {label: '链接(title)', text: '[]( ""){Left}{Left}{Left}{Left}{Left}{Left}'}
+  md_url: {label: '网址/邮箱', text: '<>{Left}'}
+  md_image: {label: 图片, text: '![](){Left}{Left}{Left}'}
+  md_footnote: {label: 脚注, text: '[^]{Left}'}
+  md_headingid: {label: 标题编号, text: ' {{#}}{Left}'}
+  md_strikethrough: {label: 删除线, text: '~~~~{Left}{Left}'}
+  md_tasklist: {label: 任务列表, text: '- [x] {Left}{Left}'}
+  md_definitionlist: {label: 定义列表, text: ': '}
+  md_emojilist: {label: 表情简码, text: ' ::{Left}'}
+  
   # trime设置
   IME_switch: {label: 🌐, send: LANGUAGE_SWITCH} #弹出对话框选择输入法
   IME_last: {label: 上一输入法, send: LANGUAGE_SWITCH, select: .last} #直接切换到上一输入法
@@ -727,9 +760,12 @@ preset_keyboards:
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 15, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 47, key_back_color: b_kg, key_text_color: t_kg}
+      - {click: Keyboard_markdown, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: space, swipe_left: "Left", swipe_right: "Right", width: 37, key_back_color: b_kg, key_text_color: t_kg}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+
+      - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
       - {click: '`', long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09, height: 80}
       - {click: '-', long_click: '——', composing: uppage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
@@ -801,6 +837,8 @@ preset_keyboards:
       - {click: space, swipe_left: "Left", swipe_right: "Right", width: 47, key_back_color: b_kg, key_text_color: t_kg}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+
+      - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
       - {click: '`', long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09, height: 80}
       - {click: '-', long_click: '——', composing: uppage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
@@ -938,9 +976,8 @@ preset_keyboards:
       - {click: '+', key_back_color: b_gn, key_text_color: t_gn}
       - {click: '-', key_back_color: b_gn, key_text_color: t_gn}
 
-
       - {click: Keyboard_default, key_back_color: b_enter, key_text_color: t_enter}
-      - {click: Keyboard_null, key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Shift_L, key_back_color: b_enter, key_text_color: t_enter}
       - {click: 0, long_click: select_all}
       - {click: ., long_click: ':', key_back_color: b_gn, key_text_color: t_gn}
       - {click: space1, long_click: Color_switch, key_back_color: b_gn, key_text_color: t_gn}
@@ -977,11 +1014,58 @@ preset_keyboards:
       - {click: paste}
       - {click: Return, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
 
-      - {click: Keyboard_default, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_last_lock, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
       - {click: Settings, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
       - {click: space1, width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+
+  markdown:
+    author: "csjtl"
+    #ascii_mode: 1
+    name: markdown
+    width: 16.6
+    keys:
+      - {click: md_H1}
+      - {click: md_H2}
+      - {click: md_H3}
+      - {click: md_H4}
+      - {click: md_H5}
+      - {click: md_H6}
+
+      - {click: md_bold}
+      - {click: md_linebreak}
+      - {click: md_italic}
+      - {click: md_bold_italic}
+      - {click: md_yinyong}
+      - {click: md_kuaiyinyong}
+      - {click: md_orderedlist}
+      - {click: md_unorderedlist}
+      - {click: md_codeblock}
+      - {click: md_fencedcodeblock}
+      - {click: md_code}
+      - {click: md_tropecode}
+      - {click: md_horizontalrule}
+      - {click: md_link}
+      - {click: md_linktitle}
+      - {click: md_url}
+      - {click: md_image}
+      - {click: md_footnote}
+      - {click: md_headingid}
+      - {click: md_strikethrough}
+      - {click: md_tasklist}
+      - {click: md_definitionlist}
+      - {click: md_emojilist}
+      - {click: Keyboard_null}
+
+      - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
+
+      - {click: Keyboard_default, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: Keyboard_numberb, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      #- {click: Settings, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: space_markdown, swipe_left: "Left", swipe_right: "Right", width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: BackSpace, swipe_right: Delete, height: 70, width: 16, key_back_color: b_bs, key_text_color: t_bs}
+      - {click: Return, height: 70, width: 17, key_text_size: "36", key_back_color: b_enter, key_text_color: t_enter}
 
  #标点符号键盘
   punctuation_more: #标点符号更多
