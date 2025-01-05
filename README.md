@@ -5,10 +5,9 @@
 新世纪五笔配置文件
 
 - 功能:
-  1. 超大字符集专为输入“生僻字”(增广)
-  2. 简入繁出
-  3. 字符在 Unicode 区间的显示
-  4. Emoji表情
+  1. 编辑 markdown 键盘布局
+  2. 英文语法词典
+  3. 表情词典
 
 ## 下载及安装
 
@@ -28,25 +27,18 @@
 
 ### 目录结构
 
-
+```txt
 ### 通用
 
 #### 文件夹
-
 dicts_cn
-
 dicts_en
-
 fonts
-
 lua
-
 opencc
-
 others
 
 #### 文件
-
 default.yaml
 easy_en.dict.yaml
 easy_en.schema.yaml
@@ -62,7 +54,6 @@ rime_ice.schema.yaml
 symbols.yaml
 
 ### Weasel
-
 default.custom.yaml
 installation.yaml
 user.yaml
@@ -70,7 +61,6 @@ weasel.custom.yaml
 weasel_style.yaml
 
 ### trime
-
 default.custom.yaml
 installation.yaml
 TGboard.trime.yaml
@@ -79,16 +69,14 @@ trime.custom.yaml
 user.yaml
 
 ### ibus-rime
-
 default.custom.yaml
 installation.yaml
 user.yaml
 
 ### squirrel
-
 installation.yaml
 squirrel.custom.yaml
-
+```
 
 #### 同文-Trime
 
@@ -190,11 +178,11 @@ trime.yaml
       11: &jpbj_sp 350 #竖屏键盘布局高度
       12: &jpbj_hp 250 #横屏键盘布局高度
       13: &ajgd4_4 130 #主键盘尾行按键高度
-
+    
       14: &ksox_e 17 #字母上方为标点左移距离
       15: &ksoy_c -7 #字母上方为中文-上移距离
       16: &sts_c 11 #字母上方为中文-字体大小
-
+    
     round_corner: #键盘圆角
       1: &round1 20 #按键圆角半径
       2: &round2 0 #候选窗口圆角
