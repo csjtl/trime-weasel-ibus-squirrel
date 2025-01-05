@@ -3,6 +3,9 @@
 #
 # 词提取自新华字典和现代汉语词典
 #
+# 其它配置文件:
+# https://github.com/csjtl/trime-weasel-ibus-squirrel
+#
 
 ---
 name: pinyin_cidian
