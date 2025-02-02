@@ -317,7 +317,7 @@ focus_en:
 # 中英混合词汇
 cn_en:
   dictionary: ""
-  user_dict: dicts_en/cn_en
+  user_dict: dicts/dicts_cn/pinyin/cn_en
   db_class: stabledb
   enable_completion: true
   enable_sentence: false
@@ -329,7 +329,7 @@ cn_en:
 # 自定义短语：custom_phrase.txt
 custom_phrase:
   dictionary: ""
-  user_dict: dicts_cn/custom_phrase  # 可以修改这里，改成自己的 txt 文件
+  user_dict: dicts/dicts_cn/pinyin/custom_phrase  # 可以修改这里，改成自己的 txt 文件
   db_class: stabledb        # 只读数据库，无法动态调频；设为 tabledb 可以动态调频
   enable_completion: false  # 补全提示
   enable_sentence: false    # 禁止造句
@@ -397,6 +397,9 @@ speller:
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
     - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
+
     ### 模糊音
     # 声母
     # - derive/^([zcs])h/$1/          # zh* ch* sh* 派生出 z* c* s*
@@ -535,3 +538,19 @@ speller:
     - derive/(.+)ong$/$1on/ # lon → long
     - derive/([tl])eng$/$1en/ # ten → teng
     - derive/([qwrtypsdfghjklzxcbnm])([aeio])ng$/$1ng/ # lng → lang、leng、ling、long
+
+__include: octagram   #启用语言模型
+#语言模型
+octagram:
+  __patch:
+    grammar:
+      language: wanxiang-lts-zh-hans
+      collocation_max_length: 8         #命中的最长词组
+      collocation_min_length: 3         #命中的最短词组，搭配词频健全的词库时候应当最小值设为3避开2字高频词
+      collocation_penalty: -10          #默认-12 对常见搭配词组施加的惩罚值。较高的负值会降低这些搭配被选中的概率，防止过于频繁地出现某些固定搭配。
+      non_collocation_penalty: -12      #默认-12 对非搭配词组施加的惩罚值。较高的负值会降低非搭配词组被选中的概率，避免不合逻辑或不常见的词组组合。
+      weak_collocation_penalty: -24     #默认-24 对弱搭配词组施加的惩罚值。保持默认值通常是为了有效过滤掉不太常见但仍然合理的词组组合。
+      rear_penalty: -30                 #默认-18 对词组中后续词语的位置施加的惩罚值。较高的负值会降低某些词语在句子后部出现的概率，防止句子结构不自然。
+    translator/contextual_suggestions: false
+    translator/max_homophones: 5
+    translator/max_homographs: 5

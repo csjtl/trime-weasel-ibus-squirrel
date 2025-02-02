@@ -9,5 +9,5 @@ name: easy_en_super
 version: "2024-10-13"
 sort: original #by_weight
 import_tables:
-  - dicts_en/easy_en_superdicts     # 英文词典主词库
+  - dicts/dicts_en/easy_en_superdicts     # 英文词典主词库
 ...

@@ -1,0 +1,916 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# 自定义 常用句
+#
+# 查询方式：
+# 1. 字符串首字母大写：Abcdhijk
+# 2. 多单词连续输
+# 3. 字符串中出现的符号省略不输
+# 4. 某些字符的代表字母 +:p, #:ppp, 1;o, 2;t, 3;t, 4;f, 5;f, 6;s, 7;s, 8;e, 9;n, 0;z
+#
+# 个人的学习语法笔记
+# https://tl8517.com/docs/english-grammar/
+
+---
+name: custom_en_idiom
+version: "1.0"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+15 divided by3 equals 5. 15	15dividedby3equals515
+A bad workman quarrels with his tools.	Abadworkmanquarrelswithhistools
+A barking dog doesn't bite!	Abarkingdogdoesntbite
+A clear conscience laughs at false accusation.	Aclearconsciencelaughsatfalseaccusation
+A good knowledge of English will improve your chances of employment.	Agoodknowledgeofenglishwillimproveyourchancesofemployment
+A lost chance never returns.	Alostchanceneverreturns
+A lovely day，isn't it?	Alovelydayisntit
+A red tie will match that suit.	Aredtiewillmatchthatsuit
+A wet road is usually slippery.	Awetroadisusuallyslippery
+After a pause he continued his story.	Afterapausehecontinuedhisstory
+After you.	Afteryou
+All at once, a rabbit came out of a hole.	Allatoncearabbitcameoutofahole
+All characters in the book are imaginary.	Allcharactersinthebookareimaginary
+All for one，one for all.	Allforoneoneforall
+All my best memories come back clearly to me, some can even make me cry.	Allmybestmemoriescomebackclearlytomesomecanevenmakemecry
+All that glitters is not gold.	Allthatglittersisnotgold
+Allow me.	Allowme
+Although we can't see these atoms, they really do exist.	Althoughwecantseetheseatomstheyreallydoexist
+And now medical care helps to keep people alive longer.	Andnowmedicalcarehelpstokeeppeoplealivelonger
+Another cat came to my house.	Anothercatcametomyhouse
+Any day will do.	Anydaywilldo
+Any messages for me?	Anymessagesforme
+Any thing else?	Anythingelse
+Are you free this Saturday?	Areyoufreethissaturday
+Are you going to have a party?	Areyougoingtohaveaparty
+Are you kidding?	Areyoukidding
+Are you sure?	Areyousure
+Are your grandparents still living?	Areyourgrandparentsstillliving
+Aren't you concerned about it?	Arentyouconcernedaboutit
+As a matter of fact, he was pretending to be ill.	Asamatteroffacthewaspretendingtobeill
+As far as policy is concerned, I have to say something.	Asfaraspolicyisconcernedihavetosaysomething
+As soon as possible!	Assoonaspossible
+Be careful not to fall ill.	Becarefulnottofallill
+Be careful!	Becareful
+Be quiet!	Bequiet
+Being a mother is not easy.	Beingamotherisnoteasy
+Being criticized is awful!	Beingcriticizedisawful
+Believe it or not!	Believeitornot
+Betty and Susan are talking on the telephone.	Bettyandsusanaretalkingonthetelephone
+Bless you!	Blessyou
+Bob has always had a crush on Lucy.	Bobhasalwayshadacrushonlucy
+Bottoms up!	Bottomsup
+Brevity is the soul of wit.	Brevityisthesoulofwit
+But who will do all the house work?	Butwhowilldoallthehousework
+Can I help you?	Canihelpyou
+Can you adapt yourself to the new job?	Canyouadaptyourselftothenewjob
+Can you put me in the picture about the World Cup Football Match?	Canyouputmeinthepictureabouttheworldcupfootballmatch
+Can you recognize that woman，Mary?	Canyourecognizethatwomanmary
+Cancer is a deadly disease.	Cancerisadeadlydisease
+Check your answers with mine.	Checkyouranswerswithmine
+Cheer up!	Cheerup
+Close the door after you，please.	Closethedoorafteryouplease
+Clothes make the man.	Clothesmaketheman
+Columbus discovered America in l492.	Columbusdiscoveredamericainl492
+Come on.	Comeon
+Come to see me whenever you like.	Cometoseemewheneveryoulike
+Computers are becoming a part of our everyday life.	Computersarebecomingapartofoureverydaylife
+Congratulations!	Congratulations
+Control yourself!	Controlyourself
+Could I have those two tickets, please?	Couldihavethosetwoticketsplease
+Could you direct me to the station, please?	Couldyoudirectmetothestationplease
+Could you hurry?	Couldyouhurry
+Could you tell me what the maximum weight allowance is?	Couldyoutellmewhatthemaximumweightallowanceis
+Could you tell me where I can wash my hands?	Couldyoutellmewhereicanwashmyhands
+Could you tell me your secret for a long, happy life?	Couldyoutellmeyoursecretforalonghappylife
+Count me on	Countmeon
+Did you enter the contest?	Didyouenterthecontest
+Did you fight with others?	Didyoufightwithothers
+Did you miss the bus?	Didyoumissthebus
+Do l have to	Dolhaveto
+Do me a favor?	Domeafavor
+Do you accept credit cards?	Doyouacceptcreditcards
+Do you feel like going to that new disco?	Doyoufeellikegoingtothatnewdisco
+Do you have any plans for the long weekend?	Doyouhaveanyplansforthelongweekend
+Do you have any suggestions for me?	Doyouhaveanysuggestionsforme
+Do you think people are a company's greatest wealth?	Doyouthinkpeopleareacompanysgreatestwealth
+Do you think you'll be able to go to sleep fight away?	Doyouthinkyoullbeabletogotosleepfightaway
+Does she like ice-cream?	Doesshelikeicecream
+Does the computer ever make a mistake.?	Doesthecomputerevermakeamistake
+Don't be so modest.	Dontbesomodest
+Don't be uneasy about the consequence.	Dontbeuneasyabouttheconsequence
+Don't count on me.	Dontcountonme
+Don't cry over spilt milk.	Dontcryoverspiltmilk
+Don't dream away your time.	Dontdreamawayyourtime
+Don't fall for it!	Dontfallforit
+Don't forget to keep in touch.	Dontforgettokeepintouch
+Don't give me that!	Dontgivemethat
+Don't keep me waiting long.	Dontkeepmewaitinglong
+Don't keep the truth from me.	Dontkeepthetruthfromme
+Don't let chances pass by.	Dontletchancespassby
+Don't let me down.	Dontletmedown
+Don't let this get you down.	Dontletthisgetyoudown
+Don't lose your head.	Dontloseyourhead
+Don't move!	Dontmove
+Don't pull the chairs about,boys!	Dontpullthechairsaboutboys
+Don't trust to chance!	Donttrusttochance
+Don't worry.	Dontworry
+Draw your chair up to the table.	Drawyourchairuptothetable
+Ducks know how to swim when they are born.	Ducksknowhowtoswimwhentheyareborn
+East,west，home is best.	Eastwesthomeisbest
+Easy come easy go.	Easycomeeasygo
+Enjoy yourself!	Enjoyyourself
+Even a child can answer this question.	Evenachildcananswerthisquestion
+Every man is fool sometimes, but none at all times.	Everymanisfoolsometimesbutnoneatalltimes
+Everything has its beginning.	Everythinghasitsbeginning
+Example is better than precept.	Exampleisbetterthanprecept
+Excuse me，Sir.	Excusemesir
+Fasten your seat belt.	Fastenyourseatbelt
+Feel better?	Feelbetter
+First come first served.	Firstcomefirstserved
+Follow me.	Followme
+Forget it!	Forgetit
+Give me a hand!	Givemeahand
+Go right back to the beginning.	Gorightbacktothebeginning
+God helps those who he1p themselves.	Godhelpsthosewhohe1pthemselves
+Good job!	Goodjob
+Good luck!	Goodluck
+Great efforts ensure the success of our work.	Greateffortsensurethesuccessofourwork
+Great minds think alike.	Greatmindsthinkalike
+Growth, however, brings new problems and concerns.	Growthhoweverbringsnewproblemsandconcerns
+Guess what?	Guesswhat
+Had it not been for the alarm clock she wouldn't have been late.	Haditnotbeenforthealarmclockshewouldnthavebeenlate
+Have fun!	Havefun
+Have you cleared your luggage with customs ?	Haveyouclearedyourluggagewithcustoms
+He always talks big.	Healwaystalksbig
+He appears to be your friend but I doubt if he is.	Heappearstobeyourfriendbutidoubtifheis
+He asked me some personal questions, but I would never answer them.	Heaskedmesomepersonalquestionsbutiwouldneveranswerthem
+He bothered me with a great many questions.	Hebotheredmewithagreatmanyquestions
+He came by train.	Hecamebytrain
+He came out of the library, a large book under his arm.	Hecameoutofthelibraryalargebookunderhisarm
+He came to the point at once.	Hecametothepointatonce
+He can hardly speak.	Hecanhardlyspeak
+He can't take a joke.	Hecanttakeajoke
+He covered himself with a quilt.	Hecoveredhimselfwithaquilt
+He dare not tell us his evil conduct.	Hedarenottellushisevilconduct
+He decided to bring a suit against his boss.	Hedecidedtobringasuitagainsthisboss
+He devoted his life to the study of science.	Hedevotedhislifetothestudyofscience
+He does everything without aim.	Hedoeseverythingwithoutaim
+He does exercises every day in the morning.	Hedoesexerciseseverydayinthemorning
+He doesn't care about me.	Hedoesntcareaboutme
+He dreamed of traveling to remote South Sea Islands.	Hedreamedoftravelingtoremotesouthseaislands
+He drives more carefully than you.	Hedrivesmorecarefullythanyou
+He fell behind with his work.	Hefellbehindwithhiswork
+He found my lecture interesting.	Hefoundmylectureinteresting
+He glared at Bill, ready to teach him a lesson.	Heglaredatbillreadytoteachhimalesson
+He goes home early everyday for fear that his wife would be angry.	Hegoeshomeearlyeverydayforfearthathiswifewouldbeangry
+He had a good many friends here.	Hehadagoodmanyfriendshere
+He had to choose between death and dishonor.	Hehadtochoosebetweendeathanddishonor
+He has a nice sum of money put away.	Hehasanicesumofmoneyputaway
+He has a remarkable memory.	Hehasaremarkablememory
+He has a sense of humor.	Hehasasenseofhumor
+He has been sick for three weeks.	Hehasbeensickforthreeweeks
+He has completed the task.	Hehascompletedthetask
+He has quite a few friends.	Hehasquiteafewfriends
+He has tasted the sweets and bitters of life.	Hehastastedthesweetsandbittersoflife
+He hired a workman to repair the fence.	Hehiredaworkmantorepairthefence
+He holds a position of great responsibility upon him.	Heholdsapositionofgreatresponsibilityuponhim
+He inspected the car for defects.	Heinspectedthecarfordefects
+He invited me to dinner yesterday.	Heinvitedmetodinneryesterday
+He is a smart boy.	Heisasmartboy
+He is acting an old man.	Heisactinganoldman
+He is capable of any crime.	Heiscapableofanycrime
+He is collecting money.	Heiscollectingmoney
+He is commonly supposed to be foolish.	Heiscommonlysupposedtobefoolish
+He is heavily insured against death.	Heisheavilyinsuredagainstdeath
+He is ill in bed.	Heisillinbed
+He is in his everyday clothes.	Heisinhiseverydayclothes
+He is just a child.	Heisjustachild
+He is looking for a job.	Heislookingforajob
+He is my age.	Heismyage
+He is physically mature.	Heisphysicallymature
+He is respectful to his elders.	Heisrespectfultohiselders
+He is taller than I by ahead.	Heistallerthanibyahead
+He knows English better than I.	Heknowsenglishbetterthani
+He lacks courage.	Helackscourage
+He led them down the mountain.	Heledthemdownthemountain
+He looks very healthy.	Helooksveryhealthy
+He made his way through the forest.	Hemadehiswaythroughtheforest
+He neither smokes nor drinks.	Heneithersmokesnordrinks
+He never misses a chance to see a movie.	Henevermissesachancetoseeamovie
+He owes my uncle $100.	Heowesmyuncle$100
+He owned himself defeated.	Heownedhimselfdefeated
+He paused for a reply.	Hepausedforareply
+He ran his horse up the hill.	Heranhishorseupthehill
+He repaired his house.	Herepairedhishouse
+He resolved to give up smoking.	Heresolvedtogiveupsmoking
+He said he was educated in the United States.	Hesaidhewaseducatedintheunitedstates
+He seems at little nervous.	Heseemsatlittlenervous
+He spent most of his life gathering money.	Hespentmostofhislifegatheringmoney
+He strolls about the town.	Hestrollsaboutthetown
+He struck his attacker on the ear.	Hestruckhisattackerontheear
+He suddenly appeared in the party.	Hesuddenlyappearedintheparty
+He suggests you leave here at once.	Hesuggestsyouleavehereatonce
+He talks as if he were the head of the office.	Hetalksasifheweretheheadoftheoffice
+He thinks himself somebody, but we think him nobody.	Hethinkshimselfsomebodybutwethinkhimnobody
+He used to learn everything by rote.	Heusedtolearneverythingbyrote
+He usually drops in at my place on his way home.	Heusuallydropsinatmyplaceonhiswayhome
+He usually stays at home with his pet dog.	Heusuallystaysathomewithhispetdog
+He walks with a quick pace.	Hewalkswithaquickpace
+He was born in New York.	Hewasborninnewyork
+He was efficient in his work.	Hewasefficientinhiswork
+He was married to a friend of mine.	Hewasmarriedtoafriendofmine
+He was not a bit tired.	Hewasnotabittired
+He was not a little tired.	Hewasnotalittletired
+He was trained to be a lawyer.	Hewastrainedtobealawyer
+He will blame you for carelessness.	Hewillblameyouforcarelessness
+He will do anything but work.	Hewilldoanythingbutwork
+He won an election.	Hewonanelection
+He's a terrible man when he's angry.	Hesaterriblemanwhenhesangry
+Help yourself.	Helpyourself
+Her family are all music lovers.	Herfamilyareallmusiclovers
+Here we are.Row M, seats l and 3.	Herewearerowmseatsland3
+Here you are.	Hereyouare
+Here's a gift for you.	Heresagiftforyou
+Hi! You guys keep talking so loudly that I have to speak at the top my voice!	Hiyouguyskeeptalkingsoloudlythatihavetospeakatthetopmyvoice
+His boss might get angry with him.	Hisbossmightgetangrywithhim
+His cake is three times bigger than mine.	Hiscakeisthreetimesbiggerthanmine
+His father runs a restaurant.	Hisfatherrunsarestaurant
+His looks are always funny.	Hislooksarealwaysfunny
+His previous attempts had been unsuccessful.	Hispreviousattemptshadbeenunsuccessful
+His talk covered many subjects.	Histalkcoveredmanysubjects
+His vanity was hurt by their talking so frankly.	Hisvanitywashurtbytheirtalkingsofrankly
+His words are strongly impressed on my memory.	Hiswordsarestronglyimpressedonmymemory
+Hold on.	Holdon
+How about a drink tonight?	Howaboutadrinktonight
+How about going to a movie?	Howaboutgoingtoamovie
+How are things going?	Howarethingsgoing
+How are you recently?	Howareyourecently
+How can I climb up that wall! I wish I were a bird!	Howcaniclimbupthatwalliwishiwereabird
+How do I control myself? I can't calm down.	Howdoicontrolmyselficantcalmdown
+How do you like our English literature Prof.?	Howdoyoulikeourenglishliteratureprof
+How ever you may work hard, the boss will not be fully satisfied.	Howeveryoumayworkhardthebosswillnotbefullysatisfied
+How much cloth does it take to make a skirt for the girl?	Howmuchclothdoesittaketomakeaskirtforthegirl
+How much does it cost?	Howmuchdoesitcost
+How much?	Howmuch
+How peaceful and beautiful the country is!	Howpeacefulandbeautifulthecountryis
+How would you go to Beijing, by air or by train?	Howwouldyougotobeijingbyairorbytrain
+How's everything?	Howseverything
+How's it going?	Howsitgoing
+However, Susan has not really made up her mind yet.	Howeversusanhasnotreallymadeuphermindyet
+I agree.	Iagree
+I am a football fan.	Iamafootballfan
+I am afraid that l have to go.	Iamafraidthatlhavetogo
+I am busy.How is your business?	Iambusyhowisyourbusiness
+I am familiar with the casual atmosphere in the company.	Iamfamiliarwiththecasualatmosphereinthecompany
+I am in charge of the company when the manager is out.	Iaminchargeofthecompanywhenthemanagerisout
+I am looking forward to your visit next week.	Iamlookingforwardtoyourvisitnextweek
+I am on my way to the grocery store.	Iamonmywaytothegrocerystore
+I am sick of always waiting for you!	Iamsickofalwayswaitingforyou
+I am so full that I would burst with another bite.	Iamsofullthatiwouldburstwithanotherbite
+I am told that you dance wonderfully well.	Iamtoldthatyoudancewonderfullywell
+I appreciate John's helping in time.	Iappreciatejohnshelpingintime
+I assure you that you will feel no pain at all.	Iassureyouthatyouwillfeelnopainatall
+I beg your pardon?	Ibegyourpardon
+I beg your pardon.	Ibegyourpardon
+I believe I haven't reached the summit of my career.	Ibelieveihaventreachedthesummitofmycareer
+I believe you'll get that off easily.	Ibelieveyoullgetthatoffeasily
+I borrowed a notebook from Tom and I lent it to Marry.	Iborrowedanotebookfromtomandilentittomarry
+I can give you a number of excuses.	Icangiveyouanumberofexcuses
+I can't afford a new car.	Icantaffordanewcar
+I can't afford to go to a restaurant every day.	Icantaffordtogotoarestauranteveryday
+I can't follow you.	Icantfollowyou
+I can't help eating sweets whenever they are in my presence.	Icanthelpeatingsweetswhenevertheyareinmypresence
+I can't make this machine run properly.	Icantmakethismachinerunproperly
+I cannot express how glad I am to hear from him.	Icannotexpresshowgladiamtohearfromhim
+I cannot put up with my noisy roommates.	Icannotputupwithmynoisyroommates
+I could hardly speak.	Icouldhardlyspeak
+I could say nothing but that I was sorry.	Icouldsaynothingbutthatiwassorry
+I count you as one of my friends	Icountyouasoneofmyfriends
+I decline!	Idecline
+I determined that nothing should be changed.	Ideterminedthatnothingshouldbechanged
+I develop films myself.	Idevelopfilmsmyself
+I dig songs and I like pop music very much.	Idigsongsandilikepopmusicverymuch
+I do want to see him now.	Idowanttoseehimnow
+I don't care where we go as long as we don't have to stand in line.	Idontcarewherewegoaslongaswedonthavetostandinline
+I don't doubt that he will help me.	Idontdoubtthathewillhelpme
+I don't have any cash with me.	Idonthaveanycashwithme
+I don't know if I'll have the patience.	Idontknowifillhavethepatience
+I don't like what you are saying.	Idontlikewhatyouaresaying
+I don't think it will lead to a good result.	Idontthinkitwillleadtoagoodresult
+I don't think much of the movie.	Idontthinkmuchofthemovie
+I don't think you are right.	Idontthinkyouareright
+I doubt it	Idoubtit
+I doubted whether the story is true.	Idoubtedwhetherthestoryistrue
+I expect to be there this evening.	Iexpecttobetherethisevening
+I fear that he drinks too much.	Ifearthathedrinkstoomuch
+I feel I am the happiest person in the world.	Ifeeliamthehappiestpersonintheworld
+I feel like eating an ice-cream.	Ifeellikeeatinganicecream
+I feel satisfied.	Ifeelsatisfied
+I fell in love with her at first sight.	Ifellinlovewithheratfirstsight
+I felt no regret for it.	Ifeltnoregretforit
+I forgot to prepare the speech I'm supposed to give today.	Iforgottopreparethespeechimsupposedtogivetoday
+I found him seated on the bench.	Ifoundhimseatedonthebench
+I gave much time to the old car.	Igavemuchtimetotheoldcar
+I get hold of you at last.	Igetholdofyouatlast
+I get up at six o'clock.	Igetupatsixoclock
+I had to sit up all night writing the report.	Ihadtositupallnightwritingthereport
+I have 4 books and 2 magazines to check out.	Ihave4booksand2magazinestocheckout
+I have a good idea!	Ihaveagoodidea
+I have a headache, and she has a stomachache.	Ihaveaheadacheandshehasastomachache
+I have a surprise for you.	Ihaveasurpriseforyou
+I have been putting on weight.	Ihavebeenputtingonweight
+I have had several conversations with him.	Ihavehadseveralconversationswithhim
+I have just finished the book.	Ihavejustfinishedthebook
+I have just heard from my sister, Mary.	Ihavejustheardfrommysistermary
+I have my hair cut every month.	Ihavemyhaircuteverymonth
+I have never seen the movie.	Ihaveneverseenthemovie
+I have no choice.	Ihavenochoice
+I have no idea.	Ihavenoidea
+I have something to tell you.	Ihavesomethingtotellyou
+I haven't heard from her for a long time.	Ihaventheardfromherforalongtime
+I haven't seen you for ages.	Ihaventseenyouforages
+I hope we can see each other again some time.	Ihopewecanseeeachotheragainsometime
+I hope you enjoy your stay with us.	Ihopeyouenjoyyourstaywithus
+I just made it!	Ijustmadeit
+I know all about it.	Iknowallaboutit
+I learnt that I had passed the test.	Ilearntthatihadpassedthetest
+I left at 6:00 so that I could catch the train.	Ileftat6:00sothaticouldcatchthetrain
+I like all kinds of fruit.	Ilikeallkindsoffruit
+I like ice-cream.	Ilikeicecream
+I love this game.	Ilovethisgame
+I love you!	Iloveyou
+I meet the boss himself.	Imeetthebosshimself
+I promise.	Ipromise
+I quit!	Iquit
+I really enjoyed myself.	Ireallyenjoyedmyself
+I really need to lose some weight.	Ireallyneedtolosesomeweight
+I really think a little exercise would do you good.	Ireallythinkalittleexercisewoulddoyougood
+I received an invitation, but I did not accept it.	Ireceivedaninvitationbutididnotacceptit
+I regret to inform you that we are unable to offer you employment.	Iregrettoinformyouthatweareunabletoofferyouemployment
+I saw him playing football on the playground.	Isawhimplayingfootballontheplayground
+I saw it with my own eyes.	Isawitwithmyowneyes
+I see.	Isee
+I smelled a smell of cooking.	Ismelledasmellofcooking
+I suppose you dance much.	Isupposeyoudancemuch
+I supposed him to be very clever but he was in fact a fool.	Isupposedhimtobeverycleverbuthewasinfactafool
+I think I've caught a cold.	Ithinkivecaughtacold
+I think I've filled in everything correctly.	Ithinkivefilledineverythingcorrectly
+I think so.	Ithinkso
+I think you have the Wrong number.	Ithinkyouhavethewrongnumber
+I walked across the park.	Iwalkedacrossthepark
+I want to have a part-time job.	Iwanttohaveaparttimejob
+I want to see the film again.	Iwanttoseethefilmagain
+I want to take a walk along the river bank, singing my favorite songs.	Iwanttotakeawalkalongtheriverbanksingingmyfavoritesongs
+I was alone，but not lonely.	Iwasalonebutnotlonely
+I was late for work yesterday，	Iwaslateforworkyesterday
+I went there three days ago.	Iwenttherethreedaysago
+I will arrange everything.	Iwillarrangeeverything
+I will be back by the end of next month.	Iwillbebackbytheendofnextmonth
+I will be more careful.	Iwillbemorecareful
+I will continue my learning, though I am tired of learning English.	Iwillcontinuemylearningthoughiamtiredoflearningenglish
+I will love you until the seas run dry and the rocks crumble.	Iwillloveyouuntiltheseasrundryandtherockscrumble
+I will never forget it.	Iwillneverforgetit
+I will never forget the days that I spent with you.	Iwillneverforgetthedaysthatispentwithyou
+I will seek from my doctor's advice.	Iwillseekfrommydoctorsadvice
+I will speak against anything I know to be wrong.	Iwillspeakagainstanythingiknowtobewrong
+I wish I knew my neighbor.	Iwishiknewmyneighbor
+I wish I lived in NEWYORK.	Iwishilivedinnewyork
+I wish I'd known about that rule earlier, she said.	Iwishidknownaboutthatruleearliershesaid
+I would be very grateful for information about entry to your college.	Iwouldbeverygratefulforinformationaboutentrytoyourcollege
+I would like to check out.	Iwouldliketocheckout
+I would like to express to all of you here our sincere welcome.	Iwouldliketoexpresstoallofyouhereoursincerewelcome
+I would rather stay at home alone.	Iwouldratherstayathomealone
+I wouldn't go home early if I were you.	Iwouldntgohomeearlyifiwereyou
+I'd like to cash a traveler's check please.	Idliketocashatravelerscheckplease
+I'd like to get this film developed.	Idliketogetthisfilmdeveloped
+I'd like to look at some sweaters.	Idliketolookatsomesweaters
+I'd like to pick sea shells this afternoon.	Idliketopickseashellsthisafternoon
+I'd like to-repair our differences.	Idliketorepairourdifferences
+I'll answer it.	Illanswerit
+I'll be back soon.	Illbebacksoon
+I'll be right there.	Illberightthere
+I'll call a taxi in case of need.	Illcallataxiincaseofneed
+I'll check it out.	Illcheckitout
+I'll fix you Up.	Illfixyouup
+I'll have to try that.	Illhavetotrythat
+I'll just play it by ear.	Illjustplayitbyear
+I'll see to it	Illseetoit
+I'll see you at six.	Illseeyouatsix
+I'll still love her even if she doesn't love me.	Illstillloveherevenifshedoesntloveme
+I'll try my best.	Illtrymybest
+I'm afraid I have some rather bad news for you.	Imafraidihavesomeratherbadnewsforyou
+I'm certain he'll go to see the film, because he's bought a ticket.	Imcertainhellgotoseethefilmbecausehesboughtaticket
+I'm doing some washing and John is cooking dinner.	Imdoingsomewashingandjohniscookingdinner
+I'm fed up with my work!	Imfedupwithmywork
+I'm full.	Imfull
+I'm good at freestyle and breast stroke.	Imgoodatfreestyleandbreaststroke
+I'm his fan.	Imhisfan
+I'm home.	Imhome
+I'm in a hurry!	Iminahurry
+I'm looking forward to a prompt reply.	Imlookingforwardtoapromptreply
+I'm lost.	Imlost
+I'm not guessing，I really know.	Imnotguessingireallyknow
+I'm not sure I can do it.	Imnotsureicandoit
+I'm not sure whether I have locked the door.	Imnotsurewhetherihavelockedthedoor
+I'm not used to drinking.	Imnotusedtodrinking
+I'm on a diet.	Imonadiet
+I'm On your side.	Imonyourside
+I'm single.	Imsingle
+I'm sorry to have bothered you.	Imsorrytohavebotheredyou
+I'm sorry, these 2 books are 3 days overdue.	Imsorrythese2booksare3daysoverdue
+I'm thinking of hanging the lamp from the ceiling.	Imthinkingofhangingthelampfromtheceiling
+I'm usually just using the search engines to look up information.	Imusuallyjustusingthesearchenginestolookupinformation
+I'm very glad to hear that.	Imverygladtohearthat
+I'm very proud of you.	Imveryproudofyou
+I've got to start working out.	Ivegottostartworkingout
+I've got too much work to do.	Ivegottoomuchworktodo
+Ice cream is popular among children.	Icecreamispopularamongchildren
+If he had not broken his tooth, he would not be in hospital now.	Ifhehadnotbrokenhistoothhewouldnotbeinhospitalnow
+If I were you, I would not be bothered by English.	Ifiwereyouiwouldnotbebotheredbyenglish
+If only I could fly.	Ifonlyicouldfly
+If she finds out you spilled ink on her coat, she'll blow her stack.	Ifshefindsoutyouspilledinkonhercoatshellblowherstack
+If Tom cannot keep his promise, he'll lose face.	Iftomcannotkeephispromisehellloseface
+If you don't work, you will fail to pass the exam.	Ifyoudontworkyouwillfailtopasstheexam
+If you would only try, you could do it.	Ifyouwouldonlytryyoucoulddoit
+In a word，I am tired of everything.	Inawordiamtiredofeverything
+In many countries, more and more companies are replacing people with computers.	Inmanycountriesmoreandmorecompaniesarereplacingpeoplewithcomputers
+In spite of the heavy rain, she went to the shop.	Inspiteoftheheavyrainshewenttotheshop
+IS it true or false?	Isittrueorfalse
+Is it yours?	Isityours
+Is the cut still painful?	Isthecutstillpainful
+Is there any sugar in the bottle?	Isthereanysugarinthebottle
+Is this the fight bus for the Capital Library?	Isthisthefightbusforthecapitallibrary
+It appears to be a true story.	Itappearstobeatruestory
+It has be come much cooler.	Ithasbecomemuchcooler
+It is clear that the cat has eaten it!	Itisclearthatthecathaseatenit
+It is growing cool.	Itisgrowingcool
+It is Just what I need.	Itisjustwhatineed
+It is more important to be healthy than bony slim.	Itismoreimportanttobehealthythanbonyslim
+It is no matter whether you get there early or late.	Itisnomatterwhetheryougetthereearlyorlate
+It is no use learning without thinking.	Itisnouselearningwithoutthinking
+It is not so easy as you think.	Itisnotsoeasyasyouthink
+It is said he has secret love affairs with two women!	Itissaidhehassecretloveaffairswithtwowomen
+It is the best film that I have ever seen.	Itisthebestfilmthatihaveeverseen
+It is tomorrow that they will have a meeting.	Itistomorrowthattheywillhaveameeting
+It rather surprised me.	Itrathersurprisedme
+It really takes time.	Itreallytakestime
+It seems all right.	Itseemsallright
+It sounds great!.	Itsoundsgreat
+It took him a little time to fix that watch.	Ittookhimalittletimetofixthatwatch
+It was a lazy, breezy autumn afternoon.	Itwasalazybreezyautumnafternoon
+It's a fine day.	Itsafineday
+It's a friendly competition.	Itsafriendlycompetition
+It’s a long story.	Itsalongstory
+It's against the law.	Itsagainstthelaw
+It's against the rules to handle the ball in soccer.	Itsagainsttherulestohandletheballinsoccer
+It's going too far.	Itsgoingtoofar
+It's her field.	Itsherfield
+It's none of your business!	Itsnoneofyourbusiness
+It's nothing to be surprised about.	Itsnothingtobesurprisedabout
+It's odd that they didn't reply our letter.	Itsoddthattheydidntreplyourletter
+It's only a party in honor of my birthday.	Itsonlyapartyinhonorofmybirthday
+It’s Sunday today.	Itssundaytoday
+It's supposed to start at 6:30 sharp, but I doubt it will.	Itssupposedtostartat6:30sharpbutidoubtitwill
+It's time to tell her the truth.	Itstimetotellherthetruth
+It's time you went to bed.	Itstimeyouwenttobed
+It's too good to be true!	Itstoogoodtobetrue
+It's up to you.	Itsuptoyou
+It's very kind of you to help me.	Itsverykindofyoutohelpme
+It's very thoughtful of you.	Itsverythoughtfulofyou
+Its origin is still a mystery now.	Itsoriginisstillamysterynow
+Jack is the strongest boy in the class.	Jackisthestrongestboyintheclass
+Jalu has forgotten falling off his bicycle.	Jaluhasforgottenfallingoffhisbicycle
+Japan is to the east of China.	Japanistotheeastofchina
+Jean is a blue-eyed girl.	Jeanisablueeyedgirl
+John asked Grace to marry him，	Johnaskedgracetomarryhim
+John seldom gets together with his friends.	Johnseldomgetstogetherwithhisfriends
+Just around the comer.	Justaroundthecomer
+Just for entertainment.	Justforentertainment
+Just read it for me.	Justreaditforme
+Just wait and see!	Justwaitandsee
+Just wonderful!	Justwonderful
+Keep in Touch.	Keepintouch
+Keep it up!	Keepitup
+Keep your temper under control.	Keepyourtemperundercontrol
+Knowledge is power.	Knowledgeispower
+l am vacuuming the floor now and have several shirts to iron.	Lamvacuumingthefloornowandhaveseveralshirtstoiron
+Learn to say the fight thing at the fight time.	Learntosaythefightthingatthefighttime
+Learning English is like building a house.	Learningenglishislikebuildingahouse
+Lee's cat catching the mice?	Leescatcatchingthemice
+Lee's kitchen!	Leeskitchen
+Let bygones be bygones.	Letbygonesbebygones
+Let go!	Letgo
+Let me see.	Letmesee
+Let me tell you some details about clearance.	Letmetellyousomedetailsaboutclearance
+Let us do it by ourselves，will you?	Letusdoitbyourselveswillyou
+Let's divide the cake into three.	Letsdividethecakeintothree
+Let's go for a walk，shall we?	Letsgoforawalkshallwe
+Let's go out to have a dinner, shall we?	Letsgoouttohaveadinnershallwe
+Let's not waste our time.	Letsnotwasteourtime
+Let's take a short break for lunch.	Letstakeashortbreakforlunch
+Let's watch TV with a candle on.	Letswatchtvwithacandleon
+Li Bai is one of the greatest poets that have ever lived in China.	Libaiisoneofthegreatestpoetsthathaveeverlivedinchina
+Linda speaks as if she were a boss.	Lindaspeaksasifshewereaboss
+Listening with your heart is good for you.	Listeningwithyourheartisgoodforyou
+ll bus, but where is the bus stop?	Llbusbutwhereisthebusstop
+Long ago, people believed that the world was flat.	Longagopeoplebelievedthattheworldwasflat
+Long time no see!	Longtimenosee
+Love me，love my dog.	Lovemelovemydog
+Lying and stealing are immoral.	Lyingandstealingareimmoral
+Make up your mind.	Makeupyourmind
+Make yourself at home.	Makeyourselfathome
+Manners are quite different from country to country.	Mannersarequitedifferentfromcountrytocountry
+Many people believe that overweight results from overeating and stress.	Manypeoplebelievethatoverweightresultsfromovereatingandstress
+Many people complain that computers are taking over their jobs.	Manypeoplecomplainthatcomputersaretakingovertheirjobs
+Many people have been out of work recently.	Manypeoplehavebeenoutofworkrecently
+Many people prefer living in the country to living in the town.	Manypeoplepreferlivinginthecountrytolivinginthetown
+Many young girls dream of being a fashion model.	Manyyounggirlsdreamofbeingafashionmodel
+May I ask some questions?	Mayiasksomequestions
+May I know the quantity you require?	Mayiknowthequantityyourequire
+May I speak to Lora，please?	Mayispeaktoloraplease
+May I use your pen?	Mayiuseyourpen
+Me too.	Metoo
+Money is no more than our servant.	Moneyisnomorethanourservant
+Money is not everything.	Moneyisnoteverything
+Most games cost about that much.	Mostgamescostaboutthatmuch
+Most of the earth's surface is covered by water.	Mostoftheearthssurfaceiscoveredbywater
+Most people eat, write, and work with their fight hands.	Mostpeopleeatwriteandworkwiththeirfighthands
+Mother doesn't make up.	Motherdoesntmakeup
+Move out of my way!	Moveoutofmyway
+Mr.Wang is fixing his bike.	Mrwangisfixinghisbike
+My brother is see king a job.	Mybrotherisseekingajob
+My car needs washing.	Mycarneedswashing
+My efforts resulted in nothing.	Myeffortsresultedinnothing
+My false teeth are stuck to it.	Myfalseteetharestucktoit
+My father is at home looking for the ticket.	Myfatherisathomelookingfortheticket
+My god!	Mygod
+My mouth is watering.	Mymouthiswatering
+My parents want me to go abroad.	Myparentswantmetogoabroad
+My treat.	Mytreat
+My watch is faster than yours.	Mywatchisfasterthanyours
+Nancy will retire next year.	Nancywillretirenextyear
+Neither of the men spoke.	Neitherofthemenspoke
+Neither you nor he is wrong.	Neitheryounorheiswrong
+Never mind.	Nevermind
+New China was founded in l949. 1949	Newchinawasfoundedinl9491949
+No littering on the campus.	Nolitteringonthecampus
+No matter what happened, he would not say a word.	Nomatterwhathappenedhewouldnotsayaword
+No one knows the location of the hidden treasure.	Nooneknowsthelocationofthehiddentreasure
+No pain，no gain.	Nopainnogain
+No problem!	Noproblem
+No spitting on the street.	Nospittingonthestreet
+No way!	Noway
+No wonder people say that computers are taking over the world.	Nowonderpeoplesaythatcomputersaretakingovertheworld
+No wonder you can't sleep when you eat so much.	Nowonderyoucantsleepwhenyoueatsomuch
+Nobody has ever solved this problem.	Nobodyhaseversolvedthisproblem
+None of us is afraid of difficulties.	Noneofusisafraidofdifficulties
+None of your business!	Noneofyourbusiness
+Not bad.	Notbad
+Not only did I know her, but I was her best friend.	Notonlydidiknowherbutiwasherbestfriend
+Not until last week did I get a work permit.	Notuntillastweekdidigetaworkpermit
+Not yet.	Notyet
+Nothing but death can part the couple.	Nothingbutdeathcanpartthecouple
+Now she looks pale as if she were ill.	Nowshelookspaleasifshewereill
+Number 13 buses run much more frequently, don't they?13	Number13busesrunmuchmorefrequentlydontthey13
+Of course!	Ofcourse
+Oh，you are kidding me.	Ohyouarekiddingme
+Old tunes are sweetest and old friends are surest.	Oldtunesaresweetestandoldfriendsaresurest
+On behalf of my company, I would like to welcome you here.	Onbehalfofmycompanyiwouldliketowelcomeyouhere
+On being introduced to somebody, a British person often shakes hands.	Onbeingintroducedtosomebodyabritishpersonoftenshakeshands
+Once you begin，you must continue.	Onceyoubeginyoumustcontinue
+One is white, the other is black.	Oneiswhitetheotherisblack
+One third of this area is covered with forest.	Onethirdofthisareaiscoveredwithforest
+Only by working hard can we succeed in doing everything.	Onlybyworkinghardcanwesucceedindoingeverything
+Opportunity knocks but once.	Opportunityknocksbutonce
+Our school covers 100 square meters.	Ourschoolcovers100squaremeters
+People enjoyed the stamps very much.	Peopleenjoyedthestampsverymuch
+Please ask her to call me back when she's back.	Pleaseaskhertocallmebackwhenshesback
+Please fetch a chair from another room.	Pleasefetchachairfromanotherroom
+Please give my best regards to your family.	Pleasegivemybestregardstoyourfamily
+Please let me check the bill.	Pleaseletmecheckthebill
+Please push the ladder against the wall.	Pleasepushtheladderagainstthewall
+Plenty of sleep is healthful.	Plentyofsleepishealthful
+See you.	Seeyou
+She became more and more beautiful.	Shebecamemoreandmorebeautiful
+She dressed herself hastily.	Shedressedherselfhastily
+She guided the tourists around the castle.	Sheguidedthetouristsaroundthecastle
+She had a bad cold.	Shehadabadcold
+She has been collecting stamps.	Shehasbeencollectingstamps
+She hired a car by the hour.	Shehiredacarbythehour
+She intends to make teaching her profession.	Sheintendstomaketeachingherprofession
+She is a composer for the harp.	Sheisacomposerfortheharp
+She is poor but quite respectable.	Sheispoorbutquiterespectable
+She is standing in the front of the bus.	Sheisstandinginthefrontofthebus
+She is too thin.	Sheistoothin
+She likes Mike a lot, but she doesn't want to get married so early.	Shelikesmikealotbutshedoesntwanttogetmarriedsoearly
+She makes it clear that she doesn't like swimming.	Shemakesitclearthatshedoesntlikeswimming
+She mended the broken doll.	Shemendedthebrokendoll
+She runs everyday in order to lose weight.	Sherunseverydayinordertoloseweight
+She sang perfectly in the hall last night.	Shesangperfectlyinthehalllastnight
+She spent a lot of money on books.	Shespentalotofmoneyonbooks
+She was injured badly in the accident.	Shewasinjuredbadlyintheaccident
+She was totally exhausted.	Shewastotallyexhausted
+She's been quite different since coming back from America.	Shesbeenquitedifferentsincecomingbackfromamerica
+She's under the weather.	Shesundertheweather
+Show your tickets，please.	Showyourticketsplease
+Shut up!	Shutup
+Since I'm here, I'd like to try a typical dish of this country.	Sinceimhereidliketotryatypicaldishofthiscountry
+Skating is interesting.	Skatingisinteresting
+Slow down!	Slowdown
+Smith knew Jack didn't look at the others because he was nervous.	Smithknewjackdidntlookattheothersbecausehewasnervous
+So do I.	Sodoi
+So far，So good.	Sofarsogood
+So I just take what I want.	Soijusttakewhatiwant
+So long.	Solong
+Some people have compared books to friends.	Somepeoplehavecomparedbookstofriends
+Somebody is always complaining to others.	Somebodyisalwayscomplainingtoothers
+Someone is ringing the bell.	Someoneisringingthebell
+Speak louder，please.	Speaklouderplease
+Spring is a pretty season，	Springisaprettyseason
+Stop making such a noise.	Stopmakingsuchanoise
+Supper is ready at six.	Supperisreadyatsix
+Suppose it rains,what shall we do?	Supposeitrainswhatshallwedo
+Susan is going to finish college.	Susanisgoingtofinishcollege
+Take a seat please, make yourself at home.	Takeaseatpleasemakeyourselfathome
+Take care!	Takecare
+Take it easy, you will be all right in a couple of days..	Takeiteasyyouwillbeallrightinacoupleofdays
+Take it easy.	Takeiteasy
+Take me to the airport，please.	Takemetotheairportplease
+Thank you for your advice.	Thankyouforyouradvice
+Thanks for your flattering me.	Thanksforyourflatteringme
+That is my idea about friendship.	Thatismyideaaboutfriendship
+That makes no difference.	Thatmakesnodifference
+That's a good idea.	Thatsagoodidea
+That's a terrific idea!	Thatsaterrificidea
+That's all I need.	Thatsallineed
+That's all!	Thatsall
+That's always the case.	Thatsalwaysthecase
+That's neat.	Thatsneat
+That's the latest fashion.	Thatsthelatestfashion
+The answer is zero.	Theansweriszero
+The bat together with the balls was stolen.	Thebattogetherwiththeballswasstolen
+The Beatles represented part of the spirit of their age.	Thebeatlesrepresentedpartofthespiritoftheirage
+The best-known movie awards are the Academy Awards.	Thebestknownmovieawardsaretheacademyawards
+The book is protected by copyright.	Thebookisprotectedbycopyright
+The book you ask for is sold out.	Thebookyouaskforissoldout
+The boy was too nervous to speak.	Theboywastoonervoustospeak
+The brain needs a continuous supply of blood.	Thebrainneedsacontinuoussupplyofblood
+The brothers differ from each other in their interests.	Thebrothersdifferfromeachotherintheirinterests
+The child sobbed sadly.	Thechildsobbedsadly
+The color of her dress suits her very well.	Thecolorofherdresssuitsherverywell
+The constitution guards the liberty of the people.	Theconstitutionguardsthelibertyofthepeople
+The cupboards in her kitchen were full of things she did not need.	Thecupboardsinherkitchenwerefullofthingsshedidnotneed
+The days get longer and the nights get shorter.	Thedaysgetlongerandthenightsgetshorter
+The doctor advised me to give up smoking.	Thedoctoradvisedmetogiveupsmoking
+The doctor asked me to watch what I eat.	Thedoctoraskedmetowatchwhatieat
+The doctor began to operate on the boy.	Thedoctorbegantooperateontheboy
+The doctor examined the soldier's wound carefully.	Thedoctorexaminedthesoldierswoundcarefully
+The doctor is taking my blood pressure.	Thedoctoristakingmybloodpressure
+The doctor's words made him feel comfortable.	Thedoctorswordsmadehimfeelcomfortable
+The editor over looked a print error.	Theeditoroverlookedaprinterror
+The eggs are sold by the dozen.	Theeggsaresoldbythedozen
+The enormous increase of population will create many problems.	Theenormousincreaseofpopulationwillcreatemanyproblems
+The examination put a lot of stress on him.	Theexaminationputalotofstressonhim
+The figure seems all Right.	Thefigureseemsallright
+The flowers make the room more beautiful.	Theflowersmaketheroommorebeautiful
+The girl in red is his girlfriend.	Thegirlinredishisgirlfriend
+The grass is moist early in the morning.	Thegrassismoistearlyinthemorning
+The harder I study, the better my English will be.	Theharderistudythebettermyenglishwillbe
+The ice is hard enough to skate on.	Theiceishardenoughtoskateon
+The letter "x" stands for an unknown number.	Theletterxstandsforanunknownnumber
+The machines will not operate properly.	Themachineswillnotoperateproperly
+The mother sat the child at a little table.	Themothersatthechildatalittletable
+The number 13 bus will take you to the hospital.13	Thenumber13buswilltakeyoutothehospital13
+The nurse assisted the doctor in the operating room.	Thenurseassistedthedoctorintheoperatingroom
+The old lady enjoys a quiet life with her family.	Theoldladyenjoysaquietlifewithherfamily
+The play may begin at any moment.	Theplaymaybeginatanymoment
+The population of the city is close to a million.	Thepopulationofthecityisclosetoamillion
+The price is reasonable.	Thepriceisreasonable
+The price just covers the cost.	Thepricejustcoversthecost
+The rabbit ran to the woods and did not come back any more.	Therabbitrantothewoodsanddidnotcomebackanymore
+The rumor had no basis.	Therumorhadnobasis
+The salve will heal slight burns.	Thesalvewillhealslightburns
+The sea sparkled in the sunlight.	Theseasparkledinthesunlight
+The secret was spread among the crowd.	Thesecretwasspreadamongthecrowd
+The sight of the dead body scared him stiff.	Thesightofthedeadbodyscaredhimstiff
+The stars are too far away.	Thestarsaretoofaraway
+The students declared against cheating.	Thestudentsdeclaredagainstcheating
+The sudden barking frightened Clara.	Thesuddenbarkingfrightenedclara
+The sun comes up in the east.	Thesuncomesupintheeast
+The sun was shining and the sky was crystal clear.	Thesunwasshiningandtheskywascrystalclear
+The teacher got a little angry.	Theteachergotalittleangry
+The teacher tested us in English.	Theteachertestedusinenglish
+The teams are coming onto the field.	Theteamsarecomingontothefield
+The train arrived on time.	Thetrainarrivedontime
+The truth is quite other than what you think.	Thetruthisquiteotherthanwhatyouthink
+The view is great.	Theviewisgreat
+The wall has ears.	Thewallhasears
+The whole world knows that.	Thewholeworldknowsthat
+There are a lot of people in the swimming pool.	Therearealotofpeopleintheswimmingpool
+There are lots of huge buildings in Beijing.	Therearelotsofhugebuildingsinbeijing
+There are many stars in the sky.	Therearemanystarsinthesky
+There are mice next to the refrigerator, under the sink and inside the cupboard!	Therearemicenexttotherefrigeratorunderthesinkandinsidethecupboard
+There being no one to help me, I had to do it all alone.	Therebeingnoonetohelpmeihadtodoitallalone
+There comes a bus.	Therecomesabus
+There go the house lights.	Theregothehouselights
+There is a broken small old gray stone bridge over the river	Thereisabrokensmalloldgraystonebridgeovertheriver
+There is a chair below the window.	Thereisachairbelowthewindow
+There is a good restaurant on the street.	Thereisagoodrestaurantonthestreet
+There is a mark of ink on his shirt.	Thereisamarkofinkonhisshirt
+There is an interesting film on Channel one.	Thereisaninterestingfilmonchannelone
+There is some difference between the twins.	Thereissomedifferencebetweenthetwins
+There isn't any water in the bottle.	Thereisntanywaterinthebottle
+There's nothing better for you than plenty of water and sleep.	Theresnothingbetterforyouthanplentyofwaterandsleep
+These shoes don't fit right.	Theseshoesdontfitright
+They are arguing over who should pay the bill.	Theyarearguingoverwhoshouldpaythebill
+They are only too delighted to accept the invitation.	Theyareonlytoodelightedtoaccepttheinvitation
+They are paid by the hour.	Theyarepaidbythehour
+They celebrated his birthday with a dance party.	Theycelebratedhisbirthdaywithadanceparty
+They charged the fault on him.	Theychargedthefaultonhim
+They covered 120 miles in a single night.	Theycovered120milesinasinglenight
+They crowned him king.	Theycrownedhimking
+They don't often have a bad day this year.	Theydontoftenhaveabaddaythisyear
+They employed him as a consultant.	Theyemployedhimasaconsultant
+They have to work hard to support their family.	Theyhavetoworkhardtosupporttheirfamily
+They hurt.	Theyhurt
+They insisted on staying rather than going.	Theyinsistedonstayingratherthangoing
+They misplaced this book under other categories.	Theymisplacedthisbookunderothercategories
+They plan to immigrate to Finland next year.	Theyplantoimmigratetofinlandnextyear
+They played a shameful part in the whole affair.	Theyplayedashamefulpartinthewholeaffair
+They praised him highly.	Theypraisedhimhighly
+They rode their respective bikes.	Theyrodetheirrespectivebikes
+They stopped talking when their boss came in.	Theystoppedtalkingwhentheirbosscamein
+They were glad of the examination being over.	Theyweregladoftheexaminationbeingover
+They will arrive in half an hour.	Theywillarriveinhalfanhour
+Things are getting better.	Thingsaregettingbetter
+Think carefully before you act.	Thinkcarefullybeforeyouact
+This boy has no job.	Thisboyhasnojob
+This car is in good condition.	Thiscarisingoodcondition
+This cellar room is very damp in the rainy season.	Thiscellarroomisverydampintherainyseason
+This house is my own.	Thishouseismyown
+This is a little something for you.	Thisisalittlesomethingforyou
+This is because we feel pain.	Thisisbecausewefeelpain
+This is by far the largest cake in the world.	Thisisbyfarthelargestcakeintheworld
+This is only the first half.	Thisisonlythefirsthalf
+This is the most wonderful day of my life, because I'm here with you now.	Thisisthemostwonderfuldayofmylifebecauseimherewithyounow
+This joke has gone a little too far.	Thisjokehasgonealittletoofar
+This pen doesn't write well.	Thispendoesntwritewell
+This question is too complicated for me.	Thisquestionistoocomplicatedforme
+This way, he can kill two birds with one stone.	Thiswayhecankilltwobirdswithonestone
+This way.	Thisway
+This work itself is very easy.	Thisworkitselfisveryeasy
+Those are watermelons.	Thosearewatermelons
+Time is money.	Timeismoney
+Time is running out.	Timeisrunningout
+Time is up.	Timeisup
+To be careful!	Tobecareful
+To be honest with you，I'm twenty.	Tobehonestwithyouimtwenty
+Today it is common that women and girls make up in public.	Todayitiscommonthatwomenandgirlsmakeupinpublic
+Tom and Mary congratulated us on the birth of our daughter.	Tomandmarycongratulatedusonthebirthofourdaughter
+Tomorrow will be a holiday.	Tomorrowwillbeaholiday
+Tony speaks English and he plays tennis.	Tonyspeaksenglishandheplaystennis
+Trust me, the game is really worth playing.	Trustmethegameisreallyworthplaying
+Truth is the daughter of time.	Truthisthedaughteroftime
+Try again.	Tryagain
+Try to look on the bright side of things.	Trytolookonthebrightsideofthings
+Unfortunately you'll have to pay the fine before you check those books out.	Unfortunatelyyoullhavetopaythefinebeforeyoucheckthosebooksout
+Unlike her friends, she never gave up hope.	Unlikeherfriendsshenevergaveuphope
+Wait a moment, I'll be with you in an instant.	Waitamomentillbewithyouinaninstant
+Wake me up at five thirty.	Wakemeupatfivethirty
+Walking up and down the stairs would beat any exercise machine.	Walkingupanddownthestairswouldbeatanyexercisemachine
+Walt invented the steam engine.	Waltinventedthesteamengine
+Watch out!	Watchout
+We are all busy with work.	Weareallbusywithwork
+We are all in favor of this plan.	Weareallinfavorofthisplan
+We are all taking medicine against the disease.	Wearealltakingmedicineagainstthedisease
+We are divided in our opinions.	Wearedividedinouropinions
+We are going to have the final examination next week.	Wearegoingtohavethefinalexaminationnextweek
+We are good friends.	Wearegoodfriends
+We are prohibited from smoking on school grounds.	Weareprohibitedfromsmokingonschoolgrounds
+We arrived in London this afternoon.	Wearrivedinlondonthisafternoon
+We began our holiday.	Webeganourholiday
+We can't go out because of the rain.	Wecantgooutbecauseoftherain
+We enjoyed driving along the new expressway.	Weenjoyeddrivingalongthenewexpressway
+We get to London this afternoon.	Wegettolondonthisafternoon
+we got a bad headache, and my nose is running.	Wegotabadheadacheandmynoseisrunning
+We just caught the plane	Wejustcaughttheplane
+We look forward to your visit.	Welookforwardtoyourvisit
+We need action!	Weneedaction
+We need to cooperate perfectly to win the game.	Weneedtocooperateperfectlytowinthegame
+We often call him by his nickname.	Weoftencallhimbyhisnickname
+We reached London this afternoon.	Wereachedlondonthisafternoon
+We should make good use of our time.	Weshouldmakegooduseofourtime
+We should not only know the theory but also how to apply it to practice.	Weshouldnotonlyknowthetheorybutalsohowtoapplyittopractice
+We should save unnecessary expenses.	Weshouldsaveunnecessaryexpenses
+We two finished a bottle of wine.	Wetwofinishedabottleofwine
+We walk on the garden path.	Wewalkonthegardenpath
+We're all for it.	Wereallforit
+We're planning a tour to Italy this summer.	Wereplanningatourtoitalythissummer
+We've got to do something about the neighbor's dog!	Wevegottodosomethingabouttheneighborsdog
+Well done! You are always doing a good job!	Welldoneyouarealwaysdoingagoodjob
+Well，it depends	Wellitdepends
+Were there any exciting incidents during your journey?	Werethereanyexcitingincidentsduringyourjourney
+Were there any letters for me this morning?	Werethereanylettersformethismorning
+What a good deal!	Whatagooddeal
+what a lovely little girl she is!	Whatalovelylittlegirlsheis
+What a nice day it is!	Whatanicedayitis
+What a pity!	Whatapity
+What about having a pizza first?	Whatabouthavingapizzafirst
+What about you?	Whataboutyou
+What be said did not annoy me much, for I knew he did not mean it.	Whatbesaiddidnotannoymemuchforiknewhedidnotmeanit
+What day is today?	Whatdayistoday
+What do you desire me to do?	Whatdoyoudesiremetodo
+What do you think of this one?	Whatdoyouthinkofthisone
+What do you think?	Whatdoyouthink
+What does she like?	Whatdoesshelike
+What ever I said，he'd disagree.	Whateverisaidheddisagree
+What happened to you?	Whathappenedtoyou
+What he likes best is making jokes.	Whathelikesbestismakingjokes
+What horrible weather!	Whathorribleweather
+What I do on my own time is nobody else's business.	Whatidoonmyowntimeisnobodyelsesbusiness
+What I want to do is different from those of others.	Whatiwanttodoisdifferentfromthoseofothers
+What is worth doing is worth doing well.	Whatisworthdoingisworthdoingwell
+What shall we do tonight?	Whatshallwedotonight
+What should I do?	Whatshouldido
+What time is it?	Whattimeisit
+What you need is just rest.	Whatyouneedisjustrest
+What's new?	Whatsnew
+What's the point of going to college?	Whatsthepointofgoingtocollege
+What's the weather like to day?	Whatstheweatherliketoday
+What's up?	Whatsup
+What's wrong with you?	Whatswrongwithyou
+What's your favorite steps?	Whatsyourfavoritesteps
+What's your goal in life	Whatsyourgoalinlife
+What's your plan for the summer vacation?	Whatsyourplanforthesummervacation
+What's your trouble?	Whatsyourtrouble
+When I was young, I'd listen to the radio, waiting for my favorite songs.	Wheniwasyoungidlistentotheradiowaitingformyfavoritesongs
+When was the house built?	Whenwasthehousebuilt
+Where can we make the insurance claim?	Wherecanwemaketheinsuranceclaim
+Where do you want to meet?	Wheredoyouwanttomeet
+Which would you prefer?	Whichwouldyouprefer
+Whichever you choose, you won't be satisfied.	Whicheveryouchooseyouwontbesatisfied
+Who but Jack would do such a thing?	Whobutjackwoulddosuchathing
+Who ever comes will be welcomed.	Whoevercomeswillbewelcomed
+Who told you that?	Whotoldyouthat
+Who's calling?	Whoscalling
+Who's kicking off?	Whoskickingoff
+Why did you stay at home?	Whydidyoustayathome
+Why don't I pick you up at your house?	Whydontipickyouupatyourhouse
+Why don't you attend an aerobic class?	Whydontyouattendanaerobicclass
+Why don't you find a job and end this dependence upon your parents?	Whydontyoufindajobandendthisdependenceuponyourparents
+Why not?	Whynot
+Will you be free tomorrow evening?	Willyoubefreetomorrowevening
+Will you come and join us for dinner on Sunday?	Willyoucomeandjoinusfordinneronsunday
+Will you connect this wire to the television ?	Willyouconnectthiswiretothetelevision
+Will you pick me up at my place?	Willyoupickmeupatmyplace
+Will you please try to find out for me what time the train arrives?	Willyoupleasetrytofindoutformewhattimethetrainarrives
+With all these mouths to feed, he didn't know what to do.	Withallthesemouthstofeedhedidntknowwhattodo
+Would you like a cup of tea?	Wouldyoulikeacupoftea
+Would you like some help?	Wouldyoulikesomehelp
+Would you like to go to a party with me?	Wouldyouliketogotoapartywithme
+Would you like to leave a message?	Wouldyouliketoleaveamessage
+Would you please go to a dancing party with me?	Wouldyoupleasegotoadancingpartywithme
+Yes，I suppose So.	Yesisupposeso
+Yet all these things, different as they seem, have one thing in common.	Yetallthesethingsdifferentastheyseemhaveonethingincommon
+You are a chicken.	Youareachicken
+You asked for it!	Youaskedforit
+You can call me any time.	Youcancallmeanytime
+You can either stay or leave.	Youcaneitherstayorleave
+You can get what you want.	Youcangetwhatyouwant
+You can kill two birds with one stone.	Youcankilltwobirdswithonestone
+You can make it!	Youcanmakeit
+You can never turn the clock back.	Youcanneverturntheclockback
+You can't miss it	Youcantmissit
+You did fairly well!	Youdidfairlywell
+You did right.	Youdidright
+You forget to write down the date of your departure.	Youforgettowritedownthedateofyourdeparture
+You have my word.	Youhavemyword
+You look as if you didn't care.	Youlookasifyoudidntcare
+You may as well tell me the truth.	Youmayaswelltellmethetruth
+You may choose whatever you like.	Youmaychoosewhateveryoulike
+You may have heard of Birth Control.	Youmayhaveheardofbirthcontrol
+You may pick whichever one you like best.	Youmaypickwhicheveroneyoulikebest
+You might as well throw your money away as spend it in gambling.	Youmightaswellthrowyourmoneyawayasspenditingambling
+You mustn't aim too high	Youmustntaimtoohigh
+You need to workout.	Youneedtoworkout
+You owe me one.	Youowemeone
+You really look sharp today.	Youreallylooksharptoday
+You set me up!	Yousetmeup
+You should always depend on yourself rather than someone else.	Youshouldalwaysdependonyourselfratherthansomeoneelse
+You should have a mind of your own.	Youshouldhaveamindofyourown
+You should look at it yourself.	Youshouldlookatityourself
+You will soon get used to the work.	Youwillsoongetusedtothework
+You'd better let her alone.	Youdbetterletheralone
+You'd better look before you leap.	Youdbetterlookbeforeyouleap
+You'll save time not waiting for the elevator.	Youllsavetimenotwaitingfortheelevator
+You're really killing me!	Yourereallykillingme
+You're suffering from an allergy?	Youresufferingfromanallergy
+You're welcome to stay with us next time.	Yourewelcometostaywithusnexttime
+You're welcome.	Yourewelcome
+You've got a point there.	Youvegotapointthere
+Your English is improving little by little.	Yourenglishisimprovinglittlebylittle
+Your hand feels cold.	Yourhandfeelscold
+Your life is your own affair.	Yourlifeisyourownaffair

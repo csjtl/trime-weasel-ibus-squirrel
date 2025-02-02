@@ -20,6 +20,9 @@ switches:
   - name: full_shape
     states: [ 🌙 , 🌕️ ]
     reset: 0
+  - name: ascii_punct
+    states: [ 。， , ".  , " ]
+    reset: 1
   - name: emoji_suggestion
     states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
     reset: 0

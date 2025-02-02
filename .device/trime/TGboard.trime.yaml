@@ -16,12 +16,6 @@ var_key: #var_value
   2_01: &keyb_h 100 #主键盘按键高度
   2_02: &keyb_end_h 130 #主键盘尾行按键高度
   2_03: &keyb_gn_h 100 #功能键盘按键高度
-  2_04: &p_mark_h 0 #标点符号键盘按键高度punctuation_mark
-  2_05: &pbottom_end_h 120 #标点符号键盘底部按键高度punctuation_mark_bottom
-  2_06: &esymbols_h 0 #表情符号键盘按键高度emoji_symbols
-  2_07: &ebottom_h 120 #表情符号键盘底部按键高度emoji_bottom
-  2_08: &kaokey_h 0 #颜文字键盘按键高度kaomoji_key
-  2_09: &kaobottom_h 120 #颜文字键盘底部按键高度kaomoji_bottom
  #符号位置
   3_01: &ksox_e 17 #字母上方为标点左移距离
   3_02: &ksoy_c -5 #字母上方为中文-上移距离
@@ -85,7 +79,7 @@ style:
   auto_caps: true #自动句首大写:true|false|ascii
   candidate_use_cursor: false #高亮候选项
   horizontal: true #水平模式
-  keyboards: [.default, five_strokes, mini, letter, us_intl, number, numberb, punctuation_more, punctuation_mark, en_punctuation_mark, money_mark, emoji_symbols, kaomoji_happy, math_mark, latin_mark, geometry_mark, other_mark]
+  keyboards: [.default, five_strokes, mini, letter, us_intl, number, numberb]
   proximity_correction: true #按键纠错
   #background_folder: #背景图保存在background目录下的哪个子目录
   reset_ascii_mode: false #显示键盘时重置为中文状态
@@ -158,11 +152,6 @@ style:
     - {start: "", composition: "%s", end: "", letter_spacing: 0.12} #letter_spacing需要>=Android5.0。TODO: 不爲0时，会导致不换行的问题
     #- {start: "\n", label: "%s.", candidate: "%s", comment: " %s", end: "", sep: " "}
     - {start: "\n", candidate: "%s", comment: "%s", end: "", sep: "☁️️"}
-  liquid_keyboard_window: #液态键盘模式下显示的悬浮窗口组件
-    - {start: "", click: "space", label: " 空格 "}
-    - {start: "", click: "BackSpace", label: " 删除 "}
-    - {start: "", click: "Return", label: " 回车 "}
-    - {start: "", click: "liquid_keyboard_exit", label: " 返回 "}
 
   key_height: *keyb_h #键高
   key_width: 10.0 #键宽，占屏幕宽的百分比
@@ -419,7 +408,7 @@ liquid_keyboard:
       - space1
       - BackSpace1
       - Return1
-      - liquid_keyboard_clipboard
+     # - liquid_keyboard_clipboard
       - liquid_keyboard_tabs
       - liquid_keyboard_number
       - liquid_keyboard_numberb
@@ -573,6 +562,7 @@ preset_keys:
 
   # rime状态
   Mode_switch: {toggle: ascii_mode, send: Mode_switch, states: [ 中文, 西文 ]}
+  Mode_switch1: {toggle: ascii_mode, send: Mode_switch, states: [ 中模, 英模 ]}
   Zenkaku_Hankaku: {toggle: full_shape, send: Mode_switch, states: [ 半角, 全角 ]}
   Henkan: {toggle: simplification, send: Mode_switch, states: [ 汉字, 汉字 ]}
   Charset_switch: {toggle: extended_charset, send: Mode_switch, states: [ 常用, 增广 ]}
@@ -593,11 +583,13 @@ preset_keys:
   Keyboard_switch: { label: 键盘, send: Eisu_toggle, select: .next }
   liquid_keyboard_switch: { label: 符号表, send: function, command: liquid_keyboard, option: "符号表" }
   liquid_keyboard_tabs: { label: 更多, send: function, command: liquid_keyboard, option: "更多" }
-  liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji" }
+  liquid_keyboard_emoji: { label: 🙂, send: function, command: liquid_keyboard, option: "emoji_full" }
   liquid_keyboard_clipboard: { label: 剪贴板, send: function, command: liquid_keyboard, option: "剪贴板" }
-  liquid_keyboard_number: { label: 数字键, send: function, command: preset_keyboards, option: "number" }
-  liquid_keyboard_numberb: { label: 操作键, send: function, command: preset_keyboards, option: "numberb" }
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
+
+  liquid_keyboard_number: { label: 数字键, send: Eisu_toggle, select: number}
+  liquid_keyboard_numberb: {label: '操作键', send: Eisu_toggle, select: numberb}
+  Keyboard_punctuation_mark: { label: "🙂#?", send: function, command: liquid_keyboard, option: "更多" }
 
 # markdown
   md_H1: {label: H1, text: '# '}
@@ -615,9 +607,9 @@ preset_keys:
   md_orderedlist: {label: 有序列表, text: '1. '}
   md_unorderedlist: {label: 无序列表, text: '- '} # 破折号 (-)、星号 (*) 或加号 (+) 。缩进一个或多个列表项可创建嵌套列表
   md_codeblock: {label: 代码块, text: '    '}
-  md_fencedcodeblock: {label: 围栏代码块, text: '``````{Left}{Left}{Left}'} # 使用三个反引号（(```）或三个波浪号（~~~）
+  md_fencedcodeblock: {label: 围栏代码块, text: '``````{Left}{Left}{Left}{Return}{Return}{Left}'} # 使用三个反引号（(```）或三个波浪号（~~~）
   md_code: {label: 短代码, text: '``{Left}'}
-  md_tropecode: {label: 转义反引号, text: '````{Left}{Left}'}
+  md_tropecode: {label: 转义反引号, text: '````{Left}{Left}{Return}{Return}{Left}'}
   md_horizontalrule: {label: 分割线, text: '---'} # 单独一行上使用三个或多个星号 (***)、破折号 (---) 或下划线 (___) ，并且不能包含其他内容
   md_link: {label: 超链接, text: '[](){Left}{Left}{Left}'}
   md_linktitle: {label: '链接(title)', text: '[]( ""){Left}{Left}{Left}{Left}{Left}{Left}'}
@@ -672,42 +664,80 @@ preset_keys:
   Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
   Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲当前字符
   Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
-  Sync: {label: 同步, command: broadcast, option: "com.osfans.trime.sync"}
+  Sync: {label: 同步,  broadcast, option: "com.osfans.trime.sync"}
   RepeatCommit: { label: 重复,  command: commit, option: "%1$s" } #重复输入刚上屏的内容
 
   Left1: {label: '⇦', send: Control+Left, repeatable: true}
   Right1: {label: '⇨', send: Control+Right, repeatable: true}
   Shift_L2: {label: 选择, preview: '⇪', send: Shift_L}
 
- #英文标点符号键盘
+ # 空按键
   Keyboard_null: {label: "^_^空", send: ""}
-  Keyboard_punctuation_more: {label: "其它", send: Eisu_toggle, select: punctuation_more}
-
-  Keyboard_cn_punctuation_mark: {label: "中文", send: Eisu_toggle, select: punctuation_mark}
-
- #英文标点符号键盘
-  Keyboard_punctuation_mark: {label: "#!?", send: Eisu_toggle, select: en_punctuation_mark}
-  Keyboard_en_punctuation_mark: {label: '英文', send: Eisu_toggle, select: en_punctuation_mark, key_text_size: "14"}
-
- #货币符号键盘
-  Keyboard_money_mark: {label: '货币', send: Eisu_toggle, select: money_mark, key_text_size: "14"}
- #数学符号键盘
-  Keyboard_math_mark: {label: '数学', send: Eisu_toggle, select: math_mark, key_text_size: "14"}
- #拉丁符号键盘
-  Keyboard_latin_mark: {label: '拉丁', send: Eisu_toggle, select: latin_mark, key_text_size: "14"}
- #几何符号键盘
-  Keyboard_geometry_mark: {label: '几何', send: Eisu_toggle, select: geometry_mark, key_text_size: "14"}
- #其它符号键盘
-  Keyboard_other_mark: {label: '其它', send: Eisu_toggle, select: other_mark, key_text_size: "14"}
- #emoji符号键盘
-  Keyboard_emoji_symbols: {label: '表情', send: Eisu_toggle, select: emoji_symbols, key_text_size: "14"}
-
- #kaomoji键盘
-  Keyboard_kaomoji_mark: {label: 颜文, send: Eisu_toggle, select: kaomoji_happy, key_text_size: "14"}
 
 preset_keyboards:
- #键盘布局
   default:
+    name: 美式国际
+    author: "Terry Tsang <archerindigo@gmail.com>"
+    ascii_mode: 0
+    full_shape: 0
+    ascii_punct: 1
+    width: 10
+    #height: 44
+    #lock: true
+    keys:
+      - {click: '1', long_click: '!', swipe_up: '¡', swipe_down: '¹'}
+      - {click: '2', long_click: '@', swipe_up: '²'}
+      - {click: '3', long_click: '#', swipe_up: '³'}
+      - {click: '4', long_click: '$', swipe_up: '¤', swipe_down: '£'}
+      - {click: '5', long_click: '%', swipe_up: '€'}
+      - {click: '6', long_click: '^', swipe_up: '¼'}
+      - {click: '7', long_click: '&', swipe_up: '½'}
+      - {click: '8', long_click: '*', swipe_up: '¾'}
+      - {click: '9', long_click: '(){Left}', swipe_left: '(', swipe_right: ')', swipe_up: '‘'}
+      - {click: '0', long_click: '-', swipe_down: '_', swipe_up: '’', swipe_left: '¥'}
+
+      - {click: 'q', long_click: '~', swipe_up: 'ä'}
+      - {click: 'w', long_click: '+', swipe_up: 'å'}
+      - {click: 'e', long_click: '=', swipe_up: 'é'}
+      - {click: 'r', long_click: '×', swipe_up: '®'}
+      - {click: 't', long_click: '÷', swipe_up: 'þ'}
+      - {click: 'y', long_click: '«»{Left}', swipe_left: '«', swipe_right: '»', swipe_up: 'ü'}
+      - {click: 'u', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', swipe_up: 'ú'}
+      - {click: 'i', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', swipe_up: 'í'}
+      - {click: 'o', long_click: '\', swipe_up: 'ó'}
+      - {click: 'p', long_click: '|', swipe_up: 'ö', swipe_down: '¬', swipe_left: '¦'}
+
+      - {click: 'a', long_click: '`', swipe_up: 'á'}
+      - {click: 's', long_click: "'", swipe_up: 'ß', swipe_down: '§'}
+      - {click: 'd', long_click: '"', swipe_up: 'ð'}
+      - {click: 'f', long_click: Left, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+      - {click: 'g', long_click: Up, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+      - {click: 'h', long_click: Down, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+      - {click: 'j', long_click: Right, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
+      - {click: 'k'}
+      - {click: 'l', swipe_up: 'ø'}
+
+      - {click: ';', long_click: ':', swipe_up: '¶', swipe_down: '°'}
+      - {click: 'z', long_click: select_all, swipe_up: 'æ'}
+      - {click: 'x', long_click: cut}
+      - {click: 'c', long_click: copy, swipe_up: '©', swipe_down: '¢'}
+      - {click: 'v', long_click: paste}
+      - {click: 'b', long_click: Insert}
+      - {click: 'n', long_click: undo, swipe_up: 'ñ'}
+      - {click: 'm', long_click: redo, swipe_up: 'µ'}
+      - {click: ',', long_click: '<', swipe_up: 'ç'}
+      - {click: '.', long_click: '>'}
+      - {click: '/', long_click: '?', swipe_up: '¿'}
+
+      - {click: Shift_L}
+      - {click: Keyboard_punctuation_mark, long_click: Theme_settings}
+      - {click: Mode_switch1, long_click: Menu}
+      - {click: space, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 37}
+      - {click: BackSpace, swipe_right: Delete, swipe_left: Escape, width: 15}
+      - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+
+ #键盘布局
+  rime_ice:
     author: "csjtl"
     name: 预设45键
     width: 10
@@ -762,11 +792,11 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 15, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_markdown, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: space, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 37, key_back_color: b_kg, key_text_color: t_kg}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
       - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
@@ -837,11 +867,11 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 15, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: Keyboard_markdown, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: space, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 37, key_back_color: b_kg, key_text_color: t_kg}
       - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, long_click: '', composing: Return, width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
       - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
@@ -896,65 +926,6 @@ preset_keyboards:
     #ascii_mode: 1
     #reset_ascii_mode: true  #显示键盘时重置为ascii_mode指定的状态
     #lock: false
-  us_intl:
-    name: 美式国际
-    author: "Terry Tsang <archerindigo@gmail.com>"
-    #ascii_mode: 1
-    width: 10
-    height: 44
-    #lock: true
-    keys:
-      - {click: '1', long_click: '!', swipe_up: '¡', swipe_down: '¹'}
-      - {click: '2', long_click: '@', swipe_up: '²'}
-      - {click: '3', long_click: '#', swipe_up: '³'}
-      - {click: '4', long_click: '$', swipe_up: '¤', swipe_down: '£'}
-      - {click: '5', long_click: '%', swipe_up: '€'}
-      - {click: '6', long_click: '^', swipe_up: '¼'}
-      - {click: '7', long_click: '&', swipe_up: '½'}
-      - {click: '8', long_click: '*', swipe_up: '¾'}
-      - {click: '9', long_click: '(){Left}', swipe_left: '(', swipe_right: ')', swipe_up: '‘'}
-      - {click: '0', long_click: '-', swipe_down: '_', swipe_up: '’', swipe_left: '¥'}
-
-      - {click: 'q', long_click: '~', swipe_up: 'ä'}
-      - {click: 'w', long_click: '+', swipe_up: 'å'}
-      - {click: 'e', long_click: '=', swipe_up: 'é'}
-      - {click: 'r', long_click: '×', swipe_up: '®'}
-      - {click: 't', long_click: '÷', swipe_up: 'þ'}
-      - {click: 'y', long_click: '«»{Left}', swipe_left: '«', swipe_right: '»', swipe_up: 'ü'}
-      - {click: 'u', long_click: '[]{Left}', swipe_left: '[', swipe_right: ']', swipe_up: 'ú'}
-      - {click: 'i', long_click: '{}{Left}', swipe_left: '{', swipe_right: '}', swipe_up: 'í'}
-      - {click: 'o', long_click: '\', swipe_up: 'ó'}
-      - {click: 'p', long_click: '|', swipe_up: 'ö', swipe_down: '¬', swipe_left: '¦'}
-
-      - {click: 'a', long_click: '`', swipe_up: 'á'}
-      - {click: 's', swipe_up: 'ß', swipe_down: '§'}
-      - {click: 'd', swipe_up: 'ð'}
-      - {click: 'f', long_click: Left, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
-      - {click: 'g', long_click: Up, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
-      - {click: 'h', long_click: Down, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
-      - {click: 'j', long_click: Right, swipe_left: Home, swipe_right: End, swipe_up: Page_Up, swipe_down: Page_Down}
-      - {click: 'k'}
-      - {click: 'l', swipe_up: 'ø'}
-
-      - {click: ';', long_click: ':', swipe_up: '¶', swipe_down: '°'}
-      - {click: 'z', long_click: select_all, swipe_up: 'æ'}
-      - {click: 'x', long_click: cut}
-      - {click: 'c', long_click: copy, swipe_up: '©', swipe_down: '¢'}
-      - {click: 'v', long_click: paste}
-      - {click: 'b', long_click: Insert}
-      - {click: 'n', long_click: undo, swipe_up: 'ñ'}
-      - {click: 'm', long_click: redo, swipe_up: 'µ'}
-      - {click: ',', long_click: '<', swipe_up: 'ç'}
-      - {click: '.', long_click: '>'}
-      - {click: '/', long_click: '?', swipe_up: '¿'}
-
-      - {click: Shift_L}
-      - {click: Keyboard_emoji_symbols, long_click: Keyboard_number}
-      - {click: Mode_switch, long_click: Menu}
-      - {click: space, long_click: TGboard, long_click: VOICE_ASSIST, width: 30}
-      - {click: "'", long_click: '"'}
-      - {click: BackSpace, swipe_right: Delete, swipe_left: Escape, width: 15}
-      - {click: Return, long_click: CommitComment, width: 15}
 
   number:
     name: 数字
@@ -985,12 +956,12 @@ preset_keyboards:
       - {click: '-', key_back_color: b_gn, key_text_color: t_gn}
 
       - {click: Keyboard_default, key_back_color: b_enter, key_text_color: t_enter}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: '', key_back_color: b_gn, key_text_color: t_gn}
       #- {click: Shift_L, key_back_color: b_enter, key_text_color: t_enter}
       - {click: 0, long_click: select_all}
       - {click: ., long_click: ':', key_back_color: b_gn, key_text_color: t_gn}
       - {click: space1, long_click: TGboard, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Return, composing: Return, swipe_up: Escape, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
+      - {click: Return, composing: Return1, swipe_up: Escape, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
   numberb:
     #ascii_mode: 1
@@ -1023,11 +994,9 @@ preset_keyboards:
       - {click: paste}
       - {click: Return, round_corner: *enter_round, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, width: 19}
 
-      - {click: Keyboard_last_lock, height: 70, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {click: Settings, width: 17, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {click: space1, long_click: TGboard, width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_mark, long_click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: liquid_keyboard_tabs, width: 16.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_last_lock, height: 70, width: 19, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: space1, long_click: TGboard, width: 62, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: 'Settings', width: 19, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
 
   markdown:
     author: "csjtl"
@@ -1076,587 +1045,3 @@ preset_keyboards:
       - {click: space_markdown, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: BackSpace, swipe_right: Delete, height: 70, width: 16, key_back_color: b_bs, key_text_color: t_bs}
       - {click: Return, height: 70, width: 17, key_text_size: "36", key_back_color: b_enter, key_text_color: t_enter}
-
- #标点符号键盘
-  punctuation_more: #标点符号更多
-    author: "csjtl"
-    name: 标点符号更多
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: Keyboard_math_mark, width: 100, key_text_size: "16"}
-      - {click: Keyboard_latin_mark, width: 100, key_text_size: "16"}
-      - {click: Keyboard_geometry_mark, width: 100, key_text_size: "16"}
-      - {click: Keyboard_other_mark, width: 100, key_text_size: "16"}
-      - {click: 'Keyboard_null', width: 100}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
-  punctuation_mark: #中文标点符号1
-    author: "csjtl"
-    name: 语言标点符号1
-    #ascii_mode: 0
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '！'}
-      - {click: '@'}
-      - {click: '#'}
-      - {click: '￥'}
-      - {click: '％'}
-      - {click: '……'}
-      - {click: '&'}
-      - {click: '＊'}
-      - {click: '——'}
-      - {click: '+'}
-      - {click: '（'}
-      - {click: '）'}
-      - {click: '［'}
-      - {click: '］'}
-      - {click: '｛'}
-      - {click: '｝'}
-      - {click: '｜'}
-      - {click: '：'}
-      - {click: '“'}
-      - {click: '”'}
-      - {click: '（）{Left}'}
-      - {click: "“”{Left}"}
-      - {click: '``{Left}'}
-      - {click: '「」{Left}'}
-      - {click: '［］{Left}'}
-      - {click: '‘’{Left}'}
-      - {click: '<>{Left}'}
-      - {click: '？'}
-      - {click: '-'}
-      - {click: '='}
-      - {click: '～'}
-      - {click: '＼'}
-      - {click: '；'}
-      - {click: '‘'}
-      - {click: '’'}
-      - {click: '／'}
-      - {click: 'Keyboard_null', width: 100}
-      - {click: 'Keyboard_null', width: 100}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #英文标点符号键盘
-  en_punctuation_mark: #英文标点符号1
-    name: 英文标点符号
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '!'}
-      - {click: '@'}
-      - {click: '#'}
-      - {click: '$'}
-      - {click: '%'}
-      - {click: '^'}
-      - {click: '&'}
-      - {click: '*'}
-      - {click: '_'}
-      - {click: '+'}
-      - {click: '('}
-      - {click: ')'}
-      - {click: '['}
-      - {click: ']'}
-      - {click: '{'}
-      - {click: '}'}
-      - {click: '|'}
-      - {click: ':'}
-      - {click: '"'}
-      - {click: '?'}
-      - {click: '``{Left}'}
-      - {click: '""{Left}'}
-      - {click: "''{Left}"}
-      - {click: '(){Left}'}
-      - {click: '{}{Left}'}
-      - {click: '[]{Left}'}
-      - {click: '<>{Left}'}
-      - {click: '-'}
-      - {click: '='}
-      - {click: '~'}
-      - {click: '<'}
-      - {click: '>'}
-      - {click: '\'}
-      - {click: '\\'}
-      - {click: ';'}
-      - {click: "'"}
-      - {click: '/'}
-      - {click: 'Keyboard_null', width: 100}
-      - {click: 'Keyboard_null', width: 100}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #货币符号符号键盘
-  money_mark: #货币符号1
-    author: "csjtl"
-    name: 货币符号1
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '$'}
-      - {click: '€'}
-      - {click: '£'}
-      - {click: '¥'}
-      - {click: '₹'}
-      - {click: '₽'}
-      - {click: '฿'}
-      - {click: '₪'}
-      - {click: '₢'}
-      - {click: '₫'}
-      - {click: '₺'}
-      - {click: '₱'}
-      - {click: '₩'}
-      - {click: '₡'}
-      - {click: '৳'}
-      - {click: '֏'}
-      - {click: '₦'}
-      - {click: '₲'}
-      - {click: '₮'}
-      - {click: '₴'}
-      - {click: '﷼'}
-      - {click: '₸'}
-      - {click: '₵'}
-      - {click: '₣'}
-      - {click: '₾'}
-      - {click: '₭'}
-      - {click: '₿'}
-      - {click: '₥'}
-      - {click: '؋'}
-      - {click: '₼'}
-      - {click: '៛'}
-      - {click: '૱'}
-      - {click: '௹'}
-      - {click: '₨'}
-      - {click: '¢'}
-      - {click: '¤'}
-      - {click: '⃀'}
-      - {click: '₳'}
-      - {click: '₰'}
-      - {click: '₻'}
-      - {click: '₯'}
-      - {click: '₠'}
-      - {click: 'ƒ'}
-      - {click: '₤'}
-      - {click: 'ℳ'}
-      - {click: '₧'}
-      - {click: '₷'}
-      - {click: '₶'}
-      - {click: '৲'}
-      - {click: '৹'}
-      - {click: '৻'}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #emoji符号键盘
-  emoji_symbols: #笑脸1
-    name: emoji符号1
-    #ascii_mode: 1
-    width: 10
-    height: *esymbols_h
-    keys:
-      - {click: "😀"}
-      - {click: "😁"}
-      - {click: "😂"}
-      - {click: "🤣"}
-      - {click: "😃"}
-      - {click: "😄"}
-      - {click: "😅"}
-      - {click: "😆"}
-      - {click: "😅"}
-      - {click: "😆"}
-      - {click: "😉"}
-      - {click: "😊"}
-      - {click: "😋"}
-      - {click: "😎"}
-      - {click: "😍"}
-      - {click: "😘"}
-      - {click: "🥰"}
-      - {click: "😗"}
-      - {click: "😙"}
-      - {click: "🥲"}
-      - {click: "😚"}
-      - {click: "☺"}
-      - {click: "🙂"}
-      - {click: "🤗"}
-      - {click: "🤩"}
-      - {click: "🤔"}
-      - {click: "🫡"}
-      - {click: "🤨"}
-      - {click: "😐"}
-      - {click: "😑"}
-      - {click: "😶"}
-      - {click: "🫥"}
-      - {click: "😶"}
-      - {click: "🌫"}
-      - {click: "🙄"}
-      - {click: "😏"}
-      - {click: "😣"}
-      - {click: "😥"}
-      - {click: "😮"}
-      - {click: "🤐"}
-      - {click: "😯"}
-      - {click: "😪"}
-      - {click: "😫"}
-      - {click: "🥱"}
-      - {click: "😴"}
-      - {click: "😌"}
-      - {click: "😛"}
-      - {click: "😜"}
-      - {click: "😝"}
-      - {click: "🤤"}
-      - {click: "😒"}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #kaomoji符键盘号
-  kaomoji_happy: #颜文字键盘-开心
-    name: 颜文字键盘-开心
-    #ascii_mode: 1
-    width: 25
-    height: *kaokey_h
-    keys:
-      - {click: "^_^", key_text_size: "14"}
-      - {click: "^ω^", key_text_size: "14"}
-      - {click: "^o^", key_text_size: "14"}
-      - {click: "~\\(≧▽≦)/~", key_text_size: "14"}
-      - {click: "*^_^*", key_text_size: "14"}
-      - {click: "↖(^ω^)↗", key_text_size: "14"}
-      - {click: "(^o^)／", key_text_size: "14"}
-      - {click: "(=^▽^=)", key_text_size: "14"}
-      - {click: "=^_^=", key_text_size: "14"}
-      - {click: "(*^ω^*)", key_text_size: "14"}
-      - {click: "٩(๑^o^๑)۶", key_text_size: "14"}
-      - {click: "o(￣▽￣)o", key_text_size: "14"}
-      - {click: "Y(^_^)Y", key_text_size: "14"}
-      - {click: "٩( 'ω' )و", key_text_size: "14"}
-      - {click: "╰(*´︶`*)╯", key_text_size: "14"}
-      - {click: "*罒▽罒*", key_text_size: "14"}
-      - {click: "ヾ ^_^♪", key_text_size: "14"}
-      - {click: "=￣ω￣=", key_text_size: "14"}
-      - {click: "︿(￣︶￣)︿", key_text_size: "14"}
-      - {click: "(´▽｀)ノ♪", key_text_size: "14"}
-      - {click: "乁( ˙ ω˙乁)", key_text_size: "14"}
-      - {click: "✧*｡٩(ˊωˋ*)و✧*｡", key_text_size: "10"}
-      - {click: "～(￣▽￣～)(～￣▽￣)～", width: 50, key_text_size: "14"}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '其它', click: Keyboard_punctuation_more, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #数学符号键盘
-  math_mark: #数学符号1
-    author: "csjtl"
-    name: 数学符号1
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '⁰'}
-      - {click: '¹'}
-      - {click: '²'}
-      - {click: '³'}
-      - {click: '⁴'}
-      - {click: '⁵'}
-      - {click: '⁶'}
-      - {click: '⁷'}
-      - {click: '⁶'}
-      - {click: '⁷'}
-      - {click: '⁸'}
-      - {click: '⁹'}
-      - {click: 'ⁿ'}
-      - {click: 'ⁱ'}
-      - {click: '⁺'}
-      - {click: '⁻'}
-      - {click: '⁼'}
-      - {click: '⅟'}
-      - {click: '↉'}
-      - {click: '¼'}
-      - {click: '½'}
-      - {click: '¾'}
-      - {click: '⅓'}
-      - {click: '⅔'}
-      - {click: '⅕'}
-      - {click: '⅖'}
-      - {click: '⅗'}
-      - {click: '⅘'}
-      - {click: '⅙'}
-      - {click: '⅚'}
-      - {click: '⅐'}
-      - {click: '⅛'}
-      - {click: '⅜'}
-      - {click: '⅝'}
-      - {click: '⅞'}
-      - {click: '⅑'}
-      - {click: '⅒'}
-      - {click: '₀'}
-      - {click: '₁'}
-      - {click: '₂'}
-      - {click: '₃'}
-      - {click: '₄'}
-      - {click: '₅'}
-      - {click: '₆'}
-      - {click: '₇'}
-      - {click: '₈'}
-      - {click: '₉'}
-      - {click: '₍'}
-      - {click: '₎'}
-      - {click: '₊'}
-      - {click: '₋'}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_more, long_click: Keyboard_math_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #拉丁符号键盘
-  latin_mark: #拉丁符号1
-    author: "csjtl"
-    name: 拉丁符号1
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: 'Ā'}
-      - {click: 'ā'}
-      - {click: 'Á'}
-      - {click: 'á'}
-      - {click: 'À'}
-      - {click: 'à'}
-      - {click: 'Ǎ'}
-      - {click: 'ǎ'}
-      - {click: 'Ǎ'}
-      - {click: 'ǎ'}
-      - {click: 'Â'}
-      - {click: 'â'}
-      - {click: 'Ä'}
-      - {click: 'ä'}
-      - {click: 'Ă'}
-      - {click: 'ă'}
-      - {click: 'Ã'}
-      - {click: 'ã'}
-      - {click: 'Å'}
-      - {click: 'å'}
-      - {click: 'Ą'}
-      - {click: 'Æ'}
-      - {click: 'ɑ'}
-      - {click: 'ą'}
-      - {click: 'æ'}
-      - {click: 'ɒ'}
-      - {click: 'ɐ'}
-      - {click: 'ɓ'}
-      - {click: 'ʙ'}
-      - {click: 'ɔ'}
-      - {click: 'Ć'}
-      - {click: 'Ċ'}
-      - {click: 'ć'}
-      - {click: 'ċ'}
-      - {click: 'Č'}
-      - {click: 'Ç'}
-      - {click: 'Ĉ'}
-      - {click: 'č'}
-      - {click: 'ç'}
-      - {click: 'ĉ'}
-      - {click: 'Ď'}
-      - {click: 'Ð'}
-      - {click: 'ď'}
-      - {click: 'ð'}
-      - {click: 'Đ'}
-      - {click: 'ɗ'}
-      - {click: 'ʤ'}
-      - {click: 'đ'}
-      - {click: 'ɖ'}
-      - {click: 'ʣ'}
-      - {click: 'Ē'}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_more, long_click: Keyboard_latin_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #几何符号键盘
-  geometry_mark: #几何符号1
-    author: "csjtl"
-    name: 几何符号1
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '←'}
-      - {click: '↑'}
-      - {click: '↓'}
-      - {click: '→'}
-      - {click: '↔'}
-      - {click: '↕'}
-      - {click: '↖'}
-      - {click: '↙'}
-      - {click: '↖'}
-      - {click: '↙'}
-      - {click: '↚'}
-      - {click: '↗'}
-      - {click: '↘'}
-      - {click: '↛'}
-      - {click: '↜'}
-      - {click: '↝'}
-      - {click: '↞'}
-      - {click: '↟'}
-      - {click: '↡'}
-      - {click: '↠'}
-      - {click: '↢'}
-      - {click: '↤'}
-      - {click: '↥'}
-      - {click: '↣'}
-      - {click: '↦'}
-      - {click: '↧'}
-      - {click: '↨'}
-      - {click: '↩'}
-      - {click: '↫'}
-      - {click: '↭'}
-      - {click: '↪'}
-      - {click: '↬'}
-      - {click: '↮'}
-      - {click: '↰'}
-      - {click: '↲'}
-      - {click: '↯'}
-      - {click: '↱'}
-      - {click: '↳'}
-      - {click: '↴'}
-      - {click: '↵'}
-      - {click: '↶'}
-      - {click: '↺'}
-      - {click: '↻'}
-      - {click: '↷'}
-      - {click: '↸'}
-      - {click: '↼'}
-      - {click: '↽'}
-      - {click: '↹'}
-      - {click: '⇀'}
-      - {click: '⇁'}
-      - {click: '⇄'}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_more, long_click: Keyboard_geometry_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-
- #其它符号键盘
-  other_mark: #其它符号1
-    author: "csjtl"
-    name: 其它符号1
-    #ascii_mode: 1
-    width: 10
-    height: *p_mark_h
-    keys:
-      - {click: '⨀'}
-      - {click: '⨁'}
-      - {click: '⨂'}
-      - {click: '⨃'}
-      - {click: '⨄'}
-      - {click: '⨅'}
-      - {click: '⨆'}
-      - {click: '⨇'}
-      - {click: '⨆'}
-      - {click: '⨇'}
-      - {click: '⨈'}
-      - {click: '⨉'}
-      - {click: '⨊'}
-      - {click: '⨋'}
-      - {click: '⨌'}
-      - {click: '⨍'}
-      - {click: '⨎'}
-      - {click: '⨏'}
-      - {click: '⨐'}
-      - {click: '⨑'}
-      - {click: '⨒'}
-      - {click: '⨓'}
-      - {click: '⨔'}
-      - {click: '⨕'}
-      - {click: '⨖'}
-      - {click: '⨗'}
-      - {click: '⨘'}
-      - {click: '⨙'}
-      - {click: '⨚'}
-      - {click: '⨛'}
-      - {click: '⨜'}
-      - {click: '⨝'}
-      - {click: '⨞'}
-      - {click: '⨟'}
-      - {click: '⨠'}
-      - {click: '⨡'}
-      - {click: '⨢'}
-      - {click: '⨣'}
-      - {click: '⨤'}
-      - {click: '⨥'}
-      - {click: '⨦'}
-      - {click: '⨧'}
-      - {click: '⨨'}
-      - {click: '⨩'}
-      - {click: '⨪'}
-      - {click: '⨫'}
-      - {click: '⨬'}
-      - {click: '⨭'}
-      - {click: '⨮'}
-      - {click: '⨯'}
-      - {click: '⨰'}
-      - {click: 'Keyboard_null', width: 90}
-      - {click: Keyboard_default, width: 12.5, height: *pbottom_end_h, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '中文', click: Keyboard_cn_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-      - {label: '英文', click: Keyboard_en_punctuation_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '货币', click: Keyboard_money_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '表情', click: Keyboard_emoji_symbols, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {label: '颜文', click: Keyboard_kaomoji_mark, width: 12.5, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_more, long_click: Keyboard_other_mark, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter, symbol_text_size: 16}
-      - {click: BackSpace, width: 12.5, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
-

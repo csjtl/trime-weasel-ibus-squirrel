@@ -1,8 +1,8 @@
 distribution_code_name: trime
-distribution_name: Rime
-distribution_version: "nightly-9-g0be59463"
+distribution_name: Trime
+distribution_version: "nightly-5-ge34584c2"
 install_time: "Sun Oct 29 23:43:41 2023"
 installation_id: "trime-backup"
-rime_version: 1.12.0
+rime_version: 1.13.0
 sync_dir: "/storage/emulated/0/OneSyncFiles/rime/sync"
-update_time: "Mon Dec 30 07:08:02 2024"
+update_time: "Sun Feb  2 11:45:27 2025"
