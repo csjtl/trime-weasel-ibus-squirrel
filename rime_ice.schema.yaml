@@ -72,9 +72,9 @@ engine:
     - lua_filter@autocap_filter                     # 英文自动大写
     - lua_filter@v_filter                           # v 模式 symbols 优先
     - lua_filter@pin_cand_filter                    # 置顶候选项（顺序要求：置顶候选项 > Emoji > 简繁切换）
-    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - lua_filter@reduce_english_filter              # 降低部分英语单词在候选项的位置
-    - simplifier@emoji_suggestion                             # Emoji
+    - simplifier@emoji_suggestion                 # Emoji
+    - lua_filter@long_word_filter                   # 长词优先（顺序要求：长词优先 > Emoji）
     - simplifier@traditionalize                     # 简繁切换
     - uniquifier                                    # 去重
 
@@ -364,6 +364,8 @@ traditionalize:
 #   half_shape 半角标点映射
 #   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols.yaml 修改成了 'v' 开头。
 punctuator:
+  #digit_separators:
+  #  __include: default:/punctuator/digit_separators
   full_shape:
     __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
   half_shape:

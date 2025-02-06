@@ -209,8 +209,8 @@ preset_color_schemes: #配色方案
     key_text_color: *dark_c02 #非主键盘按键文本
     keyboard_back_color: *dark_c04 #主键盘背景
     key_symbol_color: *dark_c02 #键盘按键长按符号（按键主字母/文字上方）
-    off_key_back_color: *dark_c05  #按键关闭状态背景（所有功能键背景色操作键盘）
-    off_key_text_color: *dark_c02 #按键关闭状态文本（所有功能键背景色操作键盘）
+    off_key_back_color: *dark_c05  #按键关闭状态背景（所有功能键背景色编辑键盘）
+    off_key_text_color: *dark_c02 #按键关闭状态文本（所有功能键背景色编辑键盘）
     on_key_back_color: *dark_c07 #按键打开状态背景/Shift键单击小写转大写后锁定大写时按键背景颜色
     on_key_text_color: *dark_c09 #按键打开状态文字/Shift键单击小写转大写后锁定大写时文字颜色
     preview_back_color: *dark_c05 #按键弹出显示背景/泡泡
@@ -552,6 +552,9 @@ preset_keys:
   delimiter: {label: 分词, text: ''''}
   uppage: {label: 上翻, text: '-'}
   downpage: {label: 下翻, text: '='}
+
+  #findcopy: {label: 查找复制, send: Alt+Return} # 没成功
+
   # rime组合键
   F4: {label: 方案菜单, send: F4}
   BackToPreviousSyllable: {label: 删音节, send: Control+BackSpace}
@@ -571,8 +574,7 @@ preset_keys:
   #切换键盘
   Keyboard_number: { label: 123, send: Eisu_toggle, select: number }
   Keyboard_number1: { label: 数字键, send: Eisu_toggle, select: number }
-  Keyboard_numberb: { label: 操作键, send: Eisu_toggle, select: numberb }
-  Keyboard_markdown: { label: MD, send: Eisu_toggle, select: markdown }
+  Keyboard_numberb: { label: 编辑键, send: Eisu_toggle, select: numberb }
   Keyboard_mini: {label: 迷你, send: Eisu_toggle, select: mini}
   Keyboard_move: { label: ❖, send: Eisu_toggle, select: move }
   Keyboard_next: { label: 后退, send: Eisu_toggle, select: .next }
@@ -588,7 +590,9 @@ preset_keys:
   liquid_keyboard_exit: {label: 返回, send: function, command: liquid_keyboard, option: "-1"}  #退出liquidkeyboard
 
   liquid_keyboard_number: { label: 数字键, send: Eisu_toggle, select: number}
-  liquid_keyboard_numberb: {label: '操作键', send: Eisu_toggle, select: numberb}
+  liquid_keyboard_numberb: {label: '编辑键', send: Eisu_toggle, select: numberb}
+  Keyboard_markdown: { label: MD, send: Eisu_toggle, select: markdown }
+  Keyboard_app_keys: { label: APP, send: Eisu_toggle, select: app_keys }
   Keyboard_punctuation_mark: { label: "🙂#?", send: function, command: liquid_keyboard, option: "更多" }
 
 # markdown
@@ -651,6 +655,7 @@ preset_keys:
   Time: {label: 时间, command: date, option: " HH:mm:ss "} #时间： date 格式
   DateTime: {label: 日期, command: date, option: "yyyy-MM-dd-HHmmss"}
   TrimeApp: {label: 同文, command: run, option: "com.osfans.trime"} #运行程序: run 包名
+  QQApp: {label: QQ, command: run, option: "com.tencent.mobileqq"}
   TrimeCmp: {label: 同文组件, command: run, option: "com.osfans.trime/.Pref"} #运行程序指定组件: run 包名/组件名
   Homepage: {label: 同文主页, command: run, option: "https://github.com/osfans/trime"} #查看网页: run 网址
   CommitHomepage: {label: 同文网址, commit: https://github.com/osfans/trime} #直接上屏
@@ -663,8 +668,8 @@ preset_keys:
   WebSearch: {label: 搜索网页, command: web_search, option: "%4$s"} #搜索，其他view、dial、edit、search等intent，参考安卓的intent文档：https://developer.android.com/reference/android/content/Intent.html
   Search: {label: 搜索, command: search, option: "%1$s"} #搜索短信、字典等
   Share: {label: 分享, command: send, option: "%s"} #分享指定文本: %s或者%1$s爲当前字符
-  Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.deploy"}
-  Sync: {label: 同步,  broadcast, option: "com.osfans.trime.sync"}
+  Deploy: {label: 部署, command: broadcast, option: "com.osfans.trime.action.DEPLOY"}
+  Sync: {label: 同步,  broadcast, option: "com.osfans.trime.action.SYNC_USER_DATA"}
   RepeatCommit: { label: 重复,  command: commit, option: "%1$s" } #重复输入刚上屏的内容
 
   Left1: {label: '⇦', send: Control+Left, repeatable: true}
@@ -736,7 +741,6 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, swipe_left: Escape, width: 15}
       - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
- #键盘布局
   rime_ice:
     author: "csjtl"
     name: 预设45键
@@ -781,8 +785,8 @@ preset_keyboards:
       - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
       - {click: Shift_L, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
-      #- {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: *ubuntu_o}
       - {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      #- {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: *ubuntu_o}
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
@@ -792,22 +796,22 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 15, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_mark, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_markdown, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: 'Keyboard_app_keys', composing: delimiter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_markdown, long_click: Color_switch, composing: uppage, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: space, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 37, key_back_color: b_kg, key_text_color: t_kg}
-      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Menu, long_click: Theme_settings, composing: downpage, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
       - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
       - {click: '`', long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09, height: 80}
-      - {click: '-', long_click: '——', composing: uppage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
-      - {click: '=', long_click: '+', composing: downpage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: '-', long_click: '——', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: '=', long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '[', long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ']', long_click: '}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '\',  long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ';', long_click: '：', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
-      - {click: "'",  long_click: '“”{Left}', composing: delimiter, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: "'",  long_click: '“”{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ',', long_click: '《', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '.',  long_click: '》', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '/',  long_click: '？', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
@@ -856,8 +860,8 @@ preset_keyboards:
       - {width: 5, key_symbol_offset_x: *ksox_e, key_back_color: b_h2, key_text_color: t_h2}
 
       - {click: Shift_L, width: 12, hilited_key_back_color: b_enter, key_back_color: b_bs, key_text_color: t_bs}
-      - {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: *ubuntu_o}
       #- {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: t_h3}
+      - {click: z, long_click: '', key_symbol_offset_x: *ksox_e, key_back_color: b_h3, key_text_color: *ubuntu_o}
       - {click: x, long_click: cut, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: c, long_click: copy, swipe_down: ' ', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
       - {click: v, long_click: paste_clip, swipe_down: paste, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_h3, key_text_color: t_h3}
@@ -867,22 +871,22 @@ preset_keyboards:
       - {click: BackSpace, swipe_right: Delete, width: 18, key_back_color: b_bs, key_text_color: t_bs}
 
       - {click: Keyboard_number, long_click: Keyboard_numberb, width: 15, height: *keyb_end_h, round_corner: *enter_round, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_punctuation_mark, long_click: '', key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
-      - {click: Keyboard_markdown, long_click: Color_switch, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: 'Keyboard_app_keys', composing: delimiter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_markdown, long_click: Color_switch, composing: uppage, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_text_size: "18", key_back_color: b_gn, key_text_color: t_gn}
       - {click: space, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 37, key_back_color: b_kg, key_text_color: t_kg}
-      - {click: Menu, long_click: Theme_settings, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Menu, long_click: Theme_settings, composing: downpage, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_gn, key_text_color: t_gn}
       - {click: Return, composing: Return1, long_click: '', width: 18, round_corner: *enter_round, key_text_offset_x: *ktox_enter, key_symbol_offset_y: *ksoy_c, symbol_text_size: *sts_c, key_back_color: b_enter, key_text_color: t_enter, key_symbol_color: t_enter}
 
       - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
 
       - {click: '`', long_click: '~', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09, height: 80}
-      - {click: '-', long_click: '——', composing: uppage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
-      - {click: '=', long_click: '+', composing: downpage, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: '-', long_click: '——', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: '=', long_click: '+', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '[', long_click: '{', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ']', long_click: '}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '\',  long_click: '|', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ';', long_click: '：', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
-      - {click: "'",  long_click: '“”{Left}', composing: delimiter, key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
+      - {click: "'",  long_click: '“”{Left}', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: ',', long_click: '《', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '.',  long_click: '》', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
       - {click: '/',  long_click: '？', key_symbol_offset_x: *ksox_e, key_back_color: b_h0, key_text_color: t_h0, width: 9.09}
@@ -941,7 +945,7 @@ preset_keyboards:
       - {click: '%', key_back_color: b_gn, key_text_color: t_gn}
       - {click: BackSpace, key_back_color: b_enter, key_text_color: t_enter}
 
-      - {label: 操作键, click: Keyboard_numberb, key_back_color: b_gn, key_text_color: t_gn}
+      - {label: 编辑键, click: Keyboard_numberb, key_back_color: b_gn, key_text_color: t_gn}
       - {click: 4}
       - {click: 5, key_back_color: key_fj_back_color}
       - {click: 6}
@@ -965,8 +969,8 @@ preset_keyboards:
 
   numberb:
     #ascii_mode: 1
-    author: flypy.com
-    name: 操作键盘
+    author: csjtl
+    name: 编辑键盘
     width: 20.25
     height: *keyb_gn_h
     keys:
@@ -1045,3 +1049,39 @@ preset_keyboards:
       - {click: space_markdown, long_click: TGboard, swipe_left: "Left", swipe_right: "Right", width: 33, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
       - {click: BackSpace, swipe_right: Delete, height: 70, width: 16, key_back_color: b_bs, key_text_color: t_bs}
       - {click: Return, height: 70, width: 17, key_text_size: "36", key_back_color: b_enter, key_text_color: t_enter}
+
+  app_keys:
+    #ascii_mode: 1
+    author: csjtl
+    name: app 功能键盘
+    width: 16.6
+    height: *keyb_gn_h
+    keys:
+      - {click: Date}
+      - {click: ChineseDate}
+      - {click: Time}
+      - {click: DateTime}
+      - {click: TrimeApp}
+      - {click: QQApp}
+      - {click: TrimeCmp}
+      - {click: Homepage}
+      - {click: CommitHomepage}
+      - {click: Wiki}
+      - {click: Google}
+      - {click: MoeDict}
+      - {click: Baidu}
+      - {click: Zdic}
+      - {click: Zdic2}
+      - {click: WebSearch}
+      - {click: Search}
+      - {click: Share}
+      - {click: Deploy}
+      - {click: Sync}
+      - {click: RepeatCommit}
+
+      - {click: '', height: 1, width: 100, key_back_color: *ubuntu_o, key_text_color: ubuntu_o}
+
+      - {click: Keyboard_last_lock, height: 70, width: 19, key_text_size: "16", key_back_color: b_enter, key_text_color: t_enter}
+      - {click: space1, long_click: TGboard, height: 70, width: 62, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      - {click: Keyboard_punctuation_mark, long_click: 'Settings', width: 19, key_text_size: "16", key_back_color: b_gn, key_text_color: t_gn}
+      

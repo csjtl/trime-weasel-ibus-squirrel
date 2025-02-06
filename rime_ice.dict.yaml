@@ -22,6 +22,7 @@ import_tables:
  # - dicts/dicts_cn/pinyin/pinyinB03
 
   - dicts/dicts_cn/pinyin/pinyin_guanyongyu
+  - dicts/dicts_cn/pinyin/pinyin_xiehouyu
   - dicts/dicts_cn/pinyin/others   # 一些杂项
 
   - dicts/emoji/emoji_cd_pin
