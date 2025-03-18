@@ -18,14 +18,14 @@ sort: by_weight
 空落落的	kong luo luo de
 空落落的	kong lao lao de
 # 「阿房宫」的注音争议比较大
-阿房宫	e pang gong
-阿房宫	a pang gong
-阿房宫	e fang gong
-阿房宫	a fang gong
-阿房宫赋	e pang gong fu
-阿房宫赋	a pang gong fu
-阿房宫赋	e fang gong fu
-阿房宫赋	a fang gong fu
+阿房宫	ee pang gong
+阿房宫	aa pang gong
+阿房宫	ee fang gong
+阿房宫	aa fang gong
+阿房宫赋	ee pang gong fu
+阿房宫赋	aa pang gong fu
+阿房宫赋	ee fang gong fu
+阿房宫赋	aa fang gong fu
 # 「伯伯」方言
 伯伯	bo bo
 伯伯	bai bai
@@ -102,12 +102,12 @@ sort: by_weight
 人模狗样	ren mo gou yang
 模板	mu ban
 模板	mo ban
-阿弥陀佛	e mi tuo fo
-阿弥陀佛	a mi tuo fo
-南无阿弥陀佛	na mo e mi tuo fo
-南无阿弥陀佛	na mo a mi tuo fo
-南无阿弥陀佛	nan wu e mi tuo fo
-南无阿弥陀佛	nan wu a mi tuo fo
+阿弥陀佛	ee mi tuo fo
+阿弥陀佛	aa mi tuo fo
+南无阿弥陀佛	na mo ee mi tuo fo
+南无阿弥陀佛	na mo aa mi tuo fo
+南无阿弥陀佛	nan wu ee mi tuo fo
+南无阿弥陀佛	nan wu aa mi tuo fo
 给予	ji yu
 给予	gei yu
 槟榔	bing lang
@@ -947,7 +947,7 @@ sort: by_weight
 香水纯	xiang shui chun
 小仓七海	xiao cang qi hai
 小仓由菜	xiao cang you cai
-小川阿佐美	xiao chuan a zuo mei
+小川阿佐美	xiao chuan aa zuo mei
 小凑四叶	xiao cou si ye
 小岛纯名	xiao dao chun ming
 小岛南	xiao dao nan

@@ -12,7 +12,7 @@ schema:
     1 五笔字型新世纪版
     敲 z 键进入拼音反查
   dependencies:
-    - rime_ice
+    - focus_pinyin
 
 #style:
  # candidate_font: Plangothic.ttc #候选字体
@@ -68,8 +68,8 @@ engine:
     - uniquifier
 
 speller:
-  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-="
-  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-="
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=/"
+  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=/"
   delimiter: " ;'"  #上屛时的音节间分音符
   #max_code_length: 4  # 四码顶字上屏
   auto_select: false    #自动上屏
@@ -93,7 +93,7 @@ translator:
     - "^z.*$"
 
 reverse_lookup:
-  dictionary: rime_ice
+  dictionary: focus_pinyin
   prefix: "z"
   suffix: "'"
   tips: 〔拼音〕

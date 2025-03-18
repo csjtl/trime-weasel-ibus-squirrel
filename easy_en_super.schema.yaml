@@ -44,7 +44,7 @@ engine:
     - script_translator@easy_en_script
     - punct_translator
   filters:
-    - lua_filter@en_sort_filter
+    - lua_filter@*easy_en_super/filter_en_sort_filter
     - reverse_lookup_filter@e_reverse_lookup
     - uniquifier
 

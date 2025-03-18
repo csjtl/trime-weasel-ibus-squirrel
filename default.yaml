@@ -13,7 +13,7 @@ schema_list:
   - schema: focus_en
   - schema: easy_en_super
   - schema: five_strokes
-  - schema: rime_ice               # 雾凇拼音（全拼）
+  - schema: focus_pinyin
 
 
 # 菜单
@@ -82,7 +82,8 @@ ascii_composer:
 #              '~' 是半角的，
 #              '`'（反引号）没有改成 '·'（间隔号）。
 punctuator:
-  digit_separators: "." # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 28a234f
+  #digit_separator_action: commit
+  digit_separators: "./" # 在此处指定的字符，在数字后被输入，若再次输入数字，则连同数字直接上屏；若双击，则恢复映射。 # librime >= 28a234f
   full_shape:
     __include: punctuation:/full_shape
   half_shape:

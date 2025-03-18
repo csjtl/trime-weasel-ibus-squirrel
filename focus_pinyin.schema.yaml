@@ -1,0 +1,334 @@
+# Rime schema
+# encoding: utf-8
+
+
+# 方案说明
+schema:
+  schema_id: focus_pinyin
+  name: 焦点拼音
+  version: "2025-2-12"
+  author:
+    - Dvel
+    - focus_pinyin https://tl8517.com
+  description: |
+    雾凇拼音的配置文件
+    https://github.com/iDvel/rime-ice
+    万象拼音的词库
+    薄荷拼音的拼写
+  dependencies:
+    - focus_en        # 英文输入，作为次翻译器挂载到拼音方案
+
+
+# 开关
+# reset: 默认状态。注释掉后，切换窗口时不会重置到默认状态。
+# states: 方案选单显示的名称。可以注释掉，仍可以通过快捷键切换。
+# abbrev: 默认的缩写取 states 的第一个字符，abbrev 可自定义一个字符
+switches:
+  - name: ascii_mode
+    states: [ 中文 , 英文 ]
+    reset: 0
+  - name: full_shape
+    states: [ 🌙 , 🌕️ ]
+    reset: 0
+  - name: ascii_punct
+    states: [ 。， , ".  , " ]
+    reset: 0
+  - name: traditionalization
+    states: [ 简体 , 繁体 ]
+    reset: 0
+  - name: charset_comment_filter  #Unicode 区段提示，0关，1开
+    states: [ 区关 , 区显 ]
+    reset: 0
+  - name: emoji_suggestion
+    states: [ "🈚️\uFE0E" , "🈶️️\uFE0F" ]
+    reset: 0
+
+
+# 输入引擎
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - lua_translator@*rime_ice/date_translator    # 时间、日期、星期
+    - lua_translator@*rime_ice/lunar              # 农历
+    - table_translator@custom_phrase     # 自定义短语 custom_phrase.txt
+    - table_translator@focus_en         # 英文输入
+    - table_translator@cn_en             # 中英混合词汇
+    - lua_translator@*rime_ice/unicode            # Unicode
+    - lua_translator@*rime_ice/number_translator  # 数字、金额大写
+    - lua_translator@*rime_ice/calc_translator    # 计算器
+    - lua_translator@*rime_ice/force_gc           # 暴力 GC
+  filters:
+    - lua_filter@charset_comment_filter
+    - lua_filter@*rime_ice/corrector                         # 错音错字提示
+    - lua_filter@*rime_ice/long_word_filter                  # 长词优先（顺序要求：长词优先 > Emoji）
+    - simplifier@emoji_suggestion                 # Emoji
+
+    - simplifier@traditionalize                     # 简繁切换
+    - uniquifier                                    # 去重
+
+
+# Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
+date_translator:
+  date: rq       # 日期： 2022-11-29
+  time: sj       # 时间：  18:13
+  week: xq       # 星期： 星期二
+  datetime: dt   # ISO 8601： 2022-11-29T18:13:11+08:00
+  timestamp: ts  # 时间戳： 1669716794
+
+
+# Lua 配置：农历的触发关键字
+lunar: nl  # 农历： 二〇二三年冬月二十 癸卯年（兔）冬月二十
+
+
+# Lua 配置：长词优先
+# 提升 count 个词语，插入到第 idx 个位置。
+# 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶 6结 7界……」
+long_word_filter:
+  count: 2
+  idx: 4
+
+# 主翻译器，拼音
+translator:
+  dictionary: focus_pinyin         # 挂载词库 focus_pinyin.dict.yaml
+  enable_user_dict: true
+  #db_class: tabledb             #用户字典类型
+  user_dict: db_focus_pinyin
+  enable_word_completion: true # 大于 4 音节的词条自动补全，librime > 1.11.2
+  spelling_hints: 8            # corrector.lua ：为了让错音错字提示的 Lua 同时适配全拼双拼，将拼音显示在 comment 中
+  always_show_comments: true   # corrector.lua ：Rime 默认在 preedit 等于 comment 时取消显示 comment，这里强制一直显示，供 corrector.lua 做判断用。
+  initial_quality: 1.2         # 拼音的权重应该比英文大
+  comment_format:              # 标记拼音注释，供 corrector.lua 做判断用
+    - xform/^/［/
+    - xform/$/］/
+  preedit_format:              # preedit_format 影响到输入框的显示和“Shift+回车”上屏的字符
+    - xform/([jqxy])v/$1u/     # 显示为 ju qu xu yu
+    # - xform/([nl])v/$1ü/     # 显示为 nü lü
+    # - xform/([nl])ue/$1üe/   # 显示为 nüe lüe
+    - xform/([nl])v/$1v/       # 显示为 nv lv
+    - xform/([nl])ue/$1ve/     # 显示为 nve lve
+
+
+# 次翻译器，英文
+focus_en:
+  dictionary: focus_en     # 挂载词库 focus_en.dict.yaml
+  enable_sentence: false   # 禁止造句
+  enable_user_dict: false  # 禁用用户词典
+  initial_quality: 1.1     # 初始权重
+  comment_format:          # 自定义提示码
+    - xform/.*//           # 清空提示码
+
+
+# 中英混合词汇
+cn_en:
+  dictionary: ""
+  user_dict: dicts/dicts_cn/pinyin/cn_en
+  db_class: stabledb
+  enable_completion: true
+  enable_sentence: false
+  initial_quality: 0.5
+  comment_format:
+    - xform/^.+$//
+
+
+# 自定义短语：custom_phrase.txt
+custom_phrase:
+  dictionary: ""
+  user_dict: dicts/dicts_cn/pinyin/custom_phrase  # 可以修改这里，改成自己的 txt 文件
+  db_class: stabledb        # 只读数据库，无法动态调频；设为 tabledb 可以动态调频
+  enable_completion: false  # 补全提示
+  enable_sentence: false    # 禁止造句
+  initial_quality: 99       # custom_phrase 的权重应该比 pinyin 和 focus_en 大
+
+
+# Emoji
+emoji_suggestion:
+  option_name: emoji_suggestion
+  opencc_config: emoji_cn.json
+  tips: all
+  inherit_comment: false     # 在 corrector.lua 及反查中，emoji 的 comment 显示为空
+
+
+# 简繁切换
+traditionalize:
+  option_name: traditionalization
+  opencc_config: s2t.json  # 简 -> 繁
+  #  opencc_config: s2hk.json  # 繁 -> 香港
+  #  opencc_config: t2s.json   # 繁 -> 简
+  #  opencc_config: t2tw.json  # 繁 -> 台湾
+  #  opencc_config: t2hk.json  # 繁 -> 香港
+  #  opencc_config: s2tw.json  # 简 -> 台湾标准
+  #  opencc_config: s2twp.json  # 简 -> 台湾片语
+  tips: none               # 转换提示: all 都显示 | char 仅单字显示 | none 不显示。
+  tags: [ abc, number, gregorian_to_lunar ]  # 限制在对应 tag，不对其他如反查的内容做简繁转换
+
+
+# 标点符号
+# punctuator 下面有三个子项：
+#   full_shape 全角标点映射
+#   half_shape 半角标点映射
+#   symbols    Rime 的预设配置是以 '/' 前缀开头输出一系列字符，自定义的 symbols.yaml 修改成了 'v' 开头。
+punctuator:
+  digit_separators:
+    __include: default:/punctuator/digit_separators
+  full_shape:
+    __include: default:/punctuator/full_shape  # 从 default.yaml 导入配置
+  half_shape:
+    __include: default:/punctuator/half_shape  # 从 default.yaml 导入配置
+  symbols:
+    __include: symbols:/symbols              # 从 symbols.yaml 导入symbols 配置
+
+# 处理符合特定规则的输入码，如网址、反查
+recognizer:
+  import_preset: default                # 从 default.yaml 继承通用的
+  patterns:                             # 再增加方案专有的：
+    punct: "^/([0-9]|10|[A-Za-z]+)$"    # 响应 symbols_v.yaml 的 symbols，用 'v' 替换 '/'
+    unicode: "^U[a-f0-9]+"              # 脚本将自动获取第 2 个字符 U 作为触发前缀，响应 lua_translator@*unicode，输出 Unicode 字符
+    number: "^R[0-9]+[.]?[0-9]*"        # 脚本将自动获取第 2 个字符 R 作为触发前缀，响应 lua_translator@*number_translator，数字金额大写
+    calculator: "^cC.+"                 # 响应 lua_translator@*calc_translator，计算器。前缀设定项 calculator/prefix
+    gregorian_to_lunar: "^N[0-9]{1,8}"  # 脚本将自动获取第 2 个字符 N 作为触发前缀，响应 lua_translator@*lunar，公历转农历，输入 N20240115 得到「二〇二三年腊月初五」
+
+# 从 default 继承快捷键
+key_binder:
+  import_preset: default  # 从 default.yaml 继承通用的
+  search: "`"             # 辅码引导符，要添加到 speller/alphabet
+  # bindings:             # 也可以再增加方案专有的快捷键
+
+
+# 拼写设定
+speller:
+  # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
+  alphabet: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=/"
+  # initials 定义仅作为始码的按键，排除 ` 让单个的 ` 可以直接上屏
+  initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA-=/"
+  delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
+  algebra:
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    - xform/ń|ň|ǹ/en/ 
+    - xform/ńg|ňg|ǹg/en/
+
+    - erase/^xx$/ # 首选保留
+    # - derive/^([zcs])h/$1/ # zh, ch, sh => z, c, s
+    # - derive/^([zcs])([^h])/$1h$2/ # z, c, s => zh, ch, sh
+    # - derive/([aei])n$/$1ng/ # en => eng, in => ing
+    # - derive/([aei])ng$/$1n/ # eng => en, ing => in
+    # - derive/([iu])an$/$lan/ # ian => iang, uan => uang
+    # - derive/([iu])ang$/$lan/ # iang => ian, uang => uan
+    - derive/([aeiou])ng$/$1gn/        # dagn => dang
+    - derive/([dtngkhrzcs])o(u|ng)$/$1o/  # zho => zhong|zhou
+    - derive/ong$/on/                  # zhonguo => zhong guo
+    - derive/un$/ong/                  # yuntong = yongtong
+    ## 简拼
+    - derive/^([a-z]).+$/$1/         # 通过正则表达式提取每个拼音的首字母
+    - derive/^([zcs]h).+$/$1/        # 特别处理 zh, ch, sh 的首字母简写
+    - abbrev/^([a-z]).+$/$1/         # 允许使用首字母作为缩写
+    # 简拼: 允许使用前两个字母作为缩写
+    # - abbrev/^([a-z]{2,}).+$/$1/     # zem -> zen me -> 怎么
+     ### 自动纠错
+    # 有些规则对全拼简拼混输有副作用：如「x'ai 喜爱」被纠错为「xia 下」
+    # zh、ch、sh
+    #- derive/([zcs])h(a|e|i|u|ai|ei|an|en|ou|uo|ua|un|ui|uan|uai|uang|ang|eng|ong)$/h$1$2/  # hzi → zhi
+    #- derive/([zcs])h([aeiu])$/$1$2h/  # zih → zhi
+    # ai
+    #- derive/^([wghk])ai$/$1ia/  # wia → wai
+    # ia
+    #- derive/([qjx])ia$/$1ai/  # qai → qia
+    # ei
+    #- derive/([wtfghkz])ei$/$1ie/
+    # ie
+    #- derive/([jqx])ie$/$1ei/
+    # ao
+    #- derive/([rtypsdghklzcbnm])ao$/$1oa/
+    # ou
+    #- derive/([ypfm])ou$/$1uo/
+    # uo（无）
+    # an
+    #- derive/([wrtypsdfghklzcbnm])an$/$1na/
+    # en
+    #- derive/([wrpsdfghklzcbnm])en$/$1ne/
+    # ang
+    #- derive/([wrtypsdfghklzcbnm])ang$/$1nag/
+    #- derive/([wrtypsdfghklzcbnm])ang$/$1agn/
+    # eng
+    #- derive/([wrtpsdfghklzcbnm])eng$/$1neg/
+    #- derive/([wrtpsdfghklzcbnm])eng$/$1egn/
+    # ing
+    #- derive/([qtypdjlxbnm])ing$/$1nig/
+    #- derive/([qtypdjlxbnm])ing$/$1ign/
+    # ong
+    #- derive/([rtysdghklzcn])ong$/$1nog/
+    #- derive/([rtysdghklzcn])ong$/$1ogn/
+    # iao
+    #- derive/([qtpdjlxbnm])iao$/$1ioa/
+    #- derive/([qtpdjlxbnm])iao$/$1oia/
+    # ui
+    #- derive/([rtsghkzc])ui$/$1iu/
+    # iu
+    #- derive/([qjlxnm])iu$/$1ui/
+    # ian
+    #- derive/([qtpdjlxbnm])ian$/$1ain/
+    # - derive/([qtpdjlxbnm])ian$/$1ina/ # 和「李娜、蒂娜、缉拿」等常用词有冲突
+    # in
+    #- derive/([qypjlxbnm])in$/$1ni/
+    # iang
+    #- derive/([qjlxn])iang$/$1aing/
+    #- derive/([qjlxn])iang$/$1inag/
+    # ua
+    #- derive/([g|k|h|zh|sh])ua$/$1au/
+    # uai
+    #- derive/([g|h|k|zh|ch|sh])uai$/$1aui/
+    #- derive/([g|h|k|zh|ch|sh])uai$/$1uia/
+    # uan
+    #- derive/([qrtysdghjklzxcn])uan$/$1aun/
+    # - derive/([qrtysdghjklzxcn])uan$/$1una/ # 和「去哪、露娜」等常用词有冲突
+    # un
+    #- derive/([qrtysdghjklzxc])un$/$1nu/
+    # ue
+    #- derive/([nlyjqx])ue$/$1eu/
+    # uang
+    #- derive/([g|h|k|zh|ch|sh])uang$/$1aung/
+    #- derive/([g|h|k|zh|ch|sh])uang$/$1uagn/
+    #- derive/([g|h|k|zh|ch|sh])uang$/$1unag/
+    #- derive/([g|h|k|zh|ch|sh])uang$/$1augn/
+    # iong
+    #- derive/([jqx])iong$/$1inog/
+    #- derive/([jqx])iong$/$1oing/
+    #- derive/([jqx])iong$/$1iogn/
+    #- derive/([jqx])iong$/$1oign/
+    # 其他
+    #- derive/([rtsdghkzc])o(u|ng)$/$1o/ # do → dou|dong
+    #- derive/ong$/on/ # lon → long
+    #- derive/([tl])eng$/$1en/ # ten → teng
+    #- derive/([qwrtypsdfghjklzxcbnm])([aeio])ng$/$1ng/ # lng → lang、leng、ling、long
+    #- derive/un$/ong/                  # yuntong = yongtong
+
+__include: octagram   #启用语言模型
+#语言模型
+octagram:
+  __patch:
+    grammar:
+      language: wanxiang-lts-zh-hans
+      collocation_max_length: 8         #命中的最长词组
+      collocation_min_length: 3         #命中的最短词组，搭配词频健全的词库时候应当最小值设为3避开2字高频词
+      collocation_penalty: -10          #默认-12 对常见搭配词组施加的惩罚值。较高的负值会降低这些搭配被选中的概率，防止过于频繁地出现某些固定搭配。
+      non_collocation_penalty: -12      #默认-12 对非搭配词组施加的惩罚值。较高的负值会降低非搭配词组被选中的概率，避免不合逻辑或不常见的词组组合。
+      weak_collocation_penalty: -24     #默认-24 对弱搭配词组施加的惩罚值。保持默认值通常是为了有效过滤掉不太常见但仍然合理的词组组合。
+      rear_penalty: -30                 #默认-18 对词组中后续词语的位置施加的惩罚值。较高的负值会降低某些词语在句子后部出现的概率，防止句子结构不自然。
+    translator/contextual_suggestions: false
+    translator/max_homophones: 5
+    translator/max_homographs: 5

@@ -7,10 +7,10 @@ name: division
 version: "2025-01-30 20:44"
 sort: by_weight
 ...
-阿坝	ā bà	601
-阿城	ā chéng	500
-阿里	ā lǐ	856
-阿莲	ā lián	452
+阿坝	āā bà	601
+阿城	āā chéng	500
+阿里	āā lǐ	856
+阿莲	āā lián	452
 爱辉	ài huī	406
 爱民	ài mín	584
 安次	ān cì	390
@@ -407,7 +407,7 @@ sort: by_weight
 东昌	dōng chāng	543
 东城	dōng chéng	691
 东川	dōng chuān	570
-东阿	dōng ē	541
+东阿	dōng ēē	541
 东方	dōng fāng	862
 东风	dōng fēng	782
 东丰	dōng fēng	428
@@ -455,12 +455,12 @@ sort: by_weight
 敦煌	dūn huáng	677
 掇刀	duō dāo	339
 多伦	duō lún	693
-峨边	é biān	373
-鄂城	è chéng	400
-峨眉	é méi	659
-额敏	é mǐn	413
-峨山	é shān	447
-鄂州	è zhōu	557
+峨边	éé biān	373
+鄂城	èè chéng	400
+峨眉	éé méi	659
+额敏	éé mǐn	413
+峨山	éé shān	447
+鄂州	èè zhōu	557
 恩平	ēn píng	496
 恩施	ēn shī	609
 恩阳	ēn yáng	463
@@ -2219,7 +2219,7 @@ sort: by_weight
 天长	tiān cháng	639
 天等	tiān děng	461
 田东	tián dōng	512
-天峨	tiān é	351
+天峨	tiān éé	351
 天河	tiān hé	702
 天津	tiān jīn	870
 天峻	tiān jùn	399
@@ -3096,21 +3096,21 @@ sort: by_weight
 左营	zuǒ yíng	545
 左云	zuǒ yún	391
 左镇	zuǒ zhèn	397
-阿坝县	ā bà xiàn	380
-阿城区	ā chéng qū	1
-阿尔山	ā ěr shān	532
-阿合奇	ā hé qí	309
-阿克塞	ā kè sāi	1
-阿克苏	ā kè sū	571
-阿克陶	ā kè táo	378
-阿拉尔	ā lā ěr	450
-阿拉善	ā lā shàn	571
-阿勒泰	ā lè tài	573
-阿里山	ā lǐ shān	567
-阿莲区	ā lián qū	1
-阿荣旗	ā róng qí	355
-阿图什	ā tú shí	409
-阿瓦提	ā wǎ tí	406
+阿坝县	āā bà xiàn	380
+阿城区	āā chéng qū	1
+阿尔山	āā ěr shān	532
+阿合奇	āā hé qí	309
+阿克塞	āā kè sāi	1
+阿克苏	āā kè sū	571
+阿克陶	āā kè táo	378
+阿拉尔	āā lā ěr	450
+阿拉善	āā lā shàn	571
+阿勒泰	āā lè tài	573
+阿里山	āā lǐ shān	567
+阿莲区	āā lián qū	1
+阿荣旗	āā róng qí	355
+阿图什	āā tú shí	409
+阿瓦提	āā wǎ tí	406
 爱辉区	ài huī qū	339
 爱民区	ài mín qū	223
 安次区	ān cì qū	313
@@ -3524,7 +3524,7 @@ sort: by_weight
 东昌区	dōng chāng qū	312
 东城区	dōng chéng qū	633
 东川区	dōng chuān qū	401
-东阿县	dōng ē xiàn	402
+东阿县	dōng ēē xiàn	402
 东方市	dōng fāng shì	1
 东风区	dōng fēng qū	249
 东丰县	dōng fēng xiàn	339
@@ -3579,11 +3579,11 @@ sort: by_weight
 敦煌市	dūn huáng shì	456
 掇刀区	duō dāo qū	291
 多伦县	duō lún xiàn	399
-鄂城区	è chéng qū	315
-峨眉山	é méi shān	629
-峨眉乡	é méi xiāng	1
-额敏县	é mǐn xiàn	316
-鄂州市	è zhōu shì	461
+鄂城区	èè chéng qū	315
+峨眉山	éé méi shān	629
+峨眉乡	éé méi xiāng	1
+额敏县	éé mǐn xiàn	316
+鄂州市	èè zhōu shì	461
 恩平市	ēn píng shì	389
 恩施市	ēn shī shī	440
 恩阳区	ēn yáng qū	1
@@ -5382,7 +5382,7 @@ sort: by_weight
 天长市	tiān cháng shì	418
 天等县	tiān děng xiàn	309
 田东县	tián dōng xiàn	314
-天峨县	tiān é xiàn	293
+天峨县	tiān éé xiàn	293
 天河区	tiān hé qū	590
 田家庵	tián jiā ān	1
 天津市	tiān jīn shì	716
@@ -6277,19 +6277,19 @@ sort: by_weight
 左营区	zuǒ yíng qū	427
 左云县	zuǒ yún xiàn	348
 左镇区	zuǒ zhèn qū	1
-阿巴嘎旗	ā bā gā qí	351
-阿尔山市	ā ěr shān shì	378
-阿合奇县	ā hé qí xiàn	283
-阿克苏市	ā kè sū shì	386
-阿克陶县	ā kè táo xiàn	352
-阿拉尔市	ā lā ěr shì	379
-阿拉山口	ā lā shān kǒu	415
-阿拉善盟	ā lā shàn méng	476
-阿勒泰市	ā lè tài shì	399
-阿里地区	ā lǐ dì qū	451
-阿里山乡	ā lǐ shān xiāng	1
-阿图什市	ā tú shí shì	344
-阿瓦提县	ā wǎ tí xiàn	347
+阿巴嘎旗	āā bā gā qí	351
+阿尔山市	āā ěr shān shì	378
+阿合奇县	āā hé qí xiàn	283
+阿克苏市	āā kè sū shì	386
+阿克陶县	āā kè táo xiàn	352
+阿拉尔市	āā lā ěr shì	379
+阿拉山口	āā lā shān kǒu	415
+阿拉善盟	āā lā shàn méng	476
+阿勒泰市	āā lè tài shì	399
+阿里地区	āā lǐ dì qū	451
+阿里山乡	āā lǐ shān xiāng	1
+阿图什市	āā tú shí shì	344
+阿瓦提县	āā wǎ tí xiàn	347
 昂昂溪区	áng áng xī qū	253
 八公山区	bā gōng shān qū	223
 巴林右旗	bā lín yòu qí	373
@@ -6322,11 +6322,11 @@ sort: by_weight
 杜尔伯特	dù ěr bó tè	416
 都江堰市	dū jiāng yàn shì	476
 独山子区	dú shān zǐ qū	290
-鄂尔多斯	è ěr duō sī	595
-额尔古纳	é ěr gǔ nà	446
-额济纳旗	é jì nà qí	478
-峨眉山市	é méi shān shì	445
-鄂托克旗	è tuō kè qí	375
+鄂尔多斯	èè ěr duō sī	595
+额尔古纳	éé ěr gǔ nà	446
+额济纳旗	éé jì nà qí	478
+峨眉山市	éé méi shān shì	445
+鄂托克旗	èè tuō kè qí	375
 二道江区	èr dào jiāng qū	253
 二连浩特	èr lián hào tè	428
 防城港市	fáng chéng gǎng shì	477
@@ -6504,16 +6504,16 @@ sort: by_weight
 驻马店市	zhù mǎ diàn shì	528
 准格尔旗	zhǔn gé ěr qí	393
 自流井区	zì liú jǐng qū	324
-阿克苏地区	ā kè sū dì qū	438
-阿拉山口市	ā lā shān kǒu shì	1
-阿拉善右旗	ā lā shàn yòu qí	342
-阿拉善左旗	ā lā shàn zuǒ qí	406
-阿勒泰地区	ā lè tài dì qū	460
+阿克苏地区	āā kè sū dì qū	438
+阿拉山口市	āā lā shān kǒu shì	1
+阿拉善右旗	āā lā shàn yòu qí	342
+阿拉善左旗	āā lā shàn zuǒ qí	406
+阿勒泰地区	āā lè tài dì qū	460
 巴彦淖尔市	bā yàn nào ěr shì	1
 陈巴尔虎旗	chén bā ěr hǔ qí	333
-鄂尔多斯市	è ěr duō sī shì	512
-额尔古纳市	é ěr gǔ nà shì	383
-鄂托克前旗	è tuō kè qián qí	377
+鄂尔多斯市	èè ěr duō sī shì	512
+额尔古纳市	éé ěr gǔ nà shì	383
+鄂托克前旗	èè tuō kè qián qí	377
 二连浩特市	èr lián hào tè shì	368
 富拉尔基区	fù lā ěr jī qū	281
 工布江达县	gōng bù jiāng dá xiàn	339
@@ -6562,13 +6562,13 @@ sort: by_weight
 泽库泽库县	zé kù zé kù xiàn	1
 泽普泽普县	zé pǔ zé pǔ xiàn	1
 扎赉诺尔区	zhā lài nuò ěr qū	1
-阿鲁科尔沁旗	ā lǔ kē ěr qìn qí	362
-白云鄂博矿区	bái yún è bó kuàng qū	1
+阿鲁科尔沁旗	āā lǔ kē ěr qìn qí	362
+白云鄂博矿区	bái yún èè bó kuàng qū	1
 北屯市铁门关	běi tún shì tiě mén guān	1
 大兴安岭地区	dà xīng ān lǐng dì qū	428
 东乌珠穆沁旗	dōng wū zhū mù qìn qí	322
 东乡族自治县	dōng xiāng zú zì zhì xiàn	292
-鄂伦春自治旗	è lún chūn zì zhì qí	343
+鄂伦春自治旗	èè lún chūn zì zhì qí	343
 内蒙古自治区	nèi méng gǔ zì zhì qū	652
 铁门关市双河	tiě mén guān shì shuāng hé	1
 五家渠市北屯	wǔ jiā qú shì běi tún	1
@@ -6594,9 +6594,9 @@ sort: by_weight
 大理白族自治州	dà lǐ bái zú zì zhì zhōu	439
 迪庆藏族自治州	dí qìng zàng zú zì zhì zhōu	367
 都安瑶族自治县	dū ān yáo zú zì zhì xiàn	330
-峨边彝族自治县	é biān yí zú zì zhì xiàn	1
-峨山彝族自治县	é shān yí zú zì zhì xiàn	1
-鄂温克族自治旗	è wēn kè zú zì zhì qí	310
+峨边彝族自治县	éé biān yí zú zì zhì xiàn	1
+峨山彝族自治县	éé shān yí zú zì zhì xiàn	1
+鄂温克族自治旗	èè wēn kè zú zì zhì qí	310
 丰宁满族自治县	fēng níng mǎn zú zì zhì xiàn	320
 富川瑶族自治县	fù chuān yáo zú zì zhì xiàn	1
 甘南藏族自治州	gān nán zàng zú zì zhì zhōu	349
@@ -6659,7 +6659,7 @@ sort: by_weight
 玉屏侗族自治县	yù píng dòng zú zì zhì xiàn	251
 玉树藏族自治州	yù shù zàng zú zì zhì zhōu	433
 芷江侗族自治县	zhǐ jiāng dòng zú zì zhì xiàn	318
-阿拉尔市图木舒克	ā lā ěr shì tú mù shū kè	1
+阿拉尔市图木舒克	āā lā ěr shì tú mù shū kè	1
 长白朝鲜族自治县	cháng bái cháo xiǎn zú zì zhì xiàn	295
 长阳土家族自治县	cháng yáng tǔ jiā zú zì zhì xiàn	335
 大柴旦行政委员会	dà chái dàn xíng zhèng wěi yuán huì	1
@@ -6684,7 +6684,7 @@ sort: by_weight
 沿河土家族自治县	yán hé tǔ jiā zú zì zhì xiàn	1
 玉龙纳西族自治县	yù lóng nà xī zú zì zhì xiàn	1
 张家川回族自治县	zhāng jiā chuān huí zú zì zhì xiàn	313
-阿坝藏族羌族自治州	ā bà zàng zú qiāng zú zì zhì zhōu	430
+阿坝藏族羌族自治州	āā bà zàng zú qiāng zú zì zhì zhōu	430
 巴里坤哈萨克自治县	bā lǐ kūn hā sà kè zì zhì xiàn	286
 巴音郭楞蒙古自治州	bā yīn guō léng méng gǔ zì zhì zhōu	380
 保亭黎族苗族自治县	bǎo tíng lí zú miáo zú zì zhì xiàn	329
@@ -6705,7 +6705,7 @@ sort: by_weight
 西双版纳傣族自治州	xī shuāng bǎn nà dǎi zú zì zhì zhōu	357
 新平彝族傣族自治县	xīn píng yí zú dǎi zú zì zhì xiàn	318
 寻甸回族彝族自治县	xún diān huí zú yí zú zì zhì xiàn	277
-阿克塞哈萨克族自治县	ā kè sāi hā sà kè zú zì zhì xiàn	237
+阿克塞哈萨克族自治县	āā kè sāi hā sà kè zú zì zhì xiàn	237
 道真仡佬族苗族自治县	dào zhēn gē lǎo zú miáo zú zì zhì xiàn	1
 德宏傣族景颇族自治州	dé hóng dǎi zú jǐng pō zú zì zhì zhōu	357
 杜尔伯特蒙古族自治县	dù ěr bó tè měng gǔ zú zì zhì xiàn	294

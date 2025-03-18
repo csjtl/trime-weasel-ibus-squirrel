@@ -9,7 +9,7 @@
 
 ---
 name: pinyin_xiehouyu
-version: "20250205"
+version: "20250208"
 #sort: original
 sort: by_weight
 ...
@@ -20,8 +20,8 @@ sort: by_weight
 阿斗当皇帝——软弱无能	ruǎn ruò wú néng
 阿斗的江山——白送	ā dǒu de jiāng shān
 阿斗的江山——白送	bái sòng
-阿公吃黄连——苦也(爷)	ā gōng chī huáng lián
-阿公吃黄连——苦也(爷)	kǔ yě
+阿公吃黄连——苦也（爷）	ā gōng chī huáng lián
+阿公吃黄连——苦也（爷）	kǔ yě
 挨鞭子不挨棍子——吃软不吃硬	āi biān zǐ bù āi gùn zǐ
 挨鞭子不挨棍子——吃软不吃硬	chī ruǎn bù chī yìng
 挨了棒的狗——气急败坏	āi le bàng de gǒu
@@ -64,8 +64,8 @@ sort: by_weight
 爱奴儿掇着兽头城以里掠——好个丢丑的孩儿	hǎo gè diū chǒu de hái ér
 安禄山起兵——反了	ān lù shān qǐ bīng
 安禄山起兵——反了	fǎn le
-庵庙里的尼姑——没福(夫)	ān miào lǐ de ní gū
-庵庙里的尼姑——没福(夫)	méi fú
+庵庙里的尼姑——没福（夫）	ān miào lǐ de ní gū
+庵庙里的尼姑——没福（夫）	méi fú
 庵堂里的耗子落在鼓里——蒙着头挨揍	ān táng lǐ de hào zǐ là zài gǔ lǐ
 庵堂里的耗子落在鼓里——蒙着头挨揍	mēng zhuó tóu āi zòu
 岸边的青蛙——一触即跳	àn biān de qīng wā
@@ -145,15 +145,15 @@ sort: by_weight
 八级工学技术——精益求精	bā jí gōng xué jì shù
 八级工学技术——精益求精	jīng yì qiú jīng
 八级师傅学手艺——长到老，学到老	bā jí shī fù xué shǒu yì
-八级师傅学手艺——长到老，学到老	cháng dào lǎo ， xué dào lǎo
+八级师傅学手艺——长到老，学到老	cháng dào lǎo xué dào lǎo
 八角掉进粪坑里——香臭不分	bā jiǎo diào jìn fèn kēng lǐ
 八角掉进粪坑里——香臭不分	xiāng chòu bù fēn
 八角掉进粪坑里——香臭难分	bā jiǎo diào jìn fèn kēng lǐ
 八角掉进粪坑里——香臭难分	xiāng chòu nán fēn
 八角丢进尿缸里——再香也不出名	bā jiǎo diū jìn niào gāng lǐ
 八角丢进尿缸里——再香也不出名	zài xiāng yě bù chū míng
-八戒保媒把把成功——猪连必合(珠联壁合)	bā jiè bǎo méi bǎ bǎ chéng gōng
-八戒保媒把把成功——猪连必合(珠联壁合)	zhū lián bì hé
+八戒保媒把把成功——猪连必合（珠联壁合）	bā jiè bǎo méi bǎ bǎ chéng gōng
+八戒保媒把把成功——猪连必合（珠联壁合）	zhū lián bì hé
 八戒会嫦娥——仙对仙	bā jiè huì cháng é
 八戒会嫦娥——仙对仙	xiān duì xiān
 八斤半的鳖吞了大秤砣——狠心王八	bā jīn bàn de biē tūn le dà chèng tuó
@@ -289,7 +289,7 @@ sort: by_weight
 八张纸糊了个脑袋——有那么大的脸面	bā zhāng zhǐ hū le gè nǎo dài
 八张纸糊了个脑袋——有那么大的脸面	yǒu nà me dà de liǎn miàn
 八只脚的螃蟹——横行霸道	bā zhī jiǎo de páng xiè
-八只脚的螃蟹——横行霸道	héng háng bà dào
+八只脚的螃蟹——横行霸道	héng xíng bà dào
 八字不见一撇——没眉目	bā zì bù jiàn yī piē
 八字不见一撇——没眉目	méi méi mù
 巴豆喂牲口——不是料儿	bā dòu wèi shēng kǒu
@@ -390,10 +390,10 @@ sort: by_weight
 白骨精给唐僧送饭——没安好心	méi ān hǎo xīn
 白骨精给糖僧送饭——假心假意	bái gǔ jīng gěi táng sēng sòng fàn
 白骨精给糖僧送饭——假心假意	jiǎ xīn jiǎ yì
-白骨精给猪八戒吊膀子——一个想吃,一个想沾光	bái gǔ jīng gěi zhū bā jiè diào bǎng zǐ
-白骨精给猪八戒吊膀子——一个想吃,一个想沾光	yī gè xiǎng chī , yī gè xiǎng zhān guāng
-白骨精跟猪八戒吊膀子——一个想吃肉,一个想沾光	bái gǔ jīng gēn zhū bā jiè diào bǎng zǐ
-白骨精跟猪八戒吊膀子——一个想吃肉,一个想沾光	yī gè xiǎng chī ròu , yī gè xiǎng zhān guāng
+白骨精给猪八戒吊膀子——一个想吃，一个想沾光	bái gǔ jīng gěi zhū bā jiè diào bǎng zǐ
+白骨精给猪八戒吊膀子——一个想吃，一个想沾光	yī gè xiǎng chī yī gè xiǎng zhān guāng
+白骨精跟猪八戒吊膀子——一个想吃肉，一个想沾光	bái gǔ jīng gēn zhū bā jiè diào bǎng zǐ
+白骨精跟猪八戒吊膀子——一个想吃肉，一个想沾光	yī gè xiǎng chī ròu yī gè xiǎng zhān guāng
 白骨精鬼嚼——不是人话	bái gǔ jīng guǐ jiáo
 白骨精鬼嚼——不是人话	bù shì rén huà
 白骨精化美女——人面鬼心	bái gǔ jīng huà měi nǚ
@@ -404,8 +404,8 @@ sort: by_weight
 白骨精叫阵——这回看猴哥的了	zhè huí kàn hóu gē de le
 白骨精开口——不讲人话	bái gǔ jīng kāi kǒu
 白骨精开口——不讲人话	bù jiǎng rén huà
-白骨精陪猪八戒——一个想吃肉,一个想沾光	bái gǔ jīng péi zhū bā jiè
-白骨精陪猪八戒——一个想吃肉,一个想沾光	yī gè xiǎng chī ròu , yī gè xiǎng zhān guāng
+白骨精陪猪八戒——一个想吃肉，一个想沾光	bái gǔ jīng péi zhū bā jiè
+白骨精陪猪八戒——一个想吃肉，一个想沾光	yī gè xiǎng chī ròu yī gè xiǎng zhān guāng
 白骨精骗唐僧——一计不成又生一计	bái gǔ jīng piàn táng sēng
 白骨精骗唐僧——一计不成又生一计	yī jì bù chéng yòu shēng yī jì
 白骨精骗唐增——一计不成又生一计	bái gǔ jīng piàn táng zēng
@@ -482,7 +482,7 @@ sort: by_weight
 百货大楼卖西装——一套一套的	yī tào yī tào de
 百家姓少了第二个字——缺钱	bǎi jiā xìng shǎo le dì èr gè zì
 百家姓少了第二个字——缺钱	quē qián
-百斤重担能上肩，一两笔杆提不动——大老粗	bǎi jīn zhòng dān néng shàng jiān ， yī liǎng bǐ gān tí bù dòng
+百斤重担能上肩，一两笔杆提不动——大老粗	bǎi jīn zhòng dān néng shàng jiān yī liǎng bǐ gān tí bù dòng
 百斤重担能上肩，一两笔杆提不动——大老粗	dà lǎo cū
 百米赛跑——分秒必争	bǎi mǐ sài pǎo
 百米赛跑——分秒必争	fēn miǎo bì zhēng
@@ -492,7 +492,7 @@ sort: by_weight
 百年的瓜子千年的树——根深蒂固	gēn shēn dì gù
 百年的歪脖树——定型了	bǎi nián de wāi bó shù
 百年的歪脖树——定型了	dìng xíng le
-百年松树，五月芭蕉——粗枝大叶	bǎi nián sōng shù ， wǔ yuè bā jiāo
+百年松树，五月芭蕉——粗枝大叶	bǎi nián sōng shù wǔ yuè bā jiāo
 百年松树，五月芭蕉——粗枝大叶	cū zhī dà yè
 百万雄师下江南——兴师动众	bǎi wàn xióng shī xià jiāng nán
 百万雄师下江南——兴师动众	xīng shī dòng zhòng
@@ -517,7 +517,7 @@ sort: by_weight
 扳倒树掏老鸹——稳逮	bān dǎo shù tāo lǎo guā
 扳倒树掏老鸹——稳逮	wěn dài
 扳倒五味瓶——酸、甜、苦、辣、咸全有	bān dǎo wǔ wèi píng
-扳倒五味瓶——酸、甜、苦、辣、咸全有	suān 、 tián 、 kǔ 、 là 、 xián quán yǒu
+扳倒五味瓶——酸、甜、苦、辣、咸全有	suān tián kǔ là xián quán yǒu
 扳着驴屁股亲嘴——不认香臭	bān zhē lǘ pì gǔ qīn zuǐ
 扳着驴屁股亲嘴——不认香臭	bù rèn xiāng chòu
 班鸠跌了弹——嘴答谷了	bān jiū diē le dàn
@@ -862,10 +862,10 @@ sort: by_weight
 玻璃小鞋——看不见	kàn bù jiàn
 剥葱捣蒜——干的小事	bāo cōng dǎo suàn
 剥葱捣蒜——干的小事	gān de xiǎo shì
-剥开墨鱼皮了肚———副黑心肠	bāo kāi mò yú pí le dù
-剥开墨鱼皮了肚———副黑心肠	fù hēi xīn cháng
-剥了皮的蛤蟆———心不死	bāo le pí de gé má
-剥了皮的蛤蟆———心不死	xīn bù sǐ
+剥开墨鱼皮了肚——一副黑心肠	bāo kāi mò yú pí le dù
+剥开墨鱼皮了肚——一副黑心肠	yī fù hēi xīn cháng
+剥了皮的蛤蟆——一心不死	bāo le pí de gé má
+剥了皮的蛤蟆——一心不死	yī xīn bù sǐ
 剥皮的树——不长	bāo pí de shù
 剥皮的树——不长	bù cháng
 剥蒜摘葱——各管一工	bāo suàn zhāi cōng
@@ -897,7 +897,7 @@ sort: by_weight
 不会拉胡琴——自顾自（吱咕吱）	bù huì lā hú qín
 不会拉胡琴——自顾自（吱咕吱）	zì gù zì
 不是嘴长、耳大、脸丑——便也是一个好男子	biàn yě shì yī gè hǎo nán zǐ
-不是嘴长、耳大、脸丑——便也是一个好男子	bù shì zuǐ cháng 、 ěr dà 、 liǎn chǒu
+不是嘴长、耳大、脸丑——便也是一个好男子	bù shì zuǐ cháng ěr dà liǎn chǒu
 不熟的葡萄——酸得很	bù shú de pú táo
 不熟的葡萄——酸得很	suān dé hěn
 不通气的烟袋——死心眼儿	bù tōng qì de yān dài
@@ -933,7 +933,7 @@ sort: by_weight
 财神奶奶下界——福从天降	cái shén nǎi nǎi xià jiè
 财神奶奶下界——福从天降	fú cóng tiān jiàng
 财神爷戴乌纱帽——钱也有，权也有	cái shén yé dài wū shā mào
-财神爷戴乌纱帽——钱也有，权也有	qián yě yǒu ， quán yě yǒu
+财神爷戴乌纱帽——钱也有，权也有	qián yě yǒu quán yě yǒu
 财神爷放账——无利可图	cái shén yé fàng zhàng
 财神爷放账——无利可图	wú lì kě tú
 财神爷甩袖子——镚子儿皆无	bèng zǐ ér jiē wú
@@ -1085,7 +1085,7 @@ sort: by_weight
 曹操败走华容道——走对了路子	cáo cāo bài zǒu huá róng dào
 曹操败走华容道——走对了路子	zǒu duì le lù zǐ
 曹操吃鸡肋——食之无味，弃之可惜	cáo cāo chī jī lèi
-曹操吃鸡肋——食之无味，弃之可惜	shí zhī wú wèi ， qì zhī kě xī
+曹操吃鸡肋——食之无味，弃之可惜	shí zhī wú wèi qì zhī kě xī
 曹操杀华佗——讳疾忌医	cáo cāo shā huá tuó
 曹操杀华佗——讳疾忌医	huì jí jì yī
 曹操杀华佗——以怨报德	cáo cāo shā huá tuó
@@ -1093,7 +1093,7 @@ sort: by_weight
 曹操杀吕伯奢——将错就错	cáo cāo shā lǚ bó shē
 曹操杀吕伯奢——将错就错	jiāng cuò jiù cuò
 曹操下江南——来得凶，败得惨	cáo cāo xià jiāng nán
-曹操下江南——来得凶，败得惨	lái dé xiōng ， bài dé cǎn
+曹操下江南——来得凶，败得惨	lái dé xiōng bài dé cǎn
 曹操下宛城——大败而逃	cáo cāo xià wǎn chéng
 曹操下宛城——大败而逃	dà bài ér táo
 曹操用计——又奸又滑	cáo cāo yòng jì
@@ -1128,8 +1128,8 @@ sort: by_weight
 草船借箭——坐享其成	zuò xiǎng qí chéng
 草袋换布袋——一代（袋）强似一代（袋）	cǎo dài huàn bù dài
 草袋换布袋——一代（袋）强似一代（袋）	yī dài qiáng sì yī dài
-草帽当锣打——响(想)不起来	cǎo mào dāng luó dǎ
-草帽当锣打——响(想)不起来	xiǎng bù qǐ lái
+草帽当锣打——响（想）不起来	cǎo mào dāng luó dǎ
+草帽当锣打——响（想）不起来	xiǎng bù qǐ lái
 草帽烂边——顶好	cǎo mào làn biān
 草帽烂边——顶好	dǐng hǎo
 草帽烂了边——顶好	cǎo mào làn le biān
@@ -1263,7 +1263,7 @@ sort: by_weight
 肠子痒痒——没法挠	cháng zǐ yǎng yǎng
 肠子痒痒——没法挠	méi fǎ náo
 常将冷眼看螃蟹——看你横行得几时	cháng jiāng lěng yǎn kàn páng xiè
-常将冷眼看螃蟹——看你横行得几时	kàn nǐ héng háng dé jī shí
+常将冷眼看螃蟹——看你横行得几时	kàn nǐ héng xíng dé jī shí
 常走泥泞路——不怕栽跟头	bù pà zāi gēn tóu
 常走泥泞路——不怕栽跟头	cháng zǒu ní nìng lù
 嫦娥跳舞——两袖清风	cháng é tiào wǔ
@@ -1304,18 +1304,18 @@ sort: by_weight
 抄化子不见了拐棒儿——受狗的气	shòu gǒu de qì
 钞票洗眼——见钱眼开	chāo piào xǐ yǎn
 钞票洗眼——见钱眼开	jiàn qián yǎn kāi
-朝太阳举灯笼——充亮	zhāo tài yáng jǔ dēng lóng
 朝太阳举灯笼——充亮	chōng liàng
-朝天铳走火——放空炮	zhāo tiān chòng zǒu huǒ
+朝太阳举灯笼——充亮	zhāo tài yáng jǔ dēng lóng
 朝天铳走火——放空炮	fàng kōng páo
-朝天放枪——空响（想）	zhāo tiān fàng qiāng
+朝天铳走火——放空炮	zhāo tiān chòng zǒu huǒ
 朝天放枪——空响（想）	kōng xiǎng
-朝天辣椒——够呛	zhāo tiān là jiāo
+朝天放枪——空响（想）	zhāo tiān fàng qiāng
 朝天辣椒——够呛	gòu qiāng
-朝天辣椒——又尖又辣	zhāo tiān là jiāo
+朝天辣椒——够呛	zhāo tiān là jiāo
 朝天辣椒——又尖又辣	yòu jiān yòu là
-朝廷爷吃煎饼——君摊	zhāo tíng yé chī jiān bǐng
+朝天辣椒——又尖又辣	zhāo tiān là jiāo
 朝廷爷吃煎饼——君摊	jūn tān
+朝廷爷吃煎饼——君摊	zhāo tíng yé chī jiān bǐng
 炒菜不放盐巴——乏味	chǎo cài bù fàng yán bā
 炒菜不放盐巴——乏味	fá wèi
 炒菜的勺子——尝尽了酸甜苦辣	cháng jìn le suān tián kǔ là
@@ -1358,7 +1358,7 @@ sort: by_weight
 撑船不要篙——放任自流	fàng rèn zì liú
 撑杆子遇见暴风——散了架子	chēng gān zǐ yù jiàn bào fēng
 撑杆子遇见暴风——散了架子	sàn le jià zǐ
-成行的大雁——有个领头的	chéng háng de dà yàn
+成行的大雁——有个领头的	chéng xíng de dà yàn
 成行的大雁——有个领头的	yǒu gè lǐng tóu de
 城隍出巡了——小鬼当家	chéng huáng chū xún le
 城隍出巡了——小鬼当家	xiǎo guǐ dāng jiā
@@ -1428,9 +1428,9 @@ sort: by_weight
 吃冰棍拉冰棍——没话（化）	méi huà
 吃冰块儿拉冰块儿——没化	chī bīng kuài ér lā bīng kuài ér
 吃冰块儿拉冰块儿——没化	méi huà
-吃曹操的饭，想刘备的事——人在心不在	chī cáo cāo de fàn ， xiǎng liú bèi de shì
+吃曹操的饭，想刘备的事——人在心不在	chī cáo cāo de fàn xiǎng liú bèi de shì
 吃曹操的饭，想刘备的事——人在心不在	rén zài xīn bù zài
-吃吃壮，爬爬瘦——沙蟹命	chī chī zhuàng ， pá pá shòu
+吃吃壮，爬爬瘦——沙蟹命	chī chī zhuàng pá pá shòu
 吃吃壮，爬爬瘦——沙蟹命	shā xiè mìng
 吃刺扎嗓子——自找	chī cì zā sǎng zǐ
 吃刺扎嗓子——自找	zì zhǎo
@@ -1486,8 +1486,8 @@ sort: by_weight
 吃了十五个菜——七荤八素	qī hūn bā sù
 吃了屎了——满嘴放屁	chī le shǐ le
 吃了屎了——满嘴放屁	mǎn zuǐ fàng pì
-吃了唐僧——长生不老	chī le táng sēng
 吃了唐僧——长生不老	cháng shēng bù lǎo
+吃了唐僧——长生不老	chī le táng sēng
 吃了唐僧肉——越活越年轻	chī le táng sēng ròu
 吃了唐僧肉——越活越年轻	yuè huó yuè nián qīng
 吃了糖五老座子——百不言语	bǎi bù yán yǔ
@@ -1570,8 +1570,8 @@ sort: by_weight
 痴情女遇薄情郎——一拍两散两茫茫	yī pāi liǎng sàn liǎng máng máng
 池塘里的风波——大不了	chí táng lǐ de fēng bō
 池塘里的风波——大不了	dà bù le
-迟来的和尚——吃了后粥	chī le hòu zhōu
 迟来的和尚——吃了后粥	chí lái de hé shàng
+迟来的和尚——吃了后粥	chī le hòu zhōu
 虫蛀过的扁担——受不了两头压	chóng zhù guò de biǎn dān
 虫蛀过的扁担——受不了两头压	shòu bù le liǎng tóu yā
 崇祯上吊——走投无路	chóng zhēn shàng diào
@@ -1685,7 +1685,7 @@ sort: by_weight
 船板做的棺材——漂流了半辈子	chuán bǎn zuò de guān cái
 船板做的棺材——漂流了半辈子	piāo liú le bàn bèi zǐ
 船板做棺材——漂流了半辈子，老来才成（盛）人	chuán bǎn zuò guān cái
-船板做棺材——漂流了半辈子，老来才成（盛）人	piāo liú le bàn bèi zǐ ， lǎo lái cái chéng rén
+船板做棺材——漂流了半辈子，老来才成（盛）人	piāo liú le bàn bèi zǐ lǎo lái cái chéng rén
 船帮做棺材——漂流了半辈子才成（盛）	chuán bāng zuò guān cái
 船帮做棺材——漂流了半辈子才成（盛）	piāo liú le bàn bèi zǐ cái chéng
 船到桥头——不顺也得顺	bù shùn yě dé shùn
@@ -1744,7 +1744,7 @@ sort: by_weight
 吹糖人儿的出身——口气怪大	kǒu qì guài dà
 吹圆的猪尿泡被戳了一刀——泄气了	chuī yuán de zhū niào pào bèi chuō le yī dāo
 吹圆的猪尿泡被戳了一刀——泄气了	xiè qì le
-炊事员行军——替人背黑锅	chuī shì yuán háng jūn
+炊事员行军——替人背黑锅	chuī shì yuán xíng jūn
 炊事员行军——替人背黑锅	tì rén bèi hēi guō
 春凳折了靠背儿——没的倚了	chūn dèng zhē le kào bèi ér
 春凳折了靠背儿——没的倚了	méi de yǐ le
@@ -1888,14 +1888,14 @@ sort: by_weight
 打铁佬做贼——连锅端	lián guō duān
 打着灯笼拉呱——明说明讲	dǎ zhē dēng lóng lā guā
 打着灯笼拉呱——明说明讲	míng shuō míng jiǎng
-打着鸭子上架——不行	bù háng
+打着鸭子上架——不行	bù xíng
 打着鸭子上架——不行	dǎ zhē yā zǐ shàng jià
 打着鸭子上架——难哪	dǎ zhē yā zǐ shàng jià
 打着鸭子上架——难哪	nán nǎ
 打坐在老君灶里——闭门炼丹	bì mén liàn dān
 打坐在老君灶里——闭门炼丹	dǎ zuò zài lǎo jūn zào lǐ
-大白菜倒了秧——打根上坏	dǎ gēn shàng huài
 大白菜倒了秧——打根上坏	dà bái cài dǎo le yāng
+大白菜倒了秧——打根上坏	dǎ gēn shàng huài
 大爆仗掉进河里——没响	dà bào zhàng diào jìn hé lǐ
 大爆仗掉进河里——没响	méi xiǎng
 大鼻子他爹——老鼻子	dà bí zǐ tā diē
@@ -2059,7 +2059,7 @@ sort: by_weight
 大尾巴猴子——变死了也变不出个人来	biàn sǐ le yě biàn bù chū gè rén lái
 大尾巴猴子——变死了也变不出个人来	dà wěi bā hóu zǐ
 大尾巴狼装猎狗——只要脑袋像就行	dà wěi bā láng zhuāng liè gǒu
-大尾巴狼装猎狗——只要脑袋像就行	zhī yào nǎo dài xiàng jiù háng
+大尾巴狼装猎狗——只要脑袋像就行	zhī yào nǎo dài xiàng jiù xíng
 大虾米炒鸡爪——连抽筋带弯腰	dà xiā mǐ chǎo jī zhǎo
 大虾米炒鸡爪——连抽筋带弯腰	lián chōu jīn dài wān yāo
 大虾米炒鸡爪——转腿又弓腰	dà xiā mǐ chǎo jī zhǎo
@@ -2085,15 +2085,15 @@ sort: by_weight
 大雁飞过拔根毛——总要捞一把	dà yàn fēi guò bá gēn máo
 大雁飞过拔根毛——总要捞一把	zǒng yào lāo yī bǎ
 大雁飞行——成群结队	chéng qún jié duì
-大雁飞行——成群结队	dà yàn fēi háng
+大雁飞行——成群结队	dà yàn fēi xíng
 大雁跟着飞机跑——落后了	dà yàn gēn zhē fēi jī pǎo
 大雁跟着飞机跑——落后了	là hòu le
 大雁过河——没边了	dà yàn guò hé
 大雁过河——没边了	méi biān le
 大雁和鹭鸶对歌——南腔北调	dà yàn hé lù sī duì gē
 大雁和鹭鸶对歌——南腔北调	nán qiāng běi tiáo
-大雁回家——各咕(顾)各	dà yàn huí jiā
-大雁回家——各咕(顾)各	gè gū gè
+大雁回家——各咕（顾）各	dà yàn huí jiā
+大雁回家——各咕（顾）各	gè gū gè
 大丈夫的肚量——能屈能伸	dà zhàng fū de dù liáng
 大丈夫的肚量——能屈能伸	néng qū néng shēn
 大丈夫一言既出——驷马难追	dà zhàng fū yī yán jì chū
@@ -2440,7 +2440,7 @@ sort: by_weight
 豆腐掉到灰堆里——没法子收拾	méi fǎ zǐ shōu shí
 豆腐掉到灰堆里——洗不净	dòu fǔ diào dào huī duī lǐ
 豆腐掉到灰堆里——洗不净	xǐ bù jìng
-豆腐掉进灰堆里——吹又不好吹，打又不好打	chuī yòu bù hǎo chuī ， dǎ yòu bù hǎo dǎ
+豆腐掉进灰堆里——吹又不好吹，打又不好打	chuī yòu bù hǎo chuī dǎ yòu bù hǎo dǎ
 豆腐掉进灰堆里——吹又不好吹，打又不好打	dòu fǔ diào jìn huī duī lǐ
 豆腐佬摔担子——倾家荡产	dòu fǔ lǎo shuāi dān zǐ
 豆腐佬摔担子——倾家荡产	qīng jiā dàng chǎn
@@ -2486,16 +2486,16 @@ sort: by_weight
 赌徒下大注——豁出去	huō chū qù
 杜十娘的百宝箱——全部家当	dù shí niáng de bǎi bǎo xiāng
 杜十娘的百宝箱——全部家当	quán bù jiā dāng
-肚鸡眼吹火——一股《腰》妖风	dù jī yǎn chuī huǒ
-肚鸡眼吹火——一股《腰》妖风	yī gǔ 《 yāo 》 yāo fēng
+肚鸡眼吹火——一股（腰）妖风	dù jī yǎn chuī huǒ
+肚鸡眼吹火——一股（腰）妖风	yī gǔ yāo yāo fēng
 肚里长牙齿——心真狠	dù lǐ cháng yá chǐ
 肚里长牙齿——心真狠	xīn zhēn hěn
 肚囊子上的肉——松包	dù náng zǐ shàng de ròu
 肚囊子上的肉——松包	sōng bāo
 肚皮里点灯——心里亮	dù pí lǐ diǎn dēng
 肚皮里点灯——心里亮	xīn lǐ liàng
-肚脐上面巴膏药——贴(铁)了心	dù qí shàng miàn bā gāo yào
-肚脐上面巴膏药——贴(铁)了心	tiē le xīn
+肚脐上面巴膏药——贴（铁）了心	dù qí shàng miàn bā gāo yào
+肚脐上面巴膏药——贴（铁）了心	tiē le xīn
 肚脐上长茵子——心花儿都开了	dù qí shàng cháng yīn zǐ
 肚脐上长茵子——心花儿都开了	xīn huā ér dū kāi le
 肚子里蛔虫——知道心思	dù zǐ lǐ huí chóng
@@ -2757,7 +2757,7 @@ sort: by_weight
 幡杆灯笼——照远不照近	fān gān dēng lóng
 幡杆灯笼——照远不照近	zhào yuǎn bù zhào jìn
 翻了五味瓶——酸、甜、苦、辣都有	fān le wǔ wèi píng
-翻了五味瓶——酸、甜、苦、辣都有	suān 、 tián 、 kǔ 、 là dū yǒu
+翻了五味瓶——酸、甜、苦、辣都有	suān tián kǔ là dū yǒu
 翻了五味瓶——酸甜苦辣都有	fān le wǔ wèi píng
 翻了五味瓶——酸甜苦辣都有	suān tián kǔ là dū yǒu
 反穿大皮袄——装羊	fǎn chuān dà pí ǎo
@@ -2949,7 +2949,7 @@ sort: by_weight
 枫树叶跌落头拷开——胆小怕事	dǎn xiǎo pà shì
 枫树叶跌落头拷开——胆小怕事	fēng shù yè diē là tóu kǎo kāi
 封了嘴的八哥儿——一声不吭	fēng le zuǐ de bā gē ér
-封了嘴的八哥儿——一声不吭	yī shēng bù háng
+封了嘴的八哥儿——一声不吭	yī shēng bù kēng
 疯狼跑进了羊群里——乱得没法儿收拾	fēng láng pǎo jìn le yáng qún lǐ
 疯狼跑进了羊群里——乱得没法儿收拾	luàn dé méi fǎ ér shōu shí
 凤凰飞在梧桐树——自有傍人话短长	fèng huáng fēi zài wú tóng shù
@@ -2970,7 +2970,7 @@ sort: by_weight
 扶起牛粪砌宝塔——一派瞎胡拼	yī pài xiā hú pīn
 蜉蝣撼大树——可笑不自量	fú yóu hàn dà shù
 蜉蝣撼大树——可笑不自量	kě xiào bù zì liáng
-斧大好砍树，针小能穿布——各有各用处	fǔ dà hǎo kǎn shù ， zhēn xiǎo néng chuān bù
+斧大好砍树，针小能穿布——各有各用处	fǔ dà hǎo kǎn shù zhēn xiǎo néng chuān bù
 斧大好砍树，针小能穿布——各有各用处	gè yǒu gè yòng chǔ
 斧头劈木柴——一斧子一块	fǔ tóu pī mù chái
 斧头劈木柴——一斧子一块	yī fǔ zǐ yī kuài
@@ -3076,8 +3076,8 @@ sort: by_weight
 高高山上一根棍儿——光杆一条	guāng gān yī tiáo
 高粱地里耩耠子——一道苗儿	gāo liáng dì lǐ jiǎng huō zǐ
 高粱地里耩耠子——一道苗儿	yī dào miáo ér
-高粱地里撵鸭子——不见机(鸡)	bù jiàn jī
-高粱地里撵鸭子——不见机(鸡)	gāo liáng dì lǐ niǎn yā zǐ
+高粱地里撵鸭子——不见机（鸡）	bù jiàn jī
+高粱地里撵鸭子——不见机（鸡）	gāo liáng dì lǐ niǎn yā zǐ
 高粱秆点火——顺秆儿往上爬	gāo liáng gǎn diǎn huǒ
 高粱秆点火——顺秆儿往上爬	shùn gǎn ér wǎng shàng pá
 高粱秆上挂个破皮球——垂头丧气	chuí tóu sāng qì
@@ -3105,7 +3105,7 @@ sort: by_weight
 胳膝盖上钉掌——离了蹄	gē xī gài shàng dīng zhǎng
 胳膝盖上钉掌——离了蹄	lí le tí
 割鸡冠儿敬神——人也吃亏了，神也得罪了	gē jī guān ér jìng shén
-割鸡冠儿敬神——人也吃亏了，神也得罪了	rén yě chī kuī le ， shén yě dé zuì le
+割鸡冠儿敬神——人也吃亏了，神也得罪了	rén yě chī kuī le shén yě dé zuì le
 阁老位儿——旁坐	gé lǎo wèi ér
 阁老位儿——旁坐	páng zuò
 隔岸观火——幸灾乐祸	gé àn guān huǒ
@@ -3170,8 +3170,8 @@ sort: by_weight
 公鸡头上一块肉——大小是个冠	gōng jī tóu shàng yī kuài ròu
 公鸡下蛋——妄想	gōng jī xià dàn
 公鸡下蛋——妄想	wàng xiǎng
-公麻雀儿仰起飞———日天的本领	gōng má què ér yǎng qǐ fēi
-公麻雀儿仰起飞———日天的本领	rì tiān de běn lǐng
+公麻雀儿仰起飞——日天的本领	gōng má què ér yǎng qǐ fēi
+公麻雀儿仰起飞——日天的本领	rì tiān de běn lǐng
 宫里插杨柳——树（竖）不起来	gōng lǐ chā yáng liǔ
 宫里插杨柳——树（竖）不起来	shù bù qǐ lái
 沟里拾柴——挠上来	gōu lǐ shí chái
@@ -3382,7 +3382,7 @@ sort: by_weight
 鼓楼房上琉璃瓦——每日风吹日晒雹子打	měi rì fēng chuī rì shài báo zǐ dǎ
 鼓楼上小雀——耐惊耐怕	gǔ lóu shàng xiǎo què
 鼓楼上小雀——耐惊耐怕	nài jīng nài pà
-顾上烧火，顾不得翻锅——手忙脚乱	gù shàng shāo huǒ ， gù bù dé fān guō
+顾上烧火，顾不得翻锅——手忙脚乱	gù shàng shāo huǒ gù bù dé fān guō
 顾上烧火，顾不得翻锅——手忙脚乱	shǒu máng jiǎo luàn
 瓜地里挑瓜——挑得眼花	guā dì lǐ tiāo guā
 瓜地里挑瓜——挑得眼花	tiāo dé yǎn huā
@@ -3414,7 +3414,7 @@ sort: by_weight
 刮风扫地——多余	guā fēng sǎo dì
 刮风扫地——假积极	guā fēng sǎo dì
 刮风扫地——假积极	jiǎ jī jí
-刮风扫地，下雨泼街——假积极	guā fēng sǎo dì ， xià yǔ pō jiē
+刮风扫地，下雨泼街——假积极	guā fēng sǎo dì xià yǔ pō jiē
 刮风扫地，下雨泼街——假积极	jiǎ jī jí
 寡妇抱个病死孩——没指望	guǎ fù bào gè bìng sǐ hái
 寡妇抱个病死孩——没指望	méi zhǐ wàng
@@ -3425,7 +3425,7 @@ sort: by_weight
 寡妇回娘家——苦衷难吐	guǎ fù huí niáng jiā
 寡妇回娘家——苦衷难吐	kǔ zhōng nán tǔ
 寡妇进当铺——要人没人，要钱没钱	guǎ fù jìn dāng pū
-寡妇进当铺——要人没人，要钱没钱	yào rén méi rén ， yào qián méi qián
+寡妇进当铺——要人没人，要钱没钱	yào rén méi rén yào qián méi qián
 寡妇卖孩子——最后一着	guǎ fù mài hái zǐ
 寡妇卖孩子——最后一着	zuì hòu yī zhuó
 寡妇卖子——最后一着	guǎ fù mài zǐ
@@ -3544,7 +3544,7 @@ sort: by_weight
 关羽打喷嚏——自我吹嘘	zì wǒ chuī xū
 关羽赴宴——有胆有魄	guān yǔ fù yàn
 关羽赴宴——有胆有魄	yǒu dǎn yǒu pò
-关羽看《春秋》——一目了然	guān yǔ kàn 《 chūn qiū 》
+关羽看《春秋》——一目了然	guān yǔ kàn chūn qiū
 关羽看《春秋》——一目了然	yī mù le rán
 关羽流鼻血——红上加红	guān yǔ liú bí xiě
 关羽流鼻血——红上加红	hóng shàng jiā hóng
@@ -3578,7 +3578,7 @@ sort: by_weight
 官老爷的衙门——难进	nán jìn
 官老爷上朝——按部就班	àn bù jiù bān
 官老爷上朝——按部就班	guān lǎo yé shàng zhāo
-官老爷下轿——不（步）行	bù háng
+官老爷下轿——不（步）行	bù xíng
 官老爷下轿——不（步）行	guān lǎo yé xià jiào
 冠军和亚军——数一数二	guān jūn hé yà jūn
 冠军和亚军——数一数二	shù yī shù èr
@@ -3695,7 +3695,7 @@ sort: by_weight
 滚水里拌面粉——糊涂	gǔn shuǐ lǐ bàn miàn fěn
 滚水里拌面粉——糊涂	hū tú
 滚水烫螃蟹——看你横行到几时	gǔn shuǐ tàng páng xiè
-滚水烫螃蟹——看你横行到几时	kàn nǐ héng háng dào jī shí
+滚水烫螃蟹——看你横行到几时	kàn nǐ héng xíng dào jī shí
 滚汤泼老鼠——一窝都是死	gǔn tāng pō lǎo shǔ
 滚汤泼老鼠——一窝都是死	yī wō dū shì sǐ
 郭呆子过端午——平常一样	guō dāi zǐ guò duān wǔ
@@ -3726,7 +3726,7 @@ sort: by_weight
 裹脚布做雨伞——一步升天	yī bù shēng tiān
 过冬的瘪臭虫——等死	děng sǐ
 过冬的瘪臭虫——等死	guò dōng de biē chòu chóng
-过端午的龙头——光耍嘴，	guāng shuǎ zuǐ ，
+过端午的龙头——光耍嘴，	guāng shuǎ zuǐ
 过端午的龙头——光耍嘴，	guò duān wǔ de lóng tóu
 过河揣耳朵——余外的小心	guò hé chuǎi ěr duǒ
 过河揣耳朵——余外的小心	yú wài de xiǎo xīn
@@ -3775,17 +3775,17 @@ sort: by_weight
 哈哈镜照人——怪模怪样	guài mó guài yàng
 哈哈镜照人——怪模怪样	hā hā jìng zhào rén
 蛤蟆、促织——都是一锹土上人	dū shì yī qiāo tǔ shàng rén
-蛤蟆、促织——都是一锹土上人	gé má 、 cù zhī
+蛤蟆、促织——都是一锹土上人	gé má cù zhī
+蛤蟆、蝎子、屎克螂——各人觉得各人强	gé má xiē zǐ shǐ kè láng
 蛤蟆、蝎子、屎克螂——各人觉得各人强	gè rén jué dé gè rén qiáng
-蛤蟆、蝎子、屎克螂——各人觉得各人强	gé má 、 xiē zǐ 、 shǐ kè láng
 蛤蟆不长毛——天生的那道种儿	gé má bù cháng máo
 蛤蟆不长毛——天生的那道种儿	tiān shēng de nà dào zhǒng ér
 蛤蟆打呵欠——口开得太大	gé má dǎ hē qiàn
 蛤蟆打呵欠——口开得太大	kǒu kāi dé tài dà
 蛤蟆登天——痴心妄想	chī xīn wàng xiǎng
 蛤蟆登天——痴心妄想	gé má dēng tiān
-蛤蟆垫桌腿——呱了	guā le
 蛤蟆垫桌腿——呱了	gé má diàn zhuō tuǐ
+蛤蟆垫桌腿——呱了	guā le
 蛤蟆垫桌腿儿——死挨	gé má diàn zhuō tuǐ ér
 蛤蟆垫桌腿儿——死挨	sǐ āi
 蛤蟆腚上插鸡毛——不是个好鸟	bù shì gè hǎo niǎo
@@ -3857,7 +3857,7 @@ sort: by_weight
 旱地里的蛤蟆——干鼓肚	gān gǔ dù
 旱地里的蛤蟆——干鼓肚	hàn dì lǐ de gé má
 旱地里的螃蟹——横行不些日子	hàn dì lǐ de páng xiè
-旱地里的螃蟹——横行不些日子	héng háng bù xiē rì zǐ
+旱地里的螃蟹——横行不些日子	héng xíng bù xiē rì zǐ
 旱骡子变的——听不懂人话	hàn luó zǐ biàn de
 旱骡子变的——听不懂人话	tīng bù dǒng rén huà
 旱天的南瓜秧——一下子蔫了架	hàn tiān de nán guā yāng
@@ -3985,7 +3985,7 @@ sort: by_weight
 和尚到了姑子庵——不妙（庙）	bù miào
 和尚到了姑子庵——不妙（庙）	hé shàng dào le gū zǐ ān
 和尚到了家——庙、庙、庙	hé shàng dào le jiā
-和尚到了家——庙、庙、庙	miào 、 miào 、 miào
+和尚到了家——庙、庙、庙	miào miào miào
 和尚的鸡冠儿——大来无用	dà lái wú yòng
 和尚的鸡冠儿——大来无用	hé shàng de jī guān ér
 和尚的木鱼——合不拢嘴	hé bù lǒng zuǐ
@@ -4080,6 +4080,8 @@ sort: by_weight
 黑瞎子叫门——熊到家了	xióng dào jiā le
 黑瞎子抹蜂蜜——能品出啥味道	hēi xiā zǐ mǒ fēng mì
 黑瞎子抹蜂蜜——能品出啥味道	néng pǐn chū shá wèi dào
+黑瞎子上碾盘——心扑实	hēi xiā zǐ shàng niǎn pán
+黑瞎子上碾盘——心扑实	xīn pū shí
 黑瞎子跳井——一熊到底	hēi xiā zǐ tiào jǐng
 黑瞎子跳井——一熊到底	yī xióng dào dǐ
 黑眼珠起红线——血灌瞳仁	hēi yǎn zhū qǐ hóng xiàn
@@ -4089,13 +4091,13 @@ sort: by_weight
 哼木鱼撵鸭子——进口的货	hēng mù yú niǎn yā zǐ
 哼木鱼撵鸭子——进口的货	jìn kǒu de huò
 横垅地撵瘸子——一步撵不上，步步撵不上	héng lǒng dì niǎn qué zǐ
-横垅地撵瘸子——一步撵不上，步步撵不上	yī bù niǎn bù shàng ， bù bù niǎn bù shàng
+横垅地撵瘸子——一步撵不上，步步撵不上	yī bù niǎn bù shàng bù bù niǎn bù shàng
 红萝卜——红皮白心儿	hóng luó bǔ
 红萝卜——红皮白心儿	hóng pí bái xīn ér
 红萝卜拌辣面——吃得出看不出	chī dé chū kàn bù chū
 红萝卜拌辣面——吃得出看不出	hóng luó bǔ bàn là miàn
-红屁股猴子充花旦——还撅得怪高	huán juē dé guài gāo
 红屁股猴子充花旦——还撅得怪高	hóng pì gǔ hóu zǐ chōng huā dàn
+红屁股猴子充花旦——还撅得怪高	huán juē dé guài gāo
 红薯落灶——自该煨	hóng shǔ là zào
 红薯落灶——自该煨	zì gāi wēi
 红炭扔到热油锅里——火冒三丈高	hóng tàn rēng dào rè yóu guō lǐ
@@ -4170,7 +4172,7 @@ sort: by_weight
 猴子放屁——认不得脸红	rèn bù dé liǎn hóng
 猴子驾辕——乱套	hóu zǐ jià yuán
 猴子驾辕——乱套	luàn tào
-猴子捡生姜——吃也不是，丢也不是	chī yě bù shì ， diū yě bù shì
+猴子捡生姜——吃也不是，丢也不是	chī yě bù shì diū yě bù shì
 猴子捡生姜——吃也不是，丢也不是	hóu zǐ jiǎn shēng jiāng
 猴子看书——假斯文	hóu zǐ kàn shū
 猴子看书——假斯文	jiǎ sī wén
@@ -4220,8 +4222,8 @@ sort: by_weight
 后妈打孩子——早晚躲不过去	zǎo wǎn duǒ bù guò qù
 后脑勺上长疮——自己看不见以为别人也看不见	hòu nǎo sháo shàng cháng chuāng
 后脑勺上长疮——自己看不见以为别人也看不见	zì jǐ kàn bù jiàn yǐ wéi bié rén yě kàn bù jiàn
-后主降魏———不知羞耻	bù zhī xiū chǐ
-后主降魏———不知羞耻	hòu zhǔ jiàng wèi
+后主降魏——不知羞耻	bù zhī xiū chǐ
+后主降魏——不知羞耻	hòu zhǔ jiàng wèi
 囫囵吞个枣——不知酸淡	bù zhī suān dàn
 囫囵吞个枣——不知酸淡	hú lún tūn gè zǎo
 狐狸吃酸枣——不了不了又一回	bù le bù le yòu yī huí
@@ -4232,8 +4234,8 @@ sort: by_weight
 狐狸精问路——没有好道道儿	méi yǒu hǎo dào dào ér
 狐狸精转的——心眼稠	hú lí jīng zhuǎn de
 狐狸精转的——心眼稠	xīn yǎn chóu
-狐媚子打嚏喷——腌了风气	hú mèi zǐ dǎ tì pēn
 狐媚子打嚏喷——腌了风气	ā le fēng qì
+狐媚子打嚏喷——腌了风气	hú mèi zǐ dǎ tì pēn
 狐仙庙头匾上那四个字儿——有求必应	hú xiān miào tóu biǎn shàng nà sì gè zì ér
 狐仙庙头匾上那四个字儿——有求必应	yǒu qiú bì yīng
 胡蜂撞进了蜜蜂窝——不得安生	bù dé ān shēng
@@ -4255,7 +4257,7 @@ sort: by_weight
 胡子眉毛一把抓——分不清主次	fēn bù qīng zhǔ cì
 胡子眉毛一把抓——分不清主次	hú zǐ méi máo yī bǎ zhuā
 胡子上的饭，牙缝里的肉——不大点	bù dà diǎn
-胡子上的饭，牙缝里的肉——不大点	hú zǐ shàng de fàn ， yá féng lǐ de ròu
+胡子上的饭，牙缝里的肉——不大点	hú zǐ shàng de fàn yá féng lǐ de ròu
 壶中无酒——难留客	hú zhōng wú jiǔ
 壶中无酒——难留客	nán liú kè
 湖里看天——把它翻在底下	bǎ tā fān zài dǐ xià
@@ -4340,8 +4342,8 @@ sort: by_weight
 怀里揣铃铛——响得美	xiǎng dé měi
 怀里揣着二十五只小老鼠——百爪挠心	bǎi zhǎo náo xīn
 怀里揣着二十五只小老鼠——百爪挠心	huái lǐ chuǎi zhuó èr shí wǔ zhī xiǎo lǎo shǔ
-怀里揣着个牛角——朝自己顶	zhāo zì jǐ dǐng
 怀里揣着个牛角——朝自己顶	huái lǐ chuǎi zhuó gè niú jiǎo
+怀里揣着个牛角——朝自己顶	zhāo zì jǐ dǐng
 怀里揣着个小兔子——胸口乱跳	huái lǐ chuǎi zhuó gè xiǎo tù zǐ
 怀里揣着个小兔子——胸口乱跳	xiōng kǒu luàn tiào
 怀娃娃婆姨赶集——人里边看不出人	huái wá wá pó yí gǎn jí
@@ -4354,14 +4356,14 @@ sort: by_weight
 坏了的掌子面——靠不住	kào bù zhù
 坏人斗坏人——以毒攻毒	huài rén dǒu huài rén
 坏人斗坏人——以毒攻毒	yǐ dú gōng dú
-坏脱的水龙头——嗒嗒滴	tà tà dī
 坏脱的水龙头——嗒嗒滴	huài tuō de shuǐ lóng tóu
+坏脱的水龙头——嗒嗒滴	tà tà dī
 宦官不叫宦官——太贱（监）	huàn guān bù jiào huàn guān
 宦官不叫宦官——太贱（监）	tài jiàn
 患了病不吃药——仗着死	huàn le bìng bù chī yào
 患了病不吃药——仗着死	zhàng zhuó sǐ
-皇帝的脑壳———御(芋头）	huáng dì de nǎo ké
-皇帝的脑壳———御(芋头）	yù tóu
+皇帝的脑壳——御（芋）头	huáng dì de nǎo ké
+皇帝的脑壳——御（芋）头	yù tóu
 黄柏木作了磬槌子——外头体面里头苦	huáng bǎi mù zuò le qìng chuí zǐ
 黄柏木作了磬槌子——外头体面里头苦	wài tóu tǐ miàn lǐ tóu kǔ
 黄柏木作磬槌子——外头体面里头苦	huáng bǎi mù zuò qìng chuí zǐ
@@ -4901,7 +4903,7 @@ sort: by_weight
 教师爷不打把势——谁也摸不清谁的底	jiào shī yé bù dǎ bǎ shì
 教师爷不打把势——谁也摸不清谁的底	shuí yě mō bù qīng shuí de dǐ
 接连三个观音堂——庙、庙、庙	jiē lián sān gè guān yīn táng
-接连三个观音堂——庙、庙、庙	miào 、 miào 、 miào
+接连三个观音堂——庙、庙、庙	miào miào miào
 接着葫芦挖籽——挖一个少一个	jiē zhuó hú lú wā zǐ
 接着葫芦挖籽——挖一个少一个	wā yī gè shǎo yī gè
 街坊家的鸡——轰出来	hōng chū lái
@@ -4960,8 +4962,8 @@ sort: by_weight
 井里头的蛤蟆——就会嚼舌头	jiù huì jiáo shé tóu
 井里淹死人——没处推	jǐng lǐ yān sǐ rén
 井里淹死人——没处推	méi chǔ tuī
-景德镇的大窑——净瓷儿	jǐng dé zhèn de dà yáo
 景德镇的大窑——净瓷儿	jìng cí ér
+景德镇的大窑——净瓷儿	jǐng dé zhèn de dà yáo
 景德镇的尿壶——瓷儿好	cí ér hǎo
 景德镇的尿壶——瓷儿好	jǐng dé zhèn de niào hú
 警察打他爹——公事公办	gōng shì gōng bàn
@@ -5034,7 +5036,7 @@ sort: by_weight
 砍柴人下山——两头担薪	liǎng tóu dān xīn
 砍倒树摸雀崽儿——照稳当里办	kǎn dǎo shù mō què zǎi ér
 砍倒树摸雀崽儿——照稳当里办	zhào wěn dāng lǐ bàn
-看《三国》流泪——替古人担忧	kàn 《 sān guó 》 liú lèi
+看《三国》流泪——替古人担忧	kàn sān guó liú lèi
 看《三国》流泪——替古人担忧	tì gǔ rén dān yōu
 看见蚊子拔宝剑——小题大做	kàn jiàn wén zǐ bá bǎo jiàn
 看见蚊子拔宝剑——小题大做	xiǎo tí dà zuò
@@ -5058,10 +5060,12 @@ sort: by_weight
 炕旮旯里拣老婆——早有主	zǎo yǒu zhǔ
 炕圪劳里拾老婆——早就有主	kàng gē láo lǐ shí lǎo pó
 炕圪劳里拾老婆——早就有主	zǎo jiù yǒu zhǔ
-炕圪𫭼里拾老婆——早就有主	kàng gē 𫭼 lǐ shí lǎo pó
+炕圪𫭼里拾老婆——早就有主	kàng gē láo lǐ shí lǎo pó
 炕圪𫭼里拾老婆——早就有主	zǎo jiù yǒu zhǔ
 炕头狸猫——坐地虎	kàng tóu lí māo
 炕头狸猫——坐地虎	zuò dì hǔ
+炕屹捞里拾老婆——早就有主了	kàng yì lāo lǐ shí lǎo pó
+炕屹捞里拾老婆——早就有主了	zǎo jiù yǒu zhǔ le
 尻子上挂死猫——假装猎手	jiǎ zhuāng liè shǒu
 尻子上挂死猫——假装猎手	kāo zǐ shàng guà sǐ māo
 烤煳了的饼子——放在碗里盘里都是一个味儿	fàng zài wǎn lǐ pán lǐ dū shì yī gè wèi ér
@@ -5076,8 +5080,8 @@ sort: by_weight
 瞌困撞着枕头——正是货	zhèng shì huò
 磕膝盖上钉掌——离了蹄儿	kē xī gài shàng dīng zhǎng
 磕膝盖上钉掌——离了蹄儿	lí le tí ér
-磕一个头放九个屁——行善没有作恶多	kē yī gè tóu fàng jiǔ gè pì
 磕一个头放九个屁——行善没有作恶多	háng shàn méi yǒu zuò è duō
+磕一个头放九个屁——行善没有作恶多	kē yī gè tóu fàng jiǔ gè pì
 蝌蚪撵鸭子——找死	kē dǒu niǎn yā zǐ
 蝌蚪撵鸭子——找死	zhǎo sǐ
 蝌蟆蛄蚪儿撵鸭子——找死	kē má gū dǒu ér niǎn yā zǐ
@@ -5094,8 +5098,8 @@ sort: by_weight
 空肚子打嗝——强装吃饱了饭	qiáng zhuāng chī bǎo le fàn
 空肚子喝了二两酒——后劲上来了	hòu jìn shàng lái le
 空肚子喝了二两酒——后劲上来了	kōng dù zǐ hē le èr liǎng jiǔ
-空棺材出殡——木(目)中无人	kōng guān cái chū bìn
-空棺材出殡——木(目)中无人	mù zhōng wú rén
+空棺材出殡——木（目）中无人	kōng guān cái chū bìn
+空棺材出殡——木（目）中无人	mù zhōng wú rén
 空棺材出丧——木中无人	kōng guān cái chū sāng
 空棺材出丧——木中无人	mù zhōng wú rén
 空筒木头——没有心	kōng tǒng mù tóu
@@ -5124,7 +5128,7 @@ sort: by_weight
 孔夫子的褡裢——两头都是书	liǎng tóu dū shì shū
 孔夫子的弟子——贤人	kǒng fū zǐ de dì zǐ
 孔夫子的弟子——贤人	xián rén
-孔夫子门前读《孝经》——枉费心机	kǒng fū zǐ mén qián dú 《 xiào jīng 》
+孔夫子门前读《孝经》——枉费心机	kǒng fū zǐ mén qián dú xiào jīng
 孔夫子门前读《孝经》——枉费心机	wǎng fèi xīn jī
 孔夫子死了反起埋——文屁冲天	kǒng fū zǐ sǐ le fǎn qǐ mái
 孔夫子死了反起埋——文屁冲天	wén pì chōng tiān
@@ -5332,7 +5336,7 @@ sort: by_weight
 癞蛤蟆垫板凳——活挨死顶	lài gé má diàn bǎn dèng
 癞蛤蟆垫桌腿——暗气暗憋	àn qì àn biē
 癞蛤蟆垫桌腿——暗气暗憋	lài gé má diàn zhuō tuǐ
-癞蛤蟆躲端午——躲过初一，躲不过十五	duǒ guò chū yī ， duǒ bù guò shí wǔ
+癞蛤蟆躲端午——躲过初一，躲不过十五	duǒ guò chū yī duǒ bù guò shí wǔ
 癞蛤蟆躲端午——躲过初一，躲不过十五	lài gé má duǒ duān wǔ
 癞蛤蟆鼓肚子——发混胀气	fā hùn zhàng qì
 癞蛤蟆鼓肚子——发混胀气	lài gé má gǔ dù zǐ
@@ -5453,7 +5457,7 @@ sort: by_weight
 癞蛤蟆坐金銮殿——梦想	lài gé má zuò jīn luán diàn
 癞蛤蟆坐金銮殿——梦想	mèng xiǎng
 癞蛤蟆坐藕荷x——独立为王	dú lì wéi wáng
-癞蛤蟆坐藕荷x——独立为王	lài gé má zuò ǒu hé x
+癞蛤蟆坐藕荷x——独立为王	lài gé má zuò ǒu hé
 癞蛤蟆坐沙发——该我享受了	gāi wǒ xiǎng shòu le
 癞蛤蟆坐沙发——该我享受了	lài gé má zuò shā fā
 癞蛤蟆坐藤椅——不像个人形	bù xiàng gè rén xíng
@@ -5581,7 +5585,7 @@ sort: by_weight
 老和尚的木鱼儿——天生挨揍的货	lǎo hé shàng de mù yú ér
 老和尚的木鱼儿——天生挨揍的货	tiān shēng āi zòu de huò
 老和尚丢了拐——能说不能行	lǎo hé shàng diū le guǎi
-老和尚丢了拐——能说不能行	néng shuō bù néng háng
+老和尚丢了拐——能说不能行	néng shuō bù néng xíng
 老和尚放屁——经味	jīng wèi
 老和尚放屁——经味	lǎo hé shàng fàng pì
 老和尚卷铺盖——滚蛋	gǔn dàn
@@ -5598,7 +5602,7 @@ sort: by_weight
 老和尚娶亲——头一回	tóu yī huí
 老和尚剃头——一扫光	lǎo hé shàng tì tóu
 老和尚剃头——一扫光	yī sǎo guāng
-老猴儿爬旗杆——不行	bù háng
+老猴儿爬旗杆——不行	bù xíng
 老猴儿爬旗杆——不行	lǎo hóu ér pá qí gān
 老猴偷苞米——专找嫩的捏	lǎo hóu tōu bāo mǐ
 老猴偷苞米——专找嫩的捏	zhuān zhǎo nèn de niē
@@ -5613,7 +5617,7 @@ sort: by_weight
 老虎不吃人——只是坏了名色	lǎo hǔ bù chī rén
 老虎不吃人——只是坏了名色	zhī shì huài le míng sè
 老虎不发威——你当我是病猫啊？	lǎo hǔ bù fā wēi
-老虎不发威——你当我是病猫啊？	nǐ dāng wǒ shì bìng māo a ？
+老虎不发威——你当我是病猫啊？	nǐ dāng wǒ shì bìng māo aa
 老虎不在家——吹个豹	chuī gè bào
 老虎不在家——吹个豹	lǎo hǔ bù zài jiā
 老虎吃豆芽——小菜一碟	lǎo hǔ chī dòu yá
@@ -5663,7 +5667,7 @@ sort: by_weight
 老虎拉车——乱套	lǎo hǔ lā chē
 老虎拉车——乱套	luàn tào
 老虎拉车——谁（赶）敢啊	lǎo hǔ lā chē
-老虎拉车——谁（赶）敢啊	shuí gǎn a
+老虎拉车——谁（赶）敢啊	shuí gǎn aa
 老虎拉车——谁敢	lǎo hǔ lā chē
 老虎拉车——谁敢	shuí gǎn
 老虎屁股——摸不得	lǎo hǔ pì gǔ
@@ -5758,7 +5762,7 @@ sort: by_weight
 老母鸡走进药材店——自找苦吃	zì zhǎo kǔ chī
 老母猪吃碗碴——肚里有瓷	dù lǐ yǒu cí
 老母猪吃碗碴——肚里有瓷	lǎo mǔ zhū chī wǎn chá
-老母猪吃䵚黍——顺秆子上来	lǎo mǔ zhū chī 䵚 shǔ
+老母猪吃䵚黍——顺秆子上来	lǎo mǔ zhū chī tǎo shǔ
 老母猪吃䵚黍——顺秆子上来	shùn gǎn zǐ shàng lái
 老母猪耳朵——骨头太软	gǔ tóu tài ruǎn
 老母猪耳朵——骨头太软	lǎo mǔ zhū ěr duǒ
@@ -5796,8 +5800,8 @@ sort: by_weight
 老牛掉在水井里——有劲儿使不上	yǒu jìn ér shǐ bù shàng
 老牛赶山——走一丈算一丈	lǎo niú gǎn shān
 老牛赶山——走一丈算一丈	zǒu yī zhàng suàn yī zhàng
-老牛拉车——朝后鞧	zhāo hòu qiū
 老牛拉车——朝后鞧	lǎo niú lā chē
+老牛拉车——朝后鞧	zhāo hòu qiū
 老牛拉破车——慢慢来	lǎo niú lā pò chē
 老牛拉破车——慢慢来	màn màn lái
 老牛拉破车——慢慢吞吞	lǎo niú lā pò chē
@@ -5820,8 +5824,8 @@ sort: by_weight
 老婆们斗牌——一张一张地来	yī zhāng yī zhāng dì lái
 老婆婆打口红——给你点颜色看看	gěi nǐ diǎn yán sè kàn kàn
 老婆婆打口红——给你点颜色看看	lǎo pó pó dǎ kǒu hóng
-老婆婆坐板板车——想遭投(打）得了	lǎo pó pó zuò bǎn bǎn chē
-老婆婆坐板板车——想遭投(打）得了	xiǎng zāo dǎ dé le
+老婆婆坐板板车——想遭投（打）得了	lǎo pó pó zuò bǎn bǎn chē
+老婆婆坐板板车——想遭投（打）得了	xiǎng zāo dǎ dé le
 老生戴胡子——正扮	lǎo shēng dài hú zǐ
 老生戴胡子——正扮	zhèng bàn
 老寿星吃砒霜——活得厌了	huó dé yàn le
@@ -5964,8 +5968,8 @@ sort: by_weight
 老太太吃麻花——要的就是这股劲儿	yào de jiù shì zhè gǔ jìn ér
 老太太吃黏糕——闷了口	lǎo tài tài chī nián gāo
 老太太吃黏糕——闷了口	mèn le kǒu
-老太太吃柿子——嘬瘪子	zuō biē zǐ
 老太太吃柿子——嘬瘪子	lǎo tài tài chī shì zǐ
+老太太吃柿子——嘬瘪子	zuō biē zǐ
 老太太吃柿子——专找软的捏	lǎo tài tài chī shì zǐ
 老太太吃柿子——专找软的捏	zhuān zhǎo ruǎn de niē
 老太太吃汤圆——囫囵吞	hú lún tūn
@@ -5990,7 +5994,7 @@ sort: by_weight
 老太太捅烟袋——直来直去	zhí lái zhí qù
 老太太卧鸡蛋——一勺一个	lǎo tài tài wò jī dàn
 老太太卧鸡蛋——一勺一个	yī sháo yī gè
-老太太咬牙——好狠啊	hǎo hěn a
+老太太咬牙——好狠啊	hǎo hěn aa
 老太太咬牙——好狠啊	lǎo tài tài yǎo yá
 老太太找飞机——往远瞧	lǎo tài tài zhǎo fēi jī
 老太太找飞机——往远瞧	wǎng yuǎn qiáo
@@ -6060,8 +6064,8 @@ sort: by_weight
 老榆木疙瘩——挪不动	nuó bù dòng
 老岳母死了哭娘——干嚎	gān háo
 老岳母死了哭娘——干嚎	lǎo yuè mǔ sǐ le kū niáng
-姥娘哭儿——没有舅了	mǔ niáng kū ér
 姥娘哭儿——没有舅了	méi yǒu jiù le
+姥娘哭儿——没有舅了	mǔ niáng kū ér
 烙饼卷蚂蚱——夹吃去	jiā chī qù
 烙饼卷蚂蚱——夹吃去	lào bǐng juàn mǎ zhà
 烙铁上的热乎气——很快散去	hěn kuài sàn qù
@@ -6110,8 +6114,8 @@ sort: by_weight
 李逵敬酒——非喝不可	lǐ kuí jìng jiǔ
 李逵抡板斧——人强家伙硬	lǐ kuí lūn bǎn fǔ
 李逵抡板斧——人强家伙硬	rén qiáng jiā huǒ yìng
-李三爷看告示——厉害	lǐ sān yé kàn gào shì
 李三爷看告示——厉害	lì hài
+李三爷看告示——厉害	lǐ sān yé kàn gào shì
 李自成兵临城下——要崇祯爷上吊	lǐ zì chéng bīng lín chéng xià
 李自成兵临城下——要崇祯爷上吊	yào chóng zhēn yé shàng diào
 里弄里扛竹竿——直来直去	lǐ nòng lǐ káng zhú gān
@@ -6174,6 +6178,8 @@ sort: by_weight
 两个铜板做一副眼镜——只看钱	zhī kàn qián
 两个秃子睡一头——有一抠（有一套）	liǎng gè tū zǐ shuì yī tóu
 两个秃子睡一头——有一抠（有一套）	yǒu yī kōu
+两个瞎子对着瞪眼——看看谁哄谁	kàn kàn shuí hōng shuí
+两个瞎子对着瞪眼——看看谁哄谁	liǎng gè xiā zǐ duì zhuó dèng yǎn
 两个瞎子挤眼——看谁哄谁	kàn shuí hōng shuí
 两个瞎子挤眼——看谁哄谁	liǎng gè xiā zǐ jǐ yǎn
 两个瞎子挤眼——谁也没见谁	liǎng gè xiā zǐ jǐ yǎn
@@ -6185,7 +6191,7 @@ sort: by_weight
 两个指头夹香烟——稳稳当当	liǎng gè zhǐ tóu jiā xiāng yān
 两个指头夹香烟——稳稳当当	wěn wěn dāng dāng
 两个c字扣一块儿——顶个零蛋	dǐng gè líng dàn
-两个c字扣一块儿——顶个零蛋	liǎng gè c zì kòu yī kuài ér
+两个c字扣一块儿——顶个零蛋	liǎng gè cei zì kòu yī kuài ér
 两公婆拜年——多此一举	duō cǐ yī jǔ
 两公婆拜年——多此一举	liǎng gōng pó bài nián
 两公媳妇看镭射——不摆了	bù bǎi le
@@ -6301,7 +6307,7 @@ sort: by_weight
 六个指头掐卦——挨不着你	āi bù zhuó nǐ
 六个指头掐卦——挨不着你	liù gè zhǐ tóu qiā guà
 六小零童——孙行者	liù xiǎo líng tóng
-六小零童——孙行者	sūn háng zhě
+六小零童——孙行者	sūn xíng zhě
 六月戴毡帽——不看气候	bù kàn qì hòu
 六月戴毡帽——不看气候	liù yuè dài zhān mào
 六月的斑鸠——不知春秋	bù zhī chūn qiū
@@ -6320,8 +6326,8 @@ sort: by_weight
 六月里的梨疙疸——有点儿酸	yǒu diǎn ér suān
 六月里的鲞鱼——一身咸	liù yuè lǐ de xiǎng yú
 六月里的鲞鱼——一身咸	yī shēn xián
-六月里荷叶上的水珠——流走自如	liú zǒu zì rú
 六月里荷叶上的水珠——流走自如	liù yuè lǐ hé yè shàng de shuǐ zhū
+六月里荷叶上的水珠——流走自如	liú zǒu zì rú
 六月里蚊子——叮死了	dīng sǐ le
 六月里蚊子——叮死了	liù yuè lǐ wén zǐ
 六月里蚊子——钉死了	dīng sǐ le
@@ -6444,7 +6450,7 @@ sort: by_weight
 鲁肃上了孔明的船——错了	lǔ sù shàng le kǒng míng de chuán
 鲁肃上了孔明的船——稀里糊涂	lǔ sù shàng le kǒng míng de chuán
 鲁肃上了孔明的船——稀里糊涂	xī lǐ hū tú
-鲁肃讨荆州——空手而去，空手而回	kōng shǒu ér qù ， kōng shǒu ér huí
+鲁肃讨荆州——空手而去，空手而回	kōng shǒu ér qù kōng shǒu ér huí
 鲁肃讨荆州——空手而去，空手而回	lǔ sù tǎo jīng zhōu
 鲁肃宴请关云长——暗藏杀机	àn cáng shā jī
 鲁肃宴请关云长——暗藏杀机	lǔ sù yàn qǐng guān yún cháng
@@ -6476,8 +6482,8 @@ sort: by_weight
 驴皮影人——由着人家耍	yóu zhuó rén jiā shuǎ
 驴球戴礼帽——像个圣人	lǘ qiú dài lǐ mào
 驴球戴礼帽——像个圣人	xiàng gè shèng rén
-驴头不叫驴头——长脸	lǘ tóu bù jiào lǘ tóu
 驴头不叫驴头——长脸	cháng liǎn
+驴头不叫驴头——长脸	lǘ tóu bù jiào lǘ tóu
 驴头伸进马奶桶里——一张白嘴	lǘ tóu shēn jìn mǎ nǎi tǒng lǐ
 驴头伸进马奶桶里——一张白嘴	yī zhāng bái zuǐ
 驴下骡子——母不传丑	lǘ xià luó zǐ
@@ -6718,8 +6724,8 @@ sort: by_weight
 蚂蚱拴在猴腿上——想甩也甩不掉	xiǎng shuǎi yě shuǎi bù diào
 蚂蚱吞老虎——贪心不足	mǎ zhà tūn lǎo hǔ
 蚂蚱吞老虎——贪心不足	tān xīn bù zú
-蚂蚱眼睛——长长啦	mǎ zhà yǎn jīng
 蚂蚱眼睛——长长啦	cháng cháng lā
+蚂蚱眼睛——长长啦	mǎ zhà yǎn jīng
 蚂蚱拽了一条腿——照样还是蹦跳	mǎ zhà zhuài le yī tiáo tuǐ
 蚂蚱拽了一条腿——照样还是蹦跳	zhào yàng huán shì bèng tiào
 买把韭菜不摘——抖搂啥	dǒu lǒu shá
@@ -6783,7 +6789,7 @@ sort: by_weight
 卖瓜子儿开箱子打嚏喷——琐碎一大堆	mài guā zǐ ér kāi xiāng zǐ dǎ tì pēn
 卖瓜子儿开箱子打嚏喷——琐碎一大堆	suǒ suì yī dà duī
 卖蛤蟆买烟吸——水里来，火里去	mài gé má mǎi yān xī
-卖蛤蟆买烟吸——水里来，火里去	shuǐ lǐ lái ， huǒ lǐ qù
+卖蛤蟆买烟吸——水里来，火里去	shuǐ lǐ lái huǒ lǐ qù
 卖红薯丢了干粮——硬啃	mài hóng shǔ diū le gān liáng
 卖红薯丢了干粮——硬啃	yìng kěn
 卖解的吞宝剑——要钱不要命	mài jiě de tūn bǎo jiàn
@@ -7018,7 +7024,7 @@ sort: by_weight
 没骨头的软肉——要怎么切就怎么切	yào zěn me qiē jiù zěn me qiē
 没骨头的伞——支撑不开	méi gǔ tóu de sǎn
 没骨头的伞——支撑不开	zhī chēng bù kāi
-没脚蟹——寸步难行	cùn bù nán háng
+没脚蟹——寸步难行	cùn bù nán xíng
 没脚蟹——寸步难行	méi jiǎo xiè
 没锯开的葫芦——倒不出来	dǎo bù chū lái
 没锯开的葫芦——倒不出来	méi jù kāi de hú lú
@@ -7131,7 +7137,7 @@ sort: by_weight
 棉袄里边衬着单褂穿——离肉还隔着一层	lí ròu huán gé zhuó yī céng
 棉袄里边衬着单褂穿——离肉还隔着一层	mián ǎo lǐ biān chèn zhuó dān guà chuān
 棉花、线子——两样的事	liǎng yàng de shì
-棉花、线子——两样的事	mián huā 、 xiàn zǐ
+棉花、线子——两样的事	mián huā xiàn zǐ
 棉花地里套种谷——另来一手	lìng lái yī shǒu
 棉花地里套种谷——另来一手	mián huā dì lǐ tào zhǒng gǔ
 棉花卷儿打锣——没音	méi yīn
@@ -7380,8 +7386,8 @@ sort: by_weight
 尼姑庵里借梳子——找错门	zhǎo cuò mén
 尼姑庵里借梳子——找错门儿	ní gū ān lǐ jiè shū zǐ
 尼姑庵里借梳子——找错门儿	zhǎo cuò mén ér
-尼姑嫁人 ——— 打破常规	  dǎ pò cháng guī
-尼姑嫁人 ——— 打破常规	ní gū jià rén
+尼姑嫁人——打破常规	dǎ pò cháng guī
+尼姑嫁人——打破常规	ní gū jià rén
 尼姑捡梳子——空喜了一场	kōng xǐ le yī cháng
 尼姑捡梳子——空喜了一场	ní gū jiǎn shū zǐ
 尼姑头上插花——没发	méi fā
@@ -7435,7 +7441,7 @@ sort: by_weight
 年逮个鳖——有它也过年无它也过节	nián dài gè biē
 年逮个鳖——有它也过年无它也过节	yǒu tā yě guò nián wú tā yě guò jié
 年逮个兔子——有它也过年，没它也过年	nián dài gè tù zǐ
-年逮个兔子——有它也过年，没它也过年	yǒu tā yě guò nián ， méi tā yě guò nián
+年逮个兔子——有它也过年，没它也过年	yǒu tā yě guò nián méi tā yě guò nián
 年糕落锅——蒸的	nián gāo là guō
 年糕落锅——蒸的	zhēng de
 年轻娃子扛碌碡——正在劲头上	nián qīng wá zǐ káng lù zhóu
@@ -7445,17 +7451,17 @@ sort: by_weight
 年三十看皇历——好日子过完了	hǎo rì zǐ guò wán le
 年三十看皇历——好日子过完了	nián sān shí kàn huáng lì
 年晚上打兔子——有它过年，没它也过年	nián wǎn shàng dǎ tù zǐ
-年晚上打兔子——有它过年，没它也过年	yǒu tā guò nián ， méi tā yě guò nián
+年晚上打兔子——有它过年，没它也过年	yǒu tā guò nián méi tā yě guò nián
 年晚上打兔子——早干什么去了	nián wǎn shàng dǎ tù zǐ
 年晚上打兔子——早干什么去了	zǎo gān shén me qù le
 年晚上逮个鳖——有它过年，无它也过年	nián wǎn shàng dài gè biē
-年晚上逮个鳖——有它过年，无它也过年	yǒu tā guò nián ， wú tā yě guò nián
+年晚上逮个鳖——有它过年，无它也过年	yǒu tā guò nián wú tā yě guò nián
 年五更打个兔子——有你也过年，没你也过年	nián wǔ gēng dǎ gè tù zǐ
-年五更打个兔子——有你也过年，没你也过年	yǒu nǐ yě guò nián ， méi nǐ yě guò nián
+年五更打个兔子——有你也过年，没你也过年	yǒu nǐ yě guò nián méi nǐ yě guò nián
 年五更打了个兔子——有它过年，没它也过年	nián wǔ gēng dǎ le gè tù zǐ
-年五更打了个兔子——有它过年，没它也过年	yǒu tā guò nián ， méi tā yě guò nián
+年五更打了个兔子——有它过年，没它也过年	yǒu tā guò nián méi tā yě guò nián
 年五更逮个兔子——有它过年，没它也过年	nián wǔ gēng dài gè tù zǐ
-年五更逮个兔子——有它过年，没它也过年	yǒu tā guò nián ， méi tā yě guò nián
+年五更逮个兔子——有它过年，没它也过年	yǒu tā guò nián méi tā yě guò nián
 年夜喂过年猪——再迟不过了	nián yè wèi guò nián zhū
 年夜喂过年猪——再迟不过了	zài chí bù guò le
 年捉只野鸡——有没有一样过年	nián zhuō zhī yě jī
@@ -7610,7 +7616,7 @@ sort: by_weight
 螃蟹打皮寒——八个爪叉着	páng xiè dǎ pí hán
 螃蟹过河——七手八脚	páng xiè guò hé
 螃蟹过河——七手八脚	qī shǒu bā jiǎo
-螃蟹过街——横行霸道	héng háng bà dào
+螃蟹过街——横行霸道	héng xíng bà dào
 螃蟹过街——横行霸道	páng xiè guò jiē
 螃蟹夹豌豆——滚滚滚	gǔn gǔn gǔn
 螃蟹夹豌豆——滚滚滚	páng xiè jiā wān dòu
@@ -7686,8 +7692,8 @@ sort: by_weight
 蚍蜉撼树——不自量力	pí fú hàn shù
 屁股底下上弹簧——蹦起来	bèng qǐ lái
 屁股底下上弹簧——蹦起来	pì gǔ dǐ xià shàng dàn huáng
-屁股底下坐耗子——（-吱吱）积极	jī jí
-屁股底下坐耗子——（-吱吱）积极	pì gǔ dǐ xià zuò hào zǐ
+屁股底下坐耗子——（吱吱）积极	jī jí
+屁股底下坐耗子——（吱吱）积极	pì gǔ dǐ xià zuò hào zǐ
 屁股底下坐火炷——根子硬	gēn zǐ yìng
 屁股底下坐火炷——根子硬	pì gǔ dǐ xià zuò huǒ zhù
 屁股灌铅——起不来	pì gǔ guàn qiān
@@ -7708,8 +7714,8 @@ sort: by_weight
 屁股上扎刀——离心远	pì gǔ shàng zā dāo
 屁股下面坐橛子——根儿硬	gēn ér yìng
 屁股下面坐橛子——根儿硬	pì gǔ xià miàn zuò jué zǐ
-屁眼儿拔罐子——嘬屎	zuō shǐ
 屁眼儿拔罐子——嘬屎	pì yǎn ér bá guàn zǐ
+屁眼儿拔罐子——嘬屎	zuō shǐ
 屁眼里插芦花——假充大公鸡	jiǎ chōng dà gōng jī
 屁眼里插芦花——假充大公鸡	pì yǎn lǐ chā lú huā
 屁眼里栽葱——倒蒜	dǎo suàn
@@ -7868,6 +7874,8 @@ sort: by_weight
 千年的野猪——老虎的食	qiān nián de yě zhū
 牵牛下水——六脚全湿	liù jiǎo quán shī
 牵牛下水——六脚全湿	qiān niú xià shuǐ
+牵瞎子过桥——渡一节是一节	dù yī jié shì yī jié
+牵瞎子过桥——渡一节是一节	qiān xiā zǐ guò qiáo
 牵羊入屠户之家——一步步来寻死地	qiān yáng rù tú hù zhī jiā
 牵羊入屠户之家——一步步来寻死地	yī bù bù lái xún sǐ dì
 前妻的孩子哄后娘——尽说瞎话	jìn shuō xiā huà
@@ -7928,11 +7936,11 @@ sort: by_weight
 墙头上跑马——转身难	zhuǎn shēn nán
 墙头上睡觉——难翻身	nán fān shēn
 墙头上睡觉——难翻身	qiáng tóu shàng shuì jué
-墙头上行路——直来直去	qiáng tóu shàng háng lù
+墙头上行路——直来直去	qiáng tóu shàng xíng lù
 墙头上行路——直来直去	zhí lái zhí qù
 墙头上栽菜——坏名在外	huài míng zài wài
 墙头上栽菜——坏名在外	qiáng tóu shàng zāi cài
-抢风扬谷——秕者先行	bǐ zhě xiān háng
+抢风扬谷——秕者先行	bǐ zhě xiān xíng
 抢风扬谷——秕者先行	qiāng fēng yáng gǔ
 跷脚追兔子——越追越远	qiāo jiǎo zhuī tù zǐ
 跷脚追兔子——越追越远	yuè zhuī yuè yuǎn
@@ -7984,7 +7992,7 @@ sort: by_weight
 秦琼的马——膘在内里	qín qióng de mǎ
 秦叔宝的黄膘马——来头儿不小	lái tóu ér bù xiǎo
 秦叔宝的黄膘马——来头儿不小	qín shū bǎo de huáng biāo mǎ
-青菜、豆腐——一青二白	qīng cài 、 dòu fǔ
+青菜、豆腐——一青二白	qīng cài dòu fǔ
 青菜、豆腐——一青二白	yī qīng èr bái
 青菜萝卜——各有所爱	gè yǒu suǒ ài
 青菜萝卜——各有所爱	qīng cài luó bǔ
@@ -8110,7 +8118,7 @@ sort: by_weight
 缺门牙的——嘴巴不关风	zuǐ bā bù guān fēng
 缺牙巴咬虱子——碰巧	pèng qiǎo
 缺牙巴咬虱子——碰巧	quē yá bā yǎo shī zǐ
-瘸和尚登宝座——能说不能行	néng shuō bù néng háng
+瘸和尚登宝座——能说不能行	néng shuō bù néng xíng
 瘸和尚登宝座——能说不能行	qué hé shàng dēng bǎo zuò
 瘸驴配破磨——一对儿	qué lǘ pèi pò mó
 瘸驴配破磨——一对儿	yī duì ér
@@ -8208,15 +8216,15 @@ sort: by_weight
 肉汤洗脸——荤头荤脑	ròu tāng xǐ liǎn
 如来佛抓头皮——没经念了	méi jīng niàn le
 如来佛抓头皮——没经念了	rú lái fó zhuā tóu pí
-如来讲经———佛(胡)说	fó shuō
-如来讲经———佛(胡)说	rú lái jiǎng jīng
+如来讲经——佛（胡）说	fó shuō
+如来讲经——佛（胡）说	rú lái jiǎng jīng
 乳老鸦笑话猪儿足——灯台不照自	dēng tái bù zhào zì
 乳老鸦笑话猪儿足——灯台不照自	rǔ lǎo yā xiào huà zhū ér zú
 乳老鸦笑话猪儿足——原来灯台不照自	rǔ lǎo yā xiào huà zhū ér zú
 乳老鸦笑话猪儿足——原来灯台不照自	yuán lái dēng tái bù zhào zì
 入洞房的新郎官——光头净脸	guāng tóu jìng liǎn
 入洞房的新郎官——光头净脸	rù dòng fáng de xīn láng guān
-入了笼的螃蟹——横行不了几时	héng háng bù le jī shí
+入了笼的螃蟹——横行不了几时	héng xíng bù le jī shí
 入了笼的螃蟹——横行不了几时	rù le lóng de páng xiè
 软米粥拌粉面——稠上加稠	chóu shàng jiā chóu
 软米粥拌粉面——稠上加稠	ruǎn mǐ zhōu bàn fěn miàn
@@ -8256,7 +8264,7 @@ sort: by_weight
 三个厨师烧六只鸭——忙杀	sān gè chú shī shāo liù zhī yā
 三个菩萨两炷香——没你这尊菩萨的指望	méi nǐ zhè zūn pú sà de zhǐ wàng
 三个菩萨两炷香——没你这尊菩萨的指望	sān gè pú sà liǎng zhù xiāng
-三个菩萨堂——庙、庙、庙	miào 、 miào 、 miào
+三个菩萨堂——庙、庙、庙	miào miào miào
 三个菩萨堂——庙、庙、庙	sān gè pú sà táng
 三个指头捡田螺——不费吹灰之力	bù fèi chuī huī zhī lì
 三个指头捡田螺——不费吹灰之力	sān gè zhǐ tóu jiǎn tián luó
@@ -8367,7 +8375,7 @@ sort: by_weight
 沙石打青石——石打石	shā shí dǎ qīng shí
 沙石打青石——石打石	shí dǎ shí
 沙滩上行船——进退两难	jìn tuì liǎng nán
-沙滩上行船——进退两难	shā tān shàng háng chuán
+沙滩上行船——进退两难	shā tān shàng xíng chuán
 沙窝子想撑船——好事想绝了	hǎo shì xiǎng jué le
 沙窝子想撑船——好事想绝了	shā wō zǐ xiǎng chēng chuán
 砂罐里煨黄鳝——吃一节煨一节	chī yī jié wēi yī jié
@@ -8382,6 +8390,8 @@ sort: by_weight
 砂锅砸蒜——一锤子的买卖	yī chuí zǐ de mǎi mài
 砂锅子捣蒜——一锤子买卖	shā guō zǐ dǎo suàn
 砂锅子捣蒜——一锤子买卖	yī chuí zǐ mǎi mài
+砂面捏窝窝——团不到一挞	shā miàn niē wō wō
+砂面捏窝窝——团不到一挞	tuán bù dào yī tà
 砂子地里放屁——不害你那口碜	bù hài nǐ nà kǒu chěn
 砂子地里放屁——不害你那口碜	shā zǐ dì lǐ fàng pì
 鲨鱼吃虾毛——不够嚼	bù gòu jiáo
@@ -8468,7 +8478,7 @@ sort: by_weight
 上吊搽粉——死要面子	sǐ yào miàn zǐ
 上坟不带烧纸——净惹祖宗生气	jìng rě zǔ zōng shēng qì
 上坟不带烧纸——净惹祖宗生气	shàng fén bù dài shāo zhǐ
-上坟烧报纸——糊弄鬼啊	hū nòng guǐ a
+上坟烧报纸——糊弄鬼啊	hū nòng guǐ aa
 上坟烧报纸——糊弄鬼啊	shàng fén shāo bào zhǐ
 上坟烧报纸——豁（哄）鬼	huō guǐ
 上坟烧报纸——豁（哄）鬼	shàng fén shāo bào zhǐ
@@ -8487,7 +8497,7 @@ sort: by_weight
 上天绣花——想得可怪美	shàng tiān xiù huā
 上天绣花——想得可怪美	xiǎng dé kě guài měi
 上鞋不用锥子——针（真）行	shàng xié bù yòng zhuī zǐ
-上鞋不用锥子——针（真）行	zhēn háng
+上鞋不用锥子——针（真）行	zhēn xíng
 上锈的铁锁——打不开	dǎ bù kāi
 上锈的铁锁——打不开	shàng xiù de tiě suǒ
 绱鞋不使锥子——针好	shàng xié bù shǐ zhuī zǐ
@@ -8582,8 +8592,8 @@ sort: by_weight
 生成的鼻子眼——改不了相	shēng chéng de bí zǐ yǎn
 生成的地黄瓜——上不了高架	shàng bù le gāo jià
 生成的地黄瓜——上不了高架	shēng chéng de dì huáng guā
-生成的豆芽——长不成树	shēng chéng de dòu yá
 生成的豆芽——长不成树	cháng bù chéng shù
+生成的豆芽——长不成树	shēng chéng de dòu yá
 生虫拐杖——靠不住	kào bù zhù
 生虫拐杖——靠不住	shēng chóng guǎi zhàng
 生鸡蛋画花儿——假充熟	jiǎ chōng shú
@@ -8639,7 +8649,7 @@ sort: by_weight
 十个指头捏田螺——十拿九稳	shí gè zhǐ tóu niē tián luó
 十个指头捏田螺——十拿九稳	shí ná jiǔ wěn
 十里地扛槽子——（喂）为的是你啊	shí lǐ dì káng cáo zǐ
-十里地扛槽子——（喂）为的是你啊	wéi de shì nǐ a
+十里地扛槽子——（喂）为的是你啊	wéi de shì nǐ aa
 十里高山望平川——光景要往长处看	guāng jǐng yào wǎng cháng chǔ kàn
 十里高山望平川——光景要往长处看	shí lǐ gāo shān wàng píng chuān
 十亩地里长了一棵庄稼——独根独苗儿	dú gēn dú miáo ér
@@ -8708,8 +8718,8 @@ sort: by_weight
 石头蛋腌咸菜——一盐难进	yī yán nán jìn
 石头掉在棉花堆上——没一点儿声响	méi yī diǎn ér shēng xiǎng
 石头掉在棉花堆上——没一点儿声响	shí tóu diào zài mián huā duī shàng
-‌石头缝里捉鳖——十拿九稳	shí ná jiǔ wěn
 ‌石头缝里捉鳖——十拿九稳	‌ shí tóu féng lǐ zhuō biē
+‌石头缝里捉鳖——十拿九稳	shí ná jiǔ wěn
 石头后面的芽芽——见太阳迟	jiàn tài yáng chí
 石头后面的芽芽——见太阳迟	shí tóu hòu miàn de yá yá
 石头碰石头——一碰就响	shí tóu pèng shí tóu
@@ -8850,8 +8860,8 @@ sort: by_weight
 是个老虎不吃人——坏了名色在那里	shì gè lǎo hǔ bù chī rén
 手把着头稍——自领	shǒu bǎ zhuó tóu shāo
 手把着头稍——自领	zì lǐng
-手电筒——专照别人,不照自己	shǒu diàn tǒng
-手电筒——专照别人,不照自己	zhuān zhào bié rén , bù zhào zì jǐ
+手电筒——专照别人，不照自己	shǒu diàn tǒng
+手电筒——专照别人，不照自己	zhuān zhào bié rén bù zhào zì jǐ
 手电筒戴草帽——装人灯	shǒu diàn tǒng dài cǎo mào
 手电筒戴草帽——装人灯	zhuāng rén dēng
 手榴弹擦屁股——后怕	hòu pà
@@ -8912,8 +8922,8 @@ sort: by_weight
 属窗户纸的——一点就透	yī diǎn jiù tòu
 属刺猬的——捧不得也打不得	pěng bù dé yě dǎ bù dé
 属刺猬的——捧不得也打不得	shǔ cì wèi de
-属碟子的——浅、薄	qiǎn 、 báo
-属碟子的——浅、薄	shǔ dié zǐ de
+属碟子的——浅薄	qiǎn báo
+属碟子的——浅薄	shǔ dié zǐ de
 属公鸡的——光啼不下蛋	guāng tí bù xià dàn
 属公鸡的——光啼不下蛋	shǔ gōng jī de
 属狗的——翻脸不认人	fān liǎn bù rèn rén
@@ -8961,7 +8971,7 @@ sort: by_weight
 属老鼠的——放下爪子就忘	fàng xià zhǎo zǐ jiù wàng
 属老鼠的——放下爪子就忘	shǔ lǎo shǔ de
 属老鼠的——又𪨊又能祸害人	shǔ lǎo shǔ de
-属老鼠的——又𪨊又能祸害人	yòu 𪨊 yòu néng huò hài rén
+属老鼠的——又𪨊又能祸害人	yòu sóng yòu néng huò hài rén
 属驴的——直肠子	shǔ lǘ de
 属驴的——直肠子	zhí cháng zǐ
 属萝卜的——背大	bèi dà
@@ -8984,7 +8994,7 @@ sort: by_weight
 属牛皮纸糊的鼓面子——经不住敲打	shǔ niú pí zhǐ hū de gǔ miàn zǐ
 属牛屎的——捧不起来	pěng bù qǐ lái
 属牛屎的——捧不起来	shǔ niú shǐ de
-属螃蟹的——横行惯了	héng háng guàn le
+属螃蟹的——横行惯了	héng xíng guàn le
 属螃蟹的——横行惯了	shǔ páng xiè de
 属螃蟹的——横着走	héng zhuó zǒu
 属螃蟹的——横着走	shǔ páng xiè de
@@ -9062,8 +9072,8 @@ sort: by_weight
 刷锅水倒了猪食缸——都是一样的泔水	shuā guō shuǐ dǎo le zhū shí gāng
 甩手掌柜——什么也不管	shén me yě bù guǎn
 甩手掌柜——什么也不管	shuǎi shǒu zhǎng guì
-‌双手捧鸡蛋——十拿九稳	shí ná jiǔ wěn
 ‌双手捧鸡蛋——十拿九稳	‌ shuāng shǒu pěng jī dàn
+‌双手捧鸡蛋——十拿九稳	shí ná jiǔ wěn
 双头火杖——挤在一处	jǐ zài yī chǔ
 双头火杖——挤在一处	shuāng tóu huǒ zhàng
 霜打的树叶——蔫了	niān le
@@ -9115,7 +9125,7 @@ sort: by_weight
 水仙不开花——装蒜	shuǐ xiān bù kāi huā
 水仙不开花——装蒜	zhuāng suàn
 水仙不开花——装蒜，	shuǐ xiān bù kāi huā
-水仙不开花——装蒜，	zhuāng suàn ，
+水仙不开花——装蒜，	zhuāng suàn
 水蝎子——不咋蜇	bù zǎ zhé
 水蝎子——不咋蜇	shuǐ xiē zǐ
 水淹洞穴的蚂蚁——有出没进	shuǐ yān dòng xué de mǎ yǐ
@@ -9204,6 +9214,8 @@ sort: by_weight
 苏州蛤蟆——南蟾	sū zhōu gé má
 蒜叶子开屁股——刮毒了	guā dú le
 蒜叶子开屁股——刮毒了	suàn yè zǐ kāi pì gǔ
+算命瞎子打条头——都来看	dū lái kàn
+算命瞎子打条头——都来看	suàn mìng xiā zǐ dǎ tiáo tóu
 算盘珠子——拨一拨动一动	bō yī bō dòng yī dòng
 算盘珠子——拨一拨动一动	suàn pán zhū zǐ
 算先生的葫芦——一肚肚鬼	suàn xiān shēng de hú lú
@@ -9227,7 +9239,7 @@ sort: by_weight
 孙猴子头上的金箍——戴上去容易取下来难	dài shàng qù róng yì qǔ xià lái nán
 孙猴子头上的金箍——戴上去容易取下来难	sūn hóu zǐ tóu shàng de jīn gū
 孙猴子压在五行山下——背上越来越重	bèi shàng yuè lái yuè zhòng
-孙猴子压在五行山下——背上越来越重	sūn hóu zǐ yā zài wǔ háng shān xià
+孙猴子压在五行山下——背上越来越重	sūn hóu zǐ yā zài wǔ xíng shān xià
 孙猴子转生的——最会变	sūn hóu zǐ zhuǎn shēng de
 孙猴子转生的——最会变	zuì huì biàn
 孙猴子钻到铁扇公主肚皮里——来个里头踢蹬	lái gè lǐ tóu tī dēng
@@ -9250,7 +9262,7 @@ sort: by_weight
 孙悟空当齐天大圣——自封为王	zì fēng wéi wáng
 孙悟空的毫毛——随变（便）	suí biàn
 孙悟空的毫毛——随变（便）	sūn wù kōng de háo máo
-孙悟空的金箍棒——能大能小喻大小随意，不加限制	néng dà néng xiǎo yù dà xiǎo suí yì ， bù jiā xiàn zhì
+孙悟空的金箍棒——能大能小喻大小随意，不加限制	néng dà néng xiǎo yù dà xiǎo suí yì bù jiā xiàn zhì
 孙悟空的金箍棒——能大能小喻大小随意，不加限制	sūn wù kōng de jīn gū bàng
 孙悟空赴蟠桃会——不请自来	bù qǐng zì lái
 孙悟空赴蟠桃会——不请自来	sūn wù kōng fù pán táo huì
@@ -9276,9 +9288,9 @@ sort: by_weight
 孙悟空守蟠桃园——坏事	sūn wù kōng shǒu pán táo yuán
 孙悟空照镜子——目中无人	mù zhōng wú rén
 孙悟空照镜子——目中无人	sūn wù kōng zhào jìng zǐ
-孙行者却是个贩古董的——识货！识货！	shí huò ！ shí huò ！
-孙行者却是个贩古董的——识货！识货！	sūn háng zhě què shì gè fàn gǔ dǒng de
-孙行者照镜子——咋看都是那猴样	sūn háng zhě zhào jìng zǐ
+孙行者却是个贩古董的——识货！识货！	shí huò
+孙行者却是个贩古董的——识货！识货！	sūn xíng zhě què shì gè fàn gǔ dǒng de
+孙行者照镜子——咋看都是那猴样	sūn xíng zhě zhào jìng zǐ
 孙行者照镜子——咋看都是那猴样	zǎ kàn dū shì nà hóu yàng
 笋子变竹——节节空	jié jié kōng
 笋子变竹——节节空	sǔn zǐ biàn zhú
@@ -9410,8 +9422,8 @@ sort: by_weight
 螳螂掉到油锅里——全身都酥了	táng láng diào dào yóu guō lǐ
 躺在扁担上睡觉——心宽	tǎng zài biǎn dān shàng shuì jué
 躺在扁担上睡觉——心宽	xīn kuān
-躺在席子上吹死猪——长吁短叹	tǎng zài xí zǐ shàng chuī sǐ zhū
 躺在席子上吹死猪——长吁短叹	cháng xū duǎn tàn
+躺在席子上吹死猪——长吁短叹	tǎng zài xí zǐ shàng chuī sǐ zhū
 讨吃鬼算卦——穷卖斯文	qióng mài sī wén
 讨吃鬼算卦——穷卖斯文	tǎo chī guǐ suàn guà
 讨吃子捡窝窝——不知好歹	bù zhī hǎo dǎi
@@ -9608,7 +9620,7 @@ sort: by_weight
 铁笊篱漏汤——捞起来没够	tiě zhào lí lòu tāng
 铁铸的算盘——拨拉不开	bō lā bù kāi
 铁铸的算盘——拨拉不开	tiě zhù de suàn pán
-铁嘴豆腐脚——能说不能行	néng shuō bù néng háng
+铁嘴豆腐脚——能说不能行	néng shuō bù néng xíng
 铁嘴豆腐脚——能说不能行	tiě zuǐ dòu fǔ jiǎo
 听评书掉泪——替古人担忧	tì gǔ rén dān yōu
 听评书掉泪——替古人担忧	tīng píng shū diào lèi
@@ -9621,7 +9633,7 @@ sort: by_weight
 铜板做眼睛——认钱不认人	rèn qián bù rèn rén
 铜板做眼睛——认钱不认人	tóng bǎn zuò yǎn jīng
 铜钣上钉铆钉——一是一，二是二	tóng bǎn shàng dīng mǎo dīng
-铜钣上钉铆钉——一是一，二是二	yī shì yī ， èr shì èr
+铜钣上钉铆钉——一是一，二是二	yī shì yī èr shì èr
 铜匠担子——挑到哪里响到哪里	tiāo dào nǎ lǐ xiǎng dào nǎ lǐ
 铜匠担子——挑到哪里响到哪里	tóng jiàng dān zǐ
 铜铃打鼓——另有音	lìng yǒu yīn
@@ -9646,8 +9658,8 @@ sort: by_weight
 头顶上的虱子——明显地摆在那里	tóu dǐng shàng de shī zǐ
 头顶上长眼睛——旁若无人	páng ruò wú rén
 头顶上长眼睛——旁若无人	tóu dǐng shàng cháng yǎn jīng
-头顶生目,脚下生手——眼高手低	tóu dǐng shēng mù , jiǎo xià shēng shǒu
-头顶生目,脚下生手——眼高手低	yǎn gāo shǒu dī
+头顶生目，脚下生手——眼高手低	tóu dǐng shēng mù jiǎo xià shēng shǒu
+头顶生目，脚下生手——眼高手低	yǎn gāo shǒu dī
 头发串米糊——莫提啦	mò tí lā
 头发串米糊——莫提啦	tóu fā chuàn mǐ hū
 头发打棉絮——弹不拢	dàn bù lǒng
@@ -9778,8 +9790,8 @@ sort: by_weight
 兔子跳进滚水锅——有死无活	yǒu sǐ wú huó
 兔子吞了山药蛋——吐不出来	tǔ bù chū lái
 兔子吞了山药蛋——吐不出来	tù zǐ tūn le shān yào dàn
-兔子尾巴——长不了	tù zǐ wěi bā
 兔子尾巴——长不了	cháng bù le
+兔子尾巴——长不了	tù zǐ wěi bā
 兔子咬人——逼出来的	bī chū lái de
 兔子咬人——逼出来的	tù zǐ yǎo rén
 团上黄泥烧闷梨——心里受煎熬	tuán shàng huáng ní shāo mèn lí
@@ -9940,7 +9952,7 @@ sort: by_weight
 王八钻坛子——鳖在洞里	wáng bā zuān tán zǐ
 王八钻灶坑——憋气带窝火	biē qì dài wō huǒ
 王八钻灶坑——憋气带窝火	wáng bā zuān zào kēng
-王兵马的皂隶——不当㒲	bù dāng 㒲
+王兵马的皂隶——不当㒲	bù dāng cái
 王兵马的皂隶——不当㒲	wáng bīng mǎ de zào lì
 王二娘的裹脚布——又长又臭	wáng èr niáng de guǒ jiǎo bù
 王二娘的裹脚布——又长又臭	yòu cháng yòu chòu
@@ -10038,7 +10050,7 @@ sort: by_weight
 蚊子叮菩萨——认错人了	wén zǐ dīng pú sà
 蚊子放屁——小气	wén zǐ fàng pì
 蚊子放屁——小气	xiǎo qì
-蚊子来例假——多大点事啊	duō dà diǎn shì a
+蚊子来例假——多大点事啊	duō dà diǎn shì aa
 蚊子来例假——多大点事啊	wén zǐ lái lì jiǎ
 蚊子衔秤砣——嘴巴有劲	wén zǐ xián chèng tuó
 蚊子衔秤砣——嘴巴有劲	zuǐ bā yǒu jìn
@@ -10069,7 +10081,7 @@ sort: by_weight
 蜗牛撞大树——短眼睛	duǎn yǎn jīng
 蜗牛撞大树——短眼睛	wō niú zhuàng dà shù
 我解缆，你推船——顺水人情	shùn shuǐ rén qíng
-我解缆，你推船——顺水人情	wǒ jiě lǎn ， nǐ tuī chuán
+我解缆，你推船——顺水人情	wǒ jiě lǎn nǐ tuī chuán
 乌龟背铁板——实打实硬碰硬	shí dǎ shí yìng pèng yìng
 乌龟背铁板——实打实硬碰硬	wū guī bèi tiě bǎn
 乌龟变黄鳝——解甲归田	jiě jiǎ guī tián
@@ -10116,7 +10128,7 @@ sort: by_weight
 乌鸦占了凤凰枝——高攀	wū yā zhān le fèng huáng zhī
 乌鸦啄石灰——白嘴	bái zuǐ
 乌鸦啄石灰——白嘴	wū yā zhuó shí huī
-巫婆、神汉跳大神——邪门	wū pó 、 shén hàn tiào dà shén
+巫婆、神汉跳大神——邪门	wū pó shén hàn tiào dà shén
 巫婆、神汉跳大神——邪门	xié mén
 屋门口放尿桶——臭名出了外	chòu míng chū le wài
 屋门口放尿桶——臭名出了外	wū mén kǒu fàng niào tǒng
@@ -10141,7 +10153,7 @@ sort: by_weight
 梧桐落叶——满身光棍	mǎn shēn guāng gùn
 梧桐落叶——满身光棍	wú tóng là yè
 蜈蚣、蝎子、蛇——各有各的路数	gè yǒu gè de lù shù
-蜈蚣、蝎子、蛇——各有各的路数	wú gōng 、 xiē zǐ 、 shé
+蜈蚣、蝎子、蛇——各有各的路数	wú gōng xiē zǐ shé
 五齿铁耙搔痒——硬手	wǔ chǐ tiě bà sāo yǎng
 五齿铁耙搔痒——硬手	yìng shǒu
 五齿铁耙搔痒——硬手儿	wǔ chǐ tiě bà sāo yǎng
@@ -10167,7 +10179,7 @@ sort: by_weight
 伍子胥过昭关——一夜急白了头发	wǔ zǐ xū guò zhāo guān
 伍子胥过昭关——一夜急白了头发	yī yè jí bái le tóu fā
 忤逆子讲《孝经》——假装正经	jiǎ zhuāng zhèng jīng
-忤逆子讲《孝经》——假装正经	wǔ nì zǐ jiǎng 《 xiào jīng 》
+忤逆子讲《孝经》——假装正经	wǔ nì zǐ jiǎng xiào jīng
 武大郎打虎——没长下那个拳头	méi cháng xià nà gè quán tóu
 武大郎打虎——没长下那个拳头	wǔ dà láng dǎ hǔ
 武大郎登梯子——想高出一头	wǔ dà láng dēng tī zǐ
@@ -10198,7 +10210,7 @@ sort: by_weight
 捂着耳朵偷铃铛——自己骗自己	zì jǐ piàn zì jǐ
 舞台上做戏——当假不真	dāng jiǎ bù zhēn
 舞台上做戏——当假不真	wǔ tái shàng zuò xì
-雾海里行船——走哪儿算哪儿	wù hǎi lǐ háng chuán
+雾海里行船——走哪儿算哪儿	wù hǎi lǐ xíng chuán
 雾海里行船——走哪儿算哪儿	zǒu nǎ ér suàn nǎ ér
 西北风卷蒺藜——连风带刺	lián fēng dài cì
 西北风卷蒺藜——连风带刺	xī běi fēng juàn jí lí
@@ -10221,7 +10233,7 @@ sort: by_weight
 西葫芦南瓜——一对对	xī hú lú nán guā
 西葫芦南瓜——一对对	yī duì duì
 西天路上的孙行者——劳苦功高	láo kǔ gōng gāo
-西天路上的孙行者——劳苦功高	xī tiān lù shàng de sūn háng zhě
+西天路上的孙行者——劳苦功高	xī tiān lù shàng de sūn xíng zhě
 西洋镜儿——慢慢往后瞧	màn màn wǎng hòu qiáo
 西洋镜儿——慢慢往后瞧	xī yáng jìng ér
 惜薪司挡住路儿——柴众	chái zhòng
@@ -10312,12 +10324,16 @@ sort: by_weight
 瞎子帮忙——越帮越忙	yuè bāng yuè máng
 瞎子背拐子走——由你指点	xiā zǐ bèi guǎi zǐ zǒu
 瞎子背拐子走——由你指点	yóu nǐ zhǐ diǎn
+瞎子拨算盘——只听响声	xiā zǐ bō suàn pán
+瞎子拨算盘——只听响声	zhī tīng xiǎng shēng
 瞎子不知阴天——异想天开	xiā zǐ bù zhī yīn tiān
 瞎子不知阴天——异想天开	yì xiǎng tiān kāi
 瞎子吃花生——一把抓	xiā zǐ chī huā shēng
 瞎子吃花生——一把抓	yī bǎ zhuā
 瞎子吃饺子——心里有数	xiā zǐ chī jiǎo zǐ
 瞎子吃饺子——心里有数	xīn lǐ yǒu shù
+瞎子吃饺子——心里知道味	xiā zǐ chī jiǎo zǐ
+瞎子吃饺子——心里知道味	xīn lǐ zhī dào wèi
 瞎子吃汤圆——心头有数	xiā zǐ chī tāng yuán
 瞎子吃汤圆——心头有数	xīn tóu yǒu shù
 瞎子吃西瓜——红瓤白瓤分辨不开	hóng ráng bái ráng fēn biàn bù kāi
@@ -10350,6 +10366,8 @@ sort: by_weight
 瞎子的眼镜——多余的摆设	xiā zǐ de yǎn jìng
 瞎子点灯——白费蜡	bái fèi là
 瞎子点灯——白费蜡	xiā zǐ diǎn dēng
+瞎子钓鱼——全凭感觉	quán píng gǎn jué
+瞎子钓鱼——全凭感觉	xiā zǐ diào yú
 瞎子钉秤——多星	duō xīng
 瞎子钉秤——多星	xiā zǐ dīng chèng
 瞎子发眼——豁出去	huō chū qù
@@ -10362,6 +10380,16 @@ sort: by_weight
 瞎子放驴——不撒手儿	xiā zǐ fàng lǘ
 瞎子放驴——死恋住一个窑圪垯	sǐ liàn zhù yī gè yáo gē dá
 瞎子放驴——死恋住一个窑圪垯	xiā zǐ fàng lǘ
+瞎子缝草帽——尽绕圈子	jìn rào quān zǐ
+瞎子缝草帽——尽绕圈子	xiā zǐ féng cǎo mào
+瞎子赶夜路——假忙	jiǎ máng
+瞎子赶夜路——假忙	xiā zǐ gǎn yè lù
+瞎子跟着癞子跑——借光	jiè guāng
+瞎子跟着癞子跑——借光	xiā zǐ gēn zhuó lài zǐ pǎo
+瞎子跟着绳子走——摸索前进	mō suǒ qián jìn
+瞎子跟着绳子走——摸索前进	xiā zǐ gēn zhuó shéng zǐ zǒu
+瞎子观灯——一无所获	xiā zǐ guān dēng
+瞎子观灯——一无所获	yī wú suǒ huò
 瞎子管瓜——全靠喉咙响	quán kào hóu lóng xiǎng
 瞎子管瓜——全靠喉咙响	xiā zǐ guǎn guā
 瞎子过河——不摸水深浅	bù mō shuǐ shēn qiǎn
@@ -10378,8 +10406,18 @@ sort: by_weight
 瞎子害眼——也就是这么回事	yě jiù shì zhè me huí shì
 瞎子害眼病——没好	méi hǎo
 瞎子害眼病——没好	xiā zǐ hài yǎn bìng
+瞎子捡柴禾——认准这块地	rèn zhǔn zhè kuài dì
+瞎子捡柴禾——认准这块地	xiā zǐ jiǎn chái hé
 瞎子进城——瞎碰乱撞	xiā pèng luàn zhuàng
 瞎子进城——瞎碰乱撞	xiā zǐ jìn chéng
+瞎子进屋——没门	méi mén
+瞎子进屋——没门	xiā zǐ jìn wū
+瞎子看到鬼——听说的	tīng shuō de
+瞎子看到鬼——听说的	xiā zǐ kàn dào guǐ
+瞎子看天窗——不明不白	bù míng bù bái
+瞎子看天窗——不明不白	xiā zǐ kàn tiān chuāng
+瞎子看跳舞——盲目乐观	máng mù lè guān
+瞎子看跳舞——盲目乐观	xiā zǐ kàn tiào wǔ
 瞎子看西洋景——白熬工夫	bái āo gōng fū
 瞎子看西洋景——白熬工夫	xiā zǐ kàn xī yáng jǐng
 瞎子烤火——光往自家怀里搂	guāng wǎng zì jiā huái lǐ lǒu
@@ -10408,16 +10446,22 @@ sort: by_weight
 瞎子磨镰刀——快了	xiā zǐ mó lián dāo
 瞎子闹眼病——没治	méi zhì
 瞎子闹眼病——没治	xiā zǐ nào yǎn bìng
+瞎子跑路——靠棒	kào bàng
+瞎子跑路——靠棒	xiā zǐ pǎo lù
 瞎子扑蚂蚱——有你也抓不住	xiā zǐ pū mǎ zhà
 瞎子扑蚂蚱——有你也抓不住	yǒu nǐ yě zhuā bù zhù
 瞎子骑驴——一条道走到黑	xiā zǐ qí lǘ
 瞎子骑驴——一条道走到黑	yī tiáo dào zǒu dào hēi
+瞎子失了拐杖——无依无靠	wú yī wú kào
+瞎子失了拐杖——无依无靠	xiā zǐ shī le guǎi zhàng
 瞎子失了盲杖——一步一步摸	xiā zǐ shī le máng zhàng
 瞎子失了盲杖——一步一步摸	yī bù yī bù mō
 瞎子撕洋黄历——白扯	bái chě
 瞎子撕洋黄历——白扯	xiā zǐ sī yáng huáng lì
 瞎子蹚水——试着来	shì zhuó lái
 瞎子蹚水——试着来	xiā zǐ tāng shuǐ
+瞎子趟水——试着来	shì zhuó lái
+瞎子趟水——试着来	xiā zǐ tàng shuǐ
 瞎子踢毽——踢一个没一个	tī yī gè méi yī gè
 瞎子踢毽——踢一个没一个	xiā zǐ tī jiàn
 瞎子舔煤球——眼黑嘴也黑	xiā zǐ tiǎn méi qiú
@@ -10434,8 +10478,14 @@ sort: by_weight
 瞎子找驴——不知往哪儿闯	xiā zǐ zhǎo lǘ
 瞎子走黑路——乱撞乱碰	luàn zhuàng luàn pèng
 瞎子走黑路——乱撞乱碰	xiā zǐ zǒu hēi lù
+瞎子走进自家巷——门路熟	mén lù shú
+瞎子走进自家巷——门路熟	xiā zǐ zǒu jìn zì jiā xiàng
 瞎子走路——一步步地来	xiā zǐ zǒu lù
 瞎子走路——一步步地来	yī bù bù dì lái
+瞎子走夜路——假慌假忙	jiǎ huāng jiǎ máng
+瞎子走夜路——假慌假忙	xiā zǐ zǒu yè lù
+瞎子钻山洞——摸索前进	mō suǒ qián jìn
+瞎子钻山洞——摸索前进	xiā zǐ zuān shān dòng
 瞎子坐上席——目中无人	mù zhōng wú rén
 瞎子坐上席——目中无人	xiā zǐ zuò shàng xí
 瞎子坐席——哪碗好摸端哪碗	nǎ wǎn hǎo mō duān nǎ wǎn
@@ -10518,8 +10568,8 @@ sort: by_weight
 象棋上的老将——死也不敢出那个框框	xiàng qí shàng de lǎo jiāng
 橡皮球——你硬他就软	nǐ yìng tā jiù ruǎn
 橡皮球——你硬他就软	xiàng pí qiú
-哮天犬过了独木桥就不会叫了——过目(木)不忘(汪)	guò mù bù wàng
-哮天犬过了独木桥就不会叫了——过目(木)不忘(汪)	xiào tiān quǎn guò le dú mù qiáo jiù bù huì jiào le
+哮天犬过了独木桥就不会叫了——过目（木）不忘（汪）	guò mù bù wàng
+哮天犬过了独木桥就不会叫了——过目（木）不忘（汪）	xiào tiān quǎn guò le dú mù qiáo jiù bù huì jiào le
 萧何月下追韩信——连夜赶	lián yè gǎn
 萧何月下追韩信——连夜赶	xiāo hé yuè xià zhuī hán xìn
 小叭儿狗戴铃铛——混充大牲口	hùn chōng dà shēng kǒu
@@ -10530,14 +10580,14 @@ sort: by_weight
 小叭狗戴铃铛——混充大牲口	xiǎo bā gǒu dài líng dāng
 小菜园里的韭菜——你算哪一蔸	nǐ suàn nǎ yī dōu
 小菜园里的韭菜——你算哪一蔸	xiǎo cài yuán lǐ de jiǔ cài
-小车儿不拉——推行	tuī háng
+小车儿不拉——推行	tuī xíng
 小车儿不拉——推行	xiǎo chē ér bù lā
 小车子不拉——推好	tuī hǎo
 小车子不拉——推好	xiǎo chē zǐ bù lā
 小丑打擂——胡闹台	hú nào tái
 小丑打擂——胡闹台	xiǎo chǒu dǎ léi
-小葱拌菠菜——青(亲)上加青(亲)	qīng shàng jiā qīng
-小葱拌菠菜——青(亲)上加青(亲)	xiǎo cōng bàn bō cài
+小葱拌菠菜——青（亲）上加青（亲）	qīng shàng jiā qīng
+小葱拌菠菜——青（亲）上加青（亲）	xiǎo cōng bàn bō cài
 小葱拌豆腐——一青二白	xiǎo cōng bàn dòu fǔ
 小葱拌豆腐——一青二白	yī qīng èr bái
 小葱拌豆腐——一清（青）二白	xiǎo cōng bàn dòu fǔ
@@ -10620,8 +10670,6 @@ sort: by_weight
 小鸡不带笼头——散逛	xiǎo jī bù dài lóng tóu
 小鸡不撒尿——必有个道道儿	bì yǒu gè dào dào ér
 小鸡不撒尿——必有个道道儿	xiǎo jī bù sā niào
-小鸡不撒尿——各有各的道、	gè yǒu gè de dào 、
-小鸡不撒尿——各有各的道、	xiǎo jī bù sā niào
 小鸡不撒尿——各有各的道儿	gè yǒu gè de dào ér
 小鸡不撒尿——各有各的道儿	xiǎo jī bù sā niào
 小鸡吃大豆——够呛	gòu qiāng
@@ -10657,15 +10705,15 @@ sort: by_weight
 小炉匠戴眼镜——找碴儿	xiǎo lú jiàng dài yǎn jìng
 小炉匠戴眼镜——找碴儿	zhǎo chá ér
 小炉匠跟着行香的走——琐碎一浪荡	suǒ suì yī làng dàng
-小炉匠跟着行香的走——琐碎一浪荡	xiǎo lú jiàng gēn zhuó háng xiāng de zǒu
+小炉匠跟着行香的走——琐碎一浪荡	xiǎo lú jiàng gēn zhuó xíng xiāng de zǒu
 小炉匠跟着行香的走——锁碎一浪荡	suǒ suì yī làng dàng
-小炉匠跟着行香的走——锁碎一浪荡	xiǎo lú jiàng gēn zhuó háng xiāng de zǒu
+小炉匠跟着行香的走——锁碎一浪荡	xiǎo lú jiàng gēn zhuó xíng xiāng de zǒu
 小马拴在大树上——跑不掉	pǎo bù diào
 小马拴在大树上——跑不掉	xiǎo mǎ shuān zài dà shù shàng
 小马拴在大树上——稳妥妥	wěn tuǒ tuǒ
 小马拴在大树上——稳妥妥	xiǎo mǎ shuān zài dà shù shàng
-小猫不小猫——虎犊子?	hǔ dú zǐ ?
-小猫不小猫——虎犊子?	xiǎo māo bù xiǎo māo
+小猫不小猫——虎犊子？	hǔ dú zǐ
+小猫不小猫——虎犊子？	xiǎo māo bù xiǎo māo
 小猫吃小鱼——有头有尾	xiǎo māo chī xiǎo yú
 小猫吃小鱼——有头有尾	yǒu tóu yǒu wěi
 小猫喝烧酒——够呛	gòu qiāng
@@ -10763,7 +10811,7 @@ sort: by_weight
 蝎子的尾巴——有点毒水也不多	xiē zǐ de wěi bā
 蝎子的尾巴——有点毒水也不多	yǒu diǎn dú shuǐ yě bù duō
 蝎子的㞎㞎——毒粪儿	dú fèn ér
-蝎子的㞎㞎——毒粪儿	xiē zǐ de 㞎㞎
+蝎子的㞎㞎——毒粪儿	xiē zǐ de bǎ bǎ
 蝎子掉到磨眼里——就别打算出这个洞	jiù bié dǎ suàn chū zhè gè dòng
 蝎子掉到磨眼里——就别打算出这个洞	xiē zǐ diào dào mó yǎn lǐ
 蝎子放屁——毒气大	dú qì dà
@@ -10862,6 +10910,8 @@ sort: by_weight
 胸脯上长草——荒了心	xiōng fǔ shàng cháng cǎo
 胸中有二十五只老鼠——百爪挠心	bǎi zhǎo náo xīn
 胸中有二十五只老鼠——百爪挠心	xiōng zhōng yǒu èr shí wǔ zhī lǎo shǔ
+熊瞎子掰苞米——掰一个掉一个	bāi yī gè diào yī gè
+熊瞎子掰苞米——掰一个掉一个	xióng xiā zǐ bāi bāo mǐ
 熊瞎子掰苞米——掰一个扔一个	bāi yī gè rēng yī gè
 熊瞎子掰苞米——掰一个扔一个	xióng xiā zǐ bāi bāo mǐ
 熊瞎子掰苞米——所剩无几	suǒ shèng wú jī
@@ -10874,8 +10924,10 @@ sort: by_weight
 熊瞎子打敬礼——一手遮天	yī shǒu zhē tiān
 熊瞎子打立正——一手遮天	xióng xiā zǐ dǎ lì zhèng
 熊瞎子打立正——一手遮天	yī shǒu zhē tiān
+熊瞎子头痛——发烧	fā shāo
+熊瞎子头痛——发烧	xióng xiā zǐ tóu tòng
 修鞋不用锥子——针行	xiū xié bù yòng zhuī zǐ
-修鞋不用锥子——针行	zhēn háng
+修鞋不用锥子——针行	zhēn xíng
 秀才屙到香炉里——知理不说理	xiù cái ē dào xiāng lú lǐ
 秀才屙到香炉里——知理不说理	zhī lǐ bù shuō lǐ
 秀才遇到兵——有理讲不清	xiù cái yù dào bīng
@@ -10982,7 +11034,7 @@ sort: by_weight
 牙齿咬铁钉——逞嘴硬	yá chǐ yǎo tiě dīng
 牙缝里找痔疮——完全外行	wán quán wài háng
 牙缝里找痔疮——完全外行	yá féng lǐ zhǎo zhì chuāng
-牙行转生——非兜揽闲事不行	fēi dōu lǎn xián shì bù háng
+牙行转生——非兜揽闲事不行	fēi dōu lǎn xián shì bù xíng
 牙行转生——非兜揽闲事不行	yá háng zhuǎn shēng
 牙咬腮帮子——弟兄们之间的事	dì xiōng mén zhī jiān de shì
 牙咬腮帮子——弟兄们之间的事	yá yǎo sāi bāng zǐ
@@ -11220,9 +11272,8 @@ sort: by_weight
 洋鬼子看戏——傻眼	yáng guǐ zǐ kàn xì
 洋蜡棍儿——一碰就断	yáng là gùn ér
 洋蜡棍儿——一碰就断	yī pèng jiù duàn
-洋马儿（自行车）下坡——不睬	bù cǎi
-洋马儿（自行车）下坡——不睬	yáng mǎ ér xià pō
-洋马儿（自行车）下坡——不睬	zì háng chē xià pō
+洋马儿下坡——不踩（理睬）	bù cǎi
+洋马儿下坡——不踩（理睬）	yáng mǎ ér xià pō
 洋烟花花结毒果子——中看不中吃	yáng yān huā huā jié dú guǒ zǐ
 洋烟花花结毒果子——中看不中吃	zhōng kàn bù zhōng chī
 仰八脚儿擤鼻子——弄到哪儿算哪儿	nòng dào nǎ ér suàn nǎ ér
@@ -11371,8 +11422,8 @@ sort: by_weight
 一个挂历用一年——家家如此	yī gè guà lì yòng yī nián
 一个锅里搅勺子——碍不住盆沿碰碗沿	ài bù zhù pén yán pèng wǎn yán
 一个锅里搅勺子——碍不住盆沿碰碗沿	yī gè guō lǐ jiǎo sháo zǐ
-一个核桃掰不开——然乎(粘核)	rán hū
-一个核桃掰不开——然乎(粘核)	yī gè hé táo bāi bù kāi
+一个核桃掰不开——然乎（粘核）	rán hū
+一个核桃掰不开——然乎（粘核）	yī gè hé táo bāi bù kāi
 一个葫芦锯的两把瓢——正好一对儿	yī gè hú lú jù de liǎng bǎ piáo
 一个葫芦锯的两把瓢——正好一对儿	zhèng hǎo yī duì ér
 一个教师一路拳——各有各的打法	gè yǒu gè de dǎ fǎ
@@ -11659,8 +11710,8 @@ sort: by_weight
 月亮底下打灯笼——空挂明	yuè liàng dǐ xià dǎ dēng lóng
 月亮上的肉——吃不上	chī bù shàng
 月亮上的肉——吃不上	yuè liàng shàng de ròu
-月亮下面看自家的影子——越看越大	yuè liàng xià miàn kàn zì jiā de yǐng zǐ
 月亮下面看自家的影子——越看越大	yuè kàn yuè dà
+月亮下面看自家的影子——越看越大	yuè liàng xià miàn kàn zì jiā de yǐng zǐ
 月母子摸鸡——逗几耍勒	dòu jī shuǎ lè
 月母子摸鸡——逗几耍勒	yuè mǔ zǐ mō jī
 云端里老鼠——天生的耗	tiān shēng de hào
@@ -11825,64 +11876,64 @@ sort: by_weight
 张天师着鬼迷——无法可使	zhāng tiān shī zhuó guǐ mí
 蟑螂落油锅——全身都酥了	quán shēn dū sū le
 蟑螂落油锅——全身都酥了	zhāng láng là yóu guō
-长安街上算卦的——尽拣好听的说	jìn jiǎn hǎo tīng de shuō
 长安街上算卦的——尽拣好听的说	cháng ān jiē shàng suàn guà de
-长白山的大雪——满天飞	mǎn tiān fēi
+长安街上算卦的——尽拣好听的说	jìn jiǎn hǎo tīng de shuō
 长白山的大雪——满天飞	cháng bái shān de dà xuě
-长坂坡摔孩子——收买人心	shōu mǎi rén xīn
+长白山的大雪——满天飞	mǎn tiān fēi
 长坂坡摔孩子——收买人心	cháng bǎn pō shuāi hái zǐ
-长城上的砖——未知经过多少风雨	wèi zhī jīng guò duō shǎo fēng yǔ
+长坂坡摔孩子——收买人心	shōu mǎi rén xīn
 长城上的砖——未知经过多少风雨	cháng chéng shàng de zhuān
-长城上跑步——大有奔头	dà yǒu bēn tóu
+长城上的砖——未知经过多少风雨	wèi zhī jīng guò duō shǎo fēng yǔ
 长城上跑步——大有奔头	cháng chéng shàng pǎo bù
+长城上跑步——大有奔头	dà yǒu bēn tóu
 长虫吃扁担——直杠一条	cháng chóng chī biǎn dān
 长虫吃扁担——直杠一条	zhí gàng yī tiáo
-长虫吃了烟袋油——浑身哆嗦	hún shēn duō suō
 长虫吃了烟袋油——浑身哆嗦	cháng chóng chī le yān dài yóu
-长虫打架——绕脖子	rào bó zǐ
+长虫吃了烟袋油——浑身哆嗦	hún shēn duō suō
 长虫打架——绕脖子	cháng chóng dǎ jià
-长虫过街——莽（蟒）行	mǎng háng
+长虫打架——绕脖子	rào bó zǐ
 长虫过街——莽（蟒）行	cháng chóng guò jiē
-长虫吞扁担——没法咽下去	méi fǎ yān xià qù
+长虫过街——莽（蟒）行	mǎng xíng
 长虫吞扁担——没法咽下去	cháng chóng tūn biǎn dān
-长虫钻竹筒——死不转弯	sǐ bù zhuǎn wān
+长虫吞扁担——没法咽下去	méi fǎ yān xià qù
 长虫钻竹筒——死不转弯	cháng chóng zuān zhú tǒng
-长杆打猴——爬到高处去	pá dào gāo chǔ qù
+长虫钻竹筒——死不转弯	sǐ bù zhuǎn wān
 长杆打猴——爬到高处去	cháng gān dǎ hóu
-长工打东家——雇不得了	gù bù dé le
+长杆打猴——爬到高处去	pá dào gāo chǔ qù
 长工打东家——雇不得了	cháng gōng dǎ dōng jiā
-长江里水——面上平静	miàn shàng píng jìng
+长工打东家——雇不得了	gù bù dé le
 长江里水——面上平静	cháng jiāng lǐ shuǐ
-长江流水——滔滔不绝	tāo tāo bù jué
+长江里水——面上平静	miàn shàng píng jìng
 长江流水——滔滔不绝	cháng jiāng liú shuǐ
-长颈鹿进马群——高出了头	gāo chū le tóu
+长江流水——滔滔不绝	tāo tāo bù jué
 长颈鹿进马群——高出了头	cháng jǐng lù jìn mǎ qún
-长颈鹿进羊群——非常突出	fēi cháng tū chū
+长颈鹿进马群——高出了头	gāo chū le tóu
 长颈鹿进羊群——非常突出	cháng jǐng lù jìn yáng qún
-长颈鹿进羊群——高出一大截	gāo chū yī dà jié
+长颈鹿进羊群——非常突出	fēi cháng tū chū
 长颈鹿进羊群——高出一大截	cháng jǐng lù jìn yáng qún
-长了个钱串子脑袋——见钱眼开	jiàn qián yǎn kāi
+长颈鹿进羊群——高出一大截	gāo chū yī dà jié
 长了个钱串子脑袋——见钱眼开	cháng le gè qián chuàn zǐ nǎo dài
+长了个钱串子脑袋——见钱眼开	jiàn qián yǎn kāi
 长了三只手——爱偷	ài tōu
 长了三只手——爱偷	cháng le sān zhī shǒu
-长袍马褂瓜皮帽——老一套	lǎo yī tào
 长袍马褂瓜皮帽——老一套	cháng páo mǎ guà guā pí mào
+长袍马褂瓜皮帽——老一套	lǎo yī tào
 长跑比赛——争分夺秒	cháng pǎo bǐ sài
 长跑比赛——争分夺秒	zhēng fēn duó miǎo
-长衫子改夹袄——取长补短	qǔ cháng bǔ duǎn
 长衫子改夹袄——取长补短	cháng shān zǐ gǎi jiā ǎo
+长衫子改夹袄——取长补短	qǔ cháng bǔ duǎn
 长丝瓜当扁担——不晓得软硬	bù xiǎo dé ruǎn yìng
 长丝瓜当扁担——不晓得软硬	cháng sī guā dāng biǎn dān
-长线放远风筝——下过大功夫	xià guò dà gōng fū
 长线放远风筝——下过大功夫	cháng xiàn fàng yuǎn fēng zhēng
-长元合的蜡——干碗的	gān wǎn de
+长线放远风筝——下过大功夫	xià guò dà gōng fū
 长元合的蜡——干碗的	cháng yuán hé de là
-长竹竿进城——拐不过弯儿	guǎi bù guò wān ér
+长元合的蜡——干碗的	gān wǎn de
 长竹竿进城——拐不过弯儿	cháng zhú gān jìn chéng
+长竹竿进城——拐不过弯儿	guǎi bù guò wān ér
 长竹竿进巷道——直来直去	cháng zhú gān jìn xiàng dào
 长竹竿进巷道——直来直去	zhí lái zhí qù
-长足了的葫芦——急开了瓢	jí kāi le piáo
 长足了的葫芦——急开了瓢	cháng zú le de hú lú
+长足了的葫芦——急开了瓢	jí kāi le piáo
 掌心上出毛——老手	lǎo shǒu
 掌心上出毛——老手	zhǎng xīn shàng chū máo
 丈八的灯台——照见人家照不见自己	zhàng bā de dēng tái
@@ -11923,8 +11974,8 @@ sort: by_weight
 折庙散和尚——各奔东西	zhē miào sàn hé shàng
 针尖对麦芒——尖对尖	jiān duì jiān
 针尖对麦芒——尖对尖	zhēn jiān duì mài máng
-‌针尖对麦芒——十拿九稳	shí ná jiǔ wěn
 ‌针尖对麦芒——十拿九稳	‌ zhēn jiān duì mài máng
+‌针尖对麦芒——十拿九稳	shí ná jiǔ wěn
 针尖上打擂台——拼的就是精细	pīn de jiù shì jīng xì
 针尖上打擂台——拼的就是精细	zhēn jiān shàng dǎ léi tái
 珍珠没眼儿——瞎宝贝	xiā bǎo bèi
@@ -12025,7 +12076,7 @@ sort: by_weight
 中秋后一天结婚——喜出望外	zhōng qiū hòu yī tiān jié hūn
 中秋节的月亮——正大光明	zhèng dà guāng míng
 中秋节的月亮——正大光明	zhōng qiū jié de yuè liàng
-中药铺柜台上的湿抹布——酸、甜、苦、辣全搅和在一起	suān 、 tián 、 kǔ 、 là quán jiǎo hé zài yī qǐ
+中药铺柜台上的湿抹布——酸、甜、苦、辣全搅和在一起	suān tián kǔ là quán jiǎo hé zài yī qǐ
 中药铺柜台上的湿抹布——酸、甜、苦、辣全搅和在一起	zhōng yào pū guì tái shàng de shī mǒ bù
 钟鼓楼底下的麻雀——惊怕出来了	jīng pà chū lái le
 钟鼓楼底下的麻雀——惊怕出来了	zhōng gǔ lóu dǐ xià de má què
@@ -12222,7 +12273,7 @@ sort: by_weight
 猪悟能投胎——嘴巴坚挺	zhū wù néng tóu tāi
 猪悟能投胎——嘴巴坚挺	zuǐ bā jiān tǐng
 猪向前拱，鸡往后扒——各有各的路	gè yǒu gè de lù
-猪向前拱，鸡往后扒——各有各的路	zhū xiàng qián gǒng ， jī wǎng hòu bā
+猪向前拱，鸡往后扒——各有各的路	zhū xiàng qián gǒng jī wǎng hòu bā
 猪血煮豆腐——黑白分得一清二楚	hēi bái fēn dé yī qīng èr chǔ
 猪血煮豆腐——黑白分得一清二楚	zhū xiě zhǔ dòu fǔ
 猪羊走入屠宰家——一脚脚来寻死路	yī jiǎo jiǎo lái xún sǐ lù
@@ -12353,8 +12404,8 @@ sort: by_weight
 自己点火烧眼眉——自找倒霉	zì zhǎo dǎo méi
 自投酆都城——找死	zhǎo sǐ
 自投酆都城——找死	zì tóu fēng dū chéng
-自行车下坡——不踩	bù cǎi
-自行车下坡——不踩	zì háng chē xià pō
+自行车下坡——不踩（理睬）	bù cǎi
+自行车下坡——不踩（理睬）	zì xíng chē xià pō
 走了油的火腿——浑身肉麻	hún shēn ròu má
 走了油的火腿——浑身肉麻	zǒu le yóu de huǒ tuǐ
 走路包饺子——拿捏起来	ná niē qǐ lái
