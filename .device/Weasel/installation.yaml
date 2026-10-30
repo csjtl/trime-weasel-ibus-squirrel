@@ -1,7 +1,8 @@
 distribution_code_name: Weasel
 distribution_name: "小狼毫"
-distribution_version: VERSION_MAJOR.VERSION_MINOR.VERSION_PATCH
-installation_id: "weasel-backup-t430"
-rime_version: 1.17.0
-sync_dir: "C:\\Users\\tl851\\OneDrive\\设备\\软件\\OneSyncFiles\\rime\\sync"
-update_time: "Sat Jul 11 12:49:55 2026"
+distribution_version: 0.17.4
+install_time: "Sun Oct 29 23:43:41 2023"
+installation_id: "weasel-backup-z97"
+rime_version: 1.13.1
+sync_dir: "N:\\OneDrive\\设备\\软件\\OneSyncFiles\\rime\\sync"
+update_time: "Mon Sep  8 00:35:20 2025"

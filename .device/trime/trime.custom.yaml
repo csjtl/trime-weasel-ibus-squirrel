@@ -1,4 +1,14 @@
 # Trime 自定义
 patch:
-  "preset_keyboards/default/keys/@42/long_click": Theme_settings
+  "preset_keyboards/default/keys/@1/long_click": Theme_settings
+
+  "preset_keyboards/mini/keys/@2/long_click": Theme_settings
+  "preset_keyboards/letter/keys/@2/long_click": Theme_settings
+  "preset_keyboards/qwerty0/keys/@2/long_click": Theme_settings
+  "preset_keyboards/qwerty_/keys/@2/long_click": Theme_settings
+  "preset_keyboards/us_intl/keys/@2/long_click": Theme_settings
+  "preset_keyboards/number/keys/@2/long_click": Theme_settings
+  "preset_keyboards/symbols/keys/@2/long_click": Theme_settings
+
+
   #"style/keyboard_padding_bottom": 50

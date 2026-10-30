@@ -211,7 +211,6 @@ key_binder:
   search: "`"             # 辅码引导符，要添加到 speller/alphabet
   # bindings:             # 也可以再增加方案专有的快捷键
 
-
 # 拼写设定
 speller:
   # 如果不想让什么标点直接上屏，可以加在 alphabet，或者编辑标点符号为两个及以上的映射
@@ -220,7 +219,9 @@ speller:
   initials: "zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA"
   delimiter: " '"  # 第一位<空格>是拼音之间的分隔符；第二位<'>表示可以手动输入单引号来分割拼音。
   algebra:
-    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜü/aaaaooooeeeeiiiiuuuuvvvvv/
+    #- xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜüńňǹ/aaaaooooeeeeiiiiuuuuvvvvvnnn/
+    # 带调字母 → 无调字母；ü/ǖǘǚǜ 统一映射为 v
+    - xlit/āáǎàōóǒòēéěèīíǐìūúǔùǖǘǚǜüńňǹḿếềẑĉŝê/aaaaooooeeeeiiiiuuuuvvvvvnnnmeezcse/
     - erase/^xx$/ # 首选保留
 
     - derive/^([a-z]).+$/$1/    # 生成所有单字母简码（但下面立即擦除 scz）

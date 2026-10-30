@@ -1,4 +1,5 @@
 # Trime 自定义
 patch:
   #"style/keyboard_padding_bottom": 40
+  "preset_keyboards/default/keys/@2/long_click": Theme_settings
   "style/comment_position": overlay

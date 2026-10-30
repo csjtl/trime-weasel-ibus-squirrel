@@ -1,6 +1,15 @@
 var:
-  last_build_time: 1785331875
+  last_build_time: 1793358250
+  option:
+    ascii_punct: true
+    emoji: true
+    full_shape: true
+    search_single_char: false
   previously_selected_schema: focus_pinyin
   schema_access_time:
-    five_strokes: 1780548626
-    focus_pinyin: 1780588460
+    easy_en_super: 1730521515
+    five_strokes: 1785427933
+    focus_en: 1730949583
+    focus_pinyin: 1785488745
+    rime_ice: 1730949619
+    wubi06_cjk: 1728115144

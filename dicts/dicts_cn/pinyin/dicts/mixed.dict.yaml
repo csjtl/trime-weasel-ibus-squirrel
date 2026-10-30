@@ -1,6 +1,6 @@
 # Rime dictionary
 # encoding: utf-8
-# #https://github.com/amzxyz/RIME-LMDG
+# #https://github.com/amzxyz/rime-wanxiang-data
 ---
 name: mixed
 version: "LTS"
@@ -16,8 +16,7 @@ sort: original  #字典初始排序，可選original或by_weight
 4H	4H
 4X	4X
 5G	5G
-6G	5G
-4A	5G
+6G	6G
 7z	7z
 A班	A'bān
 A杯	A'bēi
@@ -116,6 +115,7 @@ E罩	E'zhào
 E组	E'zǔ
 E座	E'zuò
 F杯	F'bēi
+F调	F'diào
 F栋	F'dòng
 F口	F'kǒu
 F款	F'kuǎn
@@ -135,6 +135,8 @@ F6	F6
 F7	F7
 F8	F8
 F9	F9
+GPT-6	GPT-6
+GPT-7	GPT-7
 G杯	G'bēi
 G点	G'diǎn
 G盘	G'pán
@@ -142,6 +144,7 @@ G胖	G'pàng
 G罩	G'zhào
 H版	H'bǎn
 H杯	H'bēi
+H调	H'diào
 H股	H'gǔ
 H罩	H'zhào
 i8	I'bā
@@ -156,11 +159,13 @@ K歌	K'gē
 K记	K'jì
 K线	K'xiàn
 L8	L'bā
+L调	L'diào
 L9	L'jiǔ
 L6	L'liù
 L码	L'mǎ
 L7	L'qī
 M档	M'dàng
+M调	M'diào
 M哥	M'gē
 M记	M'jì
 M码	M'mǎ
@@ -182,18 +187,21 @@ Q币	Q'bì
 Q弹	Q'tán
 Q我	Q'wǒ
 R档	R'dàng
+R调	R'diào
 R级	R'jí
 R角	R'jiǎo
 R2	R2
 R5	R5
 R7	R7
 S档	S'dàng
+S调	S'diào
 S股	S'gǔ
 S级	S'jí
 S码	S'mǎ
 S形	S'xíng
 S3	S3
 T台	T'tái
+T尾	T'wěi
 T恤	T'xù
 U盾	U'dùn
 U盘	U'pán
@@ -658,6 +666,10 @@ F10	F10
 F11	F11
 F12	F12
 FAT	FAT
+GLM-5.3	GLM-5.3
+小bug	xiǎo'bug
+FF调	FF'diào
+FG结	FG'jié
 Fn键	Fn'jiàn
 G罩杯	G'zhào'bēi
 Go程	Go'chéng
@@ -668,10 +680,6 @@ ID卡	ID'kǎ
 IP卡	IP'kǎ
 IT界	IT'jiè
 IT业	IT'yè
-J-5	J-5
-J-6	J-6
-J-7	J-7
-J-8	J-8
 K歌王	K'gē'wáng
 K线图	K'xiàn'tú
 K-8	K-8
@@ -679,6 +687,9 @@ K12	K12
 L系列	L'xì'liè
 M系列	M'xì'liè
 m4a	M4a
+MF调	MF'diào
+MH调	MH'diào
+ML调	ML'diào
 mp3	Mp3
 mp4	Mp4
 n次方	N'cì'fāng
@@ -701,14 +712,17 @@ P一下	P'yí'xià
 PC版	PC'bǎn
 PC端	PC'duān
 PE管	PE'guǎn
+PE线	PE'xiàn
 PK赛	PK'sài
 PN结	PN'jié
 PP袋	PP'dài
+PR结	PR'jié
 QQ号	QQ'hào
 QQ群	QQ'qún
 QQ堂	QQ'táng
 QQ秀	QQ'xiù
 QR码	QR'mǎ
+RF调	RF'diào
 S曲线	S'qū'xiàn
 SD卡	SD'kǎ
 T细胞	T'xì'bāo
@@ -721,25 +735,25 @@ TV版	TV'bǎn
 θ粒子	Theta'lì'zǐ
 U形管	U'xíng'guǎn
 U型锁	U'xíng'suǒ
+UL调	UL'diào
 UP主	UP'zhǔ
 V怪客	V'guài'kè
 V字领	V'zì'lǐng
 V字形	V'zì'xíng
+VIB	VIB
 X档案	X'dàng'àn
 X光片	X'guāng'piàn
 X和Y	X'hé'Y
 X教授	X'jiào'shòu
 X射线	X'shè'xiàn
 X战警	X'zhàn'jǐng
-Y-7	Y-7
-Y-8	Y-8
-Y-9	Y-9
+XF调	XF'diào
+XH调	XH'diào
 Z世代	Z'shì'dài
-Z-8	Z-8
-Z-9	Z-9
 α粒子	a'ěr'fǎ'lì'zǐ
 艾AA	ài'AA
 芭比Q	bā'bǐ'Q
+8字环	bā'zì'huán
 β粒子	bèi'tǎ'lì'zǐ
 不OK	bù'OK
 查IP	chá'IP
@@ -802,6 +816,7 @@ z变换	z'biàn'huàn
 MPa	zhào'pà
 直-8	zhí-8
 直-9	zhí-9
+AI短剧	AI'duǎn'jù
 周K线	zhōu'K'xiàn
 做B超	zuò'B'chāo
 2B铅笔	2B'qiān'bǐ
@@ -826,32 +841,16 @@ AV女优	AV'nǚ'yōu
 AVL树	AVL'shù
 Alt键	Alt'jiàn
 B话真多	B'huà'zhēn'duō
-BG65	BG65
-BG66	BG66
-BG70	BG70
-BG80	BG80
-BG85	BG85
 Be动词	Be'dòng'cí
 Big胆	Big'dǎn
-C#语言	C'jǐng'yǔ'yán
-CH-4	CH-4
-CH-5	CH-5
-CJ-6	CJ-6
+C#语言	C#'yǔ'yán
 CO气体	CO'qì'tǐ
 CT检查	CT'jiǎn'chá
 CT扫描	CT'sǎo'miáo
-CZ-5	CZ-5
-CZ-6	CZ-6
-CZ-7	CZ-7
-CZ-8	CZ-8
 Cmd键	Cmd'jiàn
 D之一族	D'zhī'yì'zú
-DF21	DF21
-DF26	DF26
-DF31	DF31
-DF41	DF41
-DF51	DF51
-DF61	DF61
+DDR4	DDR4
+DDR5	DDR5
 DJ舞曲	DJ'wǔ'qǔ
 DVD版	DVD'bǎn
 Del键	Del'jiàn
@@ -859,48 +858,26 @@ Del键	Del'jiàn
 End键	End'jiàn
 Esc键	Esc'jiàn
 Fe元素	Fe'yuán'sù
-GJ-2	GJ-2
 Go圣经	Go'shèng'jīng
 Go语言	Go'yǔ'yán
-H-20	H-20
-H-6J	H-6J
-H-6K	H-6K
-H-6N	H-6N
 H264	H264
 H265	H265
 H266	H266
 HB铅笔	HB'qiān'bǐ
 HD高清	HD'gāo'qīng
-HJ-8	HJ-8
-HQ-9	HQ-9
-HY-6	HY-6
 ID验证	ID'yàn'zhèng
 IP地址	IP'dì'zhǐ
 IP电话	IP'diàn'huà
 IP属地	IP'shǔ'dì
 IT行业	IT'háng'yè
 IT之家	IT'zhī'jiā
-J-10	J-10
-J-11	J-11
-J-15	J-15
-J-16	J-16
-J-20	J-20
-J-31	J-31
-J-35	J-35
 JD京东	JD'jīng'dōng
 JD自营	JD'zì'yíng
-JH-7	JH-7
 JK制服	JK'zhì'fú
-JL-2	JL-2
-JL-3	JL-3
-JL-8	JL-8
-JL-9	JL-9
 K字签证	K'zì'qiān'zhèng
-L-15	L-15
 LAN口	LAN'kǒu
 LED灯	LED'dēng
 LED屏	LED'píng
-LY-1	LY-1
 Low帧	Low'zhēn
 M3U8	M3U8
 Mac版	Mac'bǎn
@@ -925,8 +902,8 @@ QQ超会	QQ'chāo'huì
 QQ等级	QQ'děng'jí
 QQ登录	QQ'dēng'lù
 QQ动态	QQ'dòng'tài
-QQ飞车	QQ'fēi'chē
 QQ号码	QQ'hào'mǎ
+QQ音乐	QQ'yīn'yuè
 QQ好友	QQ'hǎo'yǒu
 QQ红包	QQ'hóng'bāo
 QQ会员	QQ'huì'yuán
@@ -940,13 +917,14 @@ QQ三国	QQ'sān'guó
 QQ视频	QQ'shì'pín
 QQ相册	QQ'xiàng'cè
 QQ消息	QQ'xiāo'xī
-QQ音速	QQ'yīn'sù
-QQ音乐	QQ'yīn'yuè
+QQ阅读	QQ'yuè'dú
 QQ影音	QQ'yǐng'yīn
 QQ游戏	QQ'yóu'xì
 QQ邮箱	QQ'yóu'xiāng
 QQ语音	QQ'yǔ'yīn
 QQ注册	QQ'zhù'cè
+QQ音速	QQ'yīn'sù
+QQ飞车	QQ'fēi'chē
 SDK包	SDK'bāo
 SIM卡	SIM'kǎ
 Si材料	Si'cái'liào
@@ -965,34 +943,18 @@ UX体验	UX'tǐ'yàn
 V8引擎	V'bā'yǐn'qíng
 VIP卡	VIP'kǎ
 VS对决	VS'duì'jué
-VT-2	VT-2
-VT-4	VT-4
-VT-5	VT-5
 WAN口	WAN'kǒu
-WL-2	WL-2
-WL-3	WL-3
-WZ-7	WZ-7
-WZ-8	WZ-8
 Web版	Web'bǎn
 Web端	Web'duān
 Win版	Win'bǎn
 Win端	Win'duān
 X染色体	X'rǎn'sè'tǐ
+XXH调	XXH'diào
 Y染色体	Y'rǎn'sè'tǐ
-Y-12	Y-12
-Y-20	Y-20
-Y-8Q	Y-8Q
 YY语音	YY'yǔ'yīn
-Z-10	Z-10
-Z-11	Z-11
-Z-15	Z-15
-Z-18	Z-18
-Z-19	Z-19
-Z-20	Z-20
 阿Q精神	ā'Q'jīng'shén
 阿Q正传	ā'Q'zhèng'zhuàn
 阿Sir	ā'Sir
-a11y	a11y
 奥迪A8	ào'dí'A'bā
 奥迪A6	ào'dí'A'liù
 奥迪A7	ào'dí'A'qī
@@ -1038,9 +1000,8 @@ Byte	bǐ'tè
 彩虹-4	cǎi'hóng-4
 彩虹-5	cǎi'hóng-5
 查bug	chá'bug
+吃KFC	chī'KFC
 出Bug	chū'bug
-ddr4	ddr4
-ddr5	ddr5
 东风-5	dōng'fēng-5
 多边兽Z	duō'biān'shòu'Z
 哆啦A梦	duō'lā'A'mèng
@@ -1194,8 +1155,6 @@ CD播放器	CD'bō'fàng'qì
 CEO讲话	CEO'jiǎng'huà
 CFD模拟	CFD'mó'nǐ
 CFO报告	CFO'bào'gào
-CJ-10	CJ-10
-CJ-20	CJ-20
 CNC加工	CNC'jiā'gōng
 CNY账户	CNY'zhàng'hù
 CO2检测	CO'èr'jiǎn'cè
@@ -1206,24 +1165,8 @@ CPVC管	CPVC'guǎn
 CRM软件	CRM'ruǎn'jiàn
 CRM系统	CRM'xì'tǒng
 CSS样式	CSS'yàng'shì
-CZ-11	CZ-11
-CZ-2C	CZ-2C
-CZ-2D	CZ-2D
-CZ-3B	CZ-3B
-CZ-3C	CZ-3C
-CZ-4B	CZ-4B
-CZ-4C	CZ-4C
 Caps键	Caps'jiàn
 Ctrl键	Ctrl'jiàn
-DF-11	DF-11
-DF-15	DF-15
-DF-17	DF-17
-DF-21	DF-21
-DF-26	DF-26
-DF-31	DF-31
-DF-41	DF-41
-DF-5C	DF-5C
-DF-61	DF-61
 DIY手工	DIY'shǒu'gōng
 DIY组装	DIY'zǔ'zhuāng
 DNA比对	DNA'bǐ'duì
@@ -1251,10 +1194,10 @@ FEA分析	FEA'fēn'xī
 FFT变换	FFT'biàn'huàn
 GDP增速	GDP'zēng'sù
 GDP增长	GDP'zēng'zhǎng
-GJ-11	GJ-11
 GPA分数	GPA'fēn'shù
 GPS导航	GPS'dǎo'háng
 GPS定位	GPS'dìng'wèi
+GPT-5	GPT-5
 GPU加速	GPU'jiā'sù
 GPU性能	GPU'xìng'néng
 GRE考试	GRE'kǎo'shì
@@ -1263,30 +1206,12 @@ H.264	H264
 H.265	H265
 H.266	H266
 HDMI线	HDMI'xiàn
-HJ-10	HJ-10
-HJ-12	HJ-12
-HQ-16	HQ-16
-HQ-19	HQ-19
-HQ-20	HQ-20
-HQ-22	HQ-22
-HQ-29	HQ-29
 Home键	Home'jiàn
 ICP备案	ICP'bèi'àn
 IDE环境	IDE'huán'jìng
 IE浏览器	IE'liú'lǎn'qì
 IPO上市	IPO'shàng'shì
-J-10B	J-10B
-J-10C	J-10C
-J-11B	J-11B
-J-15B	J-15B
-J-16D	J-16D
-J-20A	J-20A
-J-20S	J-20S
-J-35A	J-35A
-J-8II	J-8II
-JH-7A	JH-7A
 JK触发器	JK'chù'fā'qì
-JL-10	JL-10
 KPI指标	KPI'zhǐ'biāo
 KTV包间	KTV'bāo'jiān
 KTV包厢	KTV'bāo'xiāng
@@ -1313,8 +1238,6 @@ OTA升级	OTA'shēng'jí
 PCR实验	PCR'shí'yàn
 PDF文档	PDF'wén'dàng
 PDF文件	PDF'wén'jiàn
-PL-10	PL-10
-PL-15	PL-15
 POS支付	POS'zhī'fù
 PPR球阀	PPR'qiú'fá
 PPT演示	PPT'yǎn'shì
@@ -1367,11 +1290,6 @@ X·德雷克	X'dé'léi'kè
 XML格式	XML'gé'shì
 XRD测试	XRD'cè'shì
 X.Org	Xorg
-YJ-12	YJ-12
-YJ-18	YJ-18
-YJ-21	YJ-21
-YJ-83	YJ-83
-YY-20	YY-20
 7-Zip	Zip
 宝石Gem	bǎo'shí'Gem
 奔驰EQB	bēn'chí'EQB
@@ -1384,6 +1302,7 @@ YY-20	YY-20
 奔驰GLE	bēn'chí'GLE
 奔驰GLS	bēn'chí'GLS
 别克GL8	bié'kè'GL'bā
+颤泳vib	chàn'yǒng'vib
 长剑-10	cháng'jiàn-10
 长剑-20	cháng'jiàn-20
 出Bug了	chū'bug'le
@@ -1407,6 +1326,7 @@ YY-20	YY-20
 负链RNA	fù'liàn'RNA
 攻击-11	gōng'jī-11
 hold住	hold'zhù
+hold不住	hold'bú'zhù
 红Buff	hóng'Buff
 红箭-10	hóng'jiàn-10
 红箭-12	hóng'jiàn-12
@@ -1496,8 +1416,6 @@ CAAC执照	CAAC'zhí'zhào
 CJ-100	CJ-100
 CPU散热器	CPU'sàn'rè'qì
 DDoS攻击	DDoS'gōng'jī
-DF-21D	DF-21D
-DF-26D	DF-26D
 DJI无人机	DJI'wú'rén'jī
 ECG心电图	ECG'xīn'diàn'tú
 ENSO循环	ENSO'xún'huán
@@ -1505,6 +1423,7 @@ Echo音箱	Echo'yīn'xiāng
 Eject键	Eject'jiàn
 Enter键	Enter'jiàn
 FPV无人机	FPV'wú'rén'jī
+GPT-4o	GPT-4o
 HDMI接口	HDMI'jiē'kǒu
 HHQ-9C	HHQ-9C
 HQ-16C	HQ-16C
@@ -1516,16 +1435,8 @@ JPEG图片	JPEG'tú'piàn
 JSON数据	JSON'shù'jù
 Java程序	Java'chéng'xù
 Java开发	Java'kāi'fā
-KJ-200	KJ-200
-KJ-500	KJ-500
-L8 Max	L'bā'Max
-L8 Pro	L'bā'Pro
-L9 Max	L'jiǔ'Max
-L9 Pro	L'jiǔ'Pro 
-L6 Max	L'liù'Max
-L6 Pro	L'liù'Pro
-L7 Max	L'qī'Max
-L7 Pro	L'qī'Pro
+LPDDR5	LPDDR5
+LPDDR6	LPDDR6
 Lite版本	Lite'bǎn'běn
 MOOC课程	MOOC'kè'chéng
 MP3播放器	MP'sān'bō'fàng'qì
@@ -1567,16 +1478,6 @@ Web3.0	Web3.0
 WiFi密码	WiFi'mì'mǎ
 WiFi信号	WiFi'xìn'hào
 Word文档	Word'wén'dàng
-ZTD-05	ZTD-05
-ZTQ-15	ZTQ-15
-ZTZ-59	ZTZ-59
-ZTZ-69	ZTZ-69
-ZTZ-79	ZTZ-79
-ZTZ-80	ZTZ-80
-ZTZ-85	ZTZ-85
-ZTZ-88	ZTZ-88
-ZTZ-96	ZTZ-96
-ZTZ-99	ZTZ-99
 保时捷911	bǎo'shí'jié'jiǔ'yī'yī
 保时捷718	bǎo'shí'jié'qī'yī'bā
 长剑-100	cháng'jiàn-100
@@ -1611,10 +1512,6 @@ RIME方案	rime'fāng'àn
 藤子不二雄A	téng'zǐ'bú'èr'xióng'A
 蔚来ET5T	wèi'lái'ET'wǔ'T
 WiFi伴侣	wifi'bàn'lǚ
-沃尔沃S90	wò'ěr'wò'S'jiǔ'líng
-沃尔沃S60	wò'ěr'wò'S'liù'líng
-沃尔沃V90	wò'ěr'wò'V'jiǔ'líng
-沃尔沃V60	wò'ěr'wò'V'liù'líng
 尊界S800	zūn'jiè'S'bā'líng'líng
 15式轻型坦克	15'shì'qīng'xíng'tǎn'kè
 62式轻型坦克	62'shì'qīng'xíng'tǎn'kè
@@ -1635,13 +1532,15 @@ Emby公益服	Emby'gōng'yì'fú
 Excel表格	Excel'biǎo'gé
 FIFA世界杯	FIFA'shì'jiè'bēi
 GLM-5.2	GLM5.2
+GPT-5.1	GPT-5.1
+GPT-5.4	GPT-5.4
+GPT-5.5	GPT-5.5
 Git版本控制	Git'bǎn'běn'kòng'zhì
 GoPro相机	GoPro'xiàng'jī
 HTTPS安全	HTTPS'ān'quán
 IELTS口语	IELTS'kǒu'yǔ
 KJ-2000	KJ-2000
 Linux系统	Linux'xì'tǒng
-MacOS系统	MacOS'xì'tǒng
 Model S	Model'S
 Model X	Model'X
 Model Y	Model'Y
@@ -1670,12 +1569,6 @@ UOS V20	UOSV20
 UOS V25	UOSV25
 UWB数字钥匙	UWB'shù'zì'yào'shi
 Wi-Fi密码	Wi'jiǎn'Fi'mì'mǎ
-XPeng小鹏	XPeng'xiǎo'péng
-ZTS-63A	ZTS-63A
-ZTZ-96A	ZTZ-96A
-ZTZ-96B	ZTZ-96B
-ZTZ-99A	ZTZ-99A
-ZTZ-99B	ZTZ-99B
 不错！nice	bú'cuò'nice
 东风-31AG	dōng'fēng-31AG
 东风-31BJ	dōng'fēng-31BJ
@@ -1690,6 +1583,7 @@ ZTZ-99B	ZTZ-99B
 凯迪拉克XT6	kǎi'dí'lā'kè'XT'liù
 凯迪拉克XT4	kǎi'dí'lā'kè'XT'sì
 凯迪拉克XT5	kǎi'dí'lā'kè'XT'wǔ
+kimi-k3	kimi-k3
 空警-2000	kōng'jǐng-2000
 macOS版本	macOS'bǎn'běn
 macOS系统	macOS'xì'tǒng
@@ -1733,9 +1627,6 @@ iPhone 7	IPhone7
 iPhone 8	IPhone8
 iPhone X	IPhoneX
 ip2world	Ip2world
-L8 Ultra	L'bā'Ultra
-L9 Ultra	L'jiǔ'Ultra
-L7 Ultra	L'qī'Ultra
 LiAuto理想	LiAuto'lǐ'xiǎng
 MBT-2000	MBT-2000
 MBT-3000	MBT-3000
@@ -1759,9 +1650,6 @@ Windows端	Windows'duān
 奥迪e-tron	ào'dí'e-tron
 保时捷Macan	bǎo'shí'jié'Macan
 fail2ban	fail2ban
-捷豹E-PACE	jié'bào'E'PACE
-捷豹F-PACE	jié'bào'F'PACE
-捷豹I-PACE	jié'bào'I'PACE
 理想L8 Max	lǐ'xiǎng'L'bā'Max
 理想L9 Max	lǐ'xiǎng'L'jiǔ'Max
 理想L9 Pro	lǐ'xiǎng'L'jiǔ'Pro 
@@ -1783,7 +1671,6 @@ Android应用	Android'yìng'yòng
 CapsLock键	CapsLock'jiàn
 Chromium系	Chromium'xì
 iPad mini	IPadmini
-iPhone 17	IPhone
 iPhone 11	IPhone11
 iPhone 12	IPhone12
 iPhone 13	IPhone13
@@ -1848,11 +1735,11 @@ USB Type-C	USBType-C
 Bluetooth耳机	Bluetooth'ěr'jī
 Bluetooth设备	Bluetooth'shè'bèi
 GPT-5.6 Sol	GPT5.6Sol
+GPT-5.5 Pro	GPT-5.5Pro
 Gemini Omni	GeminiOmni
 LongCat-2.0	LongCat2.0
 LoongArch架构	LoongArch'jià'gòu
 PizzaHut必胜客	PizzaHut'bì'shèng'kè
-Qwen3.7-Max	Qwen3.7Max
 Qwen3.7-Max	Qwen3.7Max
 ThinkPad笔记本	ThinkPad'bǐ'jì'běn
 Windows操作系统	Windows'cāo'zuò'xì'tǒng
@@ -1862,51 +1749,68 @@ Windows操作系统	Windows'cāo'zuò'xì'tǒng
 特斯拉Model YL	tè'sī'lā'Model'YL
 沃尔沃S90 PHEV	wò'ěr'wò'S'jiǔ'líng'PHEV
 Apple MPEG-4	AppleMPEG-4
+GPT-5.4 mini	GPT-5.4mini
 GPT-5.6 Luna	GPT5.6Luna
 JavaScript编程	JavaScript'biān'chéng
 Seedance 2.5	Seedance2.5
 SenseNova V6	SenseNovaV6
 GPT-5.6 Terra	GPT5.6Terra
-iPhone 17 Pro	IPhone
-iPhone 11 Pro	IPhone11Pro
-iPhone 12 Pro	IPhone12Pro
-iPhone 13 Pro	IPhone13Pro
-iPhone 14 Pro	IPhone14Pro
-iPhone 15 Pro	IPhone15Pro
-iPhone 16 Pro	IPhone16Pro
 iPhone 17 Pro	IPhone17Pro
+iPhone 18 Pro	IPhone
+iPhone 18 Pro	IPhone18Pro
+iPhone 16 Pro	IPhone16Pro
+iPhone 15 Pro	IPhone15Pro
+iPhone 14 Pro	IPhone14Pro
+iPhone 13 Pro	IPhone13Pro
+iPhone 12 Pro	IPhone12Pro
+iPhone 11 Pro	IPhone11Pro
 iPhone 6 Plus	IPhone6Plus
 iPhone 7 Plus	IPhone7Plus
 iPhone 8 Plus	IPhone8Plus
 iPhone XS Max	IPhoneXSMax
 MiMo-V2.5-Pro	MiMoV2.5Pro
+iPhone 18 Pro Max	iPhone18ProMax
+iPhone Duo	iPhoneDuo
+Apple Pencil Pro	ApplePencilPro
+Magic Mouse	MagicMouse
+Magic Keyboard	MagicKeyboard
 accessibility	a11y
 特拉法尔加·D·瓦铁尔·罗	tè'lā'fǎ'ěr'jiā'D'wǎ'tiě'ěrluó
 特斯拉Cybertruck	tè'sī'lā'Cybertruck
+Claude Fable 5	ClaudeFable5
+Gemini 3.1 Pro	Gemini3.1Pro
 Gemini 3.5 Pro	Gemini3.5Pro
-iPhone 12 Mini	IPhone12Mini
-iPhone 13 Mini	IPhone13Mini
-iPhone 14 Plus	IPhone14Plus
-iPhone 15 Plus	IPhone15Plus
 iPhone 16 Plus	IPhone16Plus
+iPhone 15 Plus	IPhone15Plus
+iPhone 14 Plus	IPhone14Plus
+iPhone 13 Mini	IPhone13Mini
+iPhone 12 Mini	IPhone12Mini
 iPhone 6S Plus	IPhone6SPlus
 Kimi K2.7-Code	KimiK'2.7'Code
+Claude 4.6 Opus	Claude4.6Opus
+Claude Opus 4.5	ClaudeOpus4.5
 Claude Opus 4.8	ClaudeOpus4.8
+Claude Sonnet 4	ClaudeSonnet4
 Claude Sonnet 5	ClaudeSonnet5
 DeepSeek-V4-Pro	DeepSeekV4Pro
+GPT-5.5 Instant	GPT-5.5Instant
 Mistral Large 2	MistralLarge2
 AMD64（X86_64)架构	amd64
 AMD64（X86_64)架构	x86
 Baichuan-M3-Plus	BaichuanM3Plus
+Claude Haiku 4.5	ClaudeHaiku4.5
+GPT-5.5 Thinking	GPT-5.5Thinking
 Gemini 3.5 Flash	Gemini3.5Flash
+Gemini 3.6 Flash	Gemini3.6Flash
 MAI-Code-1-Flash	MAICode1Flash
 Seedream 5.0 Pro	Seedream5.0Pro
+Claude 4.6 Sonnet	Claude4.6Sonnet
 DeepSeek-V4-Flash	DeepSeekV4Flash
 iPhone 17 Pro Max	IPhone
-iPhone 11 Pro Max	IPhone11ProMax
-iPhone 12 Pro Max	IPhone12ProMax
-iPhone 13 Pro Max	IPhone13ProMax
-iPhone 14 Pro Max	IPhone14ProMax
-iPhone 15 Pro Max	IPhone15ProMax
-iPhone 16 Pro Max	IPhone16ProMax
 iPhone 17 Pro Max	IPhone17ProMax
+iPhone 16 Pro Max	IPhone16ProMax
+iPhone 15 Pro Max	IPhone15ProMax
+iPhone 14 Pro Max	IPhone14ProMax
+iPhone 13 Pro Max	IPhone13ProMax
+iPhone 12 Pro Max	IPhone12ProMax
+iPhone 11 Pro Max	IPhone11ProMax
