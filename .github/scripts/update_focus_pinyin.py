@@ -14,11 +14,14 @@ dicts/dicts_cn/pinyin/dicts/（dicts.zip 的解压落点）一致。
    - 已有条目：不主动取消注释（尊重原人工判断）；
      若检测到“多字词但拼音无空格”，升级为 "#- "。
    - 新增条目：若检测到该问题，写 "#- "，否则 "- "。
+6. 只有确实发生变更时，才把 frontmatter 的
+   version: "YYYY-MM-DD" 更新为北京时间当天日期。
 """
 from __future__ import annotations
 import os
 import re
 import sys
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -28,8 +31,13 @@ FOCUS_FILE = ROOT / 'focus_pinyin.dict.yaml'
 
 SYNC_PREFIX = 'dicts/dicts_cn/pinyin/dicts/'
 
+BEIJING_TZ = timezone(timedelta(hours=8))
+
 CJK_RE = re.compile(r'[\u3400-\u4dbf\u4e00-\u9fff\uf900-\ufaff]')
 IMPORT_RE = re.compile(r'^(\s*)import_tables\s*:\s*$')
+VERSION_RE = re.compile(
+    r'^(\s*version\s*:\s*)(["\'])(\d{4}-\d{2}-\d{2})(["\'])\s*$'
+)
 
 # 有效条目：   - path          /   - path   #行尾注释
 ACTIVE_RE = re.compile(r'^(\s*)-\s+(\S+?)(\s+#.*)?$')
@@ -91,6 +99,19 @@ def collect_sync_files() -> list[str]:
     return results
 
 
+def bump_version(all_lines: list[str]) -> bool:
+    """把 frontmatter 中的 version 日期替换为北京时间当天；返回是否有改动。"""
+    today = datetime.now(BEIJING_TZ).strftime('%Y-%m-%d')
+    for i, line in enumerate(all_lines):
+        m = VERSION_RE.match(line)
+        if m:
+            if m.group(3) == today:
+                return False
+            all_lines[i] = f'{m.group(1)}{m.group(2)}{today}{m.group(4)}'
+            return True
+    return False
+
+
 # ---------- 主逻辑 ----------
 
 def main() -> None:
@@ -110,7 +131,7 @@ def main() -> None:
         print('ERROR: "import_tables:" not found', file=sys.stderr)
         sys.exit(1)
 
-    # 2) 段边界：空行 / 纯注释行 / 条目行都属于段内
+    # 2) 段边界
     end = import_idx + 1
     while end < len(lines):
         line = lines[end]
@@ -121,7 +142,7 @@ def main() -> None:
             end += 1; continue
         if ACTIVE_RE.match(line) or COMMENTED_RE.match(line):
             end += 1; continue
-        break  # 遇到 `...` 或其它 YAML 键
+        break
 
     segment = lines[import_idx + 1:end]
 
@@ -137,15 +158,13 @@ def main() -> None:
     sync_files = collect_sync_files()
     sync_set = set(sync_files)
 
-    # 5) 重建段
+    # 5) 重建 import_tables 段
     result: list[str] = []
     seen: set[str] = set()
-    last_sync_idx = -1    # 最后一个 SYNC_PREFIX 条目在 result 中的位置
+    last_sync_idx = -1
 
     for line in segment:
         s = line.strip()
-
-        # 空行 / 纯注释（分组说明） -> 原样保留
         if not s:
             result.append(line); continue
         if s.startswith('#') and not COMMENTED_RE.match(line):
@@ -161,7 +180,6 @@ def main() -> None:
         trail  = (am or cm).group(3) or ''
         was_commented = bool(cm)
 
-        # 非同步范围条目 -> 原样保留
         if not path.startswith(SYNC_PREFIX):
             result.append(line); continue
 
@@ -170,25 +188,22 @@ def main() -> None:
             continue
         seen.add(rel)
 
-        # 磁盘上不存在 -> 删除
         if rel not in sync_set:
-            continue
+            continue   # 磁盘上不存在 -> 删除
 
         fp = PINYIN_DIR / SYNC_SUBDIR / (rel + '.dict.yaml')
         need = file_missing_tone(fp)
-
-        # 已有条目：不主动取消注释，只“升级”为注释
         new_commented = was_commented or need
 
         if new_commented == was_commented:
-            result.append(line)                      # 原样保留（含行尾注释、对齐）
+            result.append(line)
         else:
             marker = '#-' if new_commented else '-'
             result.append(f'{indent}{marker} {path}{trail}')
 
-        last_sync_idx = len(result) - 1              # 更新主词库分组末尾
+        last_sync_idx = len(result) - 1
 
-    # 6) 新增条目：插到主词库分组末尾（#- t9_abbrev 之后、# 建议... 之前）
+    # 6) 新增条目插到主词库分组末尾
     new_items = [rel for rel in sync_files if rel not in seen]
     if new_items:
         new_lines: list[str] = []
@@ -196,26 +211,32 @@ def main() -> None:
             fp = PINYIN_DIR / SYNC_SUBDIR / (rel + '.dict.yaml')
             marker = '#-' if file_missing_tone(fp) else '-'
             new_lines.append(f'{item_indent}{marker} {SYNC_PREFIX}{rel}')
-
         if last_sync_idx >= 0:
             result[last_sync_idx + 1:last_sync_idx + 1] = new_lines
         else:
-            # 没有任何 sync 条目：直接插到段首，保证仍在 import_tables 内
             result[0:0] = new_lines
 
-    new_content = '\n'.join(lines[:import_idx + 1] + result + lines[end:])
+    new_all = lines[:import_idx + 1] + result + lines[end:]
+    new_content = '\n'.join(new_all)
+
+    # 7) 无实际变更 -> 不改 version、不写文件
     if new_content == original:
         print('No change. focus_pinyin.dict.yaml is up to date.')
         return
 
-    FOCUS_FILE.write_text(new_content, encoding='utf-8')
+    # 8) 有变更 -> 同步 version 为北京时间当天
+    version_changed = bump_version(new_all)
+    final_content = '\n'.join(new_all)
+    FOCUS_FILE.write_text(final_content, encoding='utf-8')
 
     active = sum(1 for l in result
                  if ACTIVE_RE.match(l) and l.lstrip().startswith('- '))
     commented = sum(1 for l in result if COMMENTED_RE.match(l))
     print(f'Updated {FOCUS_FILE.name}: '
           f'{active} active, {commented} commented, '
-          f'{len(new_items)} newly added')
+          f'{len(new_items)} newly added, '
+          f'version {"bumped" if version_changed else "unchanged"} '
+          f'({datetime.now(BEIJING_TZ).strftime("%Y-%m-%d")})')
 
 
 if __name__ == '__main__':
