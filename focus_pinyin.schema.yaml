@@ -225,12 +225,12 @@ speller:
     - erase/^xx$/ # 首选保留
 
     - derive/^([a-z]).+$/$1/    # 生成所有单字母简码（但下面立即擦除 scz）
-    #- erase/^[scz]$/    # 擦除 s, c, z 的单字母简码
+    - erase/^[scz]$/    # 擦除 s, c, z 的单字母简码
     - erase/^[bpfdtlkhjqxrzcsyw]$/    # 擦除 bpmfdtnlgkhjqxrzcsyw 的单字母简码
     - abbrev/^([zcs]h).+$/$1/    # 确保 zh/ch/sh 的双字母简码仍然生成
     - abbrev/^([bpmfdtnlgkhjqxrzcsyw]).+$/$1/    # 重新生成 bpmfdtnlgkhjqxrzcsyw 单字母简码
 
-    #- abbrev/^([zcs]h).+(\d)$/$1$2/  #zh ch sh作为整体
+    - abbrev/^([zcs]h).+(\d)$/$1$2/  #zh ch sh作为整体
     #- derive/^([aeio])ng$/$1ng/  # wia → wai
 grammar:
   language: wanxiang-lts-zh-hans
