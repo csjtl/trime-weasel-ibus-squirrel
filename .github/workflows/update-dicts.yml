@@ -1,0 +1,60 @@
+name: Update Dictionaries
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 3 * * 1'
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Download and extract dicts.zip
+        run: |
+          set -euo pipefail
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq unzip
+
+          echo "Downloading latest dicts.zip ..."
+          curl -L --fail --retry 3 -o /tmp/dicts.zip \
+            https://github.com/amzxyz/rime-wanxiang-data/releases/latest/download/dicts.zip
+
+          # 先清空，确保磁盘内容 == zip 内容，这样“没有的删除”才有意义
+          mkdir -p dicts/dicts_cn/pinyin
+          find dicts/dicts_cn/pinyin -mindepth 1 -delete
+
+          echo "Extracting into dicts/dicts_cn/pinyin ..."
+          unzip -o /tmp/dicts.zip -d dicts/dicts_cn/pinyin
+          rm -f /tmp/dicts.zip
+
+          echo "Sample files:"
+          find dicts/dicts_cn/pinyin -maxdepth 2 -name '*.dict.yaml' | head -n 20
+
+      - name: Update focus_pinyin.dict.yaml
+        run: python3 .github/scripts/update_focus_pinyin.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          git config user.name  'github-actions[bot]'
+          git config user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A dicts/dicts_cn/pinyin focus_pinyin.dict.yaml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: sync dictionaries from rime-wanxiang-data"
+            git push
+          fi
