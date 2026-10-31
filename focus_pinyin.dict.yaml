@@ -7,7 +7,6 @@ version: "2024-10-25"
 import_tables:
    - dicts/dicts_cn/pinyin/dicts/zi            #字表，包含了所有带拼音的汉字
    - dicts/dicts_cn/pinyin/dicts/jichu         #基础词库，2-4字词汇
-   - dicts/dicts_cn/pinyin/dicts/lianxiang     #联想词库，5字以上词汇，多用于输入前半段第二候选可以出来整段
    - dicts/dicts_cn/pinyin/dicts/cuoyin        #错音错字，支持错音和错字输入的兼容，同时供超级注释lua使用会在输入错误音节打出的时候给予提示
    - dicts/dicts_cn/pinyin/dicts/duoyin        #兼容词库，是基础词库的扩充，收录了多场景多种读音的词组
    - dicts/dicts_cn/pinyin/dicts/shici         #诗词
@@ -18,10 +17,9 @@ import_tables:
    - dicts/dicts_cn/pinyin/dicts/mingren       #名人
    - dicts/dicts_cn/pinyin/dicts/yiren         #艺人
    - dicts/dicts_cn/pinyin/dicts/wuzhong       #物种多样性
-   - dicts/dicts_cn/pinyin/dicts/renming       #高频人名
    - dicts/dicts_cn/pinyin/dicts/taifeng       #最新台风表
    - dicts/dicts_cn/pinyin/dicts/fangyan       #收集全国方言
-   - dicts/dicts_cn/pinyin/dicts/mixed
+   #- dicts/dicts_cn/pinyin/dicts/mixed
    #- dicts/dicts_cn/pinyin/dicts/abbrev
    #- dicts/dicts_cn/pinyin/dicts/en
    #- dicts/dicts_cn/pinyin/dicts/t9_abbrev
