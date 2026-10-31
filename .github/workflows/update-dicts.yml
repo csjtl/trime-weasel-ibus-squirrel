@@ -28,20 +28,14 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq unzip
 
-          echo "Downloading latest dicts.zip ..."
           curl -L --fail --retry 3 -o /tmp/dicts.zip \
             https://github.com/amzxyz/rime-wanxiang-data/releases/latest/download/dicts.zip
 
-          # 关键点：只清空 zip 的解压落点 dicts/dicts_cn/pinyin/dicts，
-          # 不动 dicts/dicts_cn/pinyin 下的其它仓库内置文件（pinyinA、five_strokes 等）
           rm -rf dicts/dicts_cn/pinyin/dicts
           mkdir -p dicts/dicts_cn/pinyin
-
-          echo "Extracting into dicts/dicts_cn/pinyin ..."
           unzip -o /tmp/dicts.zip -d dicts/dicts_cn/pinyin
           rm -f /tmp/dicts.zip
 
-          echo "Extracted files under dicts/dicts_cn/pinyin/dicts:"
           find dicts/dicts_cn/pinyin/dicts -name '*.dict.yaml' | sort | head -n 30
 
       - name: Update focus_pinyin.dict.yaml
