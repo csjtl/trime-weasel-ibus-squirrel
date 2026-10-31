@@ -1,0 +1,190 @@
+---
+name: abbreviation
+version: "202602"
+sort: by_weight #by_weight
+# encoder:
+#   rules:
+#     - length_equal: 2
+#       formula: "AaAbAcAdAeAfAgAhAiAjAkAlAmAnAoApAqArAsAtAuAvAwAxAyAzBa"
+...
+As soon as possible	ASAP	8517	尽快
+Répondez s’il vous plaît	RSVP	8517	请回答
+Frequently asked questions	FAQS	8517	常见问题
+Thank god it’s Friday	TGIF	8517	谢天谢地，今天是星期五
+In my opinion	IMO	8517	在我看来
+In my humble opinion	IMHO	8517	依我拙见
+Not available	NA	8517	不可用
+For your information	FIY	8517	供您参考
+Also known as	AKA	8517	也称为
+Formerly known as	FKA	8517	曾用名
+Bring your own beverage	BYOB	8517	请自备饮料
+Body odor	BO	8517	体味
+Estimated time of arrival	ETA	8517	预计到达时间
+Lesbian, gay, bisexual, trans and queer	LGBTQ	8517	女同性恋、男同性恋、双性恋、跨性别者和酷儿
+Questions and answers	QA	8517	问题与答案
+Rest in peace	RIP	8517	安息
+Very important person	VIP	8517	非常重要的人
+Automatic teller machine	ATM	8517	自动柜员机
+In other words	IE	8517	换句话说
+For example	IG	8517	例如
+Personal identification number	PIN	8517	个人识别码
+Save our ship	SOS	8517	拯救我们的船
+Significant other	SO	8517	重要他人
+Too much information	TMI	8517	信息量过大
+Point of view	POV	8517	观点
+Happy birthday	HBD	8517	生日快乐
+Laugh out loud	LOL	8517	放声大笑
+Let me know	LMK	8517	告诉我
+On my way	OMW	8517	在路上
+I don’t know	IDK	8517	我不知道
+Thank you	TY	8517	非常感谢。
+Be right back	BRB	8517	马上回来
+By the way	BTW	8517	顺便说一下
+Oh my god	OMG	8517	天啊
+Laughing my ass off	LMAO	8517	笑得我屁股都要掉了
+What the fuck	WTF	8517	他妈
+What the hell	WTH	8517	搞什么鬼
+If you know, you know	IYKYK	8517	如果你知道，你就知道
+Shut the hell up	STHU	8517	给我闭嘴
+You only live once	YOLO	8517	你只活一次
+Too long, didn’t read	TLDR	8517	太长了，没读
+At the moment	ATM	8517	目前
+See you	CU	8517	再见
+See ya	CYA	8517	再见
+I love you	ILY	8517	我爱你
+I love you too	ILYT	8517	我也爱你
+Are you serious?	RUSRS	8517	你是认真的吗？
+Talk to you later	TTYL	8517	稍后聊
+Direct message	DM	8517	私信
+For the win	FTW	8517	为了胜利
+If I remember correctly	IIRC	8517	如果我没记错的话
+Just kidding	JK	8517	开玩笑的
+No big deal	NBD	8517	没什么大不了的
+Right now	RN	8517	此刻
+Does anyone else?	DAE	8517	还有其他人吗？
+Hit me up	HMU	8517	联系我
+What (are) you doing?	WYD	8517	你在做什么？
+I don’t care	IDC	8517	我不在乎
+Carbon copy	CC	8517	副本
+Blind carbon copy	BCC	8517	密送
+Full-time employment	FTE	8517	全职工作
+Post script	PS	8517	附言
+Paid time off	PTO	8517	带薪休假
+Nota Bene	NB	8517	注意（或重要提示）
+Out of office	OOO	8517	不在办公室
+Private & confidential	PC	8517	私密且保密
+Specific, measurable, attainable, realistic, time-bound	SMART	8517	具体、可衡量、可实现、现实、有时限
+Thanks in advance	TIA	8517	提前感谢
+Work from home	WFH	8517	居家办公
+Anno Domini	AD	8517	公元
+Before Christ	BC	8517	公元前
+Common Era	CE	8517	公元纪年
+Before Common Era	BCE	8517	公元前（注：此为常见翻译，具体翻译需根据上下文确定）
+Ante meridiem	AM	8517	上午（或正午前）
+Post meridiem	PM	8517	午后（或下午）
+Personal assistant	PA	8517	私人助理
+Virtual assistant	VA	8517	虚拟助手
+Chief Executive Officer	CEO	8517	首席执行官
+Chief Operation Officer	COO	8517	首席运营官
+Chief Financial Officer	CFO	8517	首席财务官
+Chief Marketing Officer	CMO	8517	首席营销官
+Vice president	VP	8517	副总裁
+Project manager	PM	8517	项目经理
+User experience designer	UXDESIGNER	8517	用户体验设计师
+User interface designer	UIDESIGNER	8517	用户界面设计师
+Certified Public Accountant	CPA	8517	注册会计师
+Chartered Financial Analyst	CFA	8517	特许金融分析师
+Quality Assurance Analyst	QAANALYST	8517	质量保证分析师
+Registered Nurse	RN	8517	注册护士
+English as a foreign language	EFL	8517	英语作为外语
+English language teaching	ELT	8517	英语教学（或英文教学）
+English as a second language	ESL	8517	英语作为第二语言
+Bachelor of Arts	BA	8517	文学士
+Bachelor of Science	BS	8517	理学学士
+Bachelor of Fine Arts	BFA	8517	美术学士
+Master of Arts	MA	8517	文学硕士
+Master of Science	MS	8517	理学硕士
+Master of Business Administration	MBA	8517	工商管理硕士
+Master of Philosophy	MPHIL	8517	哲学硕士
+Master of Fine Arts	MFA	8517	艺术硕士
+Master of Laws	LLM	8517	法学硕士
+Master of Social Work	MSW	8517	社会工作硕士
+Doctor of Philosophy	PHD	8517	哲学博士
+Doctor of Education	EDD	8517	教育学博士
+Juris Doctor	JD	8517	法学博士
+Doctor of Medicine	MD	8517	医学博士
+Doctor of Nursing	ND	8517	护理学博士
+Test of English as a Foreign Language	TOEFL	8517	英语作为外语的测试
+International English Language Testing System	IELTS	8517	国际英语语言测试系统
+Fluid ounce	FLOZ	8517	液盎司
+Miles per hour	MPH	8517	每小时英里数
+Nautical miles	NM	8517	海里
+I know that’s right	IKTR	8517	我知道这是对的
+Fear of missing out	FOMO	8517	害怕错过
+I know you’re lying	IKYL	8517	我知道你在撒谎
+Shaking my head	SMH	8517	摇头（表示否定或不同意）
+To be honest	TBH	8517	说实话
+Rolling on the floor laughing	ROFL	8517	在地上打滚大笑
+Hugs and kisses	XOXO	8517	拥抱和亲吻
+I know, right?	IKR	8517	我知道，对吧？
+Of course	OFC	8517	当然
+The feel when	TFW	8517	（某事物）给人的感觉
+Thanks for the invite	TFTI	8517	感谢邀请
+For real	FR	8517	真的
+Not gonna lie	NGL	8517	不骗你
+United Nations	UN	8517	联合国
+Organization for Economic Co-operation and Development	OECD	8517	经济合作与发展组织
+The United Nations Educational, Scientific and Cultural Organization	UNESCO	8517	联合国教育、科学及文化组织
+European Union	EU	8517	欧洲联盟
+International Federation of Football Association	FIFA	8517	国际足球联合会
+National Aeronautics and Space Administration	NASA	8517	美国国家航空航天局
+North Atlantic Treaty Organization	NATO	8517	北大西洋公约组织
+United States–Mexico–Canada Agreement	USMCA	8517	美国-墨西哥-加拿大协议
+World Health Organization	WHO	8517	世界卫生组织
+Internal Revenue Service	IRS	8517	美国国税局
+Department of Motor Vehicles	DMV	8517	机动车辆管理局
+John F. Kennedy	JFK	8517	约翰·F·肯尼迪
+Martin Luther King	MLK	8517	马丁·路德·金
+United States Air Force	USAF	8517	美国空军
+Federal Bureau of Investigations	FBI	8517	联邦调查局
+Central Intelligence Agency	CIA	8517	中央情报局
+President of the United States	POTUS	8517	美国总统
+Supreme Court of the United States	SCOTUS	8517	美国最高法院
+Los Angeles	LA	8517	洛杉矶
+New York City	NYC	8517	纽约市
+San Francisco	SF	8517	旧金山
+Salt Lake City	SLC	8517	盐湖城
+The Federal Reserve Bank	THEFED	8517	联邦储备银行
+Bank of America	BOFA	8517	美国银行
+American Sign Language	ASL	8517	美国手语
+Transportation Security Administration	TSA	8517	美国运输安全管理局
+Federal Aviation Administration	FAA	8517	联邦航空管理局
+United States Department of Agriculture	USDA	8517	美国农业部
+Department of Defense	DOD	8517	国防部
+Department of Homeland Security	DHS	8517	国土安全部
+Department of Justice	DOJ	8517	司法部
+United States Postal Service	USPS	8517	美国邮政局
+Food and Drug Administration	FDA	8517	食品药品监督管理局
+Environmental protection Agency	EPA	8517	环境保护局
+Centers for Disease Control and Prevention	CDC	8517	疾病控制和预防中心
+British Broadcasting Corporation	BBC	8517	英国广播公司
+British Airways	BA	8517	英国航空
+Bank of England	BOE	8517	英格兰银行
+British Rail	BR	8517	英国铁路
+Isn’t it?	INNIT	8517	不是吗？
+A cup of tea	ACUPPA	8517	一杯茶
+Pounds (£)	PS	8517	英镑（£）
+Gas station	SERVO	8517	加油站（或加油站点）
+Cabernet Sauvignon	CABSAV	8517	赤霞珠
+Date of birth	DOB	8517	出生日期
+To be announced	TBA	8517	待宣布
+To be determined	TBD	8517	待定
+To be continued	TBC	8517	未完待续
+Value-added Tax	VAT	8517	增值税（VAT）
+Dead on arrival	DOA	8517	抵达时已死亡
+Genetically modified organisms	GMO	8517	转基因生物
+Missing in action	MIA	8517	在行动中失踪
+Obsessive Compulsive Disorder	OCD	8517	强迫症（Obsessive Compulsive Disorder）
+Buy one, get one	BOGO	8517	买一送一
+In case you missed it	ICYMI	8517	以防你错过了
+For what it’s worth	FWIW	8517	不管怎样

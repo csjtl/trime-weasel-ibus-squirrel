@@ -1,0 +1,1473 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+# https://github.com/iDvel/rime-ice
+# ------- 一些杂项，按需选择 -------
+#
+#
+---
+name: others
+version: "2024-06-10"
+sort: by_weight
+...
+##### 容错词
+# 一些口语读音
+空落落	kong luo luo
+空落落	kong lao lao
+空落落的	kong luo luo de
+空落落的	kong lao lao de
+# 「阿房宫」的注音争议比较大
+阿房宫	ee pang gong
+阿房宫	aa pang gong
+阿房宫	ee fang gong
+阿房宫	aa fang gong
+阿房宫赋	ee pang gong fu
+阿房宫赋	aa pang gong fu
+阿房宫赋	ee fang gong fu
+阿房宫赋	aa fang gong fu
+# 「伯伯」方言
+伯伯	bo bo
+伯伯	bai bai
+# 「斜」的古音
+远上寒山石径斜	yuan shang han shan shi jing xie
+远上寒山石径斜	yuan shang han shan shi jing xia
+# 「骑」目前统读 qi
+坐骑	zuo qi
+坐骑	zuo ji
+铁骑	tie qi
+铁骑	tie ji
+一骑绝尘	yi qi jue chen
+一骑绝尘	yi ji jue chen
+一骑当千	yi qi dang qian
+一骑当千	yi ji dang qian
+一骑红尘妃子笑	yi qi hong chen fei zi xiao
+一骑红尘妃子笑	yi ji hong chen fei zi xiao
+走单骑	zou dan qi
+走单骑	zou dan ji
+千里走单骑	qian li zou dan qi
+千里走单骑	qian li zou dan ji
+# 「街」的粤语和东北话读音及常见的两种写法
+仆街	pu jie
+仆街	pu gai
+扑街	pu jie
+扑街	pu gai
+扑街仔	pu jie zai
+扑街仔	pu gai zai
+仆街仔	pu jie zai
+仆街仔	pu gai zai
+街溜子	jie liu zi
+街溜子	gai liu zi
+# 「錤」这个字念 ji，但是台湾媒体都会念成 qi，他的英文名 Ming-Chi Kuo 也是接近 qi
+郭明錤	guo ming ji
+郭明錤	guo ming qi
+# 「镐 gao hao」的发音，多为韩国人名，不知道 🤷‍♂️，词库里为 gao，这里额外加上 hao 音
+李昌镐	li chang hao
+曹世镐	cao shi hao
+张镐哲	zhang gao zhe
+姜成镐	jiang cheng hao
+姜镐童	jiang hao tong
+张镐濂	zhang hao lian
+李敏镐	li min hao
+李陈镐	li chen hao
+赵亮镐	zhao liang hao
+郑俊镐	zheng jun hao
+
+
+##### 错音错字提示。与 corrector.lua 配合，上面的是正确的，下面是错误的
+### 错音
+馄饨	hun tun
+馄饨	hun dun
+主角	zhu jue
+主角	zhu jiao
+角色	jue se
+角色	jiao se
+比萨饼	bi sa bing
+比萨饼	pi sa bing
+吃比萨	chi bi sa
+吃比萨	chi pi sa
+说服	shuo fu
+说服	shui fu
+道行	dao heng
+道行	dao hang
+模样	mu yang
+模样	mo yang
+有模有样	you mu you yang
+有模有样	you mo you yang
+一模一样	yi mu yi yang
+一模一样	yi mo yi yang
+装模作样	zhuang mu zuo yang
+装模作样	zhuang mo zuo yang
+人模狗样	ren mu gou yang
+人模狗样	ren mo gou yang
+模板	mu ban
+模板	mo ban
+阿弥陀佛	ee mi tuo fo
+阿弥陀佛	aa mi tuo fo
+南无阿弥陀佛	na mo ee mi tuo fo
+南无阿弥陀佛	na mo aa mi tuo fo
+南无阿弥陀佛	nan wu ee mi tuo fo
+南无阿弥陀佛	nan wu aa mi tuo fo
+给予	ji yu
+给予	gei yu
+槟榔	bing lang
+槟榔	bin lang
+张柏芝	zhang bo zhi
+张柏芝	zhang bai zhi
+藤蔓	teng wan
+藤蔓	teng man
+弄堂	long tang
+弄堂	nong tang
+心宽体胖	xin kuan ti pan
+心宽体胖	xin kuan ti pang
+埋怨	man yuan
+埋怨	mai yuan
+虚与委蛇	xu yu wei yi
+虚与委蛇	xu yu wei she
+木讷	mu ne
+木讷	mu na
+独乐乐	du yue le
+独乐乐	du le le
+众乐乐	zhong yue le
+众乐乐	zhong le le
+荨麻	qian ma
+荨麻	xun ma
+荨麻疹	xun ma zhen
+荨麻疹	qian ma zhen
+模具	mu ju
+模具	mo ju
+草薙	cao ti
+草薙	cao zhi
+草薙京	cao ti jing
+草薙京	cao zhi jing
+草薙剑	cao ti jian
+草薙剑	cao zhi jian
+贾平凹	jia ping wa
+贾平凹	jia ping ao
+雪佛兰	xue fu lan
+雪佛兰	xue fo lan
+强劲	qiang jing
+强劲	qiang jin
+胴体	dong ti
+胴体	tong ti
+力能扛鼎	li neng gang ding
+力能扛鼎	li neng kang ding
+鸭绿江	ya lu jiang
+鸭绿江	ya lv jiang
+大腹便便	da fu pian pian
+大腹便便	da fu bian bian
+卡脖子	qia bo zi
+卡脖子	ka bo zi
+吱声	zi sheng
+吱声	zhi sheng
+掺和	chan huo
+掺和	chan he
+掺和	can huo
+掺和	can he
+称职	chen zhi
+称职	cheng zhi
+螺蛳粉	luo si fen
+螺蛳粉	luo shi fen
+调换	diao huan
+调换	tiao huan
+太行山	tai hang shan
+太行山	tai xing shan
+歇斯底里	xie si di li
+歇斯底里	jie si di li
+暖和	nuan huo
+暖和	nuan he
+模棱两可	mo leng liang ke
+模棱两可	mo ling liang ke
+鄱阳湖	po yang hu
+鄱阳湖	pan yang hu
+脖颈	bo geng
+脖颈	bo jing
+脖颈儿	bo geng er
+脖颈儿	bo jing er
+结扎	jie za
+结扎	jie zha
+海参崴	hai shen wai
+海参崴	hai shen wei
+厚朴	hou po
+厚朴	hou pu
+大宛马	da yuan ma
+大宛马	da wan ma
+龇牙	zi ya
+龇牙	ci ya
+龇着牙	zi zhe ya
+龇着牙	ci zhe ya
+龇牙咧嘴	zi ya lie zui
+龇牙咧嘴	ci ya lie zui
+头皮屑	tou pi xie
+头皮屑	tou pi xue
+六安	lu an
+六安	liu an
+六安县	lu an xian
+六安县	liu an xian
+六安市	lu an shi
+六安市	liu an shi
+六合区	lu he qu
+六合区	liu he qu
+安徽六安	an hui lu an
+安徽六安	an hui liu an
+安徽六安市	an hui lu an shi
+安徽六安市	an hui liu an shi
+安徽省六安市	an hui sheng lu an shi
+安徽省六安市	an hui sheng liu an shi
+南京六合	nan jing lu he
+南京六合	nan jing liu he
+南京六合区	nan jing lu he qu
+南京六合区	nan jing liu he qu
+南京市六合区	nan jing shi lu he qu
+南京市六合区	nan jing shi liu he qu
+偌大	ruo da
+偌大	nuo da
+饮鸩止渴	yin zhen zhi ke
+饮鸩止渴	yin jiu zhi ke
+饮鸩解渴	yin zhen jie ke
+饮鸩解渴	yin jiu jie ke
+宫商角徵羽	gong shang jue zhi yu
+宫商角徵羽	gong shang jiao zhi yu
+### 错字
+曾经	ceng jing
+曾今	ceng jin
+按捺	an na
+按耐	an nai
+按捺不住	an na bu zhu
+按耐不住	an nai bu zhu
+别价	bie jie
+别介	bie jie
+甭价	beng jie
+甭介	beng jie
+血脉贲张	xue mai ben zhang
+血脉偾张	xue mai fen zhang
+血脉喷张	xue mai pen zhang
+契诃夫	qi he fu
+契科夫	qi ke fu
+凑合	cou he
+凑活	cou huo
+巨惠	ju hui
+钜惠	ju hui
+摩羯座	mo jie zuo
+魔蝎座	mo xie zuo
+比萨	bi sa
+披萨	pi sa
+
+
+##### 叠字
+# 数据来源： https://zh.wikipedia.org/zh-cn/%E4%BA%8C%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A0%E5%AD%97 https://zh.wikipedia.org/wiki/%E5%9B%9B%E5%8F%A0%E5%AD%97
+# 二叠字
+两个火
+两个土
+两个一
+两个二
+两个山
+两个口
+两个田
+两个九
+两个人
+两个飞
+两个戈
+两个厶	liang ge si
+两个厶	liang ge mou
+两个又
+两个香
+两个面
+两个兀
+两个女
+两个𡥦	liang ge ni
+两个臣
+两个巾
+两个左
+两个母
+两个来
+两个凡
+两个夕
+两个彐	liang ge ji
+两个𢎘	liang ge han
+两个魚	liang ge yu
+两个明
+两个朿	liang ge ci
+两个乂
+两个曰
+两个尸
+两个户
+两个大
+两个八
+两个而
+两个羊
+两个吉
+两个马
+两个卅
+两个巛	liang ge chuan
+两个止
+两个比
+两个言
+两个申
+两个牛
+两个余
+两个束
+两个罒	liang ge mu
+两个㐅	liang ge wu
+两个金
+两个木
+两个水
+两个火
+两个風	liang ge feng
+两个石
+两个口
+两个日
+两个月
+两个目
+两个白
+两个百
+两个耳
+两个山
+两个屮	liang ge che
+两个屮	liang ge cao
+两个廿
+两个卄	liang ge nian
+两个虫
+两个虎
+两个龍	liang ge long
+两个馬	liang ge ma
+两个犬
+两个人
+两个入
+两个习
+两个卪	liang ge jie
+两个㔾	liang ge jie
+两个几
+两个乙
+两个大
+两个夫
+两个禾
+两个干
+两个井
+两个斤
+两个片
+两个牙
+两个炎
+两个弓
+两个永
+两个亦
+两个手
+两个毛
+两个王
+两个男
+两个女
+两个又
+两个支
+两个隻	liang ge zhi
+两个古
+两个吉
+两个舌
+两个言
+两个户
+两个启
+两个來	liang ge lai
+两个桼	liang ge qi
+两个旡	liang ge ji
+两个夕
+两个歹
+两个匕
+两个幺
+两个玄
+两个心
+两个力
+两个欠
+两个子
+两个予
+两个享
+两个立
+两个音
+两个竟
+两个竞
+两个兄
+两个見	liang ge jian
+两个貝	liang ge bei
+两个辛
+两个瓜
+两个呆
+两个果
+两个鸟
+两个巢
+两个禺	liang ge yu
+两个巿	liang ge fu
+两个句
+两个奇
+两个真
+两个尹
+两个昔
+两个易
+两个臣
+两个面
+两个先
+两个老
+两个示
+两个至
+两个生
+两个車	liang ge che
+两个車	liang ge ju
+两个足
+两个區	liang ge qu
+两个香
+两个隹	liang ge zhui
+两个牟
+两个豕
+两个𠂢	liang ge pai
+两个畐	liang ge fu
+两个㣇	liang ge yi
+两个邑
+两个堯	liang ge yao
+两个秉
+两个倉	liang ge cang
+两个東	liang ge dong
+两个善
+两个僉	liang ge qian
+两个齒	liang ge chi
+两个喜
+两个走
+两个止
+两个昌
+两个串
+两个米
+两个束
+两个隶
+两个不
+两个龙
+两个乞
+两个夋	liang ge qun
+两个天
+# 三叠字
+三个生
+三个秦
+三个若
+三个雲	san ge yun
+三个人
+三个刀
+三个十
+三个力
+三个原
+三个厶	san ge si
+三个厶	san ge mou
+三个又
+三个口
+三个七
+三个吉
+三个土
+三个士
+三个女
+三个子
+三个小
+三个心
+三个手
+三个日
+三个木
+三个止
+三个毛
+三个水
+三个泉
+三个火
+三个牛
+三个犬
+三个田
+三个白
+三个目
+三个直
+三个石
+三个羊
+三个耳
+三个舌
+三个屮	san ge che
+三个屮	san ge cao
+三个虫
+三个言
+三个贝
+三个車	san ge che
+三个金
+三个隹	san ge zhui
+三个雷
+三个風	san ge feng
+三个飛	san ge fei
+三个香
+三个马
+三个魚	san ge yu
+三个鹿
+三个龍	san ge long
+三个个
+三个丶	san ge zhu
+三个丶	san ge dian
+三个了
+三个介
+三个企
+三个舍
+三个圥	san ge lu
+三个光
+三个兔
+三个全
+三个𠙽	san ge kuai
+三个𠧪	san ge tiao
+三个𠧪	san ge you
+三个㔾	san ge jie
+三个厡	san ge yuan
+三个可
+三个因
+三个夏
+三个大
+三个天
+三个太
+三个𦉼	san ge ku
+三个宝
+三个宜
+三个客
+三个寒
+三个少
+三个山
+三个市
+三个文
+三个斗
+三个朿	san ge ci
+三个束
+三个林
+三个果
+三个欠
+三个𣥚	san ge zou
+三个爪
+三个妥
+三个用
+三个甲
+三个百
+三个盖
+三个県	san ge xian
+三个空
+三个亇	san ge ge
+三个竹
+三个罒	san ge mu
+三个羗	san ge qiang
+三个老
+三个月
+三个至
+三个興	san ge xing
+三个足
+三个㖖	san ge nie
+三个門	san ge men
+三个面
+三个頁	san ge ye
+三个鳥	san ge niao
+三个男
+三个立
+三个九
+三个也
+三个加
+三个動	san ge dong
+三个千
+三个方
+三个朔
+三个玉
+三个申
+三个𡿨	san ge quan
+三个去
+三个弓
+三个䖝	san ge chong
+三个丿	san ge pie
+三个户
+三个瓜
+三个鸟
+三个米
+# 四叠字
+四个乂	si ge yi
+四个人
+四个厶	si ge si
+四个厶	si ge mou
+四个又
+四个匕
+四个工
+四个口
+四个天
+四个小
+四个屮	si ge che
+四个屮	si ge cao
+四个火
+四个牛
+四个魚	si ge yu
+四个月
+四个日
+四个林
+四个水
+四个石
+四个田
+四个甲
+四个且
+四个囚
+四个困
+四个竹
+四个老
+四个朿	si ge ci
+四个先
+四个金
+四个泉
+四个言
+四个門	si ge men
+四个果
+四个春
+四个車	si ge che
+四个風	si ge feng
+四个雷
+四个雲	si ge yun
+四个興	si ge xing
+四个龍	si ge long
+四个土
+
+艾米	ai mi
+爱宝铃	ai bao ling
+爱弓凉	ai gong liang
+爱乃娜美	ai nai na mei
+爱世梦萝	ai shi meng luo
+爱田飞鸟	ai tian fei niao
+爱田奈奈	ai tian nai nai
+爱音麻里亚	ai yin ma li ya
+爱原沙耶	ai yuan sha ye
+爱泽有纱	ai ze you sha
+安达夕莉	an da xi li
+安美波	an mei bo
+安位薰	an wei xun
+安斋拉拉	an zhai la la
+庵姬花	an ji hua
+奥井枫	ao jing feng
+八挂海	ba gua hai
+八木奈奈	ba mu nai nai
+白坂美杏	bai ban mei xing
+白川柚子	bai chuan you zi
+白峰美羽	bai feng mei yu
+白木优子	bai mu you zi
+白崎彩叶	bai qi cai ye
+白桃花	bai tao hua
+百濑飞鸟	bai lai fei niao
+百永纱里奈	bai yong sha li nai
+柏木小夏	bai mu xiao xia
+坂道美琉	ban dao mei liu
+坂井成羽	ban jing cheng yu
+宝田萌奈美	bao tian meng nai mei
+北川爱莉香	bei chuan ai li xiang
+北川杏树	bei chuan xing shu
+北川柚子	bei chuan you zi
+本乡爱	ben xiang ai
+本真友里	ben zhen you li
+本庄铃	ben zhuang ling
+本庄优花	ben zhuang you hua
+并木优	bing mu you
+波多野结衣	bo duo ye jie yi
+伯纳黛特	bo na dai te
+彩美旬果	cai mei xun guo
+仓本堇	cang ben jin
+仓多真央	cang duo zhen yang
+苍井空	cang jing kong
+朝比奈七濑	chao bi nai qi lai
+朝日铃	chao ri ling
+朝日奈花恋	chao ri nai hua lian
+朝日奈可怜	chao ri nai ke lian
+朝田日葵	chao tian ri kui
+辰巳唯	chen si wei
+赤目丽兰	chi mu li lan
+冲田杏梨	chong tian xing li
+初川南	chu chuan nan
+川北里菜	chuan bei li cai
+川北明沙	chuan bei ming sha
+川村真矢	chuan cun zhen shi
+川越唯	chuan yue wei
+吹石玲奈	chui shi ling nai
+椎名空	zhui ming kong
+椎名由奈	zhui ming you nai
+春菜华	chun cai hua
+春咲凉	chun xiao liang
+椿莉香	chun li xiang
+大槻响	da gui xiang
+大桥未久	da qiao wei jiu
+稻场流花	dao chang liu hua
+稻川夏目	dao chuan xia mu
+稻森美忧	dao sen mei you
+蒂亚	di ya
+东凛	dong lin
+东条夏	dong tiao xia
+东云美玲	dong yun mei ling
+冬爱琴音	dong ai qin yin
+冬月枫	dong yue feng
+儿玉玲奈	er yu ling nai
+二宫光	er gong guang
+二阶堂梦	er jie tang meng
+饭冈佳奈子	fan gang jia nai zi
+飞鸟里伊奈	fei niao li yi nai
+妃悠爱	fei you ai
+菲比	fei bi
+风间由美	feng jian you mei
+枫芙爱	feng fu ai
+枫花恋	feng hua lian
+枫可怜	feng ke lian
+逢见梨花	feng jian li hua
+逢月日葵	feng yue ri kui
+富安玲于奈	fu an ling yu nai
+绀野光	gan ye guang
+冈井萌华	gang jing meng hua
+高桥圣子	gao qiao sheng zi
+根尾明里	gen wei ming li
+工藤拉拉	gong teng la la
+工藤美纱	gong teng mei sha
+宫城理惠	gong cheng li hui
+宫岛芽衣	gong dao ya yi
+宫濑里子	gong lai li zi
+宫西光	gong xi guang
+宫下华奈	gong xia hua nai
+宫下玲奈	gong xia ling nai
+宫泽千春	gong ze qian chun
+古川伊织	gu chuan yi zhi
+广濑光希	guang lai guang xi
+广濑里绪菜	guang lai li xu cai
+广濑莲	guang lai lian
+河北朝阳	he bei zhao yang
+河北春菜	he bei chun cai
+河合明日菜	he he ming ri cai
+河南实里	he nan shi li
+黑川堇	hei chuan jin
+黑木一香	hei mu yi xiang
+横宫七海	heng gong qi hai
+胡桃樱	hu tao ying
+花狩舞	hua shou wu
+花泽日葵	hua ze ri kui
+皇柚子	huang you zi
+凰香奈芽	huang xiang nai ya
+霍华德	huo hua de
+迹美朱里	ji mei zhu li
+姬咲华	ji xiao hua
+吉川爱美	ji chuan ai mei
+吉川莲	ji chuan lian
+吉高宁宁	ji gao ning ning
+吉根柚莉爱	ji gen you li ai
+吉良铃	ji liang ling
+吉永好美	ji yong hao mei
+吉泽明步	ji ze ming bu
+加藤绫野	jia teng ling ye
+佳苗琉花	jia miao liu hua
+岬奈奈美	jia nai nai mei
+岬樱	jia ying
+架乃由罗	jia nai you luo
+菅野松雪	jian ye song xue
+笕纯	jian chun
+皆濑明里	jie lai ming li
+皆月光	jie yue guang
+结城莉乃	jie cheng li nai
+结城美佐	jie cheng mei zuo
+九条满	jiu tiao man
+九野雏乃	jiu ye chu nai
+鹫尾芽衣	jiu wei ya yi
+君岛美绪	jun dao mei xu
+堀北湾	ku bei wan
+堀咲莉娅	ku xiao li ya
+堀泽茉由	ku ze mo you
+葵司	kui si
+葵伊吹	kui yi chui
+拉杰什	la jie shen
+莱纳德	lai na de
+濑名步	lai ming bu
+濑名光	lai ming guang
+濑名光莉	lai ming guang li
+濑田一花	lai tian yi hua
+濑亚美莉	lai ya mei li
+蓝芽水月	lan ya shui yue
+劳伦花恋	lao lun hua lian
+蕾	lei
+里美尤利娅	li mei you li ya
+立花美凉	li hua mei liang
+栗宫双叶	li gong shuang ye
+栗山莉绪	li shan li xu
+莲实克蕾儿	lian shi ke lei er
+良音荠	liang yin qi
+凉宫琴音	liang gong qin yin
+凉森玲梦	liang sen ling meng
+林由奈	lin you nai
+凛音桃花	lin yin tao hua
+铃村爱里	ling cun ai li
+铃木心春	ling mu xin chun
+铃音铃	ling yin ling
+铃原爱蜜莉	ling yuan ai mi li
+铃原美兰	ling yuan mei lan
+绫濑心	ling lai xin
+瑠川里菜	liu chuan li cai
+泷川花音	long chuan hua yin
+芦名尤莉亚	lu ming you li ya
+罗斯	luo si
+萝琳花恋	luo lin hua lian
+麻仓优	ma cang you
+美波那美	mei bo na mei
+美波桃	mei bo tao
+美雏	mei chu
+美谷朱里	mei gu zhu li
+美里有纱	mei li you sha
+美乃雀	mei nai que
+美神葵	mei shen kui
+美咲佳奈	mei xiao jia nai
+美咲结衣	mei xiao jie yi
+美雪艾莉丝	mei xue ai li si
+美园和花	mei yuan he hua
+美之岛惠理	mei zhi dao hui li
+美竹铃	mei zhu ling
+梦见露	meng jian lu
+梦乃爱华	meng nai ai hua
+梦实香苗	meng shi xiang miao
+弥生美月	mi sheng mei yue
+明里䌷	minglichou
+明日花绮罗	ming ri hua qi luo
+明日见未来	ming ri jian wei lai
+末广纯	mo guang chun
+莫妮卡	mo ni ka
+木村穗乃香	mu cun sui nai xiang
+木下凛凛子	mu xia lin lin zi
+木下日葵	mu xia ri kui
+目黑惠	mu hei hui
+南条一香	nan tiao yi xiang
+佩妮	pei ni
+七海雏	qi hai chu
+七海蒂娜	qi hai di na
+七濑爱丽丝	qi lai ai li si
+七濑伊织	qi lai yi zhi
+七森莉莉	qi sen li li
+七泽美亚	qi ze mei ya
+崎惠梨香	qi hui li xiang
+前田香织	qian tian xiang zhi
+钱德勒	qian de le
+乔伊	qiao yi
+桥本有菜	qiao ben you cai
+青空光	qing kong guang
+丘惠理奈	qiu hui li nai
+仁科百华	ren ke bai hua
+日向枫	ri xiang feng
+日向由良	ri xiang you liang
+日向真凛	ri xiang zhen lin
+荣川乃亚	rong chuan nai ya
+宍户里帆	rou hu li fan
+瑞秋	rui qiu
+若宫穗乃	ruo gong sui nai
+三舩美铃	san chuan mei ling
+三宫椿	san gong chun
+三浦步美	san pu bu mei
+三上悠亚	san shang you ya
+三田樱	san tian ying
+三尾惠	san wei hui
+三叶千春	san ye qian chun
+森川玉绪	sen chuan yu xu
+森泽佳奈	sen ze jia nai
+沙月芽衣	sha yue ya yi
+纱仓真菜	sha cang zhen cai
+纱纱原百合	sha sha yuan bai he
+山口叶琉	shan kou ye liu
+山手梨爱	shan shou li ai
+上坂芽衣	shang ban ya yi
+上羽绚	shang yu xuan
+上原瑞穗	shang yuan rui sui
+上原亚衣	shang yuan ya yi
+涉谷美希	she gu mei xi
+深田结梨	shen tian jie li
+深田咏美	shen tian yong mei
+神菜美舞	shen cai mei wu
+神宫寺奈绪	shen gong si nai xu
+神木丽	shen mu li
+神纳花	shen na hua
+神雪	shen xue
+辻井穗乃果	shi jing sui nai guo
+时田亚美	shi tian ya mei
+市川雅美	shi chuan ya mei
+似鸟日菜	shi niao ri cai
+枢木葵	shu mu kui
+水卜樱	shui bo ying
+水川堇	shui chuan jin
+水岛津实	shui dao jin shi
+水户香奈	shui hu xiang nai
+水无濑优夏	shui wu lai you xia
+水稀美里	shui xi mei li
+水野朝阳	shui ye zhao yang
+水原美园	shui yuan mei yuan
+水泽乃乃	shui ze nai nai
+四宫爱丽丝	si gong ai li si
+松本菜奈实	song ben cai nai shi
+松本梨穗	song ben li sui
+松本一香	song ben yi xiang
+松冈千菜	song gang qian cai
+松井优子	song jing you zi
+松下纱荣子	song xia sha rong zi
+穗高结花	sui gao jie hua
+穗高有纪	sui gao you ji
+穗花爱里	sui hua ai li
+桃谷绘里香	tao gu hui li xiang
+桃尻香名芽	tao kao xiang ming ya
+桃濑友梨奈	tao lai you li nai
+桃乃木香奈	tao nai mu xiang nai
+桃园怜奈	tao yuan lian nai
+藤环奈	teng huan nai
+藤井爱纱	teng jing ai sha
+藤井一夜	teng jing yi ye
+藤浦惠	teng pu hui
+藤森里穗	teng sen li sui
+天川空	tian chuan kong
+天宫花南	tian gong hua nan
+天海翼	tian hai yi
+天马唯	tian ma wei
+天晴乃爱	tian qing nai ai
+天使萌	tian shi meng
+天使亚梦	tian shi ya meng
+天音唯	tian yin wei
+天音真比奈	tian yin zhen bi nai
+田中宁宁	tian zhong ning ning
+田中柠檬	tian zhong ning meng
+桐谷茉莉	tong gu mo li
+望月理沙	wang yue li sha
+唯井真寻	wei jing zhen xun
+未步奈奈	wei bu nai nai
+五十岚夏	wu shi lan xia
+武藤绫香	wu teng ling xiang
+舞原圣	wu yuan sheng
+汐世	xi shi
+西宫好美	xi gong hao mei
+西宫梦	xi gong meng
+西条琉璃	xi tiao liu li
+西野星夏	xi ye xing xia
+西元明沙	xi yuan ming sha
+希岛爱理	xi dao ai li
+希崎杰西卡	xi qi jie xi ka
+希咲艾玛	xi xiao ai ma
+希咲亚里子	xi xiao ya li zi
+希志爱野	xi zhi ai ye
+夏木玲	xia mu ling
+夏目响	xia mu xiang
+夏希栗	xia xi li
+相泽莉娜	xiang ze li na
+相泽南	xiang ze nan
+香澄果穗	xiang cheng guo sui
+香澄莉子	xiang cheng li zi
+香苗玲音	xiang miao ling yin
+香水纯	xiang shui chun
+小仓七海	xiao cang qi hai
+小仓由菜	xiao cang you cai
+小川阿佐美	xiao chuan aa zuo mei
+小凑四叶	xiao cou si ye
+小岛纯名	xiao dao chun ming
+小岛南	xiao dao nan
+小花暖	xiao hua nuan
+小栗美优	xiao li mei you
+小梅惠奈	xiao mei hui nai
+小泉日向	xiao quan ri xiang
+小宵虎南	xiao xiao hu nan
+小泽玛利亚	xiao ze ma li ya
+筱田优	xiao tian you
+篠惠美	xiao hui mei
+篠田步美	xiao tian bu mei
+谢尔顿	xie er dun
+谢耳朵	xie er duo
+新村晶	xin cun jing
+新村朱里	xin cun zhu li
+新井里真	xin jing li zhen
+新有菜	xin you cai
+星宫一花	xing gong yi hua
+星奈爱	xing nai ai
+星野景子	xing ye jing zi
+星野明	xing ye ming
+星野娜美	xing ye na mei
+芽森滴	ya sen di
+叶爱	ye ai
+叶风优莉亚	ye feng you li ya
+叶月凉子	ye yue liang zi
+楪可怜	ye ke lian
+一宫希帆	yi gong xi fan
+一乃葵	yi nai kui
+一之濑亚美莉	yi zhi lai ya mei li
+一之濑梓	yi zhi lai zi
+伊东千奈美	yi dong qian nai mei
+伊贺真子	yi he zhen zi
+伊藤沙也香	yi teng sha ye xiang
+伊藤圣夏	yi teng sheng xia
+伊织雏乃	yi zhi chu nai
+伊织羽音	yi zhi yu yin
+乙爱丽丝	yi ai li si
+乙白沙也加	yi bai sha ye jia
+翼葵	yi kui
+翼舞	yi wu
+樱井艾蜜莉	ying jing ai mi li
+樱井步	ying jing bu
+樱井彩	ying jing cai
+樱空桃	ying kong tao
+樱木凛	ying mu lin
+樱木优希音	ying mu you xi yin
+樱心美	ying xin mei
+樱由罗	ying you luo
+永井玛利亚	yong jing ma li ya
+永濑唯	yong lai wei
+永野司	yong ye si
+优梨舞奈	you li wu nai
+悠纱有朱	you sha you zhu
+由爱可奈	you ai ke nai
+有冈美羽	you gang mei yu
+有贺由爱	you he you ai
+有栖花绯	you qi hua fei
+有原步美	you yuan bu mei
+柚木蒂娜	you mu di na
+柚月亚衣	you yue ya yi
+与田樱	yu tian ying
+宇都宫紫苑	yu dou gong zi yuan
+羽咲美晴	yu xiao mei qing
+雨宫琴音	yu gong qin yin
+玉名美良	yu ming mei liang
+园田美樱	yuan tian mei ying
+月见伊织	yue jian yi zhi
+月乃雏	yue nai chu
+月乃露娜	yue nai lu na
+月野霞	yue ye xia
+早川濑里奈	zao chuan lai li nai
+早野诗	zao ye shi
+早乙女露依	zao yi nv lu yi
+斋藤亚美里	zhai teng ya mei li
+长谷川理穗	zhang gu chuan li sui
+长泽杏奈	zhang ze xing nai
+长泽梓	zhang ze zi
+真白爱梨	zhen bai ai li
+真白希实	zhen bai xi shi
+知花梅莎	zhi hua mei sha
+织田真子	zhi tian zhen zi
+中山文香	zhong shan wen xiang
+柊木枫	zhong mu feng
+仲村美羽	zhong cun mei yu
+朱音唯	zhu yin wei
+竹内爱	zhu nei ai
+竹内乃爱	zhu nei nai ai
+竹内有纪	zhu nei you ji
+竹田梦	zhu tian meng
+渚光希	zhu guang xi
+梓光莉	zi guang li
+佐山爱	zuo shan ai
+佐野由真	zuo ye you zhen
+佐佐木明希	zuo zuo mu ming xi
+エイミー	ai mi
+アイボリン	ai bao ling
+愛弓涼	ai gong liang
+愛乃ナミ	ai nai na mei
+アイシムロ	ai shi meng luo
+アイタニア	ai tian fei niao
+愛田奈々	ai tian nai nai
+アイナ・マリア	ai yin ma li ya
+愛原沙耶	ai yuan sha ye
+愛沢有紗	ai ze you sha
+アンダーシリー	an da xi li
+アン・メイボ	an mei bo
+安位薫	an wei xun
+安齋らら	an zhai la la
+庵姫花	an ji hua
+奥井楓	ao jing feng
+八掛海	ba gua hai
+やぎ なな	ba mu nai nai
+しらさか みつえ	bai ban mei xing
+白川ゆず	bai chuan you zi
+白峰美羽	bai feng mei yu
+白木優子	bai mu you zi
+白崎彩葉	bai qi cai ye
+白桃の花	bai tao hua
+百瀬飛鳥	bai lai fei niao
+百永 紗里奈 (ももなが さりな	bai yong sha li nai
+かしわぎ こなつ	bai mu xiao xia
+坂道 美琉（さかみち みる）	ban dao mei liu
+さかい なるは	ban jing cheng yu
+宝田萌奈美	bao tian meng nai mei
+北川愛莉香	bei chuan ai li xiang
+北川杏樹	bei chuan xing shu
+北川ゆず	bei chuan you zi
+ホンゴ アイ	ben xiang ai
+本真友里	ben zhen you li
+本庄鈴	ben zhuang ling
+本庄優花	ben zhuang you hua
+並木優	bing mu you
+はたの ゆい	bo duo ye jie yi
+ベルナデット	bo na dai te
+彩美旬果	cai mei xun guo
+倉本堇	cang ben jin
+倉多真央	cang duo zhen yang
+蒼井そら	cang jing kong
+朝比奈七瀬	chao bi nai qi lai
+あさひすず	chao ri ling
+あさひな はなこい	chao ri nai hua lian
+朝日奈可怜	chao ri nai ke lian
+朝田ひなた	chao tian ri kui
+辰巳唯	chen si wei
+赤目麗蘭	chi mu li lan
+沖田杏梨	chong tian xing li
+初川南	chu chuan nan
+川北里菜	chuan bei li cai
+川北明沙	chuan bei ming sha
+川村真矢	chuan cun zhen shi
+川越唯	chuan yue wei
+吹石玲奈	chui shi ling nai
+椎名 そら (Shiina Sora)	zhui ming kong
+しいなゆな	zhui ming you nai
+春菜華	chun cai hua
+春咲涼	chun xiao liang
+つばき りか	chun li xiang
+大槌ひびき	da gui xiang
+大橋未久	da qiao wei jiu
+いなばなな	dao chang liu hua
+いながわ なつめ	dao chuan xia mu
+稲森美憂	dao sen mei you
+ティア	di ya
+東凛	dong lin
+東条夏	dong tiao xia
+東雲 美鈴	dong yun mei ling
+冬愛琴音	dong ai qin yin
+冬月楓	dong yue feng
+児玉玲奈	er yu ling nai
+二宮ひかり	er gong guang
+にいたどうゆめ	er jie tang meng
+飯岡佳奈子	fan gang jia nai zi
+飛鳥里伊奈	fei niao li yi nai
+妃悠愛	fei you ai
+フィービー	fei bi
+風間由美	feng jian you mei
+楓芙愛	feng fu ai
+紅葉の恋	feng hua lian
+楓 カレン	feng ke lian
+梨の花に出会う	feng jian li hua
+月日葵に逢う	feng yue ri kui
+富安玲于奈	fu an ling yu nai
+緋野光	gan ye guang
+岡井萌華	gang jing meng hua
+高橋聖子	gao qiao sheng zi
+ネンド ミサリ	gen wei ming li
+工藤ララ	gong teng la la
+工藤美紗	gong teng mei sha
+宮城理恵	gong cheng li hui
+宮島めい	gong dao ya yi
+宮瀬里子	gong lai li zi
+宮西ひかる	gong xi guang
+宮下華奈	gong xia hua nai
+宮下玲奈	gong xia ling nai
+宮沢千春	gong ze qian chun
+古川 いおり (Furukawa Iori)	gu chuan yi zhi
+広瀬光希	guang lai guang xi
+広瀬里緒菜	guang lai li xu cai
+広瀬蓮	guang lai lian
+河北朝陽	he bei zhao yang
+河北春菜	he bei chun cai
+河合明日菜	he he ming ri cai
+河南実里	he nan shi li
+黒川すみれ	hei chuan jin
+黒木一香	hei mu yi xiang
+横宮七海 (よこみや ななみ)	heng gong qi hai
+くるみ桜	hu tao ying
+花狩舞	hua shou wu
+花沢ひまわり	hua ze ri kui
+皇柚子	huang you zi
+凰香奈芽	huang xiang nai ya
+ハワード	huo hua de
+跡美朱里	ji mei zhu li
+姫咲華	ji xiao hua
+吉川愛美	ji chuan ai mei
+吉川蓮	ji chuan lian
+吉高寧寧	ji gao ning ning
+吉根柚莉愛	ji gen you li ai
+吉良 鈴	ji liang ling
+よしきよしみ	ji yong hao mei
+吉沢明歩	ji ze ming bu
+加藤綾野	jia teng ling ye
+佳苗琉花	jia miao liu hua
+岬 奈々美	jia nai nai mei
+岬桜	jia ying
+架乃ゆら	jia nai you luo
+菅野松雪	jian ye song xue
+かんじん	jian chun
+皆瀬明里	jie lai ming li
+皆月光	jie yue guang
+結城莉乃	jie cheng li nai
+結城美佐	jie cheng mei zuo
+九条満	jiu tiao man
+九野雛乃	jiu ye chu nai
+鷲尾芽衣	jiu wei ya yi
+君島美緒	jun dao mei xu
+堀北湾	ku bei wan
+堀咲莉亜	ku xiao li ya
+堀沢茉由	ku ze mo you
+葵 司（あおい つかさ）	kui si
+葵伊吹	kui yi chui
+ラジェシュ	la jie shen
+レナード	lai na de
+瀬名歩	lai ming bu
+瀬名光	lai ming guang
+瀬名光莉	lai ming guang li
+瀬田一花	lai tian yi hua
+瀬亜美莉	lai ya mei li
+ブルーベルの水月	lan ya shui yue
+ローレン・フアレン	lao lun hua lian
+蕾（つぼみ）	lei
+里美ゆりあ	li mei you li ya
+立花美涼	li hua mei liang
+栗宮双葉	li gong shuang ye
+栗山 莉緒（くりやま りお）	li shan li xu
+レンジクレール	lian shi ke lei er
+良音荠	liang yin qi
+涼宮琴音	liang gong qin yin
+涼森玲夢	liang sen ling meng
+林由奈	lin you nai
+凛音桃花	lin yin tao hua
+鈴村愛里	ling cun ai li
+鈴木心春	ling mu xin chun
+鈴音鈴	ling yin ling
+鈴原エミリ	ling yuan ai mi li
+鈴原美蘭	ling yuan mei lan
+綾瀬心	ling lai xin
+瑠川里菜	liu chuan li cai
+滝川かのん	long chuan hua yin
+芦名ユリア	lu ming you li ya
+ロス	luo si
+ローリンの花恋	luo lin hua lian
+麻倉優	ma cang you
+美波那美	mei bo na mei
+美波桃	mei bo tao
+美雛	mei chu
+美谷朱里	mei gu zhu li
+美里有紗	mei li you sha
+美乃雀	mei nai que
+美神葵	mei shen kui
+美咲佳奈	mei xiao jia nai
+みさき ゆい	mei xiao jie yi
+美雪エリス	mei xue ai li si
+美園と花	mei yuan he hua
+美ノ島 恵理 (みのしま えり)	mei zhi dao hui li
+美竹鈴	mei zhu ling
+夢に露	meng jian lu
+夢乃愛華	meng nai ai hua
+夢実香苗	meng shi xiang miao
+やよい みづき	mi sheng mei yue
+明里糸	minglichou
+明日花キララ	ming ri hua qi luo
+明日、未来に会おう	ming ri jian wei lai
+末広純	mo guang chun
+モニカ	mo ni ka
+木村穂乃香	mu cun sui nai xiang
+木下 凛々子	mu xia lin lin zi
+木下ひなた	mu xia ri kui
+目黒恵	mu hei hui
+南条一香	nan tiao yi xiang
+ペニー	pei ni
+七海ひな	qi hai chu
+七海ティーナ	qi hai di na
+ななせ アリス	qi lai ai li si
+七瀬伊織	qi lai yi zhi
+七森莉莉	qi sen li li
+七沢みあ	qi ze mei ya
+崎恵梨香	qi hui li xiang
+前田香織	qian tian xiang zhi
+チャンドラー	qian de le
+ジョイ	qiao yi
+橋本ありな	qiao ben you cai
+青空光	qing kong guang
+丘恵理奈	qiu hui li nai
+ニントクヒャクカ	ren ke bai hua
+日向楓	ri xiang feng
+日向由良	ri xiang you liang
+日向真凛	ri xiang zhen lin
+栄川乃亜	rong chuan nai ya
+宍戸里帆	rou hu li fan
+レイチェル	rui qiu
+もし宮穂乃	ruo gong sui nai
+三舩美鈴	san chuan mei ling
+三宮つばき	san gong chun
+みうら あゆみ	san pu bu mei
+三上ゆあ	san shang you ya
+三田桜	san tian ying
+三尾恵	san wei hui
+三葉千春	san ye qian chun
+森川玉緒	sen chuan yu xu
+森沢かな	sen ze jia nai
+沙月 芽衣（さつき めい）	sha yue ya yi
+砂倉真菜	sha cang zhen cai
+紗紗原百合	sha sha yuan bai he
+山口葉琉	shan kou ye liu
+山手梨愛	shan shou li ai
+上坂芽衣	shang ban ya yi
+上羽 あや (Ueba Aya)	shang yu xuan
+上原 瑞穂 (うえはら みずほ	shang yuan rui sui
+上原亜衣	shang yuan ya yi
+渋谷美希	she gu mei xi
+深田結梨	shen tian jie li
+深田えいみ	shen tian yong mei
+神菜美舞	shen cai mei wu
+神宮寺奈緒	shen gong si nai xu
+神木レイ	shen mu li
+かみのばな	shen na hua
+神雪	shen xue
+つじい ほのか	shi jing sui nai guo
+ときた あみ	shi tian ya mei
+市川雅美	shi chuan ya mei
+鳥のような日菜	shi niao ri cai
+枢木葵	shu mu kui
+水卜桜	shui bo ying
+水川 スミレ	shui chuan jin
+みずしま さねさね	shui dao jin shi
+水戸香奈	shui hu xiang nai
+みずのせゆうか	shui wu lai you xia
+水稀美里	shui xi mei li
+水野朝陽	shui ye zhao yang
+水原美園	shui yuan mei yuan
+水沢乃乃	shui ze nai nai
+四宮アリス	si gong ai li si
+松本菜奈実	song ben cai nai shi
+松本梨穂	song ben li sui
+松本かずか	song ben yi xiang
+松岡千菜	song gang qian cai
+松井優子	song jing you zi
+松下 紗栄子（まつした さえこ）	song xia sha rong zi
+ほどう ゆうか	sui gao jie hua
+ほどう ありこの	sui gao you ji
+穂花愛里	sui hua ai li
+ももがる・えりか	tao gu hui li xiang
+ももあしかなの	tao kao xiang ming ya
+ももせ ゆりな	tao lai you li nai
+桃乃木かな	tao nai mu xiang nai
+ももやん れな	tao yuan lian nai
+藤環奈	teng huan nai
+藤井愛紗	teng jing ai sha
+藤井一夜	teng jing yi ye
+藤浦めぐ	teng pu hui
+藤森里穂	teng sen li sui
+天川空	tian chuan kong
+天宮花南	tian gong hua nan
+天海つばさ	tian hai yi
+天马唯	tian ma wei
+天晴 乃愛	tian qing nai ai
+天使もえ	tian shi meng
+天使あむ	tian shi ya meng
+天音唯	tian yin wei
+あまね まひな	tian yin zhen bi nai
+田中寧寧	tian zhong ning ning
+田中レモン	tian zhong ning meng
+桐谷茉莉	tong gu mo li
+望月理沙	wang yue li sha
+唯井真尋	wei jing zhen xun
+未歩奈々	wei bu nai nai
+五十嵐夏	wu shi lan xia
+むとう あやか	wu teng ling xiang
+舞原 聖 (まいはら せい, Maihara Sei)	wu yuan sheng
+汐世	xi shi
+西宮はとても綺麗だ	xi gong hao mei
+西宮夢	xi gong meng
+西条瑠璃	xi tiao liu li
+西野星夏	xi ye xing xia
+西元明沙	xi yuan ming sha
+希島愛理	xi dao ai li
+希崎ジェシカ	xi qi jie xi ka
+希咲エマ	xi xiao ai ma
+希咲亜里子	xi xiao ya li zi
+希志愛野	xi zhi ai ye
+夏木玲	xia mu ling
+夏目響	xia mu xiang
+夏希栗	xia xi li
+相沢リナ	xiang ze li na
+相沢みなみ	xiang ze nan
+香澄果穂	xiang cheng guo sui
+香澄莉子	xiang cheng li zi
+香苗玲音	xiang miao ling yin
+香水純	xiang shui chun
+小倉七海	xiao cang qi hai
+小倉由菜	xiao cang you cai
+小川アズミ	xiao chuan aa zuo mei
+小湊よつは	xiao cou si ye
+小島純名	xiao dao chun ming
+小島南	xiao dao nan
+小花暖	xiao hua nuan
+小栗美優	xiao li mei you
+小梅恵奈	xiao mei hui nai
+小泉日向	xiao quan ri xiang
+小宵 虎南 (こよい こなん	xiao xiao hu nan
+小沢マリア	xiao ze ma li ya
+篠田ゆう	xiao tian you
+篠恵美	xiao hui mei
+篠田歩美	xiao tian bu mei
+シェルドン	xie er dun
+シャイアール	xie er duo
+新村 晶（にいむら あきら）	xin cun jing
+新村朱里	xin cun zhu li
+新井里真	xin jing li zhen
+新ありな	xin you cai
+星宮 一花 (ほしみや いちか)	xing gong yi hua
+星奈愛	xing nai ai
+星野景子	xing ye jing zi
+星野 あかり (Hoshino Akari)	xing ye ming
+星野ナミ	xing ye na mei
+芽森滴	ya sen di
+葉愛	ye ai
+葉風優莉ア	ye feng you li ya
+葉月涼子	ye yue liang zi
+葉月可憐	ye ke lian
+一宮希帆	yi gong xi fan
+一乃葵	yi nai kui
+一ノ瀬亜美莉	yi zhi lai ya mei li
+一ノ瀬あずさ	yi zhi lai zi
+伊東千奈美	yi dong qian nai mei
+伊賀真子	yi he zhen zi
+伊藤沙也香	yi teng sha ye xiang
+伊藤聖夏	yi teng sheng xia
+伊織ひな乃	yi zhi chu nai
+伊織羽音	yi zhi yu yin
+乙アリス	yi ai li si
+乙白沙也加	yi bai sha ye jia
+翼葵	yi kui
+翼舞	yi wu
+桜井エミリー	ying jing ai mi li
+桜井あゆみ	ying jing bu
+桜井彩	ying jing cai
+桜空もも	ying kong tao
+桜木凛	ying mu lin
+桜木優希音	ying mu you xi yin
+桜心美	ying xin mei
+桜由羅	ying you luo
+永井マリア	yong jing ma li ya
+永瀬ゆい	yong lai wei
+永野司	yong ye si
+ゆり まな	you li wu nai
+ゆうさゆあ	you sha you zhu
+ゆあかな	you ai ke nai
+有岡美羽	you gang mei yu
+有賀由愛	you he you ai
+有栖花あか	you qi hua fei
+有原步美	you yuan bu mei
+ティナ・タイガー	you mu di na
+ゆずつきあい	you yue ya yi
+田桜と	yu tian ying
+宇都宮しおん	yu dou gong zi yuan
+羽咲美晴	yu xiao mei qing
+雨宮 琴音（あまみや ことね）	yu gong qin yin
+たまみ りょう	yu ming mei liang
+園田美桜	yuan tian mei ying
+つきみいおり	yue jian yi zhi
+月乃ひな	yue nai chu
+月乃ルナ	yue nai lu na
+月野霞	yue ye xia
+早川瀬里奈	zao chuan lai li nai
+早野詩	zao ye shi
+早乙女露依	zao yi nv lu yi
+斎藤亜美里	zhai teng ya mei li
+長谷川理穂	zhang gu chuan li sui
+長沢杏奈	zhang ze xing nai
+長澤あずさ	zhang ze zi
+ましろ あいり	zhen bai ai li
+ましろ きみ	zhen bai xi shi
+知花梅莎	zhi hua mei sha
+織田真子	zhi tian zhen zi
+中山文香	zhong shan wen xiang
+柊木楓	zhong mu feng
+なかむら みう	zhong cun mei yu
+朱音唯	zhu yin wei
+竹内 愛（たけうち あい）	zhu nei ai
+竹内乃愛	zhu nei nai ai
+竹内有紀	zhu nei you ji
+竹田夢	zhu tian meng
+渚 光希（なぎさ みき）	zhu guang xi
+梓光莉	zi guang li
+佐山愛	zuo shan ai
+さのゆま	zuo ye you zhen
+佐々木明希	zuo zuo mu ming xi
+
+	

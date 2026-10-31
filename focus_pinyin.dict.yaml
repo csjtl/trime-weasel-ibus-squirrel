@@ -5,24 +5,6 @@
 name: focus_pinyin
 version: "2024-10-25"
 import_tables:
-  #- dicts/abbrev
-  - dicts/cuoyin
-  - dicts/diming
-  - dicts/duoyin
-  - dicts/en
-  - dicts/fangyan
-  - dicts/huaxue
-  - dicts/jichu
-  - dicts/mingren
-  #- dicts/mixed
-  - dicts/shici
-  #- dicts/t9_abbrev
-  - dicts/taifeng
-  - dicts/wuzhong
-  - dicts/yaopin
-  - dicts/yiren
-  - dicts/yixue
-  - dicts/zi
    - dicts/dicts_cn/pinyin/dicts/zi            #字表，包含了所有带拼音的汉字
    - dicts/dicts_cn/pinyin/dicts/jichu         #基础词库，2-4字词汇
    - dicts/dicts_cn/pinyin/dicts/lianxiang     #联想词库，5字以上词汇，多用于输入前半段第二候选可以出来整段

@@ -1,0 +1,685 @@
+---
+name: units
+version: "202602"
+sort: by_weight #by_weight
+# encoder:
+#   rules:
+#     - length_equal: 2
+#       formula: "AaAbAcAdAeAfAgAhAiAjAkAlAmAnAoApAqArAsAtAuAvAwAxAyAzBa"
+...
+
+# 长度
+km	qiān mǐ	8517	单位(公制): 千米
+m	mǐ	8517	单位(公制): 米
+pm	pí mǐ	8517	单位(公制): 皮米
+nm	nà mǐ	8517	单位(公制): 纳米
+μm	wēi mǐ	8517	单位(公制): 微米
+mm	háo mǐ	8517	单位(公制): 毫米
+cm	lí mǐ	8517	单位(公制): 厘米
+dm	fēn mǐ	8517	单位(公制): 分米
+ly	guāng nián	8517	单位(公制): 光年
+A.U.	tiān wén dān wèi	8517	单位(公制): 天文单位
+inch	yīng cùn	8517	单位(英制): 英寸
+foot	yīng chǐ	8517	单位(英制): 英尺
+yard	mǎ	8517	单位(英制): 码
+mi	yīng lǐ	8517	单位(英制): 英里
+nMi	hǎi lǐ	8517	单位(英制): 海里
+里	lǐ	8517	单位(市制): 里
+丈	zhàng	8517	单位(市制): 丈
+尺	chǐ	8517	单位(市制): 尺
+寸	cùn	8517	单位(市制): 寸
+分	fēn	8517	单位(市制): 分
+厘	lí	8517	单位(市制): 厘
+毫	háo	8517	单位(市制): 毫
+# 容量
+mm³	lì fāng háo mǐ	8517	单位(公制): 立方毫米
+cm³	lì fāng lí mǐ	8517	单位(公制): 立方厘米
+dm³	lì fāng fēn mǐ	8517	单位(公制): 立方分米
+m³	lì fāng mǐ	8517	单位(公制): 立方米
+km³	lì fāng qiān mǐ	8517	单位(公制): 立方千米
+ml	háo shēng	8517	单位(公制): 毫升
+l	shēng	8517	单位(公制): 升
+inch³	lì fāng yīng cùn	8517	单位(英制): 立方英寸
+foot³	lì fāng yīng chǐ	8517	单位(英制): 立方英尺
+yard³	lì fāng mǎ	8517	单位(英制): 立方码
+tsp	chá chí	8517	单位(英制): 英制茶匙
+Tbs	tāng chí	8517	单位(英制): 英制汤匙
+fl-oz	yè àng sī	8517	单位(英制): 英制液盎司
+pnt	pǐn tuō	8517	单位(英制): 英制品脱
+qt	kuā tuō	8517	单位(英制): 英制夸脱
+gal	jiā lún	8517	单位(英制): 英制加仑
+tsp	chá chí	8517	单位(美制): 美制茶匙
+Tbs	tāng chí	8517	单位(美制): 美制汤匙
+fl-oz	yè àng sī	8517	单位(美制): 美制液盎司
+cup	bēi	8517	单位(美制): 美制杯
+pnt	pǐn tuō	8517	单位(美制): 美制品脱
+qt	kuā tuō	8517	单位(美制): 美制夸脱
+gal	jiā lún	8517	单位(美制): 美制加仑
+# 质量
+ng	nà kè	8517	单位(公制): 纳克
+μg	wēi kè	8517	单位(公制): 微克
+mg	háo kè	8517	单位(公制): 毫克
+ct	kè lā	8517	单位(公制): 克拉
+g	kè	8517	单位(公制): 克
+kg	qiān kè	8517	单位(公制): 千克
+t	gōng dūn	8517	单位(公制): 公吨
+kt	qiān dūn	8517	单位(公制): 千吨
+u	yuán zi zhì liàng dān wèi	8517	单位(公制): 原子质量单位
+D	dào ěr dùn	8517	单位(公制): 道尔顿
+quintal	gōng dān	8517	单位(公制): 公担
+planck	pǔ lǎng kè	8517	单位(公制): 普朗克质量
+electron	diàn zi	8517	单位(公制): 电子质量
+muon	μzi	8517	单位(公制): μ子质量
+proton	zhì zi	8517	单位(公制): 质子质量
+neutron	zhōng zi	8517	单位(公制): 中子质量
+deuteron	dāo hé	8517	单位(公制): 氘核质量
+earth	dì qiú	8517	单位(公制): 地球质量
+sun	tài yáng	8517	单位(公制): 太阳质量
+oz	àng sī	8517	单位(英制): 盎司
+lb	bàng	8517	单位(英制): 磅
+ton	zhǎng dūn	8517	单位(英制): 长吨
+st	yīng shí	8517	单位(英制): 英石
+gr	gé lìng	8517	单位(英制): 格令
+cwt	yīng dān	8517	单位(英制): 英担
+dr	dǎ lán	8517	单位(英制): 打兰
+qr	kuā tè	8517	单位(英制): 夸特
+ton	duǎn dūn	8517	单位(美制): 短吨
+st	yīng shí	8517	单位(美制): 英石
+hundredweight	yīng dān	8517	单位(美制): 英担
+qr	kuā tè	8517	单位(美制): 夸特
+dan	dān	8517	单位(市制): 担
+jin	jīn	8517	单位(市制): 斤
+liang	liǎng	8517	单位(市制): 两
+qian	qián	8517	单位(市制): 钱
+# 面积
+nm²	píng fāng nà mǐ	8517	单位(公制): 平方纳米
+μm²	píng fāng wēi mǐ	8517	单位(公制): 平方微米
+mm²	píng fāng háo mǐ	8517	单位(公制): 平方毫米
+cm²	píng fāng lí mǐ	8517	单位(公制): 平方厘米
+dm²	píng fāng fēn mǐ	8517	单位(公制): 平方分米
+m²	píng fāng mǐ	8517	单位(公制): 平方米
+ha	gōng qǐng	8517	单位(公制): 公顷
+km²	píng fāng qiān mǐ	8517	单位(公制): 平方千米
+in²	píng fāng yīng cùn	8517	单位(英制): 平方英寸
+yd²	píng fāng mǎ	8517	单位(英制): 平方码
+ft²	píng fāng yīng chǐ	8517	单位(英制): 平方英尺
+ac	yīng mǔ	8517	单位(英制): 英亩
+mi²	píng fāng yīng lǐ	8517	单位(英制): 平方英里
+顷	qǐng	8517	单位(市制): 顷
+亩	mǔ	8517	单位(市制): 亩
+分	fēn	8517	单位(市制): 分
+平方尺	píng fāng chǐ	8517	单位(市制): 平方尺
+平方寸	píng fāng cùn	8517	单位(市制): 平方寸
+# 数据
+Bit	bǐ tè	8517	单位(通用): Bit
+Byte	zì jié	8517	单位(通用): Byte
+KiB	qiān zì jié	8517	单位(1024进制): KiB
+MiB	zhào zì jié	8517	单位(1024进制): MiB
+GiB	jí zì jié	8517	单位(1024进制): GiB
+TiB	tài zì jié	8517	单位(1024进制): TiB
+PiB	pāi zì jié	8517	单位(1024进制): PiB
+EiB	ài zì jié	8517	单位(1024进制): EiB
+ZiB	zé zì jié	8517	单位(1024进制): ZiB
+YiB	yáo zì jié	8517	单位(1024进制): YiB
+KB	qiān zì jié	8517	单位(1000进制): KB
+MB	zhào zì jié	8517	单位(1000进制): MB
+GB	jí zì jié	8517	单位(1000进制): GB
+TB	tài zì jié	8517	单位(1000进制): TB
+PB	pāi zì jié	8517	单位(1000进制): PB
+EB	ài zì jié	8517	单位(1000进制): EB
+ZB	zé zì jié	8517	单位(1000进制): ZB
+YB	yáo zì jié	8517	单位(1000进制): YB
+# 时间
+世纪	shì jì	8517	单位(公制): 世纪
+十年	shí nián	8517	单位(公制): 十年
+年	nián	8517	单位(公制): 年
+周	zhōu	8517	单位(公制): 周
+天	tiān	8517	单位(公制): 天
+时	shí	8517	单位(公制): 时
+分	fēn	8517	单位(公制): 分
+秒	miǎo	8517	单位(公制): 秒
+ms	háo miǎo	8517	单位(公制): 毫秒
+us	wēi miǎo	8517	单位(公制): 微秒
+ns	nà miǎo	8517	单位(公制): 纳秒
+ps	pí miǎo	8517	单位(公制): 皮秒
+fs	fēi miǎo	8517	单位(公制): 飞秒
+as	ā miǎo	8517	单位(公制): 阿秒
+# 温度
+℃	shè shì dù	8517	单位(公制): 摄氏度
+K	kāi ěr wén	8517	单位(公制): 开尔文
+°F	huá shì dù	8517	单位(公制): 华氏度
+°R	lán shì dù	8517	单位(公制): 兰氏度
+°Re	liè shì dù	8517	单位(公制): 列氏度
+# 速度
+cm/s	lí mǐ měi miǎo	8517	单位(公制): 厘米每秒
+m/s	mǐ měi miǎo	8517	单位(公制): 米每秒
+km/s	qiān mǐ měi miǎo	8517	单位(公制): 千米每秒
+km/h	qiān mǐ měi shí	8517	单位(公制): 千米每时
+光速	guāng sù	8517	单位(公制): 光速
+Ma	mǎ hè	8517	单位(公制): 马赫
+mph	yīng lǐ měi shí	8517	单位(公制): 英里每时
+ft/s	yīng chǐ měi miǎo	8517	单位(公制): 英尺每秒
+ft/min	yīng chǐ měi fēn zhōng	8517	单位(公制): 英尺每分钟
+in/s	yīng cùn měi miǎo	8517	单位(公制): 英寸每秒
+kn	jié	8517	单位(公制): 节
+# 加速度
+g	zhòng lì jiā sù dù	8517	单位(公制): 重力加速度
+m/s²	mǐ měi èr cì fāng miǎo	8517	单位(公制): 米每二次方秒
+# 压强
+Pa	pà	8517	单位(公制): 帕
+kPa	qiān pà	8517	单位(公制): 千帕
+MPa	zhào pà	8517	单位(公制): 兆帕
+hPa	bǎi pà	8517	单位(公制): 百帕
+bar	bā	8517	单位(公制): 巴
+mbar	háo bā	8517	单位(公制): 毫巴
+μbar	wēi bā	8517	单位(公制): 微巴
+torr	tuō	8517	单位(公制): 托
+psi	bàng měi píng fāng yīng cùn	8517	单位(公制): 磅/平方英寸
+ksi	qiān bàng měi píng fāng yīng cùn	8517	单位(公制): 千磅/平方英寸
+mmHg 0℃	háo mǐ gǒng zhù	8517	单位(公制): 毫米汞柱0℃
+atm	biāo zhǔn dà qì yā	8517	单位(公制): 标准大气压
+inHg 32°F	yīng cùn gǒng zhù	8517	单位(公制): 英寸汞柱32°F
+inHg 60°F	yīng cùn gǒng zhù	8517	单位(公制): 英寸汞柱60°F
+EPa	ài pà	8517	单位(公制): 艾帕
+PPa	pāi pà	8517	单位(公制): 拍帕
+TPa	tài pà	8517	单位(公制): 太帕
+GPa	jí pà	8517	单位(公制): 吉帕
+daPa	shí pà	8517	单位(公制): 十帕
+dPa	fēn pà	8517	单位(公制): 分帕
+cPa	lí pà	8517	单位(公制): 厘帕
+mPa	háo pà	8517	单位(公制): 毫帕
+μPa	wēi pà	8517	单位(公制): 微帕
+nPa	nà pà	8517	单位(公制): 纳帕
+pPa	pí pà	8517	单位(公制): 皮帕
+fPa	fēi pà	8517	单位(公制): 飞帕
+aPa	ā pà	8517	单位(公制): 阿帕
+N/m²	niú dùn měi píng fāng mǐ	8517	单位(公制): 牛顿/平方米
+N/cm²	niú dùn měi píng fāng lí mǐ	8517	单位(公制): 牛顿/平方厘米
+N/mm²	niú dùn měi píng fāng háo mǐ	8517	单位(公制): 牛顿/平方毫米
+kN/m²	qiān niú dùn měi píng fāng mǐ	8517	单位(公制): 千牛顿/平方米
+dyn/cm²	dá yīn měi píng fāng lí mǐ	8517	单位(公制): 达因/平方厘米
+kgf/m²	qiān kè lì měi píng fāng mǐ	8517	单位(公制): 千克力/平方米
+kgf/cm²	qiān kè lì měi píng fāng lí mǐ	8517	单位(公制): 千克力/平方厘米
+kgf/mm²	qiān kè lì měi píng fāng háo mǐ	8517	单位(公制): 千克力/平方毫米
+gf/cm²	kè lì měi píng fāng lí mǐ	8517	单位(公制): 克力/平方厘米
+foot	duǎn dūn lì měi píng fāng yīng chǐ	8517	单位(公制): 短吨力/平方英尺
+inch	duǎn dūn lì měi píng fāng yīng cùn	8517	单位(公制): 短吨力/平方英寸
+lTonForcePerSf	zhǎng dūn lì měi píng fāng yīng chǐ	8517	单位(公制): 长吨力/平方英尺
+lTonForcePerSi	zhǎng dūn lì měi píng fāng yīng cùn	8517	单位(公制): 长吨力/平方英寸
+ksi	qiān bàng lì měi píng fāng yīng cùn	8517	单位(公制): 千磅力/平方英寸
+pForcePerSf	bàng lì měi píng fāng yīng chǐ	8517	单位(公制): 磅力/平方英尺
+pForcePerSi	bàng lì měi píng fāng yīng cùn	8517	单位(公制): 磅力/平方英寸
+pDalPerSf	bàng dá měi píng fāng yīng chǐ	8517	单位(公制): 磅达/平方英尺
+cmHg 0°C	lí mǐ gǒng zhù	8517	单位(公制): 厘米汞柱0°C
+cmH₂O 4°C	lí mǐ shuǐ zhù	8517	单位(公制): 厘米水柱4°C
+mmH₂O 4°C	háo mǐ shuǐ zhù	8517	单位(公制): 毫米水柱4°C
+inH₂O 4°C	yīng cùn shuǐ zhù	8517	单位(公制): 英寸水柱4°C
+ftH₂O 4°C	yīng chǐ shuǐ zhù	8517	单位(公制): 英尺水柱4°C
+inH₂O 60°F	yīng cùn shuǐ zhù	8517	单位(公制): 英寸水柱60°F
+ftH₂O 60°F	yīng chǐ shuǐ zhù	8517	单位(公制): 英尺水柱60°F
+at	gōng chéng dà qì yā	8517	单位(公制): 工程大气压
+# 角度
+°	dù	8517	单位(公制): 度
+'	fēn	8517	单位(公制): 分
+''	miǎo	8517	单位(公制): 秒
+rad	hú dù	8517	单位(公制): 弧度
+drad	fēn hú dù	8517	单位(公制): 分弧度
+crad	lí hú dù	8517	单位(公制): 厘弧度
+grad	tī dù	8517	单位(公制): 梯度
+turn	quān	8517	单位(公制): 圈
+gon	bǎi fēn dù	8517	单位(公制): 百分度
+mil	mì wèi	8517	单位(公制): 密位
+# 能量/热量
+Wh	wǎ shí	8517	单位(公制): 瓦时
+Ah	ān shí	8517	单位(公制): 安时
+mWh	háo wǎ shí	8517	单位(公制): 毫瓦时
+mAh	háo ān shí	8517	单位(公制): 毫安时
+kWh	qiān wǎ shí	8517	单位(公制): 千瓦时
+MWh	zhào wǎ shí	8517	单位(公制): 兆瓦时
+GWh	jí wǎ shí	8517	单位(公制): 吉瓦时
+J	jiāo ěr	8517	单位(公制): 焦耳
+kJ	qiān jiāo	8517	单位(公制): 千焦
+MJ	zhào jiāo	8517	单位(公制): 兆焦
+GJ	jí jiāo	8517	单位(公制): 吉焦
+N*m	niú mǐ	8517	单位(公制): 牛米
+eV	diàn zi fú tè	8517	单位(公制): 电子伏特
+cal	kǎ lù lǐ	8517	单位(公制): 卡路里
+kcal	qiān kǎ lù lǐ	8517	单位(公制): 千卡路里
+hp*h	mǎ lì shí	8517	单位(公制): 马力时
+ft*lbf	yīng chǐ bàng	8517	单位(英制): 英尺磅
+hp*h	mǎ lì shí	8517	单位(英制): 马力时
+btuUK	yīng guó rè liàng dān wèi	8517	单位(英制): 英国热量单位
+°	dù	8517	单位(市制): 度
+# 功率
+W	wǎ	8517	单位(公制): 瓦
+mW	háo wǎ	8517	单位(公制): 毫瓦
+kW	qiān wǎ	8517	单位(公制): 千瓦
+MW	zhào wǎ	8517	单位(公制): 兆瓦
+GW	jí wǎ	8517	单位(公制): 吉瓦
+PS	mǎ lì	8517	单位(公制): 马力
+J/s	jiāo ěr měi miǎo	8517	单位(公制): 焦耳每秒
+N*m/s	niú mǐ měi miǎo	8517	单位(公制): 牛米每秒
+cal/s	kǎ měi miǎo	8517	单位(公制): 卡每秒
+kcal/s	qiān kǎ měi miǎo	8517	单位(公制): 千卡每秒
+Btu/s	yīng rè dān wèi měi miǎo	8517	单位(英制): 英热单位每秒
+ft-lb/s	yīng chǐ bàng měi miǎo	8517	单位(英制): 英尺磅每秒
+hpUK	mǎ lì	8517	单位(英制): 马力
+# 视在功率
+VA	fú ān	8517	单位(公制): 伏安
+mVA	háo fú ān	8517	单位(公制): 毫伏安
+kVA	qiān fú ān	8517	单位(公制): 千伏安
+MVA	zhào fú ān	8517	单位(公制): 兆伏安
+GVA	jí fú ān	8517	单位(公制): 吉伏安
+# 电量
+C	kù lún	8517	单位(公制): 库伦
+mC	háo kù lún	8517	单位(公制): 毫库伦
+μC	wēi kù lún	8517	单位(公制): 微库伦
+nC	nà kù lún	8517	单位(公制): 纳库伦
+pC	pí kù lún	8517	单位(公制): 皮库伦
+# 电流
+A	ān péi	8517	单位(公制): 安培
+mA	háo ān péi	8517	单位(公制): 毫安培
+μA	wēi ān péi	8517	单位(公制): 微安培
+nA	nà ān péi	8517	单位(公制): 纳安培
+kA	qiān ān péi	8517	单位(公制): 千安培
+# 电压
+V	fú tè	8517	单位(公制): 伏特
+mV	háo fú tè	8517	单位(公制): 毫伏特
+kV	qiān fú tè	8517	单位(公制): 千伏特
+# 电容
+F	fǎ lā	8517	单位(公制): 法拉
+mF	háo fǎ	8517	单位(公制): 毫法
+μF	wēi fǎ	8517	单位(公制): 微法
+nF	nà fǎ	8517	单位(公制): 纳法
+pF	pí fǎ	8517	单位(公制): 皮法
+fF	fēi fǎ	8517	单位(公制): 飞法
+# 频率
+mHz	háo hè zī	8517	单位(公制): 毫赫兹
+Hz	hè zī	8517	单位(公制): 赫兹
+kHz	qiān hè zī	8517	单位(公制): 千赫兹
+MHz	zhào hè zī	8517	单位(公制): 兆赫兹
+GHz	jí hè zī	8517	单位(公制): 吉赫兹
+THz	tài hè zī	8517	单位(公制): 太赫兹
+rpm	zhuǎn měi fēn zhōng	8517	单位(公制): 转每分钟
+deg/s	dù měi miǎo	8517	单位(公制): 度每秒
+rad/s	hú dù měi miǎo	8517	单位(公制): 弧度每秒
+# 力
+N	niú dùn	8517	单位(公制): 牛顿
+kN	qiān niú	8517	单位(公制): 千牛
+kgf	qiān kè lì	8517	单位(公制): 千克力
+gf	kè lì	8517	单位(公制): 克力
+tf	dūn lì	8517	单位(公制): 吨力
+lbf	bàng lì	8517	单位(公制): 磅力
+dyn	dá yīn	8517	单位(公制): 达因
+J/m	jiāo ěr měi mǐ	8517	单位(公制): 焦耳每米
+# 密度
+kg/m³	qiān kè měi lì fāng mǐ	8517	单位(公制): 千克/立方米
+kg/dm³	qiān kè měi lì fāng fēn mǐ	8517	单位(公制): 千克/立方分米
+kg/cm³	qiān kè měi lì fāng lí mǐ	8517	单位(公制): 千克/立方厘米
+kg/mm³	qiān kè měi lì fāng háo mǐ	8517	单位(公制): 千克/立方毫米
+g/m³	kè měi lì fāng mǐ	8517	单位(公制): 克/立方米
+g/dm³	kè měi lì fāng fēn mǐ	8517	单位(公制): 克/立方分米
+g/cm³	kè měi lì fāng lí mǐ	8517	单位(公制): 克/立方厘米
+g/mm³	kè měi lì fāng háo mǐ	8517	单位(公制): 克/立方毫米
+mg/m³	háo kè měi lì fāng mǐ	8517	单位(公制): 毫克/立方米
+mg/dm³	háo kè měi lì fāng fēn mǐ	8517	单位(公制): 毫克/立方分米
+mg/cm³	háo kè měi lì fāng lí mǐ	8517	单位(公制): 毫克/立方厘米
+mg/mm³	háo kè měi lì fāng háo mǐ	8517	单位(公制): 毫克/立方毫米
+kg/L	qiān kè měi shēng	8517	单位(公制): 千克/升
+g/L	kè měi shēng	8517	单位(公制): 克/升
+dg/L	fēn kè měi shēng	8517	单位(公制): 分克/升
+cg/L	lí kè měi shēng	8517	单位(公制): 厘克/升
+mg/L	háo kè měi shēng	8517	单位(公制): 毫克/升
+μg/L	wēi kè měi shēng	8517	单位(公制): 微克/升
+ng/L	nà kè měi shēng	8517	单位(公制): 纳克/升
+pg/L	pí kè měi shēng	8517	单位(公制): 皮克/升
+fg/L	fēi kè měi shēng	8517	单位(公制): 飞克/升
+# 流量
+L/s	shēng měi miǎo	8517	单位(公制): 升/秒
+m³/d	lì fāng mǐ měi tiān	8517	单位(公制): 立方米/天
+m³/h	lì fāng mǐ měi xiǎo shí	8517	单位(公制): 立方米/小时
+m³/m	lì fāng mǐ měi fēn zhōng	8517	单位(公制): 立方米/分钟
+m³/s	lì fāng mǐ měi miǎo	8517	单位(公制): 立方米/秒
+dm³/d	lì fāng fēn mǐ měi tiān	8517	单位(公制): 立方分米/天
+dm³/h	lì fāng fēn mǐ měi xiǎo shí	8517	单位(公制): 立方分米/小时
+dm³/m	lì fāng fēn mǐ měi fēn zhōng	8517	单位(公制): 立方分米/分钟
+dm³/s	lì fāng fēn mǐ měi miǎo	8517	单位(公制): 立方分米/秒
+cm³/d	lì fāng lí mǐ měi tiān	8517	单位(公制): 立方厘米/天
+cm³/h	lì fāng lí mǐ měi xiǎo shí	8517	单位(公制): 立方厘米/小时
+cm³/m	lì fāng lí mǐ měi fēn zhōng	8517	单位(公制): 立方厘米/分钟
+cm³/s	lì fāng lí mǐ měi miǎo	8517	单位(公制): 立方厘米/秒
+mm³/d	lì fāng háo mǐ měi tiān	8517	单位(公制): 立方毫米/天
+mm³/h	lì fāng háo mǐ měi xiǎo shí	8517	单位(公制): 立方毫米/小时
+mm³/m	lì fāng háo mǐ měi fēn zhōng	8517	单位(公制): 立方毫米/分钟
+mm³/s	lì fāng háo mǐ měi miǎo	8517	单位(公制): 立方毫米/秒
+L/d	shēng měi tiān	8517	单位(公制): 升/天
+L/h	shēng měi xiǎo shí	8517	单位(公制): 升/小时
+L/m	shēng měi fēn zhōng	8517	单位(公制): 升/分钟
+mL/d	háo shēng měi tiān	8517	单位(公制): 毫升/天
+mL/h	háo shēng měi xiǎo shí	8517	单位(公制): 毫升/小时
+mL/m	háo shēng měi fēn zhōng	8517	单位(公制): 毫升/分钟
+mL/s	háo shēng měi miǎo	8517	单位(公制): 毫升/秒
+gal/d	jiā lún měi tiān	8517	单位(英制): 加仑/天
+gal/h	jiā lún měi xiǎo shí	8517	单位(英制): 加仑/小时
+gal/m	jiā lún měi fēn zhōng	8517	单位(英制): 加仑/分钟
+gal/s	jiā lún měi miǎo	8517	单位(英制): 加仑/秒
+oz/d	àng sī měi tiān	8517	单位(英制): 盎司/天
+oz/h	àng sī měi xiǎo shí	8517	单位(英制): 盎司/小时
+oz/m	àng sī měi fēn zhōng	8517	单位(英制): 盎司/分钟
+oz/s	àng sī měi miǎo	8517	单位(英制): 盎司/秒
+gal/d	jiā lún měi tiān	8517	单位(美制): 加仑/天
+gal/h	jiā lún měi xiǎo shí	8517	单位(美制): 加仑/小时
+gal/m	jiā lún měi fēn zhōng	8517	单位(美制): 加仑/分钟
+gal/s	jiā lún měi miǎo	8517	单位(美制): 加仑/秒
+kbbl/d	qiān tǒng měi tiān	8517	单位(美制): 千桶/天
+bbl/d	tǒng měi tiān	8517	单位(美制): 桶/天
+bbl/h	tǒng měi xiǎo shí	8517	单位(美制): 桶/小时
+bbl/m	tǒng měi fēn zhōng	8517	单位(美制): 桶/分钟
+bbl/s	tǒng měi miǎo	8517	单位(美制): 桶/秒
+oz/d	àng sī měi tiān	8517	单位(美制): 盎司/天
+oz/h	àng sī měi xiǎo shí	8517	单位(美制): 盎司/小时
+oz/m	àng sī měi fēn zhōng	8517	单位(美制): 盎司/分钟
+oz/s	àng sī měi miǎo	8517	单位(美制): 盎司/秒
+# 流量(质量)
+kg/s	qiān kè měi miǎo	8517	单位(公制): 千克/秒
+g/s	kè měi miǎo	8517	单位(公制): 克/秒
+g/min	kè měi fēn zhōng	8517	单位(公制): 克/分钟
+g/h	kè měi xiǎo shí	8517	单位(公制): 克/小时
+g/d	kè měi tiān	8517	单位(公制): 克/天
+mg/s	háo kè měi miǎo	8517	单位(公制): 毫克/秒
+mg/min	háo kè měi fēn zhōng	8517	单位(公制): 毫克/分钟
+mg/h	háo kè měi xiǎo shí	8517	单位(公制): 毫克/小时
+mg/d	háo kè měi tiān	8517	单位(公制): 毫克/天
+kg/min	qiān kè měi fēn zhōng	8517	单位(公制): 千克/分钟
+kg/h	qiān kè měi xiǎo shí	8517	单位(公制): 千克/小时
+kg/d	qiān kè měi tiān	8517	单位(公制): 千克/天
+Eg/s	ài kè měi miǎo	8517	单位(公制): 艾克/秒
+Pg/s	pāi kè měi miǎo	8517	单位(公制): 拍克/秒
+Tg/s	tài kè měi miǎo	8517	单位(公制): 太克/秒
+Gg/s	jí kè měi miǎo	8517	单位(公制): 吉克/秒
+Mg/s	zhào kè měi miǎo	8517	单位(公制): 兆克/秒
+hg/s	bǎi kè měi miǎo	8517	单位(公制): 百克/秒
+dag/s	shí kè měi miǎo	8517	单位(公制): 十克/秒
+dg/s	fēn kè měi miǎo	8517	单位(公制): 分克/秒
+cg/s	lí kè měi miǎo	8517	单位(公制): 厘克/秒
+μg/s	wēi kè měi miǎo	8517	单位(公制): 微克/秒
+t/s	dūn měi miǎo	8517	单位(公制): 吨/秒
+t/min	dūn měi fēn zhōng	8517	单位(公制): 吨/分钟
+t/h	dūn měi xiǎo shí	8517	单位(公制): 吨/小时
+t/d	dūn měi tiān	8517	单位(公制): 吨/天
+longTonPerH	zhǎng dūn měi xiǎo shí	8517	单位(英制): 长吨/小时
+lb/s	bàng měi miǎo	8517	单位(英制): 磅/秒
+lb/min	bàng měi fēn zhōng	8517	单位(英制): 磅/分钟
+lb/h	bàng měi xiǎo shí	8517	单位(英制): 磅/小时
+lb/d	bàng měi tiān	8517	单位(英制): 磅/天
+shortTonPerH	duǎn dūn měi xiǎo shí	8517	单位(美制): 短吨/小时
+# 浓度(质量-体积)
+kg/L	qiān kè měi shēng	8517	单位(公制): 千克/升
+g/L	kè měi shēng	8517	单位(公制): 克/升
+mg/L	háo kè měi shēng	8517	单位(公制): 毫克/升
+μg/L	wēi kè měi shēng	8517	单位(公制): 微克/升
+ng/L	nà kè měi shēng	8517	单位(公制): 纳克/升
+kg/mL	qiān kè měi háo shēng	8517	单位(公制): 千克/毫升
+g/mL	kè měi háo shēng	8517	单位(公制): 克/毫升
+mg/mL	háo kè měi háo shēng	8517	单位(公制): 毫克/毫升
+μg/mL	wēi kè měi háo shēng	8517	单位(公制): 微克/毫升
+ng/mL	nà kè měi háo shēng	8517	单位(公制): 纳克/毫升
+kg/m³	qiān kè měi lì fāng mǐ	8517	单位(公制): 千克/立方米
+g/m³	kè měi lì fāng mǐ	8517	单位(公制): 克/立方米
+mg/m³	háo kè měi lì fāng mǐ	8517	单位(公制): 毫克/立方米
+μg/m³	wēi kè měi lì fāng mǐ	8517	单位(公制): 微克/立方米
+ng/m³	nà kè měi lì fāng mǐ	8517	单位(公制): 纳克/立方米
+ppm	bǎi wàn fēn zhī yī	8517	单位(公制): 百万分之一
+ppb	shí yì fēn zhī yī	8517	单位(公制): 十亿分之一
+ppt	wàn yì fēn zhī yī	8517	单位(公制): 万亿分之一
+lb/gal	bàng měi jiā lún	8517	单位(英制): 磅/加仑
+lb/million gal	bàng měi bǎi wàn jiā lún	8517	单位(英制): 磅/百万加仑
+lb/ft³	bàng měi lì fāng yīng chǐ	8517	单位(英制): 磅/立方英尺
+lb/gal	bàng měi jiā lún	8517	单位(美制): 磅/加仑
+lb/million gal	bàng měi bǎi wàn jiā lún	8517	单位(美制): 磅/百万加仑
+# 浓度(摩尔-体积)
+mol/m³	mó ěr měi lì fāng mǐ	8517	单位(公制): 摩尔/立方米
+mol/dm³	mó ěr měi lì fāng fēn mǐ	8517	单位(公制): 摩尔/立方分米
+mol/cm³	mó ěr měi lì fāng lí mǐ	8517	单位(公制): 摩尔/立方厘米
+mol/mm³	mó ěr měi lì fāng háo mǐ	8517	单位(公制): 摩尔/立方毫米
+mol/L	mó ěr měi shēng	8517	单位(公制): 摩尔/升
+mol/mL	mó ěr měi háo shēng	8517	单位(公制): 摩尔/毫升
+kmol/m³	qiān mó ěr měi lì fāng mǐ	8517	单位(公制): 千摩尔/立方米
+kmol/dm³	qiān mó ěr měi lì fāng fēn mǐ	8517	单位(公制): 千摩尔/立方分米
+kmol/cm³	qiān mó ěr měi lì fāng lí mǐ	8517	单位(公制): 千摩尔/立方厘米
+kmol/mm³	qiān mó ěr měi lì fāng háo mǐ	8517	单位(公制): 千摩尔/立方毫米
+kmol/L	qiān mó ěr měi shēng	8517	单位(公制): 千摩尔/升
+kmol/mL	qiān mó ěr měi háo shēng	8517	单位(公制): 千摩尔/毫升
+mmol/m³	háo mó ěr měi lì fāng mǐ	8517	单位(公制): 毫摩尔/立方米
+mmol/dm³	háo mó ěr měi lì fāng fēn mǐ	8517	单位(公制): 毫摩尔/立方分米
+mmol/cm³	háo mó ěr měi lì fāng lí mǐ	8517	单位(公制): 毫摩尔/立方厘米
+mmol/mm³	háo mó ěr měi lì fāng háo mǐ	8517	单位(公制): 毫摩尔/立方毫米
+mmol/L	háo mó ěr měi shēng	8517	单位(公制): 毫摩尔/升
+mmol/mL	háo mó ěr měi háo shēng	8517	单位(公制): 毫摩尔/毫升
+# 电感
+H	hēng lì	8517	单位(公制): 亨利
+EH	ài hēng	8517	单位(公制): 艾亨
+PH	pāi hēng	8517	单位(公制): 拍亨
+TH	tài hēng	8517	单位(公制): 太亨
+GH	jí hēng	8517	单位(公制): 吉亨
+MH	zhào hēng	8517	单位(公制): 兆亨
+kH	qiān hēng	8517	单位(公制): 千亨
+hH	bǎi hēng	8517	单位(公制): 百亨
+daH	shí hēng	8517	单位(公制): 十亨
+dH	fēn hēng	8517	单位(公制): 分亨
+cH	lí hēng	8517	单位(公制): 厘亨
+mH	háo hēng	8517	单位(公制): 毫亨
+μH	wēi hēng	8517	单位(公制): 微亨
+nH	nà hēng	8517	单位(公制): 纳亨
+pH	pí hēng	8517	单位(公制): 皮亨
+fH	fēi hēng	8517	单位(公制): 飞亨
+aH	attohenry	8517	单位(公制): attohenry
+Wb/A	wéi bó měi ān bèi	8517	单位(公制): 韦伯/安倍
+abH	diàn cí hēng	8517	单位(公制): 电磁亨
+emu	diàn gǎn EMU	8517	单位(公制): 电感EMU
+esu	diàn gǎn ESU	8517	单位(公制): 电感ESU
+stH	sī tǎ hēng lì	8517	单位(公制): 斯塔亨利
+# 声音强度
+dB	fēn bèi	8517	单位(公制): 分贝
+B	bèi	8517	单位(公制): 贝
+Np	nài péi	8517	单位(公制): 奈培
+# 亮度
+cd/m²	kǎn dé lā měi píng fāng mǐ	8517	单位(公制): 坎德拉/平方米
+cd/cm²	kǎn dé lā měi píng fāng lí mǐ	8517	单位(公制): 坎德拉/平方厘米
+cd/ft²	kǎn dé lā měi píng fāng yīng chǐ	8517	单位(公制): 坎德拉/平方英尺
+cd/in²	kǎn dé lā měi píng fāng yīng cùn	8517	单位(公制): 坎德拉/平方英寸
+kcd/m²	qiān kǎn dé lā měi píng fāng mǐ	8517	单位(公制): 千坎德拉/平方米
+sb	xī tí	8517	单位(公制): 熙提
+lm/m²/sr	liú míng měi píng fāng mǐ měi qiú miàn dù	8517	单位(公制): 流明/平方米/球面度
+lm/cm²/sr	liú míng měi píng fāng lí mǐ měi qiú miàn dù	8517	单位(公制): 流明/平方厘米/球面度
+lm/ft²/sr	liú míng měi píng fāng yīng chǐ měi qiú miàn dù	8517	单位(公制): 流明/平方英尺/球面度
+w/cm²/sr	wǎ tè měi píng fāng lí mǐ měi qiú miàn dù	8517	单位(公制): 瓦特/平方厘米/球面度
+nit	ní tè	8517	单位(公制): 尼特
+mnit	háo ní tè	8517	单位(公制): 毫尼特
+L	lǎng bó	8517	单位(公制): 朗伯
+mL	háo lǎng bó	8517	单位(公制): 毫朗伯
+fL	yīng chǐ -lǎng bó	8517	单位(公制): 英尺-朗伯
+apostilb	ā pǔ xī tí	8517	单位(公制): 阿普熙提
+blondel	bó lǎng dé ěr	8517	单位(公制): 勃朗德尔
+bril	bù lǐ ěr	8517	单位(公制): 布里尔
+skot	sī kě tè	8517	单位(公制): 斯可特
+# 阻尼
+N*s/m	niú miǎo měi mǐ	8517	单位(公制): 牛*秒/米
+N*s/cm	niú miǎo měi lí mǐ	8517	单位(公制): 牛*秒/厘米
+kN*s/m	qiān niú miǎo měi mǐ	8517	单位(公制): 千牛*秒/米
+kN*s/cm	qiān niú miǎo měi lí mǐ	8517	单位(公制): 千牛*秒/厘米
+dyn*s/cm	dá yīn miǎo měi lí mǐ	8517	单位(公制): 达因*秒/厘米
+lbf*s/in	bàng lì miǎo měi yīng cùn	8517	单位(英制): 磅力*秒/英寸
+lbf*s/ft	bàng lì miǎo měi yīng chǐ	8517	单位(英制): 磅力*秒/英尺
+kips*s/in	qiān bàng lì miǎo měi yīng cùn	8517	单位(英制): 千磅力*秒/英寸
+kips*s/ft	qiān bàng lì miǎo měi yīng chǐ	8517	单位(英制): 千磅力*秒/英尺
+# 电阻
+GΩ	jí ōu	8517	单位(公制): 吉欧
+MΩ	zhào ōu	8517	单位(公制): 兆欧
+kΩ	qiān ōu	8517	单位(公制): 千欧
+Ω	ōu mǔ	8517	单位(公制): 欧姆
+mΩ	háo ōu	8517	单位(公制): 毫欧
+μΩ	wēi ōu	8517	单位(公制): 微欧
+nΩ	nà ōu	8517	单位(公制): 纳欧
+V/A	fú tè měi ān bèi	8517	单位(公制): 伏特/安倍
+S⁻¹	diàn dǎo dào shǔ	8517	单位(公制): 电导倒数
+abohm	jué duì ōu mǔ	8517	单位(公制): 绝对欧姆
+statohm	jìng diàn ōu mǔ	8517	单位(公制): 静电欧姆
+emuResistance	EMU of Resistance	8517	单位(公制): EMU of Resistance
+esuResistance	ESU of Resistance	8517	单位(公制): ESU of Resistance
+quantizedHallResistance	Quantized Hall Resistance	8517	单位(公制): Quantized Hall Resistance
+# 电导
+GS	jí xī mén zi	8517	单位(公制): 吉西门子
+MS	zhào xī mén zi	8517	单位(公制): 兆西门子
+kS	qiān xī mén zi	8517	单位(公制): 千西门子
+S	xī mén zi	8517	单位(公制): 西门子
+mS	háo xī mén zi	8517	单位(公制): 毫西门子
+μS	wēi xī mén zi	8517	单位(公制): 微西门子
+nS	nà xī mén zi	8517	单位(公制): 纳西门子
+A/V	ān bèi měi fú tè	8517	单位(公制): 安倍/伏特
+mho	mǔ ōu	8517	单位(公制): 姆欧
+gemmho	wēi mǔ ōu	8517	单位(公制): 微姆欧
+μmho	wēi mǔ ōu	8517	单位(公制): 微姆欧
+abmho	jué duì mǔ ōu	8517	单位(公制): 绝对姆欧
+statmho	jìng diàn mǔ ōu	8517	单位(公制): 静电姆欧
+quantizedHallConductance	Quantized Hall Conductance	8517	单位(公制): Quantized Hall Conductance
+# 小数(ppm, ppb)
+normal	cháng shù	8517	单位(无量纲): 常数
+%	bǎi fēn	8517	单位(无量纲): 百分
+‰	qiān fēn	8517	单位(无量纲): 千分
+‱	wàn fēn	8517	单位(无量纲): 万分
+pcm	shí wàn fēn	8517	单位(无量纲): 十万分
+ppm	bǎi wàn fēn	8517	单位(无量纲): 百万分
+ppb	shí yì fēn	8517	单位(无量纲): 十亿分
+ppt	wàn yì fēn	8517	单位(无量纲): 万亿分
+ppq	qiān wàn yì fēn	8517	单位(无量纲): 千万亿分
+g/kg	kè měi qiān kè	8517	单位(质量/质量): 克/千克
+mg/kg	háo kè měi qiān kè	8517	单位(质量/质量): 毫克/千克
+μg/kg	wēi kè měi qiān kè	8517	单位(质量/质量): 微克/千克
+ng/kg	nà kè měi qiān kè	8517	单位(质量/质量): 纳克/千克
+pg/kg	pí kè měi qiān kè	8517	单位(质量/质量): 皮克/千克
+g/L	kè měi shēng	8517	单位(质量/体积): 克/升
+mg/L	háo kè měi shēng	8517	单位(质量/体积): 毫克/升
+μg/L	wēi kè měi shēng	8517	单位(质量/体积): 微克/升
+ng/L	nà kè měi shēng	8517	单位(质量/体积): 纳克/升
+pg/L	pí kè měi shēng	8517	单位(质量/体积): 皮克/升
+g/m³	kè měi lì fāng mǐ	8517	单位(体积/体积): 克/立方米
+mg/m³	háo kè měi lì fāng mǐ	8517	单位(体积/体积): 毫克/立方米
+μg/m³	wēi kè měi lì fāng mǐ	8517	单位(体积/体积): 微克/立方米
+ng/m³	nà kè měi lì fāng mǐ	8517	单位(体积/体积): 纳克/立方米
+pg/m³	pí kè měi lì fāng mǐ	8517	单位(体积/体积): 皮克/立方米
+mL/L	háo shēng měi shēng	8517	单位(体积/体积): 毫升/升
+μL/L	wēi shēng měi shēng	8517	单位(体积/体积): 微升/升
+nL/L	nà shēng měi shēng	8517	单位(体积/体积): 纳升/升
+pL/L	pí shēng měi shēng	8517	单位(体积/体积): 皮升/升
+cm³/m³	lì fāng lí mǐ měi lì fāng mǐ	8517	单位(体积/体积): 立方厘米/立方米
+mm³/m³	lì fāng háo mǐ měi lì fāng mǐ	8517	单位(体积/体积): 立方毫米/立方米
+μm³/m³	lì fāng wēi mǐ měi lì fāng mǐ	8517	单位(体积/体积): 立方微米/立方米
+nm³/m³	lì fāng nà mǐ měi lì fāng mǐ	8517	单位(体积/体积): 立方纳米/立方米
+mmol/mol	háo mó ěr měi mó ěr	8517	单位(摩尔/摩尔): 毫摩尔/摩尔
+μmol/mol	wēi mó ěr měi mó ěr	8517	单位(摩尔/摩尔): 微摩尔/摩尔
+nmol/mol	nà mó ěr měi mó ěr	8517	单位(摩尔/摩尔): 纳摩尔/摩尔
+pmol/mol	pí mó ěr měi mó ěr	8517	单位(摩尔/摩尔): 皮摩尔/摩尔
+# 带宽
+bit/s	bǐ tè měi miǎo	8517	单位(通用): 比特/秒
+bit/m	bǐ tè měi fēn	8517	单位(通用): 比特/分
+bit/h	bǐ tè měi xiǎo shí	8517	单位(通用): 比特/小时
+bit/d	bǐ tè měi tiān	8517	单位(通用): 比特/天
+B/s	zì jié měi miǎo	8517	单位(通用): 字节/秒
+B/m	zì jié měi fēn	8517	单位(通用): 字节/分
+B/h	zì jié měi xiǎo shí	8517	单位(通用): 字节/小时
+B/d	zì jié měi tiān	8517	单位(通用): 字节/天
+Kbit/s	qiān bǐ tè měi miǎo	8517	单位(1000进制-bit): 千比特/秒
+Mbit/s	zhào bǐ tè měi miǎo	8517	单位(1000进制-bit): 兆比特/秒
+Gbit/s	jí bǐ tè měi miǎo	8517	单位(1000进制-bit): 吉比特/秒
+Tbit/s	tài bǐ tè měi miǎo	8517	单位(1000进制-bit): 太比特/秒
+Pbit/s	pāi bǐ tè měi miǎo	8517	单位(1000进制-bit): 拍比特/秒
+Ebit/s	ài bǐ tè měi miǎo	8517	单位(1000进制-bit): 艾比特/秒
+Zbit/s	zé bǐ tè měi miǎo	8517	单位(1000进制-bit): 泽比特/秒
+Ybit/s	yáo bǐ tè měi miǎo	8517	单位(1000进制-bit): 尧比特/秒
+KB/s	qiān zì jié měi miǎo	8517	单位(1000进制-kyte): 千字节/秒
+MB/s	zhào zì jié měi miǎo	8517	单位(1000进制-kyte): 兆字节/秒
+GB/s	jí zì jié měi miǎo	8517	单位(1000进制-kyte): 吉字节/秒
+TB/s	tài zì jié měi miǎo	8517	单位(1000进制-kyte): 太字节/秒
+PB/s	pāi zì jié měi miǎo	8517	单位(1000进制-kyte): 拍字节/秒
+EB/s	ài zì jié měi miǎo	8517	单位(1000进制-kyte): 艾字节/秒
+ZB/s	zé zì jié měi miǎo	8517	单位(1000进制-kyte): 泽字节/秒
+YB/s	yáo zì jié měi miǎo	8517	单位(1000进制-kyte): 尧字节/秒
+Kibit/s	qiān bǐ tè měi miǎo	8517	单位(1024进制-bit): 千比特/秒
+Mibit/s	zhào bǐ tè měi miǎo	8517	单位(1024进制-bit): 兆比特/秒
+Gibit/s	jí bǐ tè měi miǎo	8517	单位(1024进制-bit): 吉比特/秒
+Tibit/s	tài bǐ tè měi miǎo	8517	单位(1024进制-bit): 太比特/秒
+Pibit/s	pāi bǐ tè měi miǎo	8517	单位(1024进制-bit): 拍比特/秒
+Eibit/s	ài bǐ tè měi miǎo	8517	单位(1024进制-bit): 艾比特/秒
+Zibit/s	zé bǐ tè měi miǎo	8517	单位(1024进制-bit): 泽比特/秒
+Yibit/s	yáo bǐ tè měi miǎo	8517	单位(1024进制-bit): 尧比特/秒
+KiB/s	qiān zì jié měi miǎo	8517	单位(1024进制-kyte): 千字节/秒
+MiB/s	zhào zì jié měi miǎo	8517	单位(1024进制-kyte): 兆字节/秒
+GiB/s	jí zì jié měi miǎo	8517	单位(1024进制-kyte): 吉字节/秒
+TiB/s	tài zì jié měi miǎo	8517	单位(1024进制-kyte): 太字节/秒
+PiB/s	pāi zì jié měi miǎo	8517	单位(1024进制-kyte): 拍字节/秒
+EiB/s	ài zì jié měi miǎo	8517	单位(1024进制-kyte): 艾字节/秒
+ZiB/s	zé zì jié měi miǎo	8517	单位(1024进制-kyte): 泽字节/秒
+YiB/s	yáo zì jié měi miǎo	8517	单位(1024进制-kyte): 尧字节/秒
+# 光通量
+lm	liú míng	8517	单位(公制): 流明
+cd*sr	kǎn dé lā měi qiú miàn dù	8517	单位(公制): 坎德拉*球面度
+lx*m²	lēi kè sī měi píng fāng mǐ	8517	单位(公制): 勒克斯*平方米
+Watt	wǎ tè	8517	单位(公制): 瓦特(540 THz)
+watt	wǎ tè	8517	单位(公制): 瓦特(5550 angstrom)
+W	wǎ tè	8517	单位(公制): 瓦特(green light, 100% efficiency)
+mlm	háo liú míng	8517	单位(公制): 毫流明
+μlm	wēi liú míng	8517	单位(公制): 微流明
+nlm	nà liú míng	8517	单位(公制): 纳流明
+klm	qiān liú míng	8517	单位(公制): 千流明
+Mlm	zhào liú míng	8517	单位(公制): 兆流明
+Glm	jí liú míng	8517	单位(公制): 吉流明
+# 光强
+cd	kǎn dé lā	8517	单位(公制): 坎德拉
+mcd	háo kǎn dé lā	8517	单位(公制): 毫坎德拉
+μcd	wēi kǎn dé lā	8517	单位(公制): 微坎德拉
+ncd	nà kǎn dé lā	8517	单位(公制): 纳坎德拉
+kcd	qiān kǎn dé lā	8517	单位(公制): 千坎德拉
+Mcd	zhào kǎn dé lā	8517	单位(公制): 兆坎德拉
+Gcd	jí kǎn dé lā	8517	单位(公制): 吉坎德拉
+ic	guó jì zhú guāng	8517	单位(公制): 国际烛光
+cd	zhú guāng	8517	单位(公制): 烛光
+mcd	háo zhú guāng	8517	单位(公制): 毫烛光
+μcd	wēi zhú guāng	8517	单位(公制): 微烛光
+ncd	nà zhú guāng	8517	单位(公制): 纳烛光
+kcd	qiān zhú guāng	8517	单位(公制): 千烛光
+Mcd	zhào zhú guāng	8517	单位(公制): 兆烛光
+Gcd	jí zhú guāng	8517	单位(公制): 吉烛光
+lm/st	liú míng měi qiú miàn dù	8517	单位(公制): 流明/球面度
+Carcel	Carcel	8517	单位(法制): Carcel
+毫Carcel	háo Carcel	8517	单位(法制): 毫Carcel
+千Carcel	qiān Carcel	8517	单位(法制): 千Carcel
+Bougie Decimal	Bougie Decimal	8517	单位(法制): Bougie Decimal
+HK	hè fū nà zhú guāng	8517	单位(其它): 赫夫纳烛光
+cdGerman	dé guó zhú guāng	8517	单位(其它): 德国烛光
+cdUK	yīng guó zhú guāng	8517	单位(其它): 英国烛光
+# 运动黏度
+m²/s	píng fāng mǐ měi miǎo	8517	单位(公制): 平方米/秒
+cm²/s	píng fāng lí mǐ měi miǎo	8517	单位(公制): 平方厘米/秒
+mm²/s	píng fāng háo mǐ měi miǎo	8517	单位(公制): 平方毫米/秒
+St	sī	8517	单位(公制): 斯
+cSt	lí sī	8517	单位(公制): 厘斯
+in²/s	píng fāng yīng cùn měi miǎo	8517	单位(英制): 平方英寸/秒
+ft²/s	píng fāng yīng chǐ měi miǎo	8517	单位(英制): 平方英尺/秒
+# 动力黏度
+N*s/m²	niú dùn miǎo měi píng fāng mǐ	8517	单位(公制): 牛顿*秒/米²
+Pa*s	pà sī kǎ měi miǎo	8517	单位(公制): 帕斯卡*秒
+mPa*s	háo pà sī kǎ měi miǎo	8517	单位(公制): 毫帕斯卡*秒
+kg/(m*s	qiān kè mǐ měi miǎo	8517	单位(公制): 千克/(米*秒)
+g/(cm*s	kè lí mǐ měi miǎo	8517	单位(公制): 克/(厘米*秒)
+Pl	pō sù yè	8517	单位(公制): 泊肃叶
+P	pō	8517	单位(公制): 泊
+cP	lí pō	8517	单位(公制): 厘泊
+dyn*s/cm²	dá yīn miǎo měi píng fāng lí mǐ	8517	单位(公制): 达因*秒/厘米²
+kgf*s/m²	qiān kè lì miǎo měi píng fāng mǐ	8517	单位(公制): 千克力*秒/米²
+lbf*s/in²	bàng lì miǎo měi píng fāng yīng cùn	8517	单位(英制): 磅力*秒/英寸²
+lbf*s/ft²	bàng lì miǎo měi píng fāng yīng chǐ	8517	单位(英制): 磅力*秒/英尺²
+lb/(ft*s	bàng yīng chǐ měi miǎo	8517	单位(英制): 磅/(英尺*秒)
+lb/(ft*h	bàng yīng chǐ měi xiǎo shí	8517	单位(英制): 磅/(英尺*小时)
+slug/(ft*s	sī lēi gé yīng chǐ měi miǎo	8517	单位(英制): 斯勒格/(英尺*秒)
+pdl*s/ft²	bàng dá miǎo měi píng fāng yīng chǐ	8517	单位(英制): 磅达*秒/英尺²
