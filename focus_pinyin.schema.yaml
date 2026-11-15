@@ -232,6 +232,14 @@ speller:
 
     - abbrev/^([zcs]h).+(\d)$/$1$2/  #zh ch sh作为整体
     #- derive/^([aeio])ng$/$1ng/  # wia → wai
+
+    - abbrev/^([qwrtypsdfghjklzxcbnm]).+$/$1/  #不携带元音的声母派生出首字母简码来
+    - abbrev/^([aoe])([ioun])$/$1/  #携带两个字符的元音首字母派生出简码来
+    - derive/^([wrtypsdfghklzcbnm])(ang)$/$1$2/
+    - derive/^([wrtpsdfghklzcbnm])(eng)$/$1$2/
+    - derive/^([rtysdghklzcn])(ong)$/$1$2/
+    - derive/^([qtypdjlxbnm])(ing)$/$1$2/
+
 grammar:
   language: wanxiang-lts-zh-hans
   collocation_max_length: 7         #命中的最长词组
